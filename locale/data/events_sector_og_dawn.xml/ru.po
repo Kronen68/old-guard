@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2025-12-21 19:44+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_dawnxml/ru/>\n"
 "Language: ru\n"
@@ -153,11 +153,19 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_OG_DAWN\"]/text"
 msgstr ""
+"[РЕПУТАЦИЯ ПОНИЖЕНА - НОВЫЙ РАССВЕТ]\n"
+"\tВаши действия здесь будут иметь негативное влияние на Новый рассвет. Если "
+"вы ранее заработали репутацию, то теперь они могут чувствовать себя "
+"некомфортно в вашем присутствии."
 
 #: src-en/data/events_sector_og_dawn.xml:115
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_OG_DAWN_COMBAT\"]/text"
 msgstr ""
+"[РЕПУТАЦИЯ ПОНИЖЕНА - НОВЫЙ РАССВЕТ]\n"
+"\tВаши действия здесь будут иметь негативное влияние на Новый рассвет. Если "
+"вы ранее заработали репутацию, то теперь они могут чувствовать себя "
+"некомфортно в вашем присутствии."
 
 #: src-en/data/events_sector_og_dawn.xml:119
 msgid ""
@@ -183,21 +191,29 @@ msgstr "Ничего не делать."
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[1]"
 msgstr ""
+"Капитан Железного дозора выкрикивает последнюю ругань, когда корабль "
+"разрушается."
 
 #: src-en/data/events_sector_og_dawn.xml:150
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[2]"
 msgstr ""
+"Корпус корабля Железного дозора разлетается по космосу. Вы мчитесь собирать "
+"обломки."
 
 #: src-en/data/events_sector_og_dawn.xml:151
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[3]"
 msgstr ""
+"Корабль Железного дозора взрывается, уничтожая всех, кто находится внутри. "
+"Ваш экипаж обыскивает обломки, поднимая на борт самое ценное."
 
 #: src-en/data/events_sector_og_dawn.xml:152
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[4]"
 msgstr ""
+"Одна из турелей уносится в пустое пространство, когда корабль взрывается, "
+"разбрасывая ценные обломки во всех направлениях."
 
 #: src-en/data/events_sector_og_dawn.xml:160
 msgid ""
@@ -210,27 +226,39 @@ msgstr ""
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[2]"
 msgstr ""
+"Без единого слова капитан Железного дозора падает на землю, задыхаясь, а "
+"жизнь угасает в его глазах. Вы разбираете корпус его корабля."
 
 #: src-en/data/events_sector_og_dawn.xml:162
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[3]"
 msgstr ""
+"\"Ты об этом пожалеешь! Карма всегда настигает таких, как ты. Проклятые "
+"Ренегаты... Железному дозору было бы лучше с повстанцами...\""
 
 #: src-en/data/events_sector_og_dawn.xml:166
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"ESCAPE_OG_DAWN\"]/text"
 msgstr ""
+"Сканирование показывает, что корабль Железного дозора пытается сбежать. "
+"Уничтожьте его, пока он не успел уйти!"
 
 #: src-en/data/events_sector_og_dawn.xml:179
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[1]"
 msgstr ""
+"Судно Железного дозора выскользнуло из ваших рук, оставив вас наедине у "
+"маяка."
 
 #: src-en/data/events_sector_og_dawn.xml:180
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[2]"
 msgstr ""
+"Ваши попытки уничтожить корабль Железного дозора не увенчались успехом, и "
+"корабль сбежал."
 
 #: src-en/data/events_sector_og_dawn.xml:183
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GOTAWAY_OG_DAWN_REMAINS\"]/text"
 msgstr ""
+"Судно Железного дозора может и сбежало, но не все потеряно. Оно оставило "
+"после себя след из обломков, которые вы собираете."
