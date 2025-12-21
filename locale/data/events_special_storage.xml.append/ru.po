@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2025-12-21 19:44+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_special_storagexmlappend/ru/>\n"
 "Language: ru\n"
@@ -52,12 +52,12 @@ msgstr "Заменить турель?"
 #: src-en/data/events_special_storage.xml.append:33
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_OG_TURRET_REMOVE\"]/choice/text"
-msgstr "Оставить пустой."
+msgstr "Оставить пустым."
 
 #: src-en/data/events_special_storage.xml.append:46
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"OG_CRAFT_MAIN_MENU\"]/text"
-msgstr "Доступные Чертежи."
+msgstr "Доступные чертежи."
 
 #: src-en/data/events_special_storage.xml.append:48
 msgid ""
@@ -67,7 +67,7 @@ msgstr "Неважно."
 #: src-en/data/events_special_storage.xml.append:54
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"OG_CRAFT_CRAFT\"]/text"
-msgstr "Требует:"
+msgstr "Требуется:"
 
 #: src-en/data/events_special_storage.xml.append:56
 msgid ""
@@ -96,19 +96,19 @@ msgid ""
 " and @lvl=\"2\"]/text"
 msgstr ""
 "Разогнанные моторы. "
-"[НЕДОСТУПНО: У вас уже максимальный уровень этого улучшения]"
+"[НЕДОСТУПНО: Вы установили максимальное количество улучшений этого типа]"
 
 #: src-en/data/events_special_storage.xml.append:79
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_ROTATION\""
 " and @lvl=\"1\"]/text"
-msgstr "Разогнанные моторы Ур 2. [Стоимость: 35~, 3|]"
+msgstr "Разогнанные моторы ур. 2. [Цена: 35~, 3|]"
 
 #: src-en/data/events_special_storage.xml.append:83
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_ROTATION\""
 " and @lvl=\"0\"]/text"
-msgstr "Разогнанные моторы Ур 1. [Стоимость: 35~, 3|]"
+msgstr "Разогнанные моторы ур. 1. [Цена: 35~, 3|]"
 
 #: src-en/data/events_special_storage.xml.append:87
 msgid ""
@@ -120,19 +120,19 @@ msgstr "Ускорители. [УЖЕ УСТАНОВЛЕНО]"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_SPEED\""
 " and @lvl=\"0\"]/text"
-msgstr "Ускорители. [Стоимость: 40~, 5}]"
+msgstr "Ускорители. [Цена: 40~, 5}]"
 
 #: src-en/data/events_special_storage.xml.append:95
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_MANUAL\""
 " and @lvl=\"1\"]/text"
-msgstr "Ручная ловкость. [УЖЕ УСТАНОВЛЕНО]"
+msgstr "Ловкость рук. [УЖЕ УСТАНОВЛЕНО]"
 
 #: src-en/data/events_special_storage.xml.append:99
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_MANUAL\""
 " and @lvl=\"0\"]/text"
-msgstr "Ручная ловкость. [Стоимость: 30~, 5|]"
+msgstr "Ловкость рук. [Цена: 30~, 5|]"
 
 #: src-en/data/events_special_storage.xml.append:103
 msgid ""
@@ -143,6 +143,8 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_ROTATION\"]/text"
 msgstr ""
+"Вы собираетесь установить улучшение Разогнанные моторы.\n"
+"    [Эффекты: турели вращаются на 50% быстрее. Можно установить 2 раза]"
 
 #: src-en/data/events_special_storage.xml.append:111
 msgid ""
@@ -183,6 +185,8 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_SPEED\"]/text"
 msgstr ""
+"Вы собираетесь установить улучшение Ускорители.\n"
+"    [Эффекты: снаряды из турели летят на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:150
 msgid ""
@@ -223,6 +227,9 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_MANUAL\"]/text"
 msgstr ""
+"Вы собираетесь установить улучшение Ловкость рук.\n"
+"    [Эффекты: турели увеличивают скорость поворота на 180 градусов при "
+"ручном наведении]"
 
 #: src-en/data/events_special_storage.xml.append:189
 msgid ""
@@ -263,86 +270,117 @@ msgstr "Неважно."
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[1]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 1"
 
 #: src-en/data/events_special_storage.xml.append:228
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_1_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 1"
 
 #: src-en/data/events_special_storage.xml.append:233
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[2]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 2"
 
 #: src-en/data/events_special_storage.xml.append:235
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_2_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 2"
 
 #: src-en/data/events_special_storage.xml.append:240
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[3]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 3"
 
 #: src-en/data/events_special_storage.xml.append:242
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_3_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 3"
 
 #: src-en/data/events_special_storage.xml.append:247
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[4]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 4"
 
 #: src-en/data/events_special_storage.xml.append:249
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_4_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 4"
 
 #: src-en/data/events_special_storage.xml.append:254
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[5]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 5"
 
 #: src-en/data/events_special_storage.xml.append:256
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_5_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 5"
 
 #: src-en/data/events_special_storage.xml.append:261
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[6]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 6"
 
 #: src-en/data/events_special_storage.xml.append:263
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_6_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 6"
 
 #: src-en/data/events_special_storage.xml.append:268
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[7]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 7"
 
 #: src-en/data/events_special_storage.xml.append:270
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_7_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 7"
 
 #: src-en/data/events_special_storage.xml.append:275
 msgid ""
 "data/events_special_storage.xml.append$//mod:findName[@name=\"COMBAT_CHECK_HOTKEYS\"]/mod-"
 "append:choice[8]/text"
-msgstr ""
+msgstr "OG: Выбрать турель 8"
 
 #: src-en/data/events_special_storage.xml.append:277
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"COMBAT_CHECK_HOTKEYS_OG_TURRET_8_START\"]/text"
 msgstr ""
+"Нажмите любую клавишу, чтобы выбрать горячую клавишу, нажмите Escape, чтобы "
+"сбросить настройки.\n"
+"\n"
+"\t\t\tВ настоящее время выбирается горячая клавиша: Выбрать турель 8"
