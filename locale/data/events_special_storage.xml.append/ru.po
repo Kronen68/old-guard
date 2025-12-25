@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-25 05:15+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"PO-Revision-Date: 2025-12-25 10:40+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_special_storagexmlappend/ru/>\n"
 "Language: ru\n"
@@ -237,7 +237,7 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_ROTATION\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Разогнанные моторы.\n"
-"    [Эффекты: турели вращаются на 50% быстрее. Можно установить 2 раза]"
+"\t[Эффекты: турели вращаются на 50% быстрее. Можно установить 2 раза]"
 
 #: src-en/data/events_special_storage.xml.append:193
 msgid ""
@@ -279,7 +279,7 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_SPEED\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Ускорители.\n"
-"    [Эффекты: снаряды из турели летят на 50% быстрее]"
+"\t[Эффекты: снаряды из турели летят на 50% быстрее]"
 
 #: src-en/data/events_special_storage.xml.append:232
 msgid ""
@@ -321,7 +321,8 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_MANUAL\"]/text"
 msgstr ""
 "Вы собираетесь установить улучшение Ловкость рук.\n"
-"    [Эффекты: турели увеличивают скорость поворота на 180 градусов при ручном наведении]"
+"\t[Эффекты: турели увеличивают скорость поворота на 180 градусов при ручном "
+"наведении]"
 
 #: src-en/data/events_special_storage.xml.append:271
 msgid ""
