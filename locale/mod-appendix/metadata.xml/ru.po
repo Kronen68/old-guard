@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-24 19:44+0000\n"
+"PO-Revision-Date: 2025-12-25 10:40+0000\n"
 "Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "mod-appendixmetadataxml/ru/>\n"
@@ -20,6 +20,9 @@ msgstr "The Old Guard (Перевод в процессе)"
 #: src-en/mod-appendix/metadata.xml:6
 msgid "mod-appendix/metadata.xml$/dummyroot/metadata/description"
 msgstr ""
+"В настоящее время конфликтует с аддоном EternalVerse, не устанавливайте их "
+"вместе!\n"
+"\n"
 "Добавляет новую систему управления турелями и корабли, оснащенные ею. "
 "Добавляет Железный дозор - группу исследователей, ученых и пиратов, которые "
 "образовали организацию на границе исследованного космоса."
