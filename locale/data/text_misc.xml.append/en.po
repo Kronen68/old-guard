@@ -12,7 +12,7 @@ msgstr "Win with any two layouts of the \\1 to unlock the \\2"
 #: src-en/data/text_misc.xml.append:6
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_RAIDER_unlock\"]"
-msgstr "YOU SHOULD NEVER SEE THIS"
+msgstr "Rescue an Iron Watch prototype under attack at a pulsar."
 
 #: src-en/data/text_misc.xml.append:7
 msgid ""

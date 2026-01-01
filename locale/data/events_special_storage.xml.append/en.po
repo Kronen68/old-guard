@@ -209,13 +209,13 @@ msgstr "Accelerators. [UNAVAILABLE: You already have the max of this upgrade]"
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_SPEED\""
 " and @lvl=\"1\"]/text"
-msgstr "Accelerators. [ALREADY INSTALLED]"
+msgstr "Accelerators LvL 2. [Cost: 30~, 5}]"
 
 #: src-en/data/events_special_storage.xml.append:181
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET\"]/choice[@req=\"UPG_OG_TURRET_SPEED\""
 " and @lvl=\"0\"]/text"
-msgstr "Accelerators. [Cost: 40~, 5}]"
+msgstr "Accelerators LvL 1. [Cost: 30~, 5}]"
 
 #: src-en/data/events_special_storage.xml.append:185
 msgid ""
@@ -291,12 +291,12 @@ msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_SPEED\"]/text"
 msgstr ""
 "You are about to install the Accelerators upgrade.\n"
-"\t[Effects: Turret projectiles move 50% faster.]"
+"\t[Effects: Turret projectiles move 50% faster. Can be installed 2 times.]"
 
 #: src-en/data/events_special_storage.xml.append:248
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_TURRET_SPEED\"]/choice[1]/text"
-msgstr "Perform the upgrade. [Cost: 40~, 5}]"
+msgstr "Perform the upgrade. [Cost: 30~, 5}]"
 
 #: src-en/data/events_special_storage.xml.append:250
 msgid ""
