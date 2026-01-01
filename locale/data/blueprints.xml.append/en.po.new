@@ -8,363 +8,368 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:4
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ROTATION_ENEMY\"]/title"
-msgstr "Разогнанные моторы"
+msgstr "Overclocked Motors"
 
 #: src-en/data/blueprints.xml.append:5
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ROTATION_ENEMY\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:11
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ROTATION\"]/title"
-msgstr "Разогнанные моторы"
+msgstr "Overclocked Motors"
 
 #: src-en/data/blueprints.xml.append:12
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ROTATION\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:19
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ROTATION\"]/title"
-msgstr "Разогнанные моторы [В]"
+msgstr "Overclocked Motors [X]"
 
 #: src-en/data/blueprints.xml.append:20
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ROTATION\"]/desc"
 msgstr ""
-"Турели вращаются на 50% быстрее.\n"
-"\n"
-"Так как это улучшение - [В]нешнее, оно предоставляет свой обычный эффект, но занимает слот модуля. Может быть бесплатно конвертировано во встроенную версию из меню Встроенных улучшений, если у вас есть управление турелью."
+"Turrets Rotate 50% faster.\n"
+"\t\n"
+"\t[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu if you have the Modified Clone Bay system."
 
 #: src-en/data/blueprints.xml.append:30
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_SPEED\"]/title"
-msgstr "Ускорители"
+msgstr "Accelerators"
 
 #: src-en/data/blueprints.xml.append:31
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_SPEED\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:38
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_SPEED\"]/title"
-msgstr "Ускорители [В]"
+msgstr "Accelerators [X]"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_SPEED\"]/desc"
 msgstr ""
-"Снаряды из турели летят на 50% быстрее.\n"
-"\n"
-"Так как это улучшение - [В]нешнее, оно предоставляет свой обычный эффект, но занимает слот модуля. Может быть бесплатно конвертировано во встроенную версию из меню Встроенных улучшений, если у вас есть управление турелью."
+"Turret projectiles move 50% faster.\n"
+"\t\n"
+"\t[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu if you have the Modified Clone Bay system."
 
 #: src-en/data/blueprints.xml.append:49
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_MANUAL\"]/title"
-msgstr "Ловкость рук"
+msgstr "Manual Dexterity"
 
 #: src-en/data/blueprints.xml.append:50
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_MANUAL\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:57
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_MANUAL\"]/title"
-msgstr "Ловкость рук [В]"
+msgstr "Manual Dexterity [X]"
 
 #: src-en/data/blueprints.xml.append:58
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_MANUAL\"]/desc"
 msgstr ""
-"Турели увеличивают скорость поворота на 180 градусов при ручном наведении.\n"
-"\n"
-"Так как это улучшение - [В]нешнее, оно предоставляет свой обычный эффект, но занимает слот модуля. Может быть бесплатно конвертировано во встроенную версию из меню Встроенных улучшений, если у вас есть управление турелью."
+"Turrets gain 180 rotation speed when manually targetted.\n"
+"\t\n"
+"\t[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu if you have the Modified Clone Bay system."
 
 #: src-en/data/blueprints.xml.append:68
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ADAPTIVE_LARGE\"]/title"
-msgstr ""
+msgstr "Expanded Circuitry"
 
 #: src-en/data/blueprints.xml.append:69
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ADAPTIVE_LARGE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:76
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ADAPTIVE_LARGE\"]/title"
-msgstr ""
+msgstr "Expanded Circuitry [X]"
 
 #: src-en/data/blueprints.xml.append:77
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ADAPTIVE_LARGE\"]/desc"
 msgstr ""
+"Expands the adaptive turret's slot to accept all sizes of turrets.\n"
+"\t\n"
+"\t[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu if you have the Modified Clone Bay system."
 
 #: src-en/data/blueprints.xml.append:87
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret\"]/title"
-msgstr "Управление турелью"
+msgstr "Turret Control"
 
 #: src-en/data/blueprints.xml.append:88
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:105
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_2\"]/title"
-msgstr "Управление турелью"
+msgstr "Turret Control"
 
 #: src-en/data/blueprints.xml.append:106
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_2\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:123
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_3\"]/title"
-msgstr "Управление турелью"
+msgstr "Turret Control"
 
 #: src-en/data/blueprints.xml.append:124
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_3\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:141
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_4\"]/title"
-msgstr "Управление турелью"
+msgstr "Turret Control"
 
 #: src-en/data/blueprints.xml.append:142
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_4\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:159
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini\"]/title"
-msgstr "Управление микротурелью"
+msgstr "Micro Turret Control"
 
 #: src-en/data/blueprints.xml.append:160
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:174
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_2\"]/title"
-msgstr "Управление микротурелью"
+msgstr "Micro Turret Control"
 
 #: src-en/data/blueprints.xml.append:175
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_2\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:189
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_3\"]/title"
-msgstr "Управление микротурелью"
+msgstr "Micro Turret Control"
 
 #: src-en/data/blueprints.xml.append:190
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_3\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:204
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_4\"]/title"
-msgstr "Управление микротурелью"
+msgstr "Micro Turret Control"
 
 #: src-en/data/blueprints.xml.append:205
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_4\"]/desc"
 msgstr ""
-"Питает турель вашего корабля. Улучшение сокращает время перезарядки турели."
+"Powers your ship's turret. Upgrading lowers the charge time of the turret."
 
 #: src-en/data/blueprints.xml.append:219
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_adaptive\"]/title"
-msgstr ""
+msgstr "Adaptive Turret Control"
 
 #: src-en/data/blueprints.xml.append:220
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_adaptive\"]/desc"
 msgstr ""
+"Powers your ship's turret. Upgrading lowers the charge time of the turret. "
+"Turret position can be altered outside of combat to best fit the ship, can "
+"be upgraded to a large turret slot."
 
 #: src-en/data/blueprints.xml.append:240
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/desc"
 msgstr ""
-"Техник Железного дозора, обладающий навыками ремонта.\n"
+"An Iron Watch technician skilled in repairs.\n"
 "\n"
-"\tНаследует характеристики людей: небольшое сопротивление удушью, быстрее изучает навыки"
+"\tInherited Human stats: minor suffocation resistance, learns skills faster"
 
 #: src-en/data/blueprints.xml.append:244
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/title"
-msgstr "Рейдер Железного дозора"
+msgstr "Iron Watch Raider"
 
 #: src-en/data/blueprints.xml.append:245
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/short"
-msgstr "Рейдер"
+msgstr "Raider"
 
 #: src-en/data/blueprints.xml.append:248
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[1]"
 msgstr ""
-"Дает 2 единицы энергии текущей системе, находясь у пульсара или ионного "
-"шторма"
+"Provides 2 power to the occupied system while in the presence of a pulsar or"
+" ion storm"
 
 #: src-en/data/blueprints.xml.append:249
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[2]"
-msgstr "Видит соседние отсеки, находясь в туманности"
+msgstr "Reveals adjacent rooms while in a nebula"
 
 #: src-en/data/blueprints.xml.append:250
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[3]"
-msgstr "1.25x скорость ремонта"
+msgstr "1.25x repair speed"
 
 #: src-en/data/blueprints.xml.append:251
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[4]"
-msgstr "Получает 0.6х урона от пожаров"
+msgstr "Takes 0.6x damage from fires"
 
 #: src-en/data/blueprints.xml.append:276
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/desc"
 msgstr ""
-"Солдат Нового рассвета, оснащенный персональным устройством невидимости, заряд которого расходуется при выполнении действий.\n"
+"A New Dawn Soldier, equiped with a personal cloaking device that has it's charge drained by performing actions.\n"
 "\n"
-"\tНаследует характеристики людей: небольшое сопротивление удушью, быстрее изучает навыки"
+"\tInherited Human stats: minor suffocation resistance, learns skills faster"
 
 #: src-en/data/blueprints.xml.append:280
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/title"
-msgstr "Солдат Нового рассвета"
+msgstr "New Dawn Soldier"
 
 #: src-en/data/blueprints.xml.append:281
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/short"
-msgstr "Солдат Рассвета"
+msgstr "Dawn Soldier"
 
 #: src-en/data/blueprints.xml.append:284
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/powerList/power[1]"
 msgstr ""
-"Активная способность: маскируется, чтобы скрыться от вражеского экипажа, "
-"получает меньше урона в замаскированном состоянии, продолжительность "
-"маскировки уменьшается в зависимости от выполняемых действий, а не от "
-"времени."
+"Active Ability: Cloaks to hide from enemy crew, has reduced damage while "
+"cloaked, cloaking duration reduces based on actions performed rather than "
+"time."
 
 #: src-en/data/blueprints.xml.append:285
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/powerList/power[2]"
-msgstr "Наносит 1.2х урона в бою с экипажем"
+msgstr "Inflicts 1.2x damage in crew combat"
 
 #: src-en/data/blueprints.xml.append:286
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/powerList/power[3]"
-msgstr "Получает 0.7x урона в бою с экипажем и 0.6x от пожаров"
+msgstr "Takes 0.7x damage from crew combat and 0.6x from fires"
 
 #: src-en/data/blueprints.xml.append:318
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/title"
-msgstr "Основание лазерной турели"
+msgstr "Laser Turret Base"
 
 #: src-en/data/blueprints.xml.append:319
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/short"
-msgstr "Осн. лазера"
+msgstr "Laser Base"
 
 #: src-en/data/blueprints.xml.append:320
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/desc"
 msgstr ""
-"Может использоваться для создания:\n"
-"[Импульсная лазерная турель]\n"
-"[Тяжелая лазерная турель]\n"
+"Can be used to fabricate:\n"
+"[Burst Laser Turret]\n"
+"[Heavy Laser Turret]\n"
 "[???]\n"
 "[???]"
 
 #: src-en/data/blueprints.xml.append:342
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/title"
-msgstr "Основание ионной турели"
+msgstr "Ion Turret Base"
 
 #: src-en/data/blueprints.xml.append:343
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/short"
-msgstr "Осн. ион."
+msgstr "Ion Base"
 
 #: src-en/data/blueprints.xml.append:344
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/desc"
 msgstr ""
-"Может использоваться для создания:\n"
-"[Залповая ионная турель]\n"
-"[Огненная ионная турель]"
+"Can be used to fabricate:\n"
+"[Ion Barrage Turret]\n"
+"[Fire Ion Turret]"
 
 #: src-en/data/blueprints.xml.append:364
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/title"
-msgstr "Основание ракетной турели"
+msgstr "Missile Turret Base"
 
 #: src-en/data/blueprints.xml.append:365
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/short"
-msgstr "Осн. ракет."
+msgstr "Missile Base"
 
 #: src-en/data/blueprints.xml.append:366
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/desc"
 msgstr ""
-"Может использоваться для создания:\n"
-"[Ракетная роевая турель]\n"
-"[Четырехзарядная ракетная турель]\n"
-"[Осколочная турель]"
+"Can be used to fabricate:\n"
+"[Swarm Missile Turret]\n"
+"[Quad Missile Turret]\n"
+"[Flak Turret]"
 
 #: src-en/data/blueprints.xml.append:387
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/title"
-msgstr "Основание точечной турели"
+msgstr "Focus Turret Base"
 
 #: src-en/data/blueprints.xml.append:388
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/short"
-msgstr "Осн. точеч."
+msgstr "Focus Base"
 
 #: src-en/data/blueprints.xml.append:389
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/desc"
 msgstr ""
-"Может использоваться для создания:\n"
-"[Точечная турель]"
+"Can be used to fabricate:\n"
+"[Pinpoint Turret]"
 
 #: src-en/data/blueprints.xml.append:408
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/title"
-msgstr "Основание микротурели"
+msgstr "Micro Turret Base"
 
 #: src-en/data/blueprints.xml.append:409
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/short"
-msgstr "Осн. микрот."
+msgstr "Micro Base"
 
 #: src-en/data/blueprints.xml.append:410
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/desc"
 msgstr ""
-"Может использоваться для создания:\n"
-"[Микролазерная турель]\n"
-"[Легкая лазерная турель]\n"
-"[Микроионная турель]\n"
-"[Микроточечная турель]"
+"Can be used to fabricate:\n"
+"[Micro Laser Turret]\n"
+"[Light Laser Turret]\n"
+"[Micro Ion Turret]\n"
+"[Micro Pinpoint Turret]"
 
 #: src-en/data/blueprints.xml.append:433
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_UNKNOWN\"]/title"
-msgstr "??? Турель"
+msgstr "??? Turret"
 
 #: src-en/data/blueprints.xml.append:434
 msgid ""
@@ -374,934 +379,924 @@ msgstr "???"
 #: src-en/data/blueprints.xml.append:435
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_UNKNOWN\"]/desc"
-msgstr ""
-"Для расшифровки этого чертежа вам понадобится больше компонентов для крафта."
+msgstr "You'll need more crafting components to decipher this blueprint."
 
 #: src-en/data/blueprints.xml.append:454
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/title"
-msgstr "Импульсная лазерная турель"
+msgstr "Burst Laser Turret"
 
 #: src-en/data/blueprints.xml.append:455
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/short"
-msgstr "Имп. лаз."
+msgstr "Burst L."
 
 #: src-en/data/blueprints.xml.append:456
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/desc"
 msgstr ""
-"Стандартная лазерная турель. Недорогой и эффективный компромисс между атакой"
-" и защитой."
+"Standard Burst Laser Turret. A cheap and efficient middleground between "
+"offense and defence."
 
 #: src-en/data/blueprints.xml.append:475
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/title"
-msgstr "Тяжелая лазерная турель"
+msgstr "Heavy Laser Turret"
 
 #: src-en/data/blueprints.xml.append:476
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/short"
-msgstr "Тяж. лаз."
+msgstr "Heavy L."
 
 #: src-en/data/blueprints.xml.append:477
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/desc"
 msgstr ""
-"Тяжелые лазерные турели являются плохими оборонительными турелями из-за их "
-"низкой скорости вращения и высокого урона за выстрел, но они отлично "
-"подходят для борьбы с вражескими кораблями."
+"Heavy Laser Turrets make for poor defensive turrets with their slow rotation"
+" speed and high damage per shot, but are excellent against enemy ships."
 
 #: src-en/data/blueprints.xml.append:496
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/title"
-msgstr "Старая лазерная импульсная турель"
+msgstr "Old Burst Laser Turret"
 
 #: src-en/data/blueprints.xml.append:497
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/short"
-msgstr "Стар. имп. лаз."
+msgstr "O. Burst L."
 
 #: src-en/data/blueprints.xml.append:498
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/desc"
 msgstr ""
-"Старая лазерная импульсная турель. Дешевый и эффективный компромисс между "
-"атакой и защитой. Очень старая и имеет плохую точность."
+"Standard Burst Laser Turret. A cheap and efficient middleground between "
+"offense and defence. Very old and has worse aim."
 
 #: src-en/data/blueprints.xml.append:517
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/title"
-msgstr "Турель \"Предвестник\""
+msgstr "Harbinger Turret"
 
 #: src-en/data/blueprints.xml.append:518
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/short"
-msgstr "Предвестник"
+msgstr "Harbinger"
 
 #: src-en/data/blueprints.xml.append:519
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/desc"
 msgstr ""
-"Невероятно мощная лазерная турель, изготовленная обелисками, которая может "
-"нанести гораздо больше урона, чем обычная турель."
+"An incredibly powerful Laser Turret manufactured by the Obelisks that can "
+"cause much more havoc than your average Turret."
 
 #: src-en/data/blueprints.xml.append:538
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CEL_1\"]/title"
-msgstr "Турель \"Воздаятель\""
+msgstr "Vindicator Turret"
 
 #: src-en/data/blueprints.xml.append:539
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CEL_1\"]/short"
-msgstr "Воздаятель"
+msgstr "Vindicator"
 
 #: src-en/data/blueprints.xml.append:540
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CEL_1\"]/desc"
-msgstr "Стоит ему попасть, и ты - труп."
+msgstr "Let it hit you and you're already dead."
 
 #: src-en/data/blueprints.xml.append:559
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/title"
-msgstr "Залповая ионная турель"
+msgstr "Ion Barrage Turret"
 
 #: src-en/data/blueprints.xml.append:560
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/short"
-msgstr "Ион. бомба"
+msgstr "Ion B."
 
 #: src-en/data/blueprints.xml.append:561
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/desc"
 msgstr ""
-"Ионнные турели отлично подавляют дронов, а также могут выводить из строя "
-"системы, не повреждая корпус. Эта турель очень быстро заряжается и стреляет."
+"Ion Turrets are excellent drone suppression aswell as being able to disable "
+"systems without causing hull damage. This one charges and fires very "
+"quuckly."
 
 #: src-en/data/blueprints.xml.append:580
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/title"
-msgstr "Зажигательная ионная турель"
+msgstr "Fire Ion Turret"
 
 #: src-en/data/blueprints.xml.append:581
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/short"
-msgstr "Заж. ион."
+msgstr "Fire I."
 
 #: src-en/data/blueprints.xml.append:582
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/desc"
 msgstr ""
-"Ионные турели отлично подавляют дронов, а также могут выводить из строя "
-"системы, не повреждая корпус. Эта турель вызывает возгорание в системе, по "
-"которой она стреляет."
+"Ion Turrets are excellent drone suppression aswell as being able to disable "
+"systems without causing hull damage. This one starts fires in the system it "
+"hits."
 
 #: src-en/data/blueprints.xml.append:601
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/title"
-msgstr "Ракетная роевая турель"
+msgstr "Swarm Missile Turret"
 
 #: src-en/data/blueprints.xml.append:602
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/short"
-msgstr "Роевая рак."
+msgstr "Swarm M."
 
 #: src-en/data/blueprints.xml.append:603
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/desc"
 msgstr ""
-"Выпускает рой небольших быстрых ракет, способных наводиться на цель, отлично"
-" подходит для защиты, но неэффективна против вражеских систем."
+"Fires a swarm of small fast missiles capable of homing in on their target, "
+"excellent defence but does not do well against enemy systems."
 
 #: src-en/data/blueprints.xml.append:622
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/title"
-msgstr "Четырехзарядная ракетная турель"
+msgstr "Quad Missile Turret"
 
 #: src-en/data/blueprints.xml.append:623
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/short"
-msgstr "Четыр. рак."
+msgstr "Quad M."
 
 #: src-en/data/blueprints.xml.append:624
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/desc"
 msgstr ""
-"Медленно заряжается, но способна наносить высокий урон вражескому кораблю, "
-"неплохо справляется с вражескими дронами и твердыми снарядами."
+"Slow to charge but capable of delivering high damage to the enemy ship, "
+"decent against enemy drones and solid projectiles."
 
 #: src-en/data/blueprints.xml.append:643
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/title"
-msgstr "Осколочная турель"
+msgstr "Flak Turret"
 
 #: src-en/data/blueprints.xml.append:644
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/short"
-msgstr "Оскол."
+msgstr "Flak"
 
 #: src-en/data/blueprints.xml.append:645
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/desc"
 msgstr ""
-"Мощная осколочная турель, способная производить невероятные залпы как в "
-"защите, так и в атаке."
+"A powerful Flak turret, can build up an incredible volley to be fired in "
+"both defence and offense."
 
 #: src-en/data/blueprints.xml.append:664
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_1\"]/title"
-msgstr "Точечная лучевая турель"
+msgstr "Pinpoint Turret"
 
 #: src-en/data/blueprints.xml.append:665
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_1\"]/short"
-msgstr "Точечный луч"
+msgstr "Pinpoint"
 
 #: src-en/data/blueprints.xml.append:666
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_1\"]/desc"
 msgstr ""
-"Точечная лучевая турель чрезвычайно эффективна против вражеских ракет "
-"благодаря почти мгновенному поражению цели."
+"Pinpoint Turrets prove extremely effective against enemy missiles due to "
+"their almost instantaneous time to kill."
 
 #: src-en/data/blueprints.xml.append:685
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/title"
-msgstr "Микролазерная турель"
+msgstr "Micro Laser Turret"
 
 #: src-en/data/blueprints.xml.append:686
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/short"
-msgstr "Микролаз."
+msgstr "Micro L."
 
 #: src-en/data/blueprints.xml.append:687
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/desc"
 msgstr ""
-"Микролазерная турель вряд ли сможет самостоятельно справиться с вражеским "
-"кораблем, но ее высокая скорость вращения делает ее эффективным "
-"оборонительным средством."
+"This Laser Turret is unlikely to be able to deal with an enemy ship on it's "
+"own, but its high rotation speed makes it a defensive unit."
 
 #: src-en/data/blueprints.xml.append:706
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/title"
-msgstr "Старая микролазерная турель"
+msgstr "Old Micro Laser Turret"
 
 #: src-en/data/blueprints.xml.append:707
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/short"
-msgstr "Ст. мик. лаз."
+msgstr "O. Micro L."
 
 #: src-en/data/blueprints.xml.append:708
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/desc"
 msgstr ""
-"Микролазерная турель вряд ли сможет самостоятельно справиться с вражеским "
-"кораблем, но ее высокая скорость вращения делает ее эффективным "
-"оборонительным средством."
+"This Laser Turret is unlikely to be able to deal with an enemy ship on it's "
+"own, but its high rotation speed makes it a defensive unit."
 
 #: src-en/data/blueprints.xml.append:727
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/title"
-msgstr "Легкая лазерная турель"
+msgstr "Light Laser Turret"
 
 #: src-en/data/blueprints.xml.append:728
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/short"
-msgstr "Л. лаз."
+msgstr "Light L."
 
 #: src-en/data/blueprints.xml.append:729
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/desc"
 msgstr ""
-"Неспособна наносить урон системе, эта Легкая лазерная турель гораздо лучше "
-"подходит для подавления щитов и защиты."
+"Incapable of doing system damage, this Light Laser Turret is much better "
+"suited for shield suppression and defence."
 
 #: src-en/data/blueprints.xml.append:748
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/title"
-msgstr "Микроионная турель"
+msgstr "Micro Ion Turret"
 
 #: src-en/data/blueprints.xml.append:749
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/short"
-msgstr "Микроион."
+msgstr "Micro I."
 
 #: src-en/data/blueprints.xml.append:750
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/desc"
 msgstr ""
-"Эта ионная турель эффективно защищает от дронов и при этом способна "
-"оказывать поддержку кораблю в атаке."
+"This Ion Turret is effective drone defence while still being able to support"
+" the ships offense."
 
 #: src-en/data/blueprints.xml.append:769
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/title"
-msgstr "Микро-точечная турель"
+msgstr "Micro Pinpoint Turret"
 
 #: src-en/data/blueprints.xml.append:770
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/short"
-msgstr "Микро точ."
+msgstr "Micro P."
 
 #: src-en/data/blueprints.xml.append:771
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/desc"
 msgstr ""
-"Эта небольшая точечная турель требует поддержки, чтобы нанести урон "
-"вражескому кораблю, но способна противостоять вражеским ракетам."
+"This small Pinpoint Turret requires support to damage the enemy ship, but "
+"remains capable against enemy missiles."
 
 #: src-en/data/blueprints.xml.append:790
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/title"
-msgstr ""
+msgstr "Micro Missile Turret"
 
 #: src-en/data/blueprints.xml.append:791
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/short"
-msgstr ""
+msgstr "Micro M."
 
 #: src-en/data/blueprints.xml.append:792
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/desc"
 msgstr ""
+"This small Missile Turret is expensive to fire but provides powerful "
+"offensive and defensive support."
 
 #: src-en/data/blueprints.xml.append:812
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/title"
-msgstr "Тяжелая лазерная турель Рассвета"
+msgstr "Dawn Heavy Laser Turret"
 
 #: src-en/data/blueprints.xml.append:813
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/short"
-msgstr "€ Тяж. лаз."
+msgstr "€ Heavy L."
 
 #: src-en/data/blueprints.xml.append:814
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/desc"
 msgstr ""
-"Тяжелые лазерные турели являются плохими оборонительными турелями из-за их "
-"низкой скорости вращения и высокого урона за выстрел, но они отлично "
-"подходят для борьбы с вражескими кораблями."
+"Heavy Laser Turrets make for poor defensive turrets with their slow rotation"
+" speed and high damage per shot, but are excellent against enemy ships."
 
 #: src-en/data/blueprints.xml.append:833
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/title"
-msgstr "Ионная зажигательная турель Рассвета"
+msgstr "Dawn Fire Ion Turret"
 
 #: src-en/data/blueprints.xml.append:834
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/short"
-msgstr "€ Заж. ион."
+msgstr "€ Fire I."
 
 #: src-en/data/blueprints.xml.append:835
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/desc"
 msgstr ""
-"Ионные турели отлично подавляют дронов, а также могут выводить из строя "
-"системы, не повреждая корпус. Эта турель вызывает возгорание в системе, по "
-"которой она стреляет."
+"Ion Turrets are excellent drone suppression aswell as being able to disable "
+"systems without causing hull damage. This one starts fires in the system it "
+"hits."
 
 #: src-en/data/blueprints.xml.append:854
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/title"
-msgstr "Четырехзарядная ракетная турель Рассвета"
+msgstr "Dawn Quad Missile Turret"
 
 #: src-en/data/blueprints.xml.append:855
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/short"
-msgstr "€ Четыр. рак."
+msgstr "€ Quad M."
 
 #: src-en/data/blueprints.xml.append:856
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/desc"
 msgstr ""
-"Медленно заряжается, но способна наносить высокий урон вражескому кораблю, "
-"неплохо справляется с вражескими дронами и твердыми снарядами."
+"Slow to charge but capable of delivering high damage to the enemy ship, "
+"decent against enemy drones and solid projectiles."
 
 #: src-en/data/blueprints.xml.append:875
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/title"
-msgstr "Осколочная турель Рассвета"
+msgstr "Dawn Flak Turret"
 
 #: src-en/data/blueprints.xml.append:876
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/short"
-msgstr "€ Оскол."
+msgstr "€ Flak"
 
 #: src-en/data/blueprints.xml.append:877
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/desc"
 msgstr ""
-"Мощная осколочная турель, способная производить невероятные залпы как в "
-"защите, так и в атаке."
+"A powerful Flak turret, can build up an incredible volley to be fired in "
+"both defence and offense."
 
 #: src-en/data/blueprints.xml.append:896
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/title"
-msgstr "Точечная лучевая турель Рассвета"
+msgstr "Dawn Pinpoint Turret"
 
 #: src-en/data/blueprints.xml.append:897
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/short"
-msgstr "€ Точечный луч"
+msgstr "€ Pinpoint"
 
 #: src-en/data/blueprints.xml.append:898
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/desc"
 msgstr ""
-"Точечная лазерная турель чрезвычайно эффективна против вражеских ракет "
-"благодаря почти мгновенному поражению цели."
+"Pinpoint Turrets prove extremely effective against enemy missiles due to "
+"their almost instantaneous time to kill."
 
 #: src-en/data/blueprints.xml.append:917
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/title"
-msgstr "Микролазерная турель Рассвета"
+msgstr "Dawn Micro Laser Turret"
 
 #: src-en/data/blueprints.xml.append:918
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/short"
-msgstr "€ Микролаз."
+msgstr "€ Micro L."
 
 #: src-en/data/blueprints.xml.append:919
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/desc"
 msgstr ""
-"Микролазерная турель вряд ли сможет самостоятельно справиться с вражеским "
-"кораблем, но ее высокая скорость вращения делает ее эффективным "
-"оборонительным средством."
+"This Laser Turret is unlikely to be able to deal with an enemy ship on it's "
+"own, but its high rotation speed makes it a defensive unit."
 
 #: src-en/data/blueprints.xml.append:938
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/title"
-msgstr "Легкая лазерная турель Рассвета"
+msgstr "Dawn Light Laser Turret"
 
 #: src-en/data/blueprints.xml.append:939
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/short"
-msgstr "€ Л. лаз."
+msgstr "€ Light L."
 
 #: src-en/data/blueprints.xml.append:940
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/desc"
 msgstr ""
-"Неспособна наносить урон системе, эта Легкая лазерная турель гораздо лучше "
-"подходит для подавления щитов и защиты."
+"Incapable of doing system damage, this Light Laser Turret is much better "
+"suited for shield suppression and defence."
 
 #: src-en/data/blueprints.xml.append:959
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/title"
-msgstr "Микро-точечная турель Рассвета"
+msgstr "Dawn Micro Pinpoint Turret"
 
 #: src-en/data/blueprints.xml.append:960
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/short"
-msgstr "€ Микро точ."
+msgstr "€ Micro P."
 
 #: src-en/data/blueprints.xml.append:961
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/desc"
 msgstr ""
-"Эта небольшая точечная турель требует поддержки, чтобы нанести урон "
-"вражескому кораблю, но способна противостоять вражеским ракетам."
+"This small Pinpoint Turret requires support to damage the enemy ship, but "
+"remains capable against enemy missiles."
 
 #: src-en/data/blueprints.xml.append:981
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:983
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1018
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1019
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1020
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1055
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1056
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1057
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1094
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1095
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1096
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1142
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1143
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1144
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1177
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE\"]/title"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1178
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE\"]/short"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1179
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1220
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_FIRE\"]/title"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1221
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_FIRE\"]/short"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1222
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_FIRE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1263
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_WEAK\"]/title"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1264
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_WEAK\"]/short"
-msgstr "Ион"
+msgstr "Ion"
 
 #: src-en/data/blueprints.xml.append:1265
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_WEAK\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1306
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1307
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1308
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1346
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1347
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1348
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1385
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/title"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1386
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/short"
-msgstr "Лазер"
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1387
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1426
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE\"]/title"
-msgstr "Осколки"
+msgstr "Flak"
 
 #: src-en/data/blueprints.xml.append:1427
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE\"]/short"
-msgstr "Оскол."
+msgstr "Flak"
 
 #: src-en/data/blueprints.xml.append:1428
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1465
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[13]/title"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1466
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[13]/short"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1467
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[13]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1489
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[14]/title"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1490
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[14]/short"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1491
 msgid "data/blueprints.xml.append$/dummyroot/FTL[4]/weaponBlueprint[14]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1513
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_FAKE\"]/title"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1514
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_FAKE\"]/short"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1515
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_FAKE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1537
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK\"]/title"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1538
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK\"]/short"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1539
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1561
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_FAKE\"]/title"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1562
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_FAKE\"]/short"
-msgstr "Фокус"
+msgstr "Focus"
 
 #: src-en/data/blueprints.xml.append:1563
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_FAKE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1588
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_GUARD\"]/title"
-msgstr "Корабль Железного дозора"
+msgstr "Iron Watch Ship"
 
 #: src-en/data/blueprints.xml.append:1589
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_GUARD\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"
 
 #: src-en/data/blueprints.xml.append:1595
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/class"
-msgstr "Класс \"Рейдер\""
+msgstr "Raider-Class"
 
 #: src-en/data/blueprints.xml.append:1596
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/name"
-msgstr "Оса"
+msgstr "The Wasp"
 
 #: src-en/data/blueprints.xml.append:1597
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/desc"
 msgstr ""
-"Корабли класса \"Рейдер\" отличаются центрально расположенными турелями, "
-"однако турель на этом корабле видела и лучшие дни. С установленной "
-"усовершенствованной турелью этот корабль будет представлять серьезную угрозу"
-" для флота повстанцев."
+"Raider-Class vessels are defined by their centrally mounted Turrets, however"
+" the turret on this ship has seen some better days. With an improved turret "
+"in place, this ship will pose a serious threat to the rebel fleet."
 
 #: src-en/data/blueprints.xml.append:1676
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/class"
-msgstr "Класс \"Рейдер\""
+msgstr "Raider-Class"
 
 #: src-en/data/blueprints.xml.append:1677
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/name"
-msgstr "Шершень"
+msgstr "The Hornet"
 
 #: src-en/data/blueprints.xml.append:1678
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/desc"
 msgstr ""
-"Это судно класса \"Рейдер\" оснащено мощной лазерной пушкой и быстрым "
-"дроном, что позволяет ему прорываться сквозь вражеские корабли, однако его "
-"оборонительные возможности довольно ограничены по сравнению с другими "
-"кораблями этого класса."
+"This Raider-Class vessel packs a powerful laser cannon alongside a fast "
+"drone, allowing it to tear into enemy ships, however it's defensive "
+"capabilities are rather limited compared to other ships of it's class."
 
 #: src-en/data/blueprints.xml.append:1757
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/class"
-msgstr "Класс \"Рейдер\""
+msgstr "Raider-Class"
 
 #: src-en/data/blueprints.xml.append:1758
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/name"
-msgstr "Стукач"
+msgstr "The Snitch"
 
 #: src-en/data/blueprints.xml.append:1759
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/desc"
 msgstr ""
-"Благодаря мощному абордажу и турели, смертельной как для систем, так и для "
-"экипажа, это судно специализируется на том, чтобы оставлять корпус врага "
-"неповрежденным."
+"With a powerful boarding crew and a turret deadly to both systems and crew "
+"alike, this vessel specializes in leaving the enemy's hull intact."
 
 #: src-en/data/blueprints.xml.append:1837
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/class"
-msgstr "Класс \"Исполнитель\""
+msgstr "Executor-Class"
 
 #: src-en/data/blueprints.xml.append:1838
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/name"
-msgstr "Бастион"
+msgstr "The Bastion"
 
 #: src-en/data/blueprints.xml.append:1839
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/desc"
 msgstr ""
-"Корабли класса \"Исполнитель\" вооружены четырьмя отдельными турелями. Будет"
-" ли корабль обладать мощными оборонительными способностями или впечатляющей "
-"залповой мощью, зависит от установленных турелей."
+"The Executor-Class vessels are armed with four seperate turrets, whether the"
+" ship has a powerful defensive specialization, or an impressive volley will "
+"be determined by the turrets installed."
 
 #: src-en/data/blueprints.xml.append:1926
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/class"
-msgstr "Крейсер Железная Пустельга"
+msgstr "Iron Kestrel Cruiser"
 
 #: src-en/data/blueprints.xml.append:1927
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/name"
-msgstr "Сверхсветовой"
+msgstr "Superluminal"
 
 #: src-en/data/blueprints.xml.append:1928
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/desc"
 msgstr ""
-"Это культовое крейсерское судно модели \"Пустельга\" имеет отличную "
-"комплектацию и хорошо подходит как для опытных, так и для неопытных "
-"капитанов."
+"An iconic Kestrel-model cruiser, this vessel is well rounded and well suited"
+" to both experienced and inexperienced captains."
 
 #: src-en/data/blueprints.xml.append:2008
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/class"
-msgstr "Крейсер Железных повстанцев"
+msgstr "Iron Rebel Cruiser"
 
 #: src-en/data/blueprints.xml.append:2009
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/name"
-msgstr "Аяччо"
+msgstr "Ajaccio"
 
 #: src-en/data/blueprints.xml.append:2011
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/desc"
 msgstr ""
-"Используя артиллерийские технологии Федерации и вооружение, аналогичное "
-"Флагману, этот мощный крейсер представляет собой серьезную угрозу."
+"Using reverse engineered Federation artillery tech and weaponry similar to "
+"that of the Flagship, this powerful cruiser packs a serious punch."
 
 #: src-en/data/blueprints.xml.append:2091
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/class"
-msgstr "Крейсер Железных Инноваций"
+msgstr "Iron Innovation Cruiser"
 
 #: src-en/data/blueprints.xml.append:2092
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/name"
-msgstr "К.У.Р.А."
+msgstr "C.U.R.A."
 
 #: src-en/data/blueprints.xml.append:2094
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/desc"
 msgstr ""
-"На этом корабле, оснащенном ограниченным ИИ-ядром повстанцев, установлен "
-"прототип оборудования, используемого для создания выбросов энергии."
+"Powered with a neutered Rebel AI-core, this ship carries prototype equipment"
+" used for creating power surges."
 
 #: src-en/data/blueprints.xml.append:2178
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/class"
-msgstr "Крейсер Железных Сепаратистов"
+msgstr "Iron Separatist Cruiser"
 
 #: src-en/data/blueprints.xml.append:2179
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/name"
-msgstr "Одиночество"
+msgstr "The Solitude"
 
 #: src-en/data/blueprints.xml.append:2181
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/desc"
 msgstr ""
-"Одинокий энджи-Сепаратист пилотирует этот корабль без помощи многочисленной "
-"команды, но в компании своих пехотных дронов у него все получится."
+"A lonesome Separatist Engi pilots this ship without aid of an extensive "
+"crew, but with the company of his personnel drones he can manage."
 
 #: src-en/data/blueprints.xml.append:2262
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/class"
-msgstr "Железный Ангельский вестник смерти"
+msgstr "Iron Angelic Deathbringer"
 
 #: src-en/data/blueprints.xml.append:2263
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/name"
-msgstr "Люцифер"
+msgstr "Lucifer"
 
 #: src-en/data/blueprints.xml.append:2265
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/desc"
 msgstr ""
-"Ангелы - одни из лучших наемников в галактике. Этот корабль-невидимка должен"
-" полагаться на свою смертоносную команду, чтобы быстро уничтожить врага, "
-"пока он не получил слишком много повреждений."
+"The Angels are some of the finest mercenaries in the galaxy. This stealth "
+"ship must rely on its deadly crew to kill the enemy quickly before it takes "
+"too much damage."
 
 #: src-en/data/blueprints.xml.append:2340
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/class"
-msgstr "Крейсер Железных валунов"
+msgstr "Iron Rock Cruiser"
 
 #: src-en/data/blueprints.xml.append:2341
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/name"
-msgstr "Оплот"
+msgstr "Bulwark"
 
 #: src-en/data/blueprints.xml.append:2343
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/desc"
 msgstr ""
-"Этот корабль, как и его создатели, напоминает тяжелого бегемота и сокрушает "
-"врагов с помощью грубой силы."
+"Similar to its designers, this super-dense behemoth uses brute force to "
+"overwhelm its foes."
 
 #: src-en/data/blueprints.xml.append:2426
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/class"
-msgstr "Крейсер Железных Миротворцев"
+msgstr "Iron Peacekeeping Cruiser"
 
 #: src-en/data/blueprints.xml.append:2427
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/name"
-msgstr "Лазарь"
+msgstr "Lazarus"
 
 #: src-en/data/blueprints.xml.append:2429
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/desc"
 msgstr ""
-"Гладкий и современный дизайн золтанского судна. Эта модель стала культовой "
-"благодаря тому, что была личным крейсером Деворака Рея."
+"A sleek and state of the art Zoltan vessel design. This model is iconic for "
+"being Devorak Rei's very own personal cruiser."
 
 #: src-en/data/blueprints.xml.append:2504
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/class"
-msgstr "Крейсер Железных Атаманов"
+msgstr "Iron Knighted Cruiser"
 
 #: src-en/data/blueprints.xml.append:2505
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/name"
-msgstr "Черный Ворон"
+msgstr "The Black Raven"
 
 #: src-en/data/blueprints.xml.append:2507
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/desc"
 msgstr ""
-"Может этот маленький крейсер и не сильно прочный, он все же является "
-"флагманским кораблем самого Атамана. Ведь важен не размер, а умение им "
-"пользоваться."
+"This small cruiser might have little hull, but it still exists as the KoN's "
+"flagship vessel. It's not the size that matters, but the way you use it."
 
 #: src-en/data/blueprints.xml.append:2589
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_REFLECTIVE_PLATING\"]/title"
-msgstr "Отражающее покрытие"
+msgstr "Reflective Plating"
 
 #: src-en/data/blueprints.xml.append:2590
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_REFLECTIVE_PLATING\"]/desc"
-msgstr ""
-"Уменьшает урон от лучей, попадающих в этот корабль, в два раза, с "
-"округлением в меньшую сторону."
+msgstr "Halves the damage of beams hitting this ship, rounding down."
 
 #: src-en/data/blueprints.xml.append:2598
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE\"]/title"
-msgstr "Предзажигатель турели"
+msgstr "Turret Pre-igniter"
 
 #: src-en/data/blueprints.xml.append:2599
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE\"]/desc"
-msgstr "Турели заряжены сразу после ССД-прыжка."
+msgstr "Turrets are made immediately available after an FTL jump."
 
 #: src-en/data/blueprints.xml.append:2606
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_DAWN_INITIATE\"]/title"
-msgstr "Инициатор Нов. рассв."
+msgstr "New Dawn Initiate"
 
 #: src-en/data/blueprints.xml.append:2607
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"OG_DAWN_INITIATE\"]/desc"
-msgstr "ВЫ НИКОГДА НЕ ДОЛЖНЫ ЭТО ВИДЕТЬ"
+msgstr "YOU SHOULD NEVER SEE THIS"

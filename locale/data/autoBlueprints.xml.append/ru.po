@@ -5,92 +5,92 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/autoBlueprints.xml.append:144
+#: src-en/data/autoBlueprints.xml.append:148
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_SCOUT\"]/class"
 msgstr "Разведчик Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:168
+#: src-en/data/autoBlueprints.xml.append:172
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_INFILTRATOR\"]/class"
 msgstr "Лазутчик Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:193
+#: src-en/data/autoBlueprints.xml.append:197
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_OUTRIDER\"]/class"
 msgstr "Конвоир Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:218
+#: src-en/data/autoBlueprints.xml.append:222
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_BOMBER\"]/class"
 msgstr "Бомбардировщик Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:244
+#: src-en/data/autoBlueprints.xml.append:248
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_CORVETTE\"]/class"
 msgstr "Корвет Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:271
+#: src-en/data/autoBlueprints.xml.append:275
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_FIGHTER\"]/class"
 msgstr "Истребитель Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:299
+#: src-en/data/autoBlueprints.xml.append:303
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_TRANSPORT\"]/class"
 msgstr "Транспорт Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:329
+#: src-en/data/autoBlueprints.xml.append:333
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_RAIDER\"]/class"
 msgstr "Рейдер Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:359
+#: src-en/data/autoBlueprints.xml.append:363
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_IRON_GUARD\"]/class"
 msgstr "Сторожевой корабль Железного дозора"
 
-#: src-en/data/autoBlueprints.xml.append:485
+#: src-en/data/autoBlueprints.xml.append:489
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_SCOUT\"]/class"
 msgstr "Разведчик Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:510
+#: src-en/data/autoBlueprints.xml.append:514
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_INFILTRATOR\"]/class"
 msgstr "Лазутчик Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:536
+#: src-en/data/autoBlueprints.xml.append:540
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_OUTRIDER\"]/class"
 msgstr "Конвоир Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:562
+#: src-en/data/autoBlueprints.xml.append:566
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_BOMBER\"]/class"
 msgstr "Бомбардировщик Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:589
+#: src-en/data/autoBlueprints.xml.append:593
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_CORVETTE\"]/class"
 msgstr "Корвет Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:617
+#: src-en/data/autoBlueprints.xml.append:621
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_FIGHTER\"]/class"
 msgstr "Истребитель Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:646
+#: src-en/data/autoBlueprints.xml.append:650
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_TRANSPORT\"]/class"
 msgstr "Транспорт Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:677
+#: src-en/data/autoBlueprints.xml.append:681
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_RAIDER\"]/class"
 msgstr "Рейдер Нового рассвета"
 
-#: src-en/data/autoBlueprints.xml.append:708
+#: src-en/data/autoBlueprints.xml.append:712
 msgid ""
 "data/autoBlueprints.xml.append$//shipBlueprint[@name=\"OG_DAWN_GUARD\"]/class"
 msgstr "Сторожевой корабль Нового рассвета"

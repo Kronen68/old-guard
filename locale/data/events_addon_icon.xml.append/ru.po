@@ -1,17 +1,9 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-12-25 10:40+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
-"dataevents_addon_iconxmlappend/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_addon_icon.xml.append:5
 msgid "data/events_addon_icon.xml.append$//event[@name=\"ADDON_OG\"]/hover-text"
@@ -26,9 +18,7 @@ msgstr ""
 "Разработчик: Arc\n"
 "В настоящее время включен.\n"
 "\t\t\n"
-"Этот аддон, посвящённый системе управления турелями, добавляет новый тип "
-"оборудования, 2 новые фракции, новые секторы и множество игровых кораблей с "
-"новой системой."
+"Этот аддон, посвящённый системе управления турелями, добавляет новый тип оборудования, 2 новые фракции, новые секторы и множество игровых кораблей с новой системой."
 
 #: src-en/data/events_addon_icon.xml.append:16
 msgid ""

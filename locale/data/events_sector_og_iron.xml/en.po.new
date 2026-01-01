@@ -9,1652 +9,1625 @@ msgstr ""
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DESTROY\"]/text"
 msgstr ""
-"Вы победили сторожевой корабль Железного дозора. Что бы ни находилось в их "
-"грузовом отсеке, наверняка оно было уничтожено, но по крайней мере вы можете"
-" собрать некоторые припасы с этого корабля."
+"You have defeated the Iron Watch guard. Whatever might have been in their "
+"cargo has for certain been destroyed, but you can at least salvage some "
+"supplies from the ship."
 
 #: src-en/data/events_sector_og_iron.xml:13
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DESTROY\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:18
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEADCREW\"]/text"
 msgstr ""
-"Вы победили сторожевой корабль Железного дозора. На борту не осталось "
-"экипажа, способного вам помешать, и теперь вы можете изучить их груз. Вы "
-"находите орудие, которое забираете на свой корабль, и приступаете к разборке"
-" корпуса на лом."
+"You have defeated the Iron Watch guard. Without crew on board to stop you, "
+"you can investigate their cargo. You find a weapon to bring back to the "
+"ship, and move on to scrap their hull."
 
 #: src-en/data/events_sector_og_iron.xml:22
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEADCREW\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:34
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FOLLOWUP\"]/text"
 msgstr ""
-"Уничтожив сторожевой корабль Железного дозора, вы, несомненно, заставили их "
-"выделить дополнительные силы на ваши поиски. Будьте осторожны, исследуя этот"
-" сектор."
+"By killing the Iron Watch guard, you have no doubt caused them to dispatch "
+"reinforcements to track you down. Watch your step as you explore the sector."
 
 #: src-en/data/events_sector_og_iron.xml:43
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FOLLOWUP\"]/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:47
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FOLLOWUP\"]/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:55
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/beaconType/unvisitedTooltip"
-msgstr "Непосещенное место."
+msgstr "An unvisited location."
 
 #: src-en/data/events_sector_og_iron.xml:56
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/beaconType/visitedTooltip"
-msgstr "Посещенное место. Ничего интересного."
+msgstr "Explored location. Nothing left of interest."
 
 #: src-en/data/events_sector_og_iron.xml:57
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/beaconType/undiscoveredTooltip"
-msgstr "Непосещенное место."
+msgstr "An unvisited location."
 
 #: src-en/data/events_sector_og_iron.xml:59
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/text"
 msgstr ""
-"Корабль Железного дозора идет в атаку! Судя по мстительному взгляду их "
-"капитана, это, без сомнения, корабль, отправленный стражей, чтобы выследить "
-"вас!"
+"A Iron Watch ship moves in to attack! Based on the vengeful look in their "
+"captain's eye, this is no doubt the ship dispatched by the guard to hunt you"
+" down!"
 
 #: src-en/data/events_sector_og_iron.xml:63
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:71
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/beaconType/unvisitedTooltip"
-msgstr "Непосещенное место."
+msgstr "An unvisited location."
 
 #: src-en/data/events_sector_og_iron.xml:72
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/beaconType/visitedTooltip"
-msgstr "Посещенное место. Ничего интересного."
+msgstr "Explored location. Nothing left of interest."
 
 #: src-en/data/events_sector_og_iron.xml:73
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/beaconType/undiscoveredTooltip"
-msgstr "Непосещенное место."
+msgstr "An unvisited location."
 
 #: src-en/data/events_sector_og_iron.xml:75
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/text"
 msgstr ""
-"Корабль Железного дозора идет в атаку! Судя по мстительному взгляду их "
-"капитана, это, без сомнения, корабль, отправленный стражей, чтобы выследить "
-"вас!"
+"A Iron Watch ship moves in to attack! Based on the vengeful look in their "
+"captain's eye, this is no doubt the ship dispatched by the guard to hunt you"
+" down!"
 
 #: src-en/data/events_sector_og_iron.xml:81
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:87
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_START_OG_IRON\"]/text[1]"
 msgstr ""
-"Железный дозор - это коллектив исследователей, ученых и пиратов, которые "
-"отважились отправиться в неизведанное пространство. Это одно из их редких "
-"поселений, которое теперь уже не так отдалено, как раньше."
+"The Iron Watch are a collective of explorers, scientists, and pirates who "
+"ventured out into unexplored space. This is one of their rare settlements, "
+"now no longer so out of the way as it once was."
 
 #: src-en/data/events_sector_og_iron.xml:88
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_START_OG_IRON\"]/text[2]"
 msgstr ""
-"Этот несколько изолированный регион был погружен в хаос в начале Восстания. "
-"Являясь одним из редких мест проживания Железного дозора, в последнее время "
-"он стал гораздо более густонаселенным."
+"This somewhat isolated region was thrown into chaos at the start of the "
+"Rebellion. One of the rare homes of the Iron Watch, it's become far more "
+"populated in recent times."
 
 #: src-en/data/events_sector_og_iron.xml:101
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"3\"]/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:105
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"0\"]/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:109
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"-999\"]/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:114
 msgid "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/text"
 msgstr ""
-"Вас сразу же \"приветствует\" сторожевой корабль. \"Приветствую вас, друзья!"
-" Добро пожаловать в наш сектор. Я уверен, вы знаете, что вход платный...\""
+"You are immediately 'greeted' by the guard. \"Greetings friends! Welcome to "
+"our sector. I'm sure you're aware that there is a fee for entry...\""
 
 #: src-en/data/events_sector_og_iron.xml:116
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[1]/text"
-msgstr "Мы отказываемся платить, прорываемся с боем!"
+msgstr "We refuse to pay the fee, fight your way through!"
 
 #: src-en/data/events_sector_og_iron.xml:118
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[1]/event/text"
-msgstr "Вы отключаете связь и готовитесь к бою."
+msgstr "You mute the ship and prepare for combat."
 
 #: src-en/data/events_sector_og_iron.xml:121
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:127
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[2]/text"
-msgstr "Оплатить взнос."
+msgstr "Pay the fee."
 
 #: src-en/data/events_sector_og_iron.xml:129
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[2]/event/text"
 msgstr ""
-"Охранник кивает и на мгновение бросает взгляд на лом. \"Хорошо. Стража "
-"пропустит вас через минуту\"."
+"The guard nods and combs over the scrap for a brief moment. \"Very well. "
+"Security will let you through momentarily.\""
 
 #: src-en/data/events_sector_og_iron.xml:136
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[3]/text"
-msgstr "Попросить сделать исключение из-за вашей миссии."
+msgstr "Request a waver because of your mission."
 
 #: src-en/data/events_sector_og_iron.xml:140
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr "(Член экипажа-Железный дозор) Запросить бесплатный проход."
+msgstr "(Iron Watch Crew) Request free passage."
 
 #: src-en/data/events_sector_og_iron.xml:142
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr "\"Хорошо. Удачи в вашей миссии\"."
+msgstr "\"Very well. Good luck with your mission.\""
 
 #: src-en/data/events_sector_og_iron.xml:146
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"mind\"]/text"
-msgstr "(Контроль разума) Убедить капитана сторожевого судна пропустить вас."
+msgstr "(Mind Control) Convince the guard to leave you alone."
 
 #: src-en/data/events_sector_og_iron.xml:150
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
-msgstr ""
-"(Оружие контроля разума) Убедить капитана сторожевого судна пропустить вас."
+msgstr "(Mind Control Weapon) Convince the guard to leave you alone."
 
 #: src-en/data/events_sector_og_iron.xml:154
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_AFFECT\"]/text"
-msgstr ""
-"(Воздействующее на разум оружие) Вызвать хаос в рядах стражи и проскользнуть"
-" мимо."
+msgstr "(Mind Affecting Weapon) Induce chaos within the guard and slip past."
 
 #: src-en/data/events_sector_og_iron.xml:158
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"cloaking\"]/text"
-msgstr "(Маскировка) Замаскироваться и попытаться сбежать."
+msgstr "(Cloaking) Cloak and try to escape."
 
 #: src-en/data/events_sector_og_iron.xml:162
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"engines\"]/text"
-msgstr "(Продв. Двигатели) Попытаться оторваться от сторожевого корабля."
+msgstr "(Adv. Engines) Try to escape the guard."
 
 #: src-en/data/events_sector_og_iron.xml:166
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"pilot\"]/text"
-msgstr "(Продв. Автопилот) Активировать автопилот, чтобы попытаться уйти."
+msgstr "(Adv. Piloting) Activate the auto-pilot to try and escape."
 
 #: src-en/data/events_sector_og_iron.xml:172
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/text"
 msgstr ""
-"\"Почему я должен не взымать с вас плату? Вы же Ренегат, верно? Если вы не в"
-" курсе, Железный дозор не подчиняется законам Федерации, и, честно говоря, "
-"наличие здесь таких людей, как вы, является проблемой. Мы должны взимать с "
-"вас больше, а не меньше\"."
+"\"Why should I wave your fee? You are a Renegade, correct? If you are not "
+"aware, the Iron Watch is not beholden to Federation laws, and frankly having"
+" people like you here is a liability. We should be charging you more, not "
+"less.\""
 
 #: src-en/data/events_sector_og_iron.xml:174
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[1]/text"
-msgstr "Тогда мы будем сражаться!"
+msgstr "Then we'll fight our way through!"
 
 #: src-en/data/events_sector_og_iron.xml:176
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[1]/event/text"
-msgstr "Вы отключаете связь и готовитесь к бою."
+msgstr "You mute the ship and prepare for combat."
 
 #: src-en/data/events_sector_og_iron.xml:179
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:185
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[2]/text"
-msgstr "Оплатить взнос."
+msgstr "Pay the fee."
 
 #: src-en/data/events_sector_og_iron.xml:187
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[2]/event/text"
 msgstr ""
-"Охранник кивает и на мгновение бросает взгляд на лом. \"Хорошо. Стража "
-"пропустит вас через минуту\"."
+"The guard nods and combs over the scrap for a brief moment. \"Very well. "
+"Security will let you through momentarily.\""
 
 #: src-en/data/events_sector_og_iron.xml:196
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_WAVER\"]/event[3]/text"
 msgstr ""
-"Охранник почесывает лицо. \"Как вы, вероятно, знаете, Железный Дозор не "
-"подчиняется законам и юрисдикции Федерации. Тем не менее, я понимаю, что "
-"ваша миссия отвечает интересам всех здесь. Федерация, может, и не наш друг, "
-"но повстанцы тоже. Я сделаю вам эту одну услугу, но не ожидайте, что все "
-"будут так же великодушны\"."
+"The guard scratches their face. \"As you are likely aware, the Iron Watch is"
+" not beholden to Federation laws or jurisdiction. That said, I understand "
+"that your cause represents the best interests of everyone here. The "
+"Federation might not be our friend, but the Rebellion isn't either. I will "
+"do you this one favor, but do not expect everyone to be so generous.\""
 
 #: src-en/data/events_sector_og_iron.xml:200
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/text"
 msgstr ""
-"Здесь что-то не так. Обычно Железный дозор не обращает особого внимания на "
-"такие корабли, как ваш, но сейчас вы слышите подозрительные разговоры на "
-"сторожевом корабле."
+"Something seems off here. Usually, the Iron Watch wouldn't mind a ship like "
+"yours too much, but now, you catch suspicious chatter on the guard ship."
 
 #: src-en/data/events_sector_og_iron.xml:202
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:204
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/choice/event/text"
 msgstr ""
-"Похоже, ваш послужной список настиг вас. Экипаж сторожевого корабля хорошо "
-"наслышан о ваших преступлениях и не намерен пускать вас в сектор!"
+"It seems your track record has caught up to you. The guard's crew have heard"
+" enough of the crimes you've been committing, and they don't intend to let "
+"you into the sector!"
 
 #: src-en/data/events_sector_og_iron.xml:207
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/choice/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:215
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/text"
 msgstr ""
-"Хорошая новость быстро разнеслась, охранник сразу же отменяет обычную плату "
-"за вход, и вас пропускают бесплатно."
+"Good word has spread around, the guard immediately waves the usual entry fee"
+" and you're allowed in freely."
 
 #: src-en/data/events_sector_og_iron.xml:218
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[1]/text"
-msgstr "Не обращать внимание на сторожевой корабль."
+msgstr "Ignore the guard."
 
 #: src-en/data/events_sector_og_iron.xml:220
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[1]/event/text"
-msgstr ""
-"Теперь у вас есть немного времени, чтобы заняться чем-нибудь на корабле."
+msgstr "You now have some time to do something on the ship."
 
 #: src-en/data/events_sector_og_iron.xml:222
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[1]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:226
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[1]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:232
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[2]/text"
-msgstr "Связаться со сторожевым кораблем."
+msgstr "Contact the guard."
 
 #: src-en/data/events_sector_og_iron.xml:236
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[3]/text"
-msgstr "Атаковать сторожевой корабль."
+msgstr "Attack the guard."
 
 #: src-en/data/events_sector_og_iron.xml:241
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[3]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:249
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[1]"
-msgstr "\"Мы рады вас видеть. Что вы ищете, друг?\""
+msgstr "\"We acknowledge your hail. What is it that you seek friend?\""
 
 #: src-en/data/events_sector_og_iron.xml:250
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[2]"
-msgstr ""
-"Капитан Железного дозора принимает ваш вызов, но не произносит ни слова."
+msgstr "The Iron Watch captain accepts your hail, but does not speak a word."
 
 #: src-en/data/events_sector_og_iron.xml:251
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[3]"
 msgstr ""
-"В ответ на ваш корабль поступает короткое сообщение: \"Мы получили ваш "
-"запрос на связь. Что вам нужно, друг?\""
+"A brief message is sent back to your ship in response. \"We have received "
+"your request for communications. What is it you need friend?\""
 
 #: src-en/data/events_sector_og_iron.xml:256
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[1]/text"
-msgstr "Запросить припасы."
+msgstr "Request supplies."
 
 #: src-en/data/events_sector_og_iron.xml:260
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[2]/text"
-msgstr "Потребовать припасы."
+msgstr "Demand supplies."
 
 #: src-en/data/events_sector_og_iron.xml:264
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[@req=\"weapons\"]/text"
-msgstr "(Улучш. Оружие) Угрожать сторожевому кораблю."
+msgstr "(Upg. Weapons) Threaten the guard."
 
 #: src-en/data/events_sector_og_iron.xml:268
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr "(Член экипажа-Железный дозор) Запросить помощь."
+msgstr "(Iron Watch Crew) Request assistance."
 
 #: src-en/data/events_sector_og_iron.xml:270
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr "\"А соотечественник Железного дозора? Примите этот подарок доброй воли!\""
+msgstr "\"And a fellow citizen of the Iron Watch? Take this gift of goodwill!\""
 
 #: src-en/data/events_sector_og_iron.xml:275
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[5]/text"
-msgstr "Передумать и оставить сторожевой корабль в покое."
+msgstr "Change your mind and leave the guard alone."
 
 #: src-en/data/events_sector_og_iron.xml:277
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[5]/event/text"
 msgstr ""
-"Вы извиняетесь и отключаете связь. Сторожевой корабль не предпринимает "
-"никаких попыток продолжить разговор."
+"You apologize and end comms. The guard makes no attempts to communicate "
+"further."
 
 #: src-en/data/events_sector_og_iron.xml:279
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[5]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:283
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[5]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:291
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_REQUEST\"]/event[1]/text"
-msgstr "\"Боюсь, у нас не так много запасов, удачи в вашей миссии, друг\"."
+msgstr ""
+"\"I'm afraid we don't have much to spare, good luck on your mission "
+"friend.\""
 
 #: src-en/data/events_sector_og_iron.xml:294
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_REQUEST\"]/event[2]/text"
-msgstr "\"Конечно, мы можем помочь, примите это как знак доброй воли\"."
+msgstr "\"Of course we can help, take this as a gift of goodwill.\""
 
 #: src-en/data/events_sector_og_iron.xml:299
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEMAND\"]/text"
 msgstr ""
-"\"Так не разговаривают с союзником. Желаю вам удачи в вашей миссии, но "
-"советую вам больше не пытаться связаться со мной\"."
+"\"That's no way to speak to an ally. I wish you luck on your mission but I "
+"suggest you stop trying to contact me.\""
 
 #: src-en/data/events_sector_og_iron.xml:303
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[1]/text"
 msgstr ""
-"Охранник не пытается ответить на ваши угрозы, по крайней мере, не словесно. "
-"Вместо этого он заряжает свое оружие и готовится к атаке!"
+"The guard makes no attempt to respond to your threats, at least not "
+"verbally. Instead, they power up their weapons and move in to attack!"
 
 #: src-en/data/events_sector_og_iron.xml:306
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[1]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:311
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[2]/text"
 msgstr ""
-"\"Нет необходимости в насилии, друг. Мы дадим тебе немного припасов, как ты "
-"просишь, если только ты отключишь свое оружие\"."
+"\"There is no need for violence, friend. We will give you some supplies as "
+"you request, so long as you power down those weapons.\""
 
 #: src-en/data/events_sector_og_iron.xml:314
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[2]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:322
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_UPDATE_OG_IRON\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОВЫШЕНА - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВ глазах Железного дозора вы совершили доброе дело. Продолжайте действовать таким образом, и вы можете рассчитывать на поддержку Железного дозора и его союзников."
+"[REPUTATION INCREASED - IRON WATCH]\n"
+"\tYou have done a good deed here in the eyes of the Iron Watch. Continuously perform actions like this and you might start to see positive support from the Iron Watch and its allies."
 
 #: src-en/data/events_sector_og_iron.xml:327
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_UPDATE_OG_IRON_COMBAT\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОВЫШЕНА - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВ глазах Железного дозора вы совершили доброе дело. Продолжайте действовать таким образом, и вы можете рассчитывать на поддержку Железного дозора и его союзников."
+"[REPUTATION INCREASED - IRON WATCH]\n"
+"\tYou have done a good deed here in the eyes of the Iron Watch. Continuously perform actions like this and you might start to see positive support from the Iron Watch and its allies."
 
 #: src-en/data/events_sector_og_iron.xml:331
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_UPDATE_OG_IRON_COMBAT\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:336
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_OG_IRON\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОНИЖЕНА - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВаши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Железного дозора и его граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Железного дозора и его союзников."
+"[REPUTATION DECREASED - IRON WATCH]\n"
+"\tYour actions here, justifiable or not, will not reflect well in the eyes of the Iron Watch or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Iron Watch and its allies."
 
 #: src-en/data/events_sector_og_iron.xml:341
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_IRON\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОНИЖЕНА 2Х - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВаши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Железного дозора и его граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Железного дозора и его союзников.\n"
-"\tЗа ваши особо вопиющие действия ваша репутация была уменьшена в два раза."
+"[REPUTATION DECREASED X2 - IRON WATCH]\n"
+"\tYour actions here, justifiable or not, will not reflect well in the eyes of the Iron Watch or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Iron Watch and its allies.\n"
+"\tFor your extra egregious actions, your reputation was decreased twice."
 
 #: src-en/data/events_sector_og_iron.xml:347
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_OG_IRON_COMBAT\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОНИЖЕНА - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВаши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Железного дозора и его граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Железного дозора и его союзников."
+"[REPUTATION DECREASED - IRON WATCH]\n"
+"\tYour actions here, justifiable or not, will not reflect well in the eyes of the Iron Watch or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Iron Watch and its allies."
 
 #: src-en/data/events_sector_og_iron.xml:351
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_OG_IRON_COMBAT\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:356
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_IRON_COMBAT\"]/text"
 msgstr ""
-"[РЕПУТАЦИЯ ПОНИЖЕНА 2Х - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВаши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Железного дозора и его граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Железного дозора и его союзников.\n"
-"\tЗа ваши особо вопиющие действия ваша репутация была уменьшена в два раза."
+"[REPUTATION DECREASED X2 - IRON WATCH]\n"
+"\tYour actions here, justifiable or not, will not reflect well in the eyes of the Iron Watch or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Iron Watch and its allies.\n"
+"\tFor your extra egregious actions, your reputation was decreased twice."
 
 #: src-en/data/events_sector_og_iron.xml:361
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_IRON_COMBAT\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:371
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"FINISH_BEACON_OG_IRON\"]/choice[1]/text"
-msgstr "Исследовать."
+msgstr "Explore."
 
 #: src-en/data/events_sector_og_iron.xml:375
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"FINISH_BEACON_OG_IRON\"]/choice[2]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:379
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"FINISH_BEACON_OG_IRON\"]/choice[3]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:391
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[1]"
 msgstr ""
-"Капитан Железного дозора выкрикивает последнюю ругань, когда корабль "
-"разрушается."
+"The Iron Watch captain lets out one final expletive as the ship is "
+"obliterated."
 
 #: src-en/data/events_sector_og_iron.xml:392
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[2]"
 msgstr ""
-"Корпус корабля Железного дозора разлетается по космосу. Вы мчитесь собирать "
-"обломки."
+"The hull of the Iron Watch vessel is dispersed out into space. You swoop in "
+"to salvage the remains."
 
 #: src-en/data/events_sector_og_iron.xml:393
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[3]"
 msgstr ""
-"Корабль Железного дозора взрывается, уничтожая всех, кто находится внутри. "
-"Ваш экипаж обыскивает обломки, поднимая на борт самое ценное."
+"The Iron Watch ship explodes, extinguishing all lives within. Your crew "
+"avoids their remains as they salvage the ship pieces."
 
 #: src-en/data/events_sector_og_iron.xml:394
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[4]"
 msgstr ""
-"Одна из турелей уносится в пустое пространство, когда корабль взрывается, "
-"разбрасывая ценные обломки во всех направлениях."
+"One of the turrets is launched off into empty space as the ship explodes, "
+"throwing valuable debris in every direction."
 
 #: src-en/data/events_sector_og_iron.xml:402
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_IRON\"]/text[1]"
 msgstr ""
-"\"Твоя жажда крови... когда-нибудь станет твоей погибелью, Ренегат. Ты лишь "
-"доказательство того, что Федерация ничем не лучше Восстания...\""
+"\"Your bloodlust... will be your downfall someday, Renegade. You are only "
+"proof... the Federation... is no better than the Rebellion...\""
 
 #: src-en/data/events_sector_og_iron.xml:403
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_IRON\"]/text[2]"
 msgstr ""
-"Без единого слова капитан Железного дозора падает на землю, задыхаясь, а "
-"жизнь угасает в его глазах. Вы разбираете корпус его корабля."
+"Without a word, the Iron Watch captain falls to the ground, gasping for air "
+"as the life is extinguished from their eyes. You salvage the hull of their "
+"ship."
 
 #: src-en/data/events_sector_og_iron.xml:404
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_IRON\"]/text[3]"
 msgstr ""
-"\"Ты об этом пожалеешь! Карма всегда настигает таких, как ты. Проклятые "
-"Ренегаты... Железному дозору было бы лучше с повстанцами...\""
+"\"You will regret this! Karma always comes back to people like you. Damn you"
+" Renegades... the Iron Watch would have been better off with the "
+"Rebellion...\""
 
 #: src-en/data/events_sector_og_iron.xml:410
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"SURRENDER_OG_IRON\"]/choice[1]/text"
-msgstr "Принять их капитуляцию."
+msgstr "Accept their surrender."
 
 #: src-en/data/events_sector_og_iron.xml:419
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[1]"
 msgstr ""
-"\"Хорошо, ты победил! Вот оборудование с наших складов. Оставь нас в "
-"покое!\""
+"\"Alright, you win! Here's some equipment from our stores. Leave us alone!\""
 
 #: src-en/data/events_sector_og_iron.xml:420
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[2]"
-msgstr ""
-"Корабль настойчиво пытается выйти с вами на связь. Похоже, они хотят "
-"сдаться."
+msgstr "The ship repeatedly hails you. It looks like they want to surrender."
 
 #: src-en/data/events_sector_og_iron.xml:421
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[3]"
-msgstr "\"Вы вооружены гораздо лучше, чем я думал. Мы сдаемся\"."
+msgstr ""
+"\"You are considerably more well-armed than I would have thought. We "
+"surrender.\""
 
 #: src-en/data/events_sector_og_iron.xml:422
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[4]"
 msgstr ""
-"Они присылают вам сообщение: \"Ваш корабль на удивление хорошо оборудован! "
-"Пожалуйста, возьмите это и отпустите нас живыми\"."
+"They send you a message: \"Your ship is surprisingly well equipped! Please "
+"take this and let us live.\""
 
 #: src-en/data/events_sector_og_iron.xml:423
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[5]"
-msgstr "\"Пожалуйста, не убивайте нас. Мы отдадим все, что у нас есть!\""
+msgstr "\"Please don't kill us. We will give you everything we have!\""
 
 #: src-en/data/events_sector_og_iron.xml:424
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[6]"
-msgstr "Они предлагают вам часть своего груза, если вы оставите их в живых."
+msgstr "They offer you some of their cargo if you let them live."
 
 #: src-en/data/events_sector_og_iron.xml:425
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[7]"
 msgstr ""
-"Они предлагают вам часть своих припасов, если вы не будете уничтожать их "
-"корабль."
+"They offer to give you some of their goods if you don't destroy their ship."
 
 #: src-en/data/events_sector_og_iron.xml:426
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[8]"
 msgstr ""
-"Вы получаете сообщение, полное отчаяния: \"Забирай все, что у нас есть. "
-"Только не убивай нас!\""
+"You get a frantic message, \"Take everything we have. Just don't kill us!\""
 
 #: src-en/data/events_sector_og_iron.xml:427
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[9]"
-msgstr "\"Вы однозначно превзошли нас. Мы смиренно просим сохранить наши жизни\"."
+msgstr "\"You have clearly bested us. We merely request our lives.\""
 
 #: src-en/data/events_sector_og_iron.xml:428
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[10]"
 msgstr ""
-"\"Вы сделали свое дело, мы побеждены. Возьмите это и оставьте нас с нашим "
-"позором\"."
+"\"You have made your point, we are beaten. Take these and leave us to our "
+"shame.\""
 
 #: src-en/data/events_sector_og_iron.xml:429
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_SURRENDER_OG_IRON\"]/text[11]"
-msgstr "\"Возьмите все, что у нас есть, и давайте забудем, что здесь произошло\"."
+msgstr "\"Take everything we have and let's both forget this happened.\""
 
 #: src-en/data/events_sector_og_iron.xml:433
 msgid "data/events_sector_og_iron.xml$//event[@name=\"ESCAPE_OG_IRON\"]/text"
 msgstr ""
-"Сканирование показывает, что корабль Железного дозора пытается сбежать. "
-"Уничтожьте его, пока он не успел уйти!"
+"Scans show that the Iron Watch ship is trying to escape. Destroy it before "
+"it can get away!"
 
 #: src-en/data/events_sector_og_iron.xml:446
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GOTAWAY_OG_IRON\"]/text[1]"
 msgstr ""
-"Судно Железного дозора выскользнуло из ваших рук, оставив вас наедине у "
-"маяка."
+"The Iron Watch vessel has slipped from your grasp, abandoning you at the "
+"beacon."
 
 #: src-en/data/events_sector_og_iron.xml:447
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GOTAWAY_OG_IRON\"]/text[2]"
 msgstr ""
-"Ваши попытки уничтожить корабль Железного дозора не увенчались успехом, и "
-"корабль сбежал."
+"Your attempts at destroying the Iron Watch vessel have failed, and the ship "
+"has escaped."
 
 #: src-en/data/events_sector_og_iron.xml:450
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GOTAWAY_OG_IRON_REMAINS\"]/text"
 msgstr ""
-"Судно Железного дозора может и сбежало, но не все потеряно. Оно оставило "
-"после себя след из обломков, которые вы собираете."
+"The Iron Watch vessel may have escaped, but not everything has gone wrong. A"
+" trail of scrap from the wreckage has been left behind, which you collect."
 
 #: src-en/data/events_sector_og_iron.xml:511
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/text"
-msgstr "Над близлежащим рынком возвышается союзный заправочный пост."
+msgstr "The nearby market is overlooked by an allied refueling post."
 
 #: src-en/data/events_sector_og_iron.xml:514
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[1]/text"
-msgstr "Купить турель со скидкой."
+msgstr "Purchase a discounted turret."
 
 #: src-en/data/events_sector_og_iron.xml:516
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[1]/event/text"
-msgstr "Вы запасаетесь топливом, а затем заглядываете в магазин."
+msgstr "You stock up on fuel then check out the store."
 
 #: src-en/data/events_sector_og_iron.xml:522
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[1]/event/choice/text"
-msgstr "Перейти в магазин."
+msgstr "Shop."
 
 #: src-en/data/events_sector_og_iron.xml:528
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"mind\"]/text"
-msgstr "(Контроль разума) \"Договориться\" о еще более низкой цене."
+msgstr "(Mind Control) \"Negotiate\" an even lower price."
 
 #: src-en/data/events_sector_og_iron.xml:530
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"mind\"]/event/text"
-msgstr "Вы запасаетесь топливом, а затем заглядываете в магазин."
+msgstr "You stock up on fuel then check out the store."
 
 #: src-en/data/events_sector_og_iron.xml:536
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"mind\"]/event/choice/text"
-msgstr "Перейти в магазин."
+msgstr "Shop."
 
 #: src-en/data/events_sector_og_iron.xml:542
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr "(Член экипажа-Железный дозор) Договориться о еще более низкой цене."
+msgstr "(Iron Watch Crew) Negotiate an even lower price."
 
 #: src-en/data/events_sector_og_iron.xml:544
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr "Вы запасаетесь топливом, а затем заглядываете в магазин."
+msgstr "You stock up on fuel then check out the store."
 
 #: src-en/data/events_sector_og_iron.xml:549
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/choice/text"
-msgstr "Перейти в магазин."
+msgstr "Shop."
 
 #: src-en/data/events_sector_og_iron.xml:555
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[4]/text"
-msgstr "Атаковать станцию!"
+msgstr "Attack the station!"
 
 #: src-en/data/events_sector_og_iron.xml:557
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[4]/event/text"
 msgstr ""
-"Маловероятно, что рынок захочет торговать с вами после этого, но это не "
-"помешает вам притеснять случайных гражданских."
+"It's highly unlikely the market will want to trade with you after this, but "
+"that won't stop you from harassing random civilians."
 
 #: src-en/data/events_sector_og_iron.xml:560
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[4]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:566
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[5]/text"
-msgstr "Просто отправиться в магазин."
+msgstr "Just shop around."
 
 #: src-en/data/events_sector_og_iron.xml:586
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете корабль Железного дозора. Капитан, судя по всему, находится в сильном стрессе, так как по общему каналу слышны крики.\n"
-"\t\"Как это не турель?\" Вы слышите слабый шум, как один из членов экипажа пытается объяснить что-то, чего капитан явно не понимает.\n"
-"\t\"Так нас ОБМАНУЛИ? Этот подлый торговец, ооо, если я его еще раз увижу, он умрет!\""
+"You arrive at the beacon to discover an Iron Watch ship. The captain is seemingly quite distressed as you can hear yelling over the public channels.\n"
+"\t\"What do you mean it's not a turret?\" You can hear the faint noise of one of their crew trying to explain something the captain clearly doesn't understand.\n"
+"\t\"So we were SCAMMED? That kniving merchant, ohhh if I see him again he's dead!\""
 
 #: src-en/data/events_sector_og_iron.xml:590
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[1]/text"
-msgstr "Продолжить слушать."
+msgstr "Continue Listening."
 
 #: src-en/data/events_sector_og_iron.xml:592
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[1]/event/text"
 msgstr ""
-"В конце концов, гнев капитана достигает апогея, и он приказывает выбросить "
-"предполагаемую турель через шлюз. \"Я хочу, чтобы она исчезла из виду, "
-"УБИРАЕМСЯ ОТСЮДА!\" С этими словами корабль Железного дозора улетает прочь. "
-"Теперь у вас есть время, чтобы поднять на борт \"турель\" и осмотреть ее "
-"самостоятельно. Оказывается, это был простой защитный дрон."
+"Eventually the captain's angry reaches a crescendo and orders the would-be "
+"turret thrown out the airlock. \"I want it out of sight, get us OUT OF "
+"HERE!\" With that the Iron Watch ship jumps away. Now on you're on you have "
+"time to scoop up the \"turret\" and examine it yourself, it turns out it was"
+" just a simple defence drone."
 
 #: src-en/data/events_sector_og_iron.xml:596
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[1]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:600
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[1]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:606
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/text"
-msgstr "Не мешать разгневанному капитану."
+msgstr "Avoid getting in the way of the angry captain."
 
 #: src-en/data/events_sector_og_iron.xml:608
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/event/text"
 msgstr ""
-"Вы прячетесь на другой стороне луны и надеетесь, что корабль Железного "
-"дозора вас не обнаружит."
+"You hide on the far side of a moon and hope the Iron Watch ship doesn't pick"
+" you up."
 
 #: src-en/data/events_sector_og_iron.xml:610
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:614
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:624
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/text"
 msgstr ""
-"Судно Железного дозора объявляет о временной вакансии для помощи в "
-"эксперименте. Требуется сопровождение в близлежащее астероидное поле для "
-"тестирования модификации их турели."
+"An Iron Watch vessel is advertising a temporary position to help in an "
+"experiment. They require an escort into the nearby asteroid field to test a "
+"modification to their turret."
 
 #: src-en/data/events_sector_og_iron.xml:626
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[1]/text"
-msgstr "Согласиться помочь."
+msgstr "Agree to help."
 
 #: src-en/data/events_sector_og_iron.xml:629
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[1]/event/text"
 msgstr ""
-"Вы движетесь за кораблем Железного дозора и направляетесь в поле "
-"астероидов.\"Мы просто откалибруем турель, это не займет больше "
-"полуминуты\"."
+"You move in behind the Iron Watch ship and head into the asteroid field. "
+"\"We're just calibrating the turret, it shouldn't take more than half a "
+"minute.\""
 
 #: src-en/data/events_sector_og_iron.xml:633
 msgid ""
 "data/events_sector_og_iron.xml$//triggeredEvent[@name=\"OG_IRON_FOR_SCIENCE_TURRET\"]/triggeredEventBox/tooltip"
-msgstr "Время до калибровки турели Железного дозора."
+msgstr "Time until the Iron Watch's turret is calibrated."
 
 #: src-en/data/events_sector_og_iron.xml:641
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[2]/text"
-msgstr "Игнорировать запрос."
+msgstr "Ignore the request."
 
 #: src-en/data/events_sector_og_iron.xml:643
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[2]/event/text"
-msgstr ""
-"Вы избегаете корабль Железного дозора и готовитесь к следующему прыжку."
+msgstr "You avoid the Iron Watch ship and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:645
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:649
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:657
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_ION_BLAST\"]/text"
 msgstr ""
-"\"Прием, прием, произошла серьезная неисправность, наши турели вышли из "
-"строя\"."
+"\"Come in, Come in, something has gone terribly wrong, our turrets have shut"
+" down.\""
 
 #: src-en/data/events_sector_og_iron.xml:659
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_ION_BLAST\"]/choice[@req=\"LIST_CREW_POWER\"]/text"
-msgstr ""
-"(Экипаж с бонусом энергии) Отправить своего члена экипажа дозарядить их "
-"системы."
+msgstr "(Bonus Power Crew) Send your crewman to overcharge their systems."
 
 #: src-en/data/events_sector_og_iron.xml:663
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_ION_BLAST\"]/choice[@req=\"battery\"]/text"
-msgstr ""
-"(Резервная батарея) Использовать дополнительную энергию, чтобы перегрузить "
-"их системы."
+msgstr "(Backup Battery) Use your extra power to overcharge their systems."
 
 #: src-en/data/events_sector_og_iron.xml:667
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_ION_BLAST\"]/choice[3]/text"
-msgstr "Вы ничего не можете сделать..."
+msgstr "There's nothing you can do..."
 
 #: src-en/data/events_sector_og_iron.xml:681
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_PASS_ION\"]/text"
-msgstr "Вам удалось восстановить питание их турелей."
+msgstr "You manage to restore power to their turrets."
 
 #: src-en/data/events_sector_og_iron.xml:685
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_PASS\"]/text"
 msgstr ""
-"\"Мы закончили, спасибо за помощь, капитан\". Корабль отправляет вам немного"
-" припасов в качестве оплаты за сопровождение."
+"\"We're finished, thanks for the help captain.\" The ship sends over some "
+"supplies in payment for your escort."
 
 #: src-en/data/events_sector_og_iron.xml:691
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE_BLAST\"]/text"
 msgstr ""
-"Вы беспомощно наблюдаете, как большой астероид разрывает корабль Железного "
-"дозора. Он разбивается на облако обломков, которые быстро рассеиваются в "
-"поле астероидов. Перед уходом вам удается собрать часть обломков."
+"You watch helplessly as a large asteroid rips through the Iron Watch ship. "
+"It fragments into a cloud of debris which quickly diffuse into the asteroid "
+"field, you're able to collect some of the wreckage before you leave."
 
 #: src-en/data/events_sector_og_iron.xml:710
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/text"
 msgstr ""
-"Вы наткнулись на обломки странного корабля. Похоже, это один из кораблей "
-"Нового рассвета, о которых вы слышали в этих краях, отколовшаяся группа "
-"Железного дозора, которая, судя по всему, вступила в союз с повстанцами."
+"You've come across the wreck of a strange ship. It appears to be one the New"
+" Dawn ships you've heard of around here, a splinter group of the iron watch "
+"who appear to have allied with the rebellion."
 
 #: src-en/data/events_sector_og_iron.xml:712
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[1]/text"
-msgstr "Исследовать."
+msgstr "Investigate."
 
 #: src-en/data/events_sector_og_iron.xml:714
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[1]/event/text"
 msgstr ""
-"Корабль выглядит полностью опустошенным, за исключением нескольких секций, в"
-" которых осталось что-то пригодного для использования. Вы собираете все, что"
-" можете, прежде чем вернуться на свой корабль."
+"The ship appears stripped bare, all but a few sections have anything "
+"salvageable. You collect whatever you can before returning to your own ship."
 
 #: src-en/data/events_sector_og_iron.xml:719
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/text"
-msgstr "Не обращать внимания на корабль."
+msgstr "Ignore the ship."
 
 #: src-en/data/events_sector_og_iron.xml:721
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/event/text"
-msgstr "Вы избегаете корабля и готовитесь к следующему прыжку."
+msgstr "You avoid the ship and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:723
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:727
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:750
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_RESCUE\"]/destroyed/text"
 msgstr ""
-"Корабль Железного дозора разваливается на части. Вы спешите связаться с "
-"гражданским кораблем."
+"The Iron Watch ship breaks apart. You hasten to contact the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:753
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_RESCUE\"]/destroyed/choice/text"
-msgstr "Связаться с гражданским кораблем."
+msgstr "Contact the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:758
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_RESCUE\"]/deadCrew/text"
 msgstr ""
-"На корабле Железного дозора больше не обнаруживаются признаки жизни. Вы "
-"спешите связаться с гражданским кораблем."
+"No more life signs detected on the Iron Watch ship. You hasten to contact "
+"the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:761
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_RESCUE\"]/deadCrew/choice/text"
-msgstr "Связаться с гражданским кораблем."
+msgstr "Contact the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:769
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете корабль Железного дозора, преследующий"
-" гражданское судно. Похоже, что правила здесь в пространстве Железного "
-"дозора особенно ослаблены, раз их собственные корабли начинают заниматься "
-"пиратством."
+"You arrive at the beacon to discover an Iron Watch ship in pursuit of a "
+"civilian, it appears the rules must be especially relaxed in this part of "
+"Iron Watch space for their own ships to be turning to piracy."
 
 #: src-en/data/events_sector_og_iron.xml:771
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[1]/text"
-msgstr "Помочь гражданским."
+msgstr "Aid the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:773
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[1]/event/text"
-msgstr "Вы включаете оружие и приступаете к атаке."
+msgstr "You power on your weapons and move in to attack."
 
 #: src-en/data/events_sector_og_iron.xml:776
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:782
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[2]/text"
-msgstr "Не вмешиваться."
+msgstr "Stay out of it."
 
 #: src-en/data/events_sector_og_iron.xml:785
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[2]/event/text"
 msgstr ""
-"Бой выводит их из зоны непосредственного сканирования. Через некоторое время"
-" сигналы бедствия прекращаются."
+"The fight brings them out of your immediate scanning range. After a time the"
+" distress calls stop."
 
 #: src-en/data/events_sector_og_iron.xml:787
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:791
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:801
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете корабль Железного дозора, преследующий"
-" гражданское судно. Похоже, Железный дозор использует пульсар, чтобы "
-"извлекать выгоду из гражданских судов. Хотя в большинстве районов, "
-"контролируемых Железным дозором, это незаконно, этот корабль, похоже, не "
-"боится быть пойманным."
+"You arrive at the beacon to discover an Iron Watch ship in pursuit of a "
+"civilian, it appears the Iron Watch is taking advantage of the pulsar here "
+"to take advantage of civilians, although illegal in most areas of iron watch"
+" space it appears this ship isn't worried about being caught."
 
 #: src-en/data/events_sector_og_iron.xml:803
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[1]/text"
-msgstr "Помочь гражданским."
+msgstr "Aid the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:805
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[1]/event/text"
-msgstr "Вы включаете оружие и приступаете к атаке."
+msgstr "You power on your weapons and move in to attack."
 
 #: src-en/data/events_sector_og_iron.xml:808
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:814
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[2]/text"
-msgstr "Не вмешиваться."
+msgstr "Stay out of it."
 
 #: src-en/data/events_sector_og_iron.xml:817
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[2]/event/text"
 msgstr ""
-"Бой выводит их из зоны непосредственного сканирования. Через некоторое время"
-" сигналы бедствия прекращаются."
+"The fight brings them out of your immediate scanning range. After a time the"
+" distress calls stop."
 
 #: src-en/data/events_sector_og_iron.xml:819
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:823
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:833
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/text"
 msgstr ""
-"Вы прибыли к маяку и обнаружили один из тех странных кораблей Нового "
-"рассвета, атакующий гражданское судно. Похоже, они вас пока не заметили."
+"You've arrived at the beacon to discover one of those strange New Dawn ships"
+" attacking a civilian, it doesn't appear that they've noticed you yet."
 
 #: src-en/data/events_sector_og_iron.xml:835
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/text"
-msgstr "Помочь гражданским."
+msgstr "Aid the civilian ship."
 
 #: src-en/data/events_sector_og_iron.xml:837
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/text"
 msgstr ""
-"Гражданский корабль взрывается, прежде чем вы успеваете что-либо "
-"предпринять, судно Нового рассвета замечает вас и поворачивает, чтобы "
-"убежать, и через мгновение они уже уходят в прыжок."
+"The civilian ship explodes before you're able to do anything, the New Dawn "
+"vessel notices you and turns to run, within a moment they've jumped away."
 
 #: src-en/data/events_sector_og_iron.xml:840
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[1]/text"
-msgstr "Ограбить обломки гражданского судна."
+msgstr "Loot the remains of the civilian vessel."
 
 #: src-en/data/events_sector_og_iron.xml:842
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Вы отправляетесь туда и начинаете грабить гражданских, когда корабль "
-"Железного дозора прибывает к маяку. Похоже, они посчитали вас виновным в "
-"гибели корабля, так как сразу же нападают на вас."
+"You move in and begin looting the civilian when an Iron Watch ship arrives "
+"at the beacon. They appear to think you're responsible for the wreck as they"
+" immediately move in to attack."
 
 #: src-en/data/events_sector_og_iron.xml:846
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:852
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[2]/text"
-msgstr "Сообщить о нападении на ближайший аванпост Железного дозора."
+msgstr "Report the attack via a nearby Iron Watch outpost."
 
 #: src-en/data/events_sector_og_iron.xml:854
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"Вы связываетесь с местными властями Железного дозора и сообщаете им о "
-"нападении, и через некоторое время прибывает корабль Железного дозора. \"Мне"
-" очень жаль, что вам пришлось это увидеть, капитан. Эти нападения с каждым "
-"днем становятся все более жестокими. У меня есть припасы для тех, кто "
-"подвергся нападению, но, похоже, им это не понадобится. Почему бы вам их не "
-"взять?\""
+"You contact the local Iron Watch authorities and let them know about the "
+"attack, a short while later an Iron Watch ship arrives. \"I'm sorry you had "
+"to see that captain, these attacks are getting worse and worse every day. I "
+"have these supplies here to be given to those attacked, but it doesn't look "
+"they'll be needing them, why don't you take them instead.\""
 
 #: src-en/data/events_sector_og_iron.xml:858
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[2]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:866
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[2]/text"
-msgstr "Не вмешиваться."
+msgstr "Stay out of it."
 
 #: src-en/data/events_sector_og_iron.xml:869
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[2]/event/text"
 msgstr ""
-"Бой выводит их из зоны непосредственного сканирования. Через некоторое время"
-" сигналы бедствия прекращаются."
+"The fight brings them out of your immediate scanning range. After a time the"
+" distress calls stop."
 
 #: src-en/data/events_sector_og_iron.xml:871
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:875
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:884
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/surrender/text"
-msgstr "Пожалуйста, забирайте обломки, только позвольте нам жить!"
+msgstr "Please, you can have the wreck, just let us live!"
 
 #: src-en/data/events_sector_og_iron.xml:886
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/surrender/choice[1]/text"
-msgstr "Принять их предложение."
+msgstr "Accept their offer."
 
 #: src-en/data/events_sector_og_iron.xml:890
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/surrender/choice[2]/text"
-msgstr "Капитуляция - это не выход."
+msgstr "Surrender is not an option."
 
 #: src-en/data/events_sector_og_iron.xml:898
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/destroyed/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:906
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/deadCrew/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:912
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_SECURE\"]/text"
 msgstr ""
-"Вы собираете обломки и поднимаете на борт все что можно из его запасов, "
-"прежде чем готовитесь к следующему прыжку."
+"You scrap the wreck and collect what you can from it's stores before "
+"preparing for your next jump"
 
 #: src-en/data/events_sector_og_iron.xml:917
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/text"
 msgstr ""
-"Вас встречает корабль Железного дозора: \"Здравствуйте, капитан! Возможно, "
-"вы видели где-нибудь здесь обломки корабля? Похоже, транспорт Нового "
-"рассвета был обнаружен в этом астероидном поле после того, как попал под "
-"обстрел из ближайшей противокорабельной батареи. Мы полагаем, что он мог "
-"потерпеть крушение где-то здесь\"."
+"You're greeted by an Iron Watch ship, \"Hello Captain, I don't suppose "
+"you've seen a ship wreck out here somewhere. Apparently a New Dawn transport"
+" was seen heading into this asteroid field after being hit by a nearby anti-"
+"ship battery. We believe they may have been wrecked around here somewhere.\""
 
 #: src-en/data/events_sector_og_iron.xml:919
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[1]/text"
-msgstr "Помочь им найти транспорт."
+msgstr "Help them search for the transport."
 
 #: src-en/data/events_sector_og_iron.xml:923
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[@req=\"sensors\""
 " and @lvl=\"2\"]/text"
-msgstr "(Улучш. Сенсоры) Выполнить сканирование области."
+msgstr "(Upg. Sensors) Perform a scan of the area."
 
 #: src-en/data/events_sector_og_iron.xml:927
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[@req=\"sensors\""
 " and @lvl=\"3\"]/text"
-msgstr "(Продв. Сенсоры) Провести глубокое сканирование поля астероидов."
+msgstr "(Adv. Sensors) Perform a deep scan of the asteroid field."
 
 #: src-en/data/events_sector_og_iron.xml:931
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/text"
-msgstr "Вежливо отказаться."
+msgstr "Politely decline."
 
 #: src-en/data/events_sector_og_iron.xml:933
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/event/text"
 msgstr ""
-"Корабль Железного дозора в конце концов исчезает из виду, продолжая поиски в"
-" поле астероидов."
+"The Iron Watch ship eventually disapears from view as it searches the "
+"asteroid field."
 
 #: src-en/data/events_sector_og_iron.xml:935
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:939
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:948
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/text"
 msgstr ""
-"В конце концов вы натыкаетесь на странный транспорт, который, судя по всему,"
-" был пробит несколькими астероидами. Вы начинаете обыскивать судно и "
-"находите на борту новое оружие. Через несколько мгновений появляется корабль"
-" Железного дозора: \"О, хорошо, что вы его нашли, спасибо за помощь, ребята,"
-" мы займемся этим\"."
+"You eventually pickup the odd transport, it appears to be punctured by "
+"several asteroids. You begin searching the vessel and find a pristine weapon"
+" onboard, a few moments later the Iron Watch vessel appears, \"Oh good you "
+"found it, thanks for the help guys, we'll take it from here.\""
 
 #: src-en/data/events_sector_og_iron.xml:951
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/text"
-msgstr "Атаковать корабль, чтобы завладеть обломками."
+msgstr "Attack the ship to claim the wreck for yourself."
 
 #: src-en/data/events_sector_og_iron.xml:953
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/event/text"
 msgstr ""
-"Когда вы включаете свое оружие, корабль Железного дозора кажется замечает, "
-"что вы делаете, их капитан выкрикивает несколько ругательств, и в ответ "
-"включает свое собственное оружие."
+"As you power on your weapons the Iron Watch vessel seems to notice what your"
+" doing, their captain sputters out a few explitives but turns on her own "
+"weapons in response."
 
 #: src-en/data/events_sector_og_iron.xml:956
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:962
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/text"
-msgstr "Оставить их обломки."
+msgstr "Leave them to the wreck."
 
 #: src-en/data/events_sector_og_iron.xml:964
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/event/text"
-msgstr "В конце концов, обломки корабля исчезают из виду."
+msgstr "The wreck eventually drifts out of view."
 
 #: src-en/data/events_sector_og_iron.xml:966
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:970
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:978
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/text"
 msgstr ""
-"В конце концов вы находите обломки корабля, и, как выясняется, это судно "
-"Железного дозора. Похоже, они уже некоторое время занимаются разборкой "
-"обломков. \"О, хорошо, что вы еще живы. Мы благодарны вам за помощь, но "
-"больше ничего не нужно. Удачи вам в вашей миссии\"."
+"Eventually you find the wreck, and as it happens the Iron Watch vessel. It "
+"appears they've already been scrapping the wreck for some time. \"Oh good "
+"you're still alive, we appreciate the help but we don't need anything else, "
+"good luck with your mission.\""
 
 #: src-en/data/events_sector_og_iron.xml:980
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/text"
-msgstr "Атаковать корабль, чтобы завладеть обломками."
+msgstr "Attack the ship to claim the wreck for yourself."
 
 #: src-en/data/events_sector_og_iron.xml:982
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/event/text"
 msgstr ""
-"Когда вы включаете свое оружие, корабль Железного дозора кажется замечает, "
-"что вы делаете, их капитан выкрикивает несколько ругательств, и в ответ "
-"включает свое собственное оружие."
+"As you power on your weapons the Iron Watch vessel seems to notice what your"
+" doing, their captain sputters out a few explitives but turns on her own "
+"weapons in response."
 
 #: src-en/data/events_sector_og_iron.xml:985
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:991
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/text"
-msgstr "Оставить их обломки."
+msgstr "Leave them to the wreck."
 
 #: src-en/data/events_sector_og_iron.xml:993
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/event/text"
-msgstr "В конце концов, обломки корабля исчезают из виду."
+msgstr "The wreck eventually drifts out of view."
 
 #: src-en/data/events_sector_og_iron.xml:995
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:999
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1006
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_EXPLORE_TRANSPORT_SEARCH\"]/event[3]/text"
 msgstr ""
-"Вы прочесываете поле астероидов в течение нескольких часов, но ничего не "
-"находите. Однако вам удается обнаружить нечто похожее на грузовой контейнер "
-"с базовыми припасами."
+"You search the asteroid field for what feels like hours, but can't find "
+"anything. You did stumble across what appears to be a cargo container with "
+"some basic supplies in it however."
 
 #: src-en/data/events_sector_og_iron.xml:1029
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_WATCH_PIRATE\"]/destroyed/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1037
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_WATCH_PIRATE\"]/deadCrew/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1046
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете сильно поврежденный корабль Железного "
-"дозора, вступивший в бой с пиратом. Без помощи корабль Железного дозора не "
-"продержится долго."
+"You arrive at the beacon to find a heavily damage Iron Watch ship locked in "
+"battle with a pirate, without help the Iron Watch ship won't last very long."
 
 #: src-en/data/events_sector_og_iron.xml:1048
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/text"
-msgstr "Помочь кораблю Железного дозора."
+msgstr "Aid the Iron Watch ship."
 
 #: src-en/data/events_sector_og_iron.xml:1050
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/event/text"
 msgstr ""
-"Вы включаете свое оружие, пиратское судно, почувствовав большую угрозу, "
-"обращает свое внимание на вас."
+"You power on your weapons, the pirate vessel, sensing the greater threat, "
+"turns it's attention to you."
 
 #: src-en/data/events_sector_og_iron.xml:1053
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1059
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[2]/text"
-msgstr "Не вмешиваться."
+msgstr "Avoid getting involved."
 
 #: src-en/data/events_sector_og_iron.xml:1061
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[2]/event/text"
 msgstr ""
-"Бой выводит их из зоны непосредственного сканирования. Через некоторое время"
-" сигналы бедствия прекращаются."
+"The fight brings them out of your immediate scanning range. After a time the"
+" distress calls stop."
 
 #: src-en/data/events_sector_og_iron.xml:1063
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[2]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1067
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[2]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1082
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/text"
 msgstr ""
-"Корабль Железного дозора частично оправился от недавнего сражения и "
-"благодарят вас за спасение."
+"The Iron Watch has partially recovered from the fight earlier, they thank "
+"you for rescuing them."
 
 #: src-en/data/events_sector_og_iron.xml:1084
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/text"
-msgstr "Воспользоваться их уязвимой позицией и атаковать их."
+msgstr "Capitalize on the damage and attack them."
 
 #: src-en/data/events_sector_og_iron.xml:1086
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/event/text"
 msgstr ""
-"Экипаж Железного дозора с ужасом наблюдает, как вы заряжаете оружие и "
-"готовитесь к атаке."
+"The crew of the Iron Watch look in horror as you power up your weapons and "
+"prepare to attack them."
 
 #: src-en/data/events_sector_og_iron.xml:1089
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1095
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr "(Член экипажа-Железный дозор) Запросить припасы."
+msgstr "(Iron Watch Crew) Request supplies."
 
 #: src-en/data/events_sector_og_iron.xml:1097
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr "\"Конечно, примите это в знак благодарности\"."
+msgstr "\"Of course, take these as thanks.\""
 
 #: src-en/data/events_sector_og_iron.xml:1102
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[3]/text"
-msgstr "Приготовиться к следующему прыжку."
+msgstr "Prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1111
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/text"
 msgstr ""
-"Гражданское судно, похоже, застряло из-за пульсара. \"Капитан, слава богу, "
-"вы здесь! Наши двигатели были выведены из строя, когда пульсар ударил как "
-"раз в тот момент, когда мы выполняли прыжок. Всплеск энергии отключил "
-"двигатели. У нас мало запасов, и на борту нет инженера, поэтому любая помощь"
-" будет очень кстати\"."
+"The civilian vessel here appears stranded by the pulsar. \"Captain, thank "
+"goodness you're here, our jump drives were taken out when the pulsar hit as "
+"just as we were executing a jump, the power spike fried the engines. We're "
+"low on supplies and don't have a dedicated engineer onboard, any help would "
+"be appreciated.\""
 
 #: src-en/data/events_sector_og_iron.xml:1113
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/text"
-msgstr "Прислать немного припасов."
+msgstr "Send some supplies over."
 
 #: src-en/data/events_sector_og_iron.xml:1115
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/event/text"
-msgstr "\"Спасибо за помощь, надеюсь, мы сможем быстро все починить\"."
+msgstr ""
+"\"Thanks for the help, hopefully we'll be able to get this fixed quickly.\""
 
 #: src-en/data/events_sector_og_iron.xml:1121
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1127
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
-msgstr "(Член экипажа-Инженер) Узнать, сможет ли ваш инженер помочь."
+msgstr "(Engineer Crew) See if your engineer can help."
 
 #: src-en/data/events_sector_og_iron.xml:1129
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. В конце концов, он смог найти причину "
-"проблемы, к большому удовольствию капитана. \"Все системы в норме... "
-"Отлично! Он должен заработать, и мы сможем совершить прыжок. Спасибо за "
-"помощь\"."
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. Eventually, they're able to get to the root of the problem, much to "
+"the Captains's delight. \"All systems are nominal... Great! It should come "
+"back on once we jump. Thanks for the help.\""
 
 #: src-en/data/events_sector_og_iron.xml:1132
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1138
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"DRONE_CONTROL_REPAIR_CREW\"]/text"
-msgstr "(Дрон-ремонтник) Отправить дрона-ремонтника. [-1|]"
+msgstr "(Repair Drone) Send a Repair Drone. [-1|]"
 
 #: src-en/data/events_sector_og_iron.xml:1142
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CHECK_ANY_CREW\"]/text"
-msgstr "Попытаться решить их проблему."
+msgstr "Attempt to fix their problem."
 
 #: src-en/data/events_sector_og_iron.xml:1146
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[5]/text"
-msgstr "Атаковать, пока они беспомощны!"
+msgstr "Attack while they are helpless!"
 
 #: src-en/data/events_sector_og_iron.xml:1148
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[5]/event/text"
 msgstr ""
-"Вам нужен любой лом, который вы можете получить, этот корабль будет легкой "
-"мишенью."
+"You need all the scrap you can get, and this ship will be an easy target."
 
 #: src-en/data/events_sector_og_iron.xml:1151
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[5]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1157
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/text"
-msgstr "Извиниться и сказать, что ничем не можете помочь."
+msgstr "Apologize and say you can't help."
 
 #: src-en/data/events_sector_og_iron.xml:1159
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/event/text"
-msgstr ""
-"Капитан корабля со вздохом говорит. \"Пошлите кого-нибудь к нам, если "
-"сможете\"."
+msgstr "The Captain of the ship sighs. \"Send someone our way if you can.\""
 
 #: src-en/data/events_sector_og_iron.xml:1161
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1165
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1174
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[1]/text"
 msgstr ""
-"Ваш дрон начинает возиться с неисправным прыжковым двигателем. Вскоре дрон "
-"выявляет проблему, и двигатель запускается. \"Все системы в норме... "
-"Отлично! Спасибо за помощь\"."
+"Your drone begins to tinker with the broken jump drive. Before too long, the"
+" drone identifies the problem and the drive comes to life. \"All systems are"
+" nominal... Great! Thanks for the help.\""
 
 #: src-en/data/events_sector_og_iron.xml:1180
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[1]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1185
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[2]/text"
 msgstr ""
-"Ваш дрон начинает возиться с поломанным прыжковым двигателем. Он "
-"возвращается с отчетом о том, что для ремонта недостаточно ресурсов, но "
-"выводит на экран информацию о том, как его можно починить. \"Ну, это лучше, "
-"чем ничего... Теперь мы знаем, что нам нужно\". Они дают вам небольшое "
-"вознаграждение."
+"Your drone begins to tinker with the broken jump drive. It returns a report "
+"saying that there is insufficient resources to repair, but prints a readout "
+"of how it could be repaired. \"Well, I guess it's better than nothing... Now"
+" we know what we need.\" They give you a small reward."
 
 #: src-en/data/events_sector_og_iron.xml:1192
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[3]/text"
 msgstr ""
-"Ваш дрон начинает возиться с поломанным прыжковым двигателем. Он на "
-"мгновение оживает, а затем отключается. Дрон распечатывает отчет о "
-"проблемах, которые он обнаружил, но не смог устранить. \"Ну, пожалуй, это "
-"лучше, чем ничего... Может быть, пока что мы сможем обойтись этим\". Они "
-"дают вам скромное вознаграждение."
+"Your drone begins to tinker with the broken jump drive. It momentarily comes"
+" to life, then pops. The drone prints a readout of the problems that it "
+"identified but couldn't fix. \"Well, I guess it's better than nothing... "
+"Maybe we can make do with this for now.\" They give you a modest reward."
 
 #: src-en/data/events_sector_og_iron.xml:1201
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[1]/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. В конце концов, он смог найти причину "
-"проблемы, к большому удовольствию капитана. \"Все системы в норме... "
-"Отлично! Он должен заработать, и мы сможем совершить прыжок. Спасибо за "
-"помощь\"."
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. Eventually, they're able to get to the root of the problem, much to "
+"the Captains's delight. \"All systems are nominal... Great! It should come "
+"back on once we jump. Thanks for the help.\""
 
 #: src-en/data/events_sector_og_iron.xml:1204
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[1]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1209
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[2]/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. Хотя ему не удается заставить его работать, он"
-" успевает диагностировать неисправность. \"Ну, это лучше, чем ничего... "
-"Теперь мы знаем, в чем проблема\". Они дают вам небольшое вознаграждение."
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. While they don't get it working, they manage to diagnose it. \"Well, "
+"I guess it's better than nothing... Now we know what's wrong.\" They give "
+"you a small reward."
 
 #: src-en/data/events_sector_og_iron.xml:1213
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[3]/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. Он на мгновение оживает, а затем отключается. "
-"Похоже, ему удалось заставить его работать лишь на время. \"Ну, это лучше, "
-"чем ничего... Может быть, пока что нам хватит и этого\". Они дают вам "
-"скромное вознаграждение."
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. It momentarily comes to life, then pops. Seems like they only got it "
+"partially working. \"Well, I guess it's better than nothing... Maybe we can "
+"make do with this for now.\" They give you a modest reward."
 
 #: src-en/data/events_sector_og_iron.xml:1217
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[4]/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. Когда один из членов вашего экипажа что-то "
-"настраивает, привод вспыхивает и сгорает. Похоже, вы его полностью сломали. "
-"\"Молодец, болван. Теперь мы полностью в пролете\"."
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. As one of your crew adjusts something, the drive pops and burns "
+"before catching fire. Seems like you completely broke it. \"Way to go, "
+"jackass. Now we're completely screwed.\""
 
 #: src-en/data/events_sector_og_iron.xml:1220
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[5]/text"
 msgstr ""
-"Ваш член экипажа потратил некоторое время на эксперименты и поиск причины "
-"поломки прыжкового двигателя. Как бы он ни старался, он абсолютно не "
-"понимает, в чем проблема. Член экипажа качает головой. \"Как вы думаете, как"
-" вы могли бы понять в чем проблема, если мы не можем ее понять...?\""
+"Your crew take some time experimenting and working with the faulty jump "
+"drive. Try as they might, they have absolutely no idea what's wrong with it."
+" The Crew shake their heads. \"How did you think you would know what was "
+"wrong if we couldn't figure it out...?\""
 
 #: src-en/data/events_sector_og_iron.xml:1238
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/text"
 msgstr ""
-"Вы оказались лицом к лицу с транспортом Железного дозора, ваши сенсоры "
-"обнаруживают, что их прыжковый двигатель заряжается."
+"You've arrived face to face with an Iron Watch transport, your sensors are "
+"able to detect their jump drive being charged."
 
 #: src-en/data/events_sector_og_iron.xml:1240
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1242
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/text"
 msgstr ""
-"Когда они выполняют прыжок, вы видите, как случайный астероид врезается в "
-"борт корабля, отрывая часть корпуса. Это не мешает прыжку, и через мгновение"
-" транспорт исчезает."
+"As they execute the jump, you watch an undefended asteroid slam into the "
+"side of the ship, tearing a section free. This doesn't impede the jump and "
+"the transport disappears a moment later."
 
 #: src-en/data/events_sector_og_iron.xml:1245
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/text"
-msgstr "Исследовать."
+msgstr "Investigate."
 
 #: src-en/data/events_sector_og_iron.xml:1247
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/event/text"
 msgstr ""
-"Большая часть обломков бесполезна, но в конце концов вы находите грузовой "
-"контейнер, а внутри него необычную турель. Похоже, что эта турель имела "
-"конкретное назначение - ближайший аванпост. Вы записываете координаты."
+"Most of the wreckage is useless, but you do eventually find a cargo "
+"container, and inside an unusual looking turret. It appears that this turret"
+" had a specific destination, an outpost nearby. You note down the "
+"cooridinates."
 
 #: src-en/data/events_sector_og_iron.xml:1251
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1255
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1267
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/beaconType/unvisitedTooltip"
-msgstr "Предполагаемое место назначения найденной вами турели."
+msgstr "The intended destination of the turret you found."
 
 #: src-en/data/events_sector_og_iron.xml:1271
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/text"
 msgstr ""
-"Этот маяк является домом для большого аванпоста, несколько кораблей можно "
-"увидеть пристыкованными к аванпосту и вокруг него. Вы замечаете поврежденный"
-" транспорт поблизости."
+"This beacon is home to a large outpost, several ships can be seen in and "
+"around the outpost. You spot the damaged transport nearby."
 
 #: src-en/data/events_sector_og_iron.xml:1273
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
-msgstr "Пристыковаться рядом с поврежденным транспортом."
+msgstr "Dock near the damaged transport."
 
 #: src-en/data/events_sector_og_iron.xml:1275
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Вы выходите из корабля и сразу слышите громкий разговор, происходящий "
-"поблизости: \"Я не знаю, что мы будем делать, они заберут мой корабль из-за "
-"этого. Зачем мы вообще летели в это астероидное поле, оно даже не сэкономило"
-" нам больше, чем один прыжок\"."
+"You exit your ship and immediately overhear the loud conversation happening "
+"nearby \"I don't know what we're going to do, they're going to take away my "
+"ship over this. Why did we ever go into that asteroid field, it didn't even "
+"save us more than like 1 jump.\""
 
 #: src-en/data/events_sector_og_iron.xml:1277
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "not(@lvl)]/text"
-msgstr "Показать им их пропавшую турель."
+msgstr "Show them the missing turret."
 
 #: src-en/data/events_sector_og_iron.xml:1279
 msgid ""
@@ -1662,770 +1635,766 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "not(@lvl)]/event/text"
 msgstr ""
-"\"Слава богу, как вы ее нашли в этой мультивселенной?\" Вы объясняете, что "
-"видели, как их ударили и они ее потеряли. \"Вы спасли нам жизнь, вот, "
-"возьмите эти припасы в качестве награды\". Взяв турель с собой, капитан "
-"транспорта отправляется на аванпост."
+"\"Oh thank goodness, how in the multiverse did you find it?\" You explain "
+"that you saw them get hit and lose it. \"You're a lifesaver, here take these"
+" supplies as a reward.\" With the turret in tow, the captain of the "
+"transport heads off into the outpost."
 
 #: src-en/data/events_sector_og_iron.xml:1284
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "not(@lvl)]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1290
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "@lvl=\"0\"]/text"
-msgstr "У вас нет пропавшей турели."
+msgstr "You don't have the missing turret with you."
 
 #: src-en/data/events_sector_og_iron.xml:1294
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/text"
-msgstr "Тихо уйти."
+msgstr "Quietly leave."
 
 #: src-en/data/events_sector_og_iron.xml:1296
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/event/text"
-msgstr "Вы готовитесь к следующему прыжку."
+msgstr "You prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1298
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1302
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1310
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"-999\"]/text"
 msgstr ""
-"Вы можете пристыковаться к аванпосту, но без экипажа там будет сложно что-"
-"либо сделать."
+"You can dock at the outpost but without crew it will be hard to do anything "
+"there."
 
 #: src-en/data/events_sector_og_iron.xml:1314
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[3]/text"
-msgstr "Не обращать внимания на аванпост."
+msgstr "Ignore the outpost."
 
 #: src-en/data/events_sector_og_iron.xml:1316
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[3]/event/text"
-msgstr "Вы готовитесь к следующему прыжку."
+msgstr "You prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1318
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[3]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1322
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[3]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1341
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/text"
 msgstr ""
-"Вы прибываете к маяку и сталкиваетесь лицом к лицу с разведчиком Нового "
-"рассвета. Вы сразу же обнаруживаете, что корабль запускает свой прыжковый "
-"двигатель, и у вас есть всего лишь мгновение, прежде чем он улетит."
+"You arrive at the beacon face to face with a New Dawn scout. You immediately"
+" detect the ship powering up it's jump drive, you only have a moment before "
+"they jump away."
 
 #: src-en/data/events_sector_og_iron.xml:1343
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[1]/text"
-msgstr "Попытаться открыть огонь по их прыжковому двигателю!"
+msgstr "Attempt to fire on their jump drive!"
 
 #: src-en/data/events_sector_og_iron.xml:1347
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/text"
-msgstr "\"Подождите!\""
+msgstr "\"Hold on!\""
 
 #: src-en/data/events_sector_og_iron.xml:1349
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Корабль не сразу улетает, похоже, вы привлекли их внимание. Вы объясняете, что не собираетесь их убивать, а просто хотите узнать, что они здесь делают.\n"
-"Они не сразу отвечают и держат свой двигатель в готовности к прыжку."
+"The ship doesn't immediately jump away, it appears you have their attention. You explain that you're not going to kill them, you just want to know what they're doing here.\n"
+"They don't immediately respond and they keep their jump drive ready."
 
 #: src-en/data/events_sector_og_iron.xml:1352
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1354
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/choice/event/text"
 msgstr ""
-"В конце концов они отвечают: \"Ренегат, если вы хотите что-то узнать, вам "
-"придется доказать нам свою лояльность. Рядом находится склад снабжения "
-"Железного дозора, отправляйтесь туда и уничтожьте его, тогда мы поговорим\"."
-" С этими словами они уходят в прыжок."
+"Eventually they respond, \"Renegade, if you want to know anything you're "
+"going to have to prove yourself to us. Theres a nearby Iron Watch supply "
+"depot, go there and take it out, then we'll talk.\" With that they jump "
+"away."
 
 #: src-en/data/events_sector_og_iron.xml:1362
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
-msgstr "\"Подождите!\""
+msgstr "\"Hold on!\""
 
 #: src-en/data/events_sector_og_iron.xml:1364
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/text"
 msgstr ""
-"Корабль немедленно отключает связь, и через мгновение они исчезают. Похоже, "
-"они не заинтересованы в том, чтобы выслушать вас. Возможно, если бы они "
-"узнали вас, они были бы более склонны выслушать."
+"The ship immediately shuts off their comms, a moment later they're gone. It "
+"appears that they have no interest in hearing you out, perhaps if they had "
+"heard of you they'd be more willing to listen."
 
 #: src-en/data/events_sector_og_iron.xml:1367
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1371
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1377
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[4]/text"
-msgstr "Пусть уходят."
+msgstr "Let them leave."
 
 #: src-en/data/events_sector_og_iron.xml:1379
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[4]/event/text"
-msgstr "Корабль улетает, вы готовитесь к следующему прыжку."
+msgstr "The ship jumps away, you prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1382
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[4]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1386
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[4]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1394
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[1]/text"
 msgstr ""
-"Разведчик Нового рассвета легко уклоняется от вашей атаки, а через мгновение"
-" уходит в прыжок."
+"The New Dawn scout easily dodges your attack, a moment later they've jumped "
+"away."
 
 #: src-en/data/events_sector_og_iron.xml:1397
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[1]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1402
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[2]/text"
-msgstr ""
-"Вы наносите прямой удар по их двигателям, выводя из строя их прыжковый "
-"двигатель."
+msgstr "You score a direct hit on their engines, disabling their jump drive."
 
 #: src-en/data/events_sector_og_iron.xml:1406
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[2]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1417
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_DAWN_QUEST\"]/destroyed/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1425
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_DAWN_QUEST\"]/deadCrew/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1433
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/beaconType/unvisitedTooltip"
 msgstr ""
-"Местонахождение склада снабжения Железного дозора, который вам поручено "
-"уничтожить по заданию Нового рассвета."
+"Location of the Iron Watch supply depot you've been tasked with destroying "
+"by the New Dawn."
 
 #: src-en/data/events_sector_og_iron.xml:1438
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/text"
 msgstr ""
-"Вы прибыли в маяк и находите склад снабжения Железного дозора, но, к "
-"сожалению, он не единственный: неподалеку стоит на страже корабль Железного "
-"дозора."
+"You've arrived at beacon to find the Iron Watch supply depot, unfortunately "
+"it's not alone, an Iron Watch ship stands on guard nearby."
 
 #: src-en/data/events_sector_og_iron.xml:1440
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[1]/text"
-msgstr "Атаковать сторожевой корабль."
+msgstr "Attack the guard."
 
 #: src-en/data/events_sector_og_iron.xml:1442
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[1]/event/text"
 msgstr ""
-"Судно Железного дозора быстро встает между вами и складом. Приготовьтесь к "
-"бою."
+"The Iron Watch vessel quickly moves in between you and the depot, prepare to"
+" fight."
 
 #: src-en/data/events_sector_og_iron.xml:1445
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1451
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/text"
-msgstr "Предупредить их о планирующейся атаке."
+msgstr "Warn them about the attack."
 
 #: src-en/data/events_sector_og_iron.xml:1453
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/event/text"
 msgstr ""
-"В Железном дозоре очень благодарны за предупреждение и в знак благодарности "
-"предлагают немного припасов."
+"The Iron Watch are very grateful for the warning and they offer some "
+"supplies as thanks."
 
 #: src-en/data/events_sector_og_iron.xml:1456
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1462
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/text"
-msgstr "Отказаться от своей миссии."
+msgstr "Abandon your mission."
 
 #: src-en/data/events_sector_og_iron.xml:1464
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/event/text"
-msgstr "Вы держитесь на расстоянии и готовитесь к следующему прыжку."
+msgstr "You keep your distance and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1467
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1471
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1479
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN\"]/text"
 msgstr ""
-"После того, как вы справились с сторожевым кораблем, вы можете получить "
-"доступ к складу, разграбить его и уничтожить. Похоже, что Новый рассвет "
-"наблюдал за вами, потому что вскоре вы получаете сообщение: \"Найдите нас на"
-" передовой оперативной базе Нового рассвета, там мы поговорим\"."
+"With the guard ship dealt with you're able to access and loot and destroy "
+"the depot. It appears that the New Dawn were watching because it isn't very "
+"long before you receive a message. \"Find us at the New Dawn forward "
+"operating base, we'll talk there.\""
 
 #: src-en/data/events_sector_og_iron.xml:1483
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1510
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_SHIP\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1515
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_IRON\"]/text[1]"
 msgstr ""
-"Когда вы входите в систему, корабль Железного дозора приближается к вам. Они"
-" отказываются отвечать на все вызовы. Приготовьтесь к бою."
+"As you jump into the system a rogue Iron Watch ship advances on your "
+"position. They are refusing all hails. Prepare for a fight."
 
 #: src-en/data/events_sector_og_iron.xml:1516
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_IRON\"]/text[2]"
 msgstr ""
-"Вскоре после прибытия в систему с вами связывается небольшой крейсер. "
-"\"Какая удача, что мы случайно встретились. Ничего личного, но у вас есть "
-"кое-какая информация, которая нам нужна!\""
+"Soon after arriving in the system you are hailed by a small cruiser. \"What "
+"good fortune that we happen to run into each other. Nothing personal, but "
+"you have some information we need!\""
 
 #: src-en/data/events_sector_og_iron.xml:1517
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_IRON\"]/text[3]"
 msgstr ""
-"Единственный другой корабль на этом маяке сообщает вам: \"Наконец-то, после "
-"нескольких месяцев ожидания, кто-то попал в нашу ловушку!\""
+"The only other ship at this beacon messages you: \"Finally, after months of "
+"waiting, someone has fallen into our trap!\""
 
 #: src-en/data/events_sector_og_iron.xml:1518
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_IRON\"]/text[4]"
 msgstr ""
-"Едва вы успеваете зарегистрировать завершение прыжка, как системы вашего "
-"корабля предупреждают вас о приближающемся корабле с раскаленными орудиями."
+"You barely have time to register jump completion before your ship warns you "
+"of an incoming ship with weapons hot."
 
 #: src-en/data/events_sector_og_iron.xml:1522
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_PULSAR\"]/text"
 msgstr ""
-"Этот маяк расположен слишком близко к нейтронной звезде! Поле излучения "
-"временно ионизирует ваши системы. Корабли Железного дозора, по-видимому, "
-"были спроектированы так, чтобы эффективно противостоять присутствию "
-"пульсара, вам предстоит тяжелое испытание."
+"This beacon has been placed too close to a neutron star! The radiation field"
+" will temporarily ionize your systems. Iron Watch ships have apparently been"
+" designed to remain quite effective in the presence of pulsars, you're in "
+"for a bad time."
 
 #: src-en/data/events_sector_og_iron.xml:1526
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_PULSAR\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1532
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_PIRATE_PULSAR\"]/text"
 msgstr ""
-"Этот маяк расположен слишком близко к нейтронной звезде! Поле излучения "
-"временно ионизирует ваши системы. Пираты, по-видимому, не осознающие "
-"опасность пульсара, приближаются, чтобы вступить в бой."
+"This beacon has been placed too close to a neutron star! The radiation field"
+" will temporarily ionize your systems. A pirate, apparently oblivious to the"
+" danger of the pulsar, moves in to engage."
 
 #: src-en/data/events_sector_og_iron.xml:1536
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_PIRATE_PULSAR\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1556
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/text"
 msgstr ""
-"Вы прибыли к довольно пустынному маяку, здесь почти ничего интересного, "
-"кроме аванпоста Железного дозора, который вы обнаружили на орбите "
-"близлежащей планеты."
+"You've arrived at a rather desolate beacon, there is very little of note "
+"here apart from the Iron Watch outpost you detect in orbit around a nearby "
+"planet."
 
 #: src-en/data/events_sector_og_iron.xml:1558
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1560
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/text"
 msgstr ""
-"Как раз когда вам стало скучно, в системе появляется еще один корабль, не "
-"похожий на те корабли Железного дозора, которые вы видели раньше. Похоже, "
-"это какой-то новый крейсер, возможно, прототип."
+"Just as you were getting bored another ship jumps into the system, its "
+"unlike any Iron Watch ship you've seen before, it appears to be some type of"
+" new cruiser, possibly a prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1563
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1565
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/text"
 msgstr ""
-"Вы наблюдаете, как прототип пристыковывается к удаленному аванпосту. Спустя "
-"всего несколько минут корабль отстыковывается и улетает, не давая вам ничего"
-" сделать."
+"You watch as the prototype docks with the distant outpost. It's only a few "
+"minutes later when the ship undocks and jumps away before you can do "
+"anything."
 
 #: src-en/data/events_sector_og_iron.xml:1568
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/text"
-msgstr "(Дружественная репутация) Спросить об корабле на аванпосте."
+msgstr "(Friendly Reputation) Inquire about the ship with the outpost."
 
 #: src-en/data/events_sector_og_iron.xml:1572
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"0\"]/text"
-msgstr "(Нейтральная репутация) Спросить об корабле на аванпосте."
+msgstr "(Neutral Reputation) Inquire about the ship with the outpost."
 
 #: src-en/data/events_sector_og_iron.xml:1576
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"-999\"]/text"
-msgstr "(Негативная репутация) Спросить об корабле на аванпосте."
+msgstr "(Negative Reputation) Inquire about the ship with the outpost."
 
 #: src-en/data/events_sector_og_iron.xml:1580
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"sensors\"]/text"
-msgstr "(Продв. Сенсоры) Просканировать след от прыжка, оставленный кораблем."
+msgstr "(Adv. Sensors) Scan the jump wake created by the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1582
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"sensors\"]/event/text"
 msgstr ""
-"Сканируя излучение, вызванное прыжком, вы можете определить примерное место "
-"нахождение прототипа."
+"By scanning the radiation emitted by the jump you're able to triangulate the"
+" approximate destination for the prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1587
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/text"
-msgstr "Двигайся дальше."
+msgstr "Move on."
 
 #: src-en/data/events_sector_og_iron.xml:1589
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/event/text"
-msgstr "Вы держитесь на расстоянии и готовитесь к следующему прыжку."
+msgstr "You keep your distance and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1591
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1595
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1607
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_FRIENDLY\"]/text"
 msgstr ""
-"Через мгновение аванпост принимает ваш вызов: \"Вообще-то мы не должны "
-"разглашать эту информацию, но для вас сделаем исключение\"."
+"It's a moment before the the outpost greets you, \"We're not really supposed"
+" to give out this information, but we'll make an exception for you.\""
 
 #: src-en/data/events_sector_og_iron.xml:1610
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_FRIENDLY\"]/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1614
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_FRIENDLY\"]/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1619
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/text"
 msgstr ""
-"Через мгновение аванпост принимает ваш вызов, и вы сразу же сталкиваетесь со"
-" стеной: \"Извините, мы не можем предоставить никакой информации об этом "
-"корабле\"."
+"It's a moment before the the outpost greets you, and when they do you're met"
+" with an immediate wall, \"I'm sorry, we can't provide any information on "
+"that ship.\""
 
 #: src-en/data/events_sector_og_iron.xml:1621
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/text"
-msgstr "Это могло бы изменить ваше решение?"
+msgstr "Would this change your mind?"
 
 #: src-en/data/events_sector_og_iron.xml:1626
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/text"
 msgstr ""
-"Аванпост принимает ваш лом: \"Хотя ваше пожертвование очень мило, мы по-"
-"прежнему не можем ничего рассказать вам об этом корабле\"."
+"The outpost recieves your scrap, \"While your donation is very kind, we "
+"still can't tell you anything about that ship.\""
 
 #: src-en/data/events_sector_og_iron.xml:1628
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[1]/text"
-msgstr "Предложить более крупную взятку."
+msgstr "Offer a larger bribe."
 
 #: src-en/data/events_sector_og_iron.xml:1633
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"Аванпост принимает ваш лом: \"Вот это уже что-то, хотя мы не можем вам "
-"ничего рассказать, но в последнее время наша связь дает сбои и отправляет "
-"секретную информацию по открытым каналам, это действительно нужно "
-"проверить...\" Через мгновение ваш экипаж обнаруживает местонахождение "
-"корабля, которое транслируется по одному из открытых каналов."
+"The outpost recieves your scrap, \"Now that's something, we can't tell you, "
+"but recently our communications have actually been malfunctioning and "
+"sending secure information on public channels, it really needs to be looked "
+"into...\" A moment later your crew pickups the location of a ship being "
+"broadcast on one of the public channels."
 
 #: src-en/data/events_sector_og_iron.xml:1638
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/text"
-msgstr "Угрожать аванпосту, чтобы получить информацию."
+msgstr "Threaten the outpost for the information."
 
 #: src-en/data/events_sector_og_iron.xml:1640
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
-"Аванпост фактически беззащитен перед вашим оружием, они быстро капитулируют "
-"перед вашими требованиями, загружая данные о прототипе. Они также любезно "
-"возвращают ваше пожертвование."
+"The outpost is effectively defenseless against your weapons, they quickly "
+"capitulate to your demands, uploading the data on the prototype. They also "
+"kindly return your donation."
 
 #: src-en/data/events_sector_og_iron.xml:1646
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1652
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/text"
-msgstr "Действовать, не имея этой информации."
+msgstr "Move on without the information."
 
 #: src-en/data/events_sector_og_iron.xml:1654
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/event/text"
-msgstr "Вы удаляетесь от аванпоста и готовитесь к следующему прыжку."
+msgstr "You move away from the outpost and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1656
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1660
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1668
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[2]/text"
-msgstr "Предложить более крупную взятку."
+msgstr "Offer a larger bribe."
 
 #: src-en/data/events_sector_og_iron.xml:1673
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[2]/event/text"
 msgstr ""
-"Аванпост принимает ваш лом: \"Вот это уже что-то, хотя мы не можем вам "
-"ничего рассказать, но в последнее время наша связь дает сбои и отправляет "
-"секретную информацию по открытым каналам, это действительно нужно "
-"проверить...\" Через мгновение ваш экипаж обнаруживает местонахождение "
-"корабля, которое транслируется по одному из открытых каналов."
+"The outpost recieves your scrap, \"Now that's something, we can't tell you, "
+"but recently our communications have actually been malfunctioning and "
+"sending secure information on public channels, it really needs to be looked "
+"into...\" A moment later your crew pickups the location of a ship being "
+"broadcast on one of the public channels."
 
 #: src-en/data/events_sector_og_iron.xml:1678
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/text"
-msgstr "Угрожать аванпосту, чтобы получить информацию."
+msgstr "Threaten the outpost for the information."
 
 #: src-en/data/events_sector_og_iron.xml:1680
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/event/text"
 msgstr ""
-"Аванпост фактически беззащитен перед вашим оружием, они быстро капитулируют "
-"перед вашими требованиями, загружая данные о прототипе. Они также любезно "
-"возвращают ваше пожертвование."
+"The outpost is effectively defenseless against your weapons, they quickly "
+"capitulate to your demands, uploading the data on the prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1683
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1689
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/text"
-msgstr "(Взломщик) Получить удаленный доступ к их хранилищу данных."
+msgstr "(Hacking) Remotely access their data storage."
 
 #: src-en/data/events_sector_og_iron.xml:1691
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Пока вы ведете беседу с сотрудниками аванпоста, вы настраиваете систему "
-"Взлома, чтобы получить доступ к их хранилищу данных и загрузить их недавнюю "
-"переписку. После завершения загрузки вы прощаетесь, имея на руках информацию"
-" о местонахождении прототипа. К сожалению, ваш взлом обнаруживают как раз в "
-"тот момент, когда вы уходите."
+"While you make small talk with the outpost, you configure the Hacking system"
+" to get a read of their data storage, and download their recent "
+"communications data. Once the download is complete, you bid farewell with "
+"the location of the prototype in hand. Unfortunately your hack is detected "
+"just as you're leaving."
 
 #: src-en/data/events_sector_og_iron.xml:1694
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1700
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
-msgstr "(Продв. Взломщик) Получить удаленный доступ к их хранилищу данных."
+msgstr "(Adv. Hacking) Remotely access their data storage."
 
 #: src-en/data/events_sector_og_iron.xml:1702
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
-"Пока вы ведете беседу с сотрудниками аванпоста, вы настраиваете систему "
-"Взлома, чтобы получить доступ к их хранилищу данных и загрузить их недавнюю "
-"переписку. После завершения загрузки вы прощаетесь, имея на руках информацию"
-" о местонахождении прототипа."
+"While you make small talk with the outpost, you configure the Hacking system"
+" to get a read of their data storage, and download their recent "
+"communications data. Once the download is complete, you bid farewell with "
+"the location of the prototype in hand."
 
 #: src-en/data/events_sector_og_iron.xml:1707
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/text"
-msgstr "Действовать, не имея этой информации."
+msgstr "Move on without the information."
 
 #: src-en/data/events_sector_og_iron.xml:1709
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/event/text"
-msgstr "Вы удаляетесь от аванпоста и готовитесь к следующему прыжку."
+msgstr "You move away from the outpost and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1711
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1715
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1723
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/text"
 msgstr ""
-"Через мгновение аванпост принимает ваш вызов, и вы сразу же сталкиваетесь со"
-" стеной: \"Даже если бы мы могли вам сказать, мы бы этого не сделали\"."
+"It's a moment before the the outpost greets you, and when they do you're met"
+" with an immediate wall, \"Even if we could tell you we wouldn't.\""
 
 #: src-en/data/events_sector_og_iron.xml:1725
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/text"
-msgstr "Угрожать аванпосту, чтобы получить информацию."
+msgstr "Threaten the outpost for the information."
 
 #: src-en/data/events_sector_og_iron.xml:1727
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/event/text"
 msgstr ""
-"Аванпост фактически беззащитен перед вашим оружием, они быстро капитулируют "
-"перед вашими требованиями, загружая данные о прототипе."
+"The outpost is effectively defenseless against your weapons, they quickly "
+"capitulate to your demands, uploading the data on the prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1730
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1736
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/text"
-msgstr "(Взломщик) Получить удаленный доступ к их хранилищу данных."
+msgstr "(Hacking) Remotely access their data storage."
 
 #: src-en/data/events_sector_og_iron.xml:1738
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"Вы настраиваете систему Взлома, чтобы получить доступ к их хранилищу данных "
-"и загрузить их недавние коммуникационные данные. После завершения загрузки "
-"вы прощаетесь, имея на руках местонахождение прототипа. К сожалению, ваш "
-"взлом обнаруживается как раз в тот момент, когда вы уходите, и вы замечаете,"
-" что они сообщают об этом ближайшим аванпоста Железного дозора."
+"You configure the Hacking system to get a read of their data storage, and "
+"download their recent communications data. Once the download is complete, "
+"you bid farewell with the location of the prototype in hand. Unfortunately "
+"your hack is detected just as you're leaving and you detect them reporting "
+"it to nearby Iron Watch outposts."
 
 #: src-en/data/events_sector_og_iron.xml:1741
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1747
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
-msgstr "(Продв. Взломщик) Получить удаленный доступ к их хранилищу данных."
+msgstr "(Adv. Hacking) Remotely access their data storage."
 
 #: src-en/data/events_sector_og_iron.xml:1749
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
 msgstr ""
-"Вы настраиваете систему Взлома, чтобы получить доступ к их хранилищу данных "
-"и загрузить их недавние коммуникационные данные. После завершения загрузки "
-"вы прощаетесь, имея на руках местонахождение прототипа."
+"You configure the Hacking system to get a read of their data storage, and "
+"download their recent communications data. Once the download is complete, "
+"you bid farewell with the location of the prototype in hand."
 
 #: src-en/data/events_sector_og_iron.xml:1754
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/text"
-msgstr "Действовать, не имея этой информации."
+msgstr "Move on without the information."
 
 #: src-en/data/events_sector_og_iron.xml:1756
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/event/text"
-msgstr "Вы удаляетесь от аванпоста и готовитесь к следующему прыжку."
+msgstr "You move away from the outpost and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1758
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1762
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1775
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE_QUEST\"]/destroyed/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1784
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE_QUEST\"]/deadCrew/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1792
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/beaconType/unvisitedTooltip"
-msgstr "Местонахождение прототипа судна железного дозора."
+msgstr "Location of the prototype Iron Watch vessel."
 
 #: src-en/data/events_sector_og_iron.xml:1797
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете корабль Железного дозора на орбите "
-"рядом с пульсаром. Похоже, они тестируют свои системы вооружения на "
-"ближайшем астероиде."
+"You arrive at the beacon to discover the Iron Watch vessel in orbit around "
+"the pulsar here, it appears they're testing their weapon systems on a nearby"
+" asteroid."
 
 #: src-en/data/events_sector_og_iron.xml:1799
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
 
 #: src-en/data/events_sector_og_iron.xml:1801
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/text"
 msgstr ""
-"Вы видите, как большая волна от пульсара проносится по прототипу, а ваши сенсоры показывают, что несколько систем на борту сразу выходят из строя из-за воздействия пульсара.\n"
-"Как будто этого мало, из-за ближайшего астероида появляется новый корабль. Похоже, это один из кораблей Нового рассвета, и он движется к прототипу."
+"As you watch a large wave from the pulsar sweeps across the prototype, your sensors indicate several of the systems onboard are immediately disabled by the pulsar.\n"
+"If that's not bad enough a new ship reveals itself from behind a nearby asteroid, It appears to be one of those New Dawn ships, and it's moving in on the prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1805
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[1]/text"
-msgstr "Перейти к защитите прототипа Железного дозора."
+msgstr "Move in and defend the Iron Watch prototype."
 
 #: src-en/data/events_sector_og_iron.xml:1809
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[2]/text"
 msgstr ""
-"Помочь кораблю Нового рассвета в атаке на тяжело вооруженный прототип. "
-"(СКОРО)"
+"Aid the New Dawn ship in it's attack on the heavily armed prototype. (COMING"
+" SOON)"
 
 #: src-en/data/events_sector_og_iron.xml:1813
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/text"
-msgstr "Отступить на безопасное расстояние и не вмешиваться в бой."
+msgstr "Retreat to a safe distance and stay out of the fight."
 
 #: src-en/data/events_sector_og_iron.xml:1815
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/event/text"
-msgstr "Вы удаляетесь от двух кораблей и готовитесь к следующему прыжку."
+msgstr "You move away from the two ships and prepare for your next jump."
 
 #: src-en/data/events_sector_og_iron.xml:1818
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/event/choice[1]/text"
-msgstr "Заняться чем-либо на корабле."
+msgstr "Do something onboard the ship."
 
 #: src-en/data/events_sector_og_iron.xml:1822
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/event/choice[2]/text"
-msgstr "Ничего не делать."
+msgstr "Do nothing."
 
 #: src-en/data/events_sector_og_iron.xml:1832
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_WIN\"]/text"
 msgstr ""
-"Корабль Железного дозора в основном оправился от последствий атаки и "
-"связывается с вами. \"Мы благодарны вам за помощь, капитан. Без вашей помощи"
-" мы бы, наверное, не выжили. Возможно, пришло время более активно "
-"участвовать в вашей войне с повстанцами. Мы отправим чертежи прототипа в "
-"федерацию, возможно, они смогут их использовать\"."
+"The Iron Watch ship has mostly recovered from the attack, they contact you. "
+"\"We're grateful for your help Captain, we're not sure we would have "
+"survived that without you help. Perhaps it's time we took a more active "
+"presence in your war with the rebellion. We'll send the blueprints for the "
+"prototype along to the federation, perhaps they'll be able to use it.\""
 
 #: src-en/data/events_sector_og_iron.xml:1835
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_WIN\"]/choice/text"
-msgstr "Продолжить..."
+msgstr "Continue..."
