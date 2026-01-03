@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-01-04 05:09+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
+"Language-Team: French <https://weblate.hyperq.be/projects/the-old-guard/"
+"datablueprintsxmlappend/fr/>\n"
+"Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/blueprints.xml.append:4
 msgid ""
@@ -706,12 +713,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:981
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:982
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:983
 msgid ""
@@ -721,12 +728,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1018
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1019
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1020
 msgid ""
@@ -736,12 +743,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1055
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1056
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1057
 msgid ""
@@ -751,12 +758,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1094
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1095
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1096
 msgid ""
@@ -766,12 +773,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1142
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1143
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1144
 msgid ""
@@ -826,12 +833,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1306
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1307
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1308
 msgid ""
@@ -841,12 +848,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1346
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1347
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1348
 msgid ""
@@ -856,12 +863,12 @@ msgstr "VOUS NE DEVRIEZ PAS VOIR ÇA"
 #: src-en/data/blueprints.xml.append:1385
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/title"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1386
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/short"
-msgstr ""
+msgstr "Laser"
 
 #: src-en/data/blueprints.xml.append:1387
 msgid ""
