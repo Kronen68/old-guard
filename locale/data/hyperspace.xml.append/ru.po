@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-01-10 15:01+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datahyperspace-xml-append/ru/>\n"
 "Language: ru\n"
@@ -38,6 +38,7 @@ msgstr ""
 "Турели этого врага будут полностью заряжены в начале боя."
 
 #: src-en/data/hyperspace.xml.append:126
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike[1]/mod-"
 "append:shipIcon[4]/tooltip"
