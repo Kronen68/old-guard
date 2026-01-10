@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-01-10 15:01+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_dawnxml/ru/>\n"
 "Language: ru\n"
@@ -153,6 +153,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:117
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[1]/text"
 msgstr "Мы отказываемся платить, прорываемся с боем!"
@@ -328,14 +329,20 @@ msgstr ""
 "Ваши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Федерации и ее граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Федерации и ее союзников."
 
 #: src-en/data/events_sector_og_dawn.xml:253
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_DOUBLE_OG_DAWN\"]/text"
 msgstr ""
 "[РЕПУТАЦИЯ ПОВЫШЕНА - НОВЫЙ РАССВЕТ]\n"
-"\tВаши действия улучшили вашу репутацию среди Нового рассвета. Некоторые пиратские кланы могут охотнее предлагать вам скидки или особые сделки и будут чувствовать себя комфортнее рядом с вами.\n"
+"\tВаши действия улучшили вашу репутацию среди Нового рассвета. Некоторые "
+"пиратские кланы могут охотнее предлагать вам скидки или особые сделки и "
+"будут чувствовать себя комфортнее рядом с вами.\n"
 "\n"
 "[ДУРНАЯ СЛАВА ПОНИЖЕНА - ОБЩЕЕ]\n"
-"Ваши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Федерации и ее граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Федерации и ее союзников."
+"Ваши действия здесь, оправданные или нет, не лучшим образом отразятся в "
+"глазах Федерации и ее граждан. Продолжая совершать подобные действия, вы "
+"можете начать замечать негативную реакцию со стороны Федерации и ее "
+"союзников."
 
 #: src-en/data/events_sector_og_dawn.xml:263
 msgid ""
@@ -1740,6 +1747,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_dawn.xml:1368
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/text"
 msgstr "Вежливо отказаться."
@@ -2132,11 +2140,12 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1696
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_DAWN\"]/text[1]"
 msgstr ""
-"Когда вы входите в систему, корабль Железного дозора приближается к вам. Они"
-" отказываются отвечать на все вызовы. Приготовьтесь к бою."
+"Когда вы входите в систему, корабль Железного дозора приближается к вам. Они "
+"отказываются отвечать на все вызовы. Приготовьтесь к бою."
 
 #: src-en/data/events_sector_og_dawn.xml:1697
 msgid ""
@@ -2230,6 +2239,7 @@ msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/tex
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1831
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
@@ -2248,6 +2258,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_dawn.xml:1842
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
@@ -2320,6 +2331,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:1885
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/text"
@@ -2374,6 +2386,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:1917
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/text"
 msgstr "Не обращать внимания на корабль."
@@ -2534,6 +2547,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2050
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "Продолжить..."
