@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-10 15:01+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-01-10 18:56+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
 "Language-Team: French <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_dawnxml/fr/>\n"
 "Language: fr\n"
@@ -131,10 +131,9 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:117
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[1]/text"
-msgstr "On refuse de payer la somme, forçons le passage !"
+msgstr "On refuse de payer le pot-de-vin, forçons le passage !"
 
 #: src-en/data/events_sector_og_dawn.xml:119
 msgid ""
@@ -1680,7 +1679,6 @@ msgid ""
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_og_dawn.xml:1368
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/text"
 msgstr "Refuser poliment."
@@ -2169,11 +2167,10 @@ msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/tex
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1831
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
-msgstr "Contacter le vaisseau."
+msgstr "Contacter les vaisseaux."
 
 #: src-en/data/events_sector_og_dawn.xml:1833
 msgid ""
@@ -2188,11 +2185,10 @@ msgid ""
 msgstr "Continuer..."
 
 #: src-en/data/events_sector_og_dawn.xml:1842
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
-msgstr "Contacter le vaisseau."
+msgstr "Contacter les vaisseaux."
 
 #: src-en/data/events_sector_og_dawn.xml:1844
 msgid ""
@@ -2261,11 +2257,10 @@ msgid ""
 msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_og_dawn.xml:1885
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/text"
-msgstr "Contacter le vaisseau."
+msgstr "Contacter les vaisseaux."
 
 #: src-en/data/events_sector_og_dawn.xml:1887
 msgid ""
@@ -2316,10 +2311,9 @@ msgid ""
 msgstr "Ne rien faire."
 
 #: src-en/data/events_sector_og_dawn.xml:1917
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/text"
-msgstr "Ignorer le vaisseau."
+msgstr "Ignorer les vaisseaux."
 
 #: src-en/data/events_sector_og_dawn.xml:1919
 msgid ""
@@ -2477,7 +2471,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2050
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "Continuer..."
