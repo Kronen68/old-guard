@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-10 15:01+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2026-01-11 01:05+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datatext_eventsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -37,20 +37,19 @@ msgstr ""
 "Внизу вашего Атласа вы замечаете небольшой логотип \"Г\"... спонсорство? На нем написано: \"Посетите местные торговые площадки Гектар Индастриз!\" Хм..."
 
 #: src-en/data/text_events.xml.append:18
-#, fuzzy
 msgid "data/text_events.xml.append$//text[@name=\"atlas_og_dawn\"]"
 msgstr ""
-"Название: New Dawn Forward Operating Base\n"
+"Название: Передовая оперативная база Нового рассвета\n"
 "Тип: Враждебный\n"
 "Уникальный: Да\n"
 "Доминирующая фракция: Новый рассвет\n"
 "Уровень угрозы повстанцев: Очень высокий\n"
 "Места, представляющие интерес: ???\n"
 "\n"
-"This sector is in the very center of Rebel space, and is a prime spot for "
-"the most prominent Rebel operations. If you had any hopes of seeing a "
-"friendly face from the Federation here, stifle it immediately. Only a fool "
-"could dream something like that here."
+"Этот сектор находится в самом центре территории повстанцев и является "
+"основным местом проведения наиболее значимых операций повстанцев. Если у вас "
+"были какие-то надежды увидеть здесь дружественное лицо из Федерации, сразу "
+"же забудьте о них. Только дурак мог бы мечтать о чем-то подобном здесь."
 
 #: src-en/data/text_events.xml.append:28
 msgid "data/text_events.xml.append$//text[@name=\"map_icon_store_og_iron\"]"
