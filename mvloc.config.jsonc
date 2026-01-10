@@ -14,6 +14,7 @@
 		"data/events_sector_og_iron.xml",
 		
 		"data/events_sector_unexplored.xml.append",
+		"data/events_special_multiverse.xml.append",
 		"data/events_special_guards.xml.append",
 		"data/events_special_main.xml.append",
 		"data/events_special_jukebox.xml.append",
@@ -70,6 +71,9 @@
 		"//mod-append:customShip/crew/*/@name",
 		"//mod-append:page/section/@text",
 		"//achievement/name",
+		"//achievement/description",
+		"//achievement/secretDescription",
+		"//achievement/header",
 
 
 

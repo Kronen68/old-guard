@@ -425,4 +425,57 @@
 		</event>
 	</mod-append:choice>
 </mod:findName>
+
+<mod:findName type="event" name="STORAGE_CHECK_AUG">
+	<mod-append:choice req="MVBOSS_SPAWNER">
+		<text>(Drive Hacker) Summon an Old Guard MV vessel.</text>
+		<event load="STORAGE_CHECK_AUG_OG_BOSS_SPAWNER_LIST" />
+	</mod-append:choice>
+</mod:findName>
+
+<event name="STORAGE_CHECK_AUG_OG_BOSS_SPAWNER_LIST">
+	<loadEventList seeded="true" first="false" generate="true">
+		<event name="STORAGE_CHECK_AUG_OG_BOSS_SPAWNER_1" />
+	</loadEventList>
+</event>
+
+<event name="STORAGE_CHECK_AUG_OG_BOSS_SPAWNER_1">
+	<text>You check what ships are available to be summoned currently. Summoning an MV boss will take 7{.</text>
+	<choice hidden="true">
+		<text>Raider Class C - Drops Light Charger Turret</text>
+		<event>
+			<text>You power up the machine to max and watch as a rift opens, shaking the ship until suddenly it powers off, and a flashing green light followed by a string of coordinates signifies that it has worked.</text>
+			<item_modify>
+				<item type="fuel" min="-7" max="-7" />
+			</item_modify>
+			<quest event="MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE" />
+		</event>
+	</choice>
+	<choice>
+		<text>Nevermind, do something else.</text>
+		<event load="STORAGE_CHECK" />
+	</choice>
+</event>
+
+<mod:findName type="event" name="STORAGE_CHECK_REAL">
+	<mod-append:choice req="OG_CARGO_CRATE_PREIGN_WEAK">
+		<text>(Cargo Crate) Open the Cargo Crate.</text>
+		<event load="STORAGE_CHECK_OG_DAWN_CARGO_CRATE_PREIGN" />
+	</mod-append:choice>
+</mod:findName>
+<event name="STORAGE_CHECK_OG_DAWN_CARGO_CRATE_PREIGN">
+	<text>Are you sure you want to do this? It's unlikely the people you're delivering it to will be happy with you after this.</text>
+	<choice hidden="true">
+		<text>Do it!</text>
+		<event>
+			<text>You open the crate to discover a jumble of components and parts, the only thing useable is a half dismantled Turret Pre-energiser, which you're able to get back into working order, the rest is useless to you.</text>
+			<remove name="OG_CARGO_CRATE_PREIGN_WEAK"/>
+			<augment name="OG_TURRET_PREIGNITE_WEAK"/>
+		</event>
+	</choice>
+	<choice>
+		<text>Nevermind.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+</event>
 </FTL>

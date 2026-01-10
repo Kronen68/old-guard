@@ -40,8 +40,10 @@ end)
 
 local hookedEvents = {}
 local function turret_install_event(installEvent, sysName, shipManager, eventManager)
+	--print("turret_install_event"..installEvent.eventName.." sys:"..sysName)
 	if shipManager:HasSystem(3) then
 		for weapon in vter(shipManager.weaponSystem.weapons) do
+			--print("weapons:"..weapon.blueprint.name.." "..tostring((turrets[weapon.blueprint.name] and true) or false).." "..tostring((turrets[weapon.blueprint.name].mini and true) or false).." "..tostring((not microTurrets[sysName] and true) or false))
 			if turrets[weapon.blueprint.name] and (turrets[weapon.blueprint.name].mini or not microTurrets[sysName]) then
 				local removeEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_EMPTY", 0, false)
 				removeEvent.eventName = removeEvent.eventName.."_INSTALL_"..sysName.."_"..weapon.blueprint.name
@@ -61,10 +63,12 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 				removeEvent.stuff.removeItem = weapon.blueprint.name
 				removeEvent.stuff.weapon = weapon.blueprint
 				installEvent:AddChoice(removeEvent, "Установить это:", emptyReq, false)
+				--print("added choice:"..weapon.blueprint.name)
 			end
 		end
 	end
 	for item in vter(Hyperspace.App.gui.equipScreen:GetCargoHold()) do
+		--print("items:"..item)
 		if turrets[item] and (turrets[item].mini or not microTurrets[sysName]) then
 			local removeEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_EMPTY", 0, false)
 			removeEvent.eventName = removeEvent.eventName.."_INSTALL_"..sysName.."_"..item
@@ -85,6 +89,7 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 			local blueprint = Hyperspace.Blueprints:GetWeaponBlueprint(item)
 			removeEvent.stuff.weapon = blueprint
 			installEvent:AddChoice(removeEvent, "Установить это:", emptyReq, false)
+			--print("added item choice:"..item)
 		end
 	end
 
@@ -111,14 +116,19 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 					if not hookedEvents[removeEvent.eventName] then
 						hookedEvents[removeEvent.eventName] = true
 						script.on_game_event(removeEvent.eventName, false, function()
+							local sys = Hyperspace.ships.player:GetSystem(Hyperspace.ShipSystem.NameToSystemId(sysName))
 							Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] = -1
-							system.table.currentTarget = nil
 							Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemChargesVarName] = 0
 							Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemTimeVarName] = 0
-							system.table.chargeTime = 0
-							system.table.firingTime = 0
-							system.table.currentShot = 0
-							system.table.currentlyTargetting = false
+							if sys.table then
+								sys.table.currentTarget = nil
+								sys.table.chargeTime = 0
+								sys.table.firingTime = 0
+								sys.table.currentShot = 0
+								sys.table.currentlyTargetting = false
+							else
+								print("og: failed to get sys.table")
+							end
 							return
 						end)
 					end
@@ -174,28 +184,39 @@ for item in vter(Hyperspace.Blueprints:GetBlueprintList("BLUELIST_OBELISK")) do
 	--print("add to hideName:"..item)
 	hideName[item] = "Что-то старое"
 end
-hideName["PRIME_LASER"] = "Стоит ему попасть, и ты - труп"
-hideName["DEFENSE_PRIME"] = "Стоит ему попасть, и ты - труп"
-hideName["COMBAT_PRIME"] = "Стоит ему попасть, и ты - труп"
+hideName["PRIME_LASER"] = "Стоит ему попасть, и ты - труп."
+hideName["DEFENSE_PRIME"] = "Стоит ему попасть, и ты - труп."
+hideName["COMBAT_PRIME"] = "Стоит ему попасть, и ты - труп."
 hideName["BEAM_HARDSCIFI"] = "НАСТОЯЩАЯ НАУКА"
 hideName["GATLING_SYLVAN"] = "Теперь оно и твое, скупой предатель и убийца"
 
 mods.og.craftedWeapons = {}
 local craftedWeapons = mods.og.craftedWeapons
-table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_1", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_5", "LASER_CHAINGUN", "LASER_CHAINGUN_2", "LASER_CHAINGUN_DAMAGE", "LASER_CHARGEGUN", "LASER_CHARGEGUN_2", "LASER_CHARGEGUN_3", "LASER_CHARGE_CHAIN"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_1", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_5", "LASER_CHARGEGUN", "LASER_CHARGEGUN_2", "LASER_CHARGEGUN_3", "LASER_CHARGE_CHAIN"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_2", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_HEAVY_1", "LASER_HEAVY_2", "LASER_HEAVY_3", "LASER_HEAVY_CHAINGUN", "LASER_HEAVY_PIERCE"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_PIERCE", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_PIERCE", "LASER_PIERCE_2", "LASER_HEAVY_PIERCE", "ION_PIERCE_1", "ION_PIERCE_2"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_CHAINGUN", component_amounts = {1, 1}, components = {defence_drones_laser, { "LASER_CHAINGUN", "LASER_CHAINGUN_2", "LASER_CHAINGUN_DAMAGE", "LASER_CHARGE_CHAIN", "LASER_HULL_CHAINGUN"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_BIO", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_BIO", "LOOT_CLAN_1", "BOMB_BIO", "SHOTGUN_TOXIC", "SHOTGUN_TOXIC_PLAYER", "ION_BIO", "MISSILES_BIO"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_HULL", component_amounts = {1, 1}, components = {defence_drones_laser, {"LASER_HULL_1", "LASER_HULL_2", "LASER_HULL_3", "LASER_HULL_3_PLAYER", "LASER_HULL_CHAINGUN"}}} )
+
+
 table.insert(craftedWeapons, {weapon = "OG_TURRET_ION_1", component_amounts = {1, 1}, components = {defence_drones_ion, {"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_ION_2", component_amounts = {1, 1}, components = {defence_drones_ion, {"ION_FIRE", "ION_BIO", "ION_TRI", "ION_STUN", "ION_STUN_2", "ION_STUN_HEAVY", "ION_STUN_CHARGEGUN"}}} )
+
 table.insert(craftedWeapons, {weapon = "OG_TURRET_MISSILE_1", component_amounts = {1, 1}, components = {defence_drones_missile, {"MISSILES_1", "MISSILES_2", "MISSILES_BURST", "MISSILES_BURST_2", "MISSILES_BURST_2_PLAYER", "MISSILES_FREE"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_MISSILE_2", component_amounts = {1, 1}, components = {defence_drones_missile, {"MISSILES_3", "MISSILES_4", "MISSILES_ENERGY", "MISSILES_FIRE", "MISSILES_FIRE_PLAYER", "MISSILES_CLOAK", "MISSILES_CLOAK_PLAYER"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_KERNEL_HEAVY", component_amounts = {1, 1}, components = {defence_drones_missile, {"KERNEL_1", "KERNEL_1_ELITE", "KERNEL_2", "KERNEL_2_ELITE", "KERNEL_HEAVY", "KERNEL_HEAVY_ELITE"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_KERNEL_FIRE", component_amounts = {1, 1}, components = {defence_drones_missile, {"KERNEL_FIRE", "KERNEL_FIRE_ELITE", "KERNEL_CHAIN", "KERNEL_CHAIN_ELITE", "KERNEL_CHARGE", "KERNEL_CHARGE_ELITE"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_FLAK_1", component_amounts = {1, 1}, components = {defence_drones_missile, {"SHOTGUN_1", "SHOTGUN_2", "SHOTGUN_3", "SHOTGUN_4", "SHOTGUN_CHARGE", "SHOTGUN_CHAIN", "SHOTGUN_INSTANT"}}} )
+
 table.insert(craftedWeapons, {weapon = "OG_TURRET_FOCUS_1", component_amounts = {1, 1}, components = {defence_drones_focus, {"FOCUS_1", "FOCUS_2", "FOCUS_3", "FOCUS_CHAIN", "FOCUS_BIO"}}} )
 
-table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"LASER_BURST_2", "LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_3"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"LASER_BURST_2", "LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_3", "LASER_CONSERVATIVE"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_MINI_2", component_amounts = {1, 1}, components = {defence_drones_mini, {"LASER_LIGHT", "LASER_LIGHT_2", "LASER_LIGHT_BURST", "LASER_LIGHT_CHARGEGUN", "LASER_LIGHT_CHARGEGUN_CHAOS"}}} )
-table.insert(craftedWeapons, {weapon = "OG_TURRET_ION_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2"}}} )
-table.insert(craftedWeapons, {weapon = "OG_TURRET_FOCUS_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"FOCUS_1", "FOCUS_2", "FOCUS_3", "FOCUS_CHAIN", "FOCUS_BIO"}}} )
-table.insert(craftedWeapons, {weapon = "OG_TURRET_MISSILE_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"MISSILES_1", "MISSILES_2", "MISSILES_BURST", "MISSILES_BURST_2", "MISSILES_BURST_2_PLAYER", "MISSILES_FREE"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_ION_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2", "ION_CONSERVATIVE"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_FOCUS_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"FOCUS_1", "FOCUS_2", "FOCUS_3", "FOCUS_CHAIN", "FOCUS_BIO", "BEAM_CONSERVATIVE"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_FLAK_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"SHOTGUN_1", "SHOTGUN_2", "SHOTGUN_3", "SHOTGUN_4", "SHOTGUN_CHARGE", "SHOTGUN_CHAIN", "SHOTGUN_INSTANT"}}} )
+table.insert(craftedWeapons, {weapon = "OG_TURRET_MISSILE_MINI_1", component_amounts = {1, 1}, components = {defence_drones_mini, {"MISSILES_1", "MISSILES_2", "MISSILES_BURST", "MISSILES_BURST_2", "MISSILES_BURST_2_PLAYER", "MISSILES_FREE", "MISSILES_CONSERVATIVE"}}} )
 
 table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_ANCIENT", component_amounts = {1, 1}, components = {{"ANCIENT_DEFENSE_1"}, {"LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_5", "LASER_CHAINGUN", "LASER_CHAINGUN_2", "LASER_CHAINGUN_DAMAGE", "LASER_CHARGEGUN", "LASER_CHARGEGUN_2", "LASER_CHARGEGUN_3", "LASER_CHARGE_CHAIN"}}} )
 table.insert(craftedWeapons, {weapon = "OG_TURRET_LASER_ANCIENT", component_amounts = {1, 1}, components = {defence_drones_laser, {"ANCIENT_LASER", "ANCIENT_LASER_2", "ANCIENT_LASER_3", "ANCIENT_BEAM", "ANCIENT_BEAM_2", "ANCIENT_BEAM_3"}}} )
@@ -285,7 +306,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 					weaponEvent:AddChoice(weaponEvent, "Чертеж:", emptyReq, false)
 				end
 
-				local eventString = ((showBlueprint and weaponBlueprint.desc.title:GetText()) or "???") .." Требуется:"
+				local eventString = ((showBlueprint and weaponBlueprint.desc.title:GetText()) or "???") .." Requires:"
 				for i, components in ipairs(craftingData.components) do
 					eventString = eventString.."\n  Как минимум "..craftingData.component_amounts[i]..":"
 					if components == defence_drones then
@@ -299,7 +320,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 					elseif components == defence_drones_focus then
 						eventString = eventString.."\n	Любой защитный дрон\n	Основа точечной турели"
 					elseif components == defence_drones_mini then
-						eventString = eventString.."\n	Любой защитный дрон\n	Основа микротурели"
+						eventString = eventString.."\n	Любой защитный дрон\n	Основа микро-турели"
 					else
 						for _, needed in ipairs(components) do
 							if hideName[needed] and not (player:HasEquipment(needed, true) > 0) then
