@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-10 15:01+0000\n"
-"Last-Translator: Aleev <aleev1414@gmail.com>\n"
+"PO-Revision-Date: 2026-01-11 01:05+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datablueprintsxmlappend/ru/>\n"
 "Language: ru\n"
@@ -211,17 +211,20 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:240
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/title"
-msgstr ""
+msgstr "Грузовой ящик Нового рассвета"
 
 #: src-en/data/blueprints.xml.append:241
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/short"
-msgstr ""
+msgstr "Грузовой ящик"
 
 #: src-en/data/blueprints.xml.append:242
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/desc"
 msgstr ""
+"Необычный грузовой ящик, вы не знаете, что в нем, и если бы у вас было "
+"свободное время, вы, наверное, могли бы его открыть, но люди, которым вы его "
+"доставляете, были бы не в восторге от этого."
 
 #: src-en/data/blueprints.xml.append:259
 msgid ""
@@ -295,12 +298,11 @@ msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/short
 msgstr "Солдат Рассвета"
 
 #: src-en/data/blueprints.xml.append:345
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/powerList/power[1]"
 msgstr ""
 "Активная способность: маскируется, чтобы скрыться от вражеского экипажа, "
-"получает меньше урона в замаскированном состоянии, продолжительность "
+"наносит больше урона в замаскированном состоянии, продолжительность "
 "маскировки уменьшается в зависимости от выполняемых действий, а не от "
 "времени."
 
@@ -430,7 +432,6 @@ msgid ""
 msgstr "Имп. лаз."
 
 #: src-en/data/blueprints.xml.append:516
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/desc"
 msgstr ""
@@ -466,7 +467,6 @@ msgid ""
 msgstr "Стар. имп. лаз."
 
 #: src-en/data/blueprints.xml.append:558
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/desc"
 msgstr ""
@@ -476,17 +476,19 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:577
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/title"
-msgstr ""
+msgstr "Легкая зарядная турель"
 
 #: src-en/data/blueprints.xml.append:578
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/short"
-msgstr ""
+msgstr "Лег. зар."
 
 #: src-en/data/blueprints.xml.append:579
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/desc"
 msgstr ""
+"Особая лазерная турель, которая очень эффективно защищает корабль благодаря "
+"большому количеству зарядов и быстрой скорости вращения."
 
 #: src-en/data/blueprints.xml.append:598
 msgid ""
@@ -656,7 +658,6 @@ msgid ""
 msgstr "Роевая рак."
 
 #: src-en/data/blueprints.xml.append:811
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/desc"
 msgstr ""
@@ -721,7 +722,6 @@ msgid ""
 msgstr "Оскол."
 
 #: src-en/data/blueprints.xml.append:896
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/desc"
 msgstr ""
@@ -807,7 +807,6 @@ msgid ""
 msgstr "Л. лаз."
 
 #: src-en/data/blueprints.xml.append:1001
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/desc"
 msgstr ""
@@ -891,13 +890,16 @@ msgid ""
 msgstr "€ Тяж. лаз."
 
 #: src-en/data/blueprints.xml.append:1107
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/desc"
 msgstr ""
 "Тяжелые лазерные турели являются плохими оборонительными турелями из-за их "
 "низкой скорости вращения и высокого урона за выстрел, но они отлично "
-"подходят для борьбы с вражескими кораблями."
+"подходят для борьбы с вражескими кораблями. \n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1127
 msgid ""
@@ -910,13 +912,16 @@ msgid ""
 msgstr "€ Заж. ион."
 
 #: src-en/data/blueprints.xml.append:1129
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/desc"
 msgstr ""
 "Ионные турели отлично подавляют дронов, а также могут выводить из строя "
 "системы, не повреждая корпус. Эта турель вызывает возгорание в системе, по "
-"которой она стреляет."
+"которой она стреляет. \n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1149
 msgid ""
@@ -929,12 +934,15 @@ msgid ""
 msgstr "€ Четыр. рак."
 
 #: src-en/data/blueprints.xml.append:1151
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/desc"
 msgstr ""
 "Медленно заряжается, но способна наносить высокий урон вражескому кораблю, "
-"неплохо справляется с вражескими дронами и твердыми снарядами."
+"неплохо справляется с вражескими дронами и твердыми снарядами.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1171
 msgid ""
@@ -947,12 +955,15 @@ msgid ""
 msgstr "€ Оскол."
 
 #: src-en/data/blueprints.xml.append:1173
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/desc"
 msgstr ""
 "Мощная осколочная турель, способная производить невероятные залпы как в "
-"защите, так и в атаке."
+"защите, так и в атаке.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1193
 msgid ""
@@ -965,12 +976,15 @@ msgid ""
 msgstr "€ Точечный луч"
 
 #: src-en/data/blueprints.xml.append:1195
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/desc"
 msgstr ""
 "Точечная лазерная турель чрезвычайно эффективна против вражеских ракет "
-"благодаря почти мгновенному поражению цели."
+"благодаря почти мгновенному поражению цели.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1215
 msgid ""
@@ -983,13 +997,16 @@ msgid ""
 msgstr "€ Микролаз."
 
 #: src-en/data/blueprints.xml.append:1217
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/desc"
 msgstr ""
 "Микролазерная турель вряд ли сможет самостоятельно справиться с вражеским "
 "кораблем, но ее высокая скорость вращения делает ее эффективным "
-"оборонительным средством."
+"оборонительным средством.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1237
 msgid ""
@@ -1002,12 +1019,15 @@ msgid ""
 msgstr "€ Л. лаз."
 
 #: src-en/data/blueprints.xml.append:1239
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/desc"
 msgstr ""
 "Неспособна наносить урон системе, эта Легкая лазерная турель гораздо лучше "
-"подходит для подавления щитов и защиты."
+"подходит для подавления щитов и защиты.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1259
 msgid ""
@@ -1020,12 +1040,15 @@ msgid ""
 msgstr "€ Микро точ."
 
 #: src-en/data/blueprints.xml.append:1261
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/desc"
 msgstr ""
 "Эта небольшая точечная турель требует поддержки, чтобы нанести урон "
-"вражескому кораблю, но способна противостоять вражеским ракетам."
+"вражескому кораблю, но способна противостоять вражеским ракетам.\n"
+"Вариант Нового рассвета накладывает на пораженные помещения статусный "
+"эффект, который приводит к увеличению урона системе на +1. Однако системы "
+"турелей, оснащенные турелями Нового рассвета, также получают +1 к урону "
+"системе при попадании."
 
 #: src-en/data/blueprints.xml.append:1282
 msgid ""
@@ -1716,12 +1739,12 @@ msgid ""
 msgstr "Аяччо"
 
 #: src-en/data/blueprints.xml.append:3403
-#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/desc"
 msgstr ""
-"Используя артиллерийские технологии Федерации и вооружение, аналогичное "
-"Флагману, этот мощный крейсер представляет собой серьезную угрозу."
+"Используя артиллерийские технологии Железного дозора и вооружение, "
+"аналогичное Флагману, этот мощный крейсер представляет собой серьезную "
+"угрозу."
 
 #: src-en/data/blueprints.xml.append:3483
 msgid ""
@@ -1842,7 +1865,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:3990
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE_WEAK\"]/title"
-msgstr ""
+msgstr "Предварительное питание турели"
 
 #: src-en/data/blueprints.xml.append:3991
 msgid ""
