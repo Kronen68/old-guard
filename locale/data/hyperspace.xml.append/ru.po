@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-13 13:45+0000\n"
+"PO-Revision-Date: 2026-01-14 04:02+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datahyperspace-xml-append/ru/>\n"
@@ -22,14 +22,13 @@ msgstr ""
 "Вражеские турели вращаются на 100% быстрее."
 
 #: src-en/data/hyperspace.xml.append:116
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "ОТРАЖАЮЩЕЕ ПОКРЫТИЕ:\n"
-"Уменьшает урон от лучей, попадающих в этот корабль, в два раза "
-"(с округлением в меньшую сторону)."
+"Уменьшает урон от лучей, попадающих в этот корабль, в два раза, округляя в "
+"меньшую сторону, но не ниже 1."
 
 #: src-en/data/hyperspace.xml.append:121
 msgid ""
@@ -48,7 +47,6 @@ msgstr ""
 "Турели этого врага будут полностью заряжены в начале боя."
 
 #: src-en/data/hyperspace.xml.append:131
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike[1]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -107,12 +105,11 @@ msgid ""
 msgstr "Перебежчик"
 
 #: src-en/data/hyperspace.xml.append:259
-#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/description"
 msgstr ""
-"Доберитесь до сектора 8, не нанимая ни одного нечеловеческого члена экипажа "
-"на корабль класса \"Острие\"."
+"Доберитесь до сектора 8 без прыжка к новому маяку с единственным членом "
+"экипажа, не являющимся человеком, на борту корабля класса \"Острие\"."
 
 #: src-en/data/hyperspace.xml.append:264
 msgid ""
