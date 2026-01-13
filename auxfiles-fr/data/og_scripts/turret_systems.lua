@@ -435,7 +435,7 @@ end
 local function get_level_description_system(currentId, level, tooltip)
 	for _, sysName in ipairs(systemNameList) do
 		if currentId == Hyperspace.ShipSystem.NameToSystemId(sysName) then
-			return string.format("More System Power")
+			return string.format("Plus de puissance système")
 		end
 	end
 end
@@ -2196,7 +2196,7 @@ for _, sysName in ipairs(systemNameList) do
 end
 
 local key_names = {
-	SDLK_UNKNOWN = {index = 0, name = "Unknown"},
+	SDLK_UNKNOWN = {index = 0, name = "Inconnu"},
 	SDLK_0 = {index = 48, name = "0"},
 	SDLK_1 = {index = 49, name = "1"},
 	SDLK_2 = {index = 50, name = "2"},
@@ -2332,7 +2332,7 @@ local key_names = {
 	SDLK_x = {index = 120, name = "x"},
 	SDLK_y = {index = 121, name = "y"},
 	SDLK_z = {index = 122, name = "z"},
-	SDLK_LAST = {index = 323, name = "Last"},
+	SDLK_LAST = {index = 323, name = "Dernier"},
 }
 
 local hotkeys = {
@@ -2388,9 +2388,9 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 			end
 		end
 		if key == -1 then
-			s = "Unset"
+			s = "Non défini"
 		end
-		event:AddChoice(event, "Current key: "..s, emptyReq, false)
+		event:AddChoice(event, "Touche actuelle : "..s, emptyReq, false)
 	end
 end)
 
@@ -2454,9 +2454,9 @@ script.on_internal_event(Defines.InternalEvents.POST_CREATE_CHOICEBOX, function(
 					end
 				end
 				if key == -1 then
-					s = "Unset"
+					s = "Non défini"
 				end
-				choice.text = choice.text.." (currently is the \""..s.."\" key)"
+				choice.text = choice.text.." (Actuellement, c’est la  \""..s.."\" touche)"
 			end
 		end
 	end

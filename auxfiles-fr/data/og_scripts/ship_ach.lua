@@ -162,16 +162,16 @@ script.on_render_event(Defines.RenderEvents.MOUSE_CONTROL, function()
 				end
 			end
 			if Hyperspace.playerVariables.og_ach_track_humans_only == 0 and validRun then
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Valid"
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nSuccès Allégeance Rebelle : Partie Valide\nÉquipage actuel du vaisseau: Valide"
 			elseif Hyperspace.playerVariables.og_ach_track_humans_only == 0 then
 				local appendCrewString = ""
 				for _, s in ipairs(invalidCrew) do
 					appendCrewString = appendCrewString..", "..s
 				end
 				appendCrewString = string.sub(appendCrewString, 2)
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Invalid\nInvalid Crew:"..appendCrewString
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nSuccès Allégeance Rebelle : Partie Valide\nÉquipage actuel du vaisseau : Invalide\nÉquipage Invalide:"..appendCrewString
 			else
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Invalid Run"
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nSuccès Allégeance Rebelle : Partie Invalide"
 			end
 		end
 	end

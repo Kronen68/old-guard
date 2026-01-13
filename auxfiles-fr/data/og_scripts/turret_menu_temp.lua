@@ -66,7 +66,7 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 				end
 				removeEvent.stuff.removeItem = weapon.blueprint.name
 				removeEvent.stuff.weapon = weapon.blueprint
-				installEvent:AddChoice(removeEvent, "Install this:", emptyReq, false)
+				installEvent:AddChoice(removeEvent, "Installez ceci :", emptyReq, false)
 				--print("added choice:"..weapon.blueprint.name)
 			end
 		end
@@ -92,7 +92,7 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 			removeEvent.stuff.removeItem = item
 			local blueprint = Hyperspace.Blueprints:GetWeaponBlueprint(item)
 			removeEvent.stuff.weapon = blueprint
-			installEvent:AddChoice(removeEvent, "Install this:", emptyReq, false)
+			installEvent:AddChoice(removeEvent, "Installez ceci :", emptyReq, false)
 			--print("added item choice:"..item)
 		end
 	end
@@ -110,7 +110,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				if Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] < 0 then
 					local installEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_INSTALL", 0, false)
 					turret_install_event(installEvent, sysName, shipManager, eventManager)
-					event:AddChoice(installEvent, "Manage Empty Turret.", emptyReq, false)
+					event:AddChoice(installEvent, "Gérer la tourelle vide.", emptyReq, false)
 				else
 					local removeEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_REMOVE", 0, false)
 
@@ -138,7 +138,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 					end
 					local blueprint = Hyperspace.Blueprints:GetWeaponBlueprint(turretBlueprintsList[Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] ])
 					removeEvent.stuff.weapon = blueprint
-					event:AddChoice(removeEvent, "Uninstall Turret:", emptyReq, false)
+					event:AddChoice(removeEvent, "Désinstaller la tourelle:", emptyReq, false)
 				end
 			end
 		end
@@ -193,15 +193,15 @@ mods.og.hideName = {}
 local hideName = mods.og.hideName
 for item in vter(Hyperspace.Blueprints:GetBlueprintList("BLUELIST_OBELISK")) do
 	--print("add to hideName:"..item)
-	hideName[item] = "Something Old"
+	hideName[item] = "Quelque chose de vieux"
 end
 hideName["GATLING"] = "Unleash hell on your opposition!"
-hideName["PRIME_LASER"] = "Let it hit you and you're already dead."
-hideName["DEFENSE_PRIME"] = "Archein."
-hideName["COMBAT_PRIME"] = "Let it hit you and you're already dead."
-hideName["BEAM_HARDSCIFI"] = "REAL SCIENCE"
-hideName["GATLING_SYLVAN"] = "You greedy, murdering traitor you"
-hideName["GATLING_SYLVAN_HONOR"] = "You greedy, murdering traitor you"
+hideName["PRIME_LASER"] = "S’il vous touche, vous êtes mort."
+hideName["DEFENSE_PRIME"] = "Archéen."
+hideName["COMBAT_PRIME"] = "S’il vous touche, vous êtes mort."
+hideName["BEAM_HARDSCIFI"] = "VRAIE SCIENCE"
+hideName["GATLING_SYLVAN"] = "Espèce de traître cupide et meurtrier"
+hideName["GATLING_SYLVAN_HONOR"] = "Espèce de traître cupide et meurtrier"
 
 mods.og.craftedWeapons = {}
 local craftedWeapons = mods.og.craftedWeapons
@@ -265,12 +265,12 @@ local function addComponentStep(currentEvent, weapon, craftingData, itemLevel, i
 			if neededBlueprint.desc.title:GetText() == "" then
 				neededBlueprint = Hyperspace.Blueprints:GetDroneBlueprint(needed)
 			end
-			currentEvent:AddChoice(tempEvent, "Use your "..neededBlueprint.desc.title:GetText(), emptyReq, true)
+			currentEvent:AddChoice(tempEvent, "Utilisez votre "..neededBlueprint.desc.title:GetText(), emptyReq, true)
 			if itemAmount >= craftingData.component_amounts[itemLevel] then
 				if itemLevel >= #craftingData.components then
 					tempEvent.eventName = "OG_CRAFT_FINISH_ITEM"
 					tempEvent.stuff.weapon = Hyperspace.Blueprints:GetWeaponBlueprint(weapon)
-					tempEvent.text.data = "You follow the supplied blueprint and eventually come away with a new item."
+					tempEvent.text.data = "Vous suivez le schéma fourni et finissez par obtenir un nouvel objet."
 					tempEvent.text.isLiteral = true
 				else
 					addComponentStep(tempEvent, weapon, craftingData, itemLevel + 1, 1)
@@ -323,15 +323,15 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				local weaponEvent = eventManager:CreateEvent("OG_CRAFT_CRAFT", 0, false)
 				if showBlueprint then
 					weaponEvent.eventName = "OG_CRAFT_CRAFT_"..weapon
-					weaponEvent:AddChoice(weaponEvent, "Blueprint:", emptyReq, false)
+					weaponEvent:AddChoice(weaponEvent, "schéma :", emptyReq, false)
 				else
 					weaponEvent.eventName = "OG_CRAFT_HIDDEN_"..weapon
-					weaponEvent:AddChoice(weaponEvent, "Blueprint:", emptyReq, false)
+					weaponEvent:AddChoice(weaponEvent, "schéma :", emptyReq, false)
 				end
 
-				local eventString = ((showBlueprint and weaponBlueprint.desc.title:GetText()) or "???") .." Requires:"
+				local eventString = ((showBlueprint and weaponBlueprint.desc.title:GetText()) or "???") .." Nécessite :"
 				for i, components in ipairs(craftingData.components) do
-					eventString = eventString.."\n  Atleast "..craftingData.component_amounts[i]..":"
+					eventString = eventString.."\n  Au minimum "..craftingData.component_amounts[i]..":"
 					if components == defence_drones then
 						eventString = eventString.."\n	N’importe quel drone de défense"
 					elseif components == defence_drones_laser then
@@ -375,7 +375,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 
 				if canCraft then
 					local craftStepEvent = eventManager:CreateEvent("OG_CRAFT_CRAFT_STEP", 0, false)
-					weaponEvent:AddChoice(craftStepEvent, "Craft this item.", blueReq, false)
+					weaponEvent:AddChoice(craftStepEvent, "Fabriquer cet objet.", blueReq, false)
 
 					addComponentStep(craftStepEvent, weapon, craftingData, 1, 1)
 
@@ -385,7 +385,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 					end
 				else
 					local tempEvent = eventManager:CreateEvent("OPTION_INVALID", 0, false)
-					weaponEvent:AddChoice(tempEvent, "Craft this item.", emptyReq, true)
+					weaponEvent:AddChoice(tempEvent, "Fabriquer cet objet.", emptyReq, true)
 
 
 					if showBlueprint then
@@ -395,7 +395,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				if showBlueprint then
 					table.insert(craftedItemsVisible, weapon)
 				else
-					event:AddChoice(weaponEvent, "Unknown Turret", emptyReq, false)
+					event:AddChoice(weaponEvent, "Tourelle inconnue", emptyReq, false)
 					table.insert(craftedItemsVisible, "OG_TURRET_UNKNOWN")
 				end
 			end
@@ -436,7 +436,7 @@ end)
 
 script.on_internal_event(Defines.InternalEvents.WEAPON_DESCBOX, function(blueprint, desc)
 	if turret_bases[blueprint.name] then
-		desc = "Can be used to fabricate:"
+		desc = "Peut être utilisé pour fabriquer :"
 		for _, craftingData in ipairs(craftedWeapons) do
 			local has_base = false
 			local hidden = false
