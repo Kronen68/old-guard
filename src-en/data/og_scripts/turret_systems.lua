@@ -186,6 +186,7 @@ local systemNameCheck = {}
 for _, sysName in ipairs(systemNameList) do
 	systemNameCheck[sysName] = true
 end
+local scrambler_radius = 48
 
 local turret_directions = {
 	up = -1,
@@ -268,6 +269,7 @@ local defence_types = {
 	MISSILES = {[1] = true, [2] = true, [7] = true, name = "All Solid Projectiles"},
 	DRONES_MISSILES = {[1] = true, [2] = true, [3] = true, [7] = true, name = "All Solid Projectiles and Drones"},
 	PROJECTILES = {[4] = true, name = "Non-Solid Projectiles"},
+	DRONES_PROJECTILES = {[3] = true, [4] = true, name = "Non-Solid Projectiles and Drones"},
 	PROJECTILES_MISSILES = {[1] = true, [2] = true, [4] = true, [7] = true, name = "All Projectiles"},
 	ALL = {[1] = true, [2] = true, [3] = true, [4] = true, [7] = true, name = "All"},
 }
@@ -712,7 +714,7 @@ local function system_click(systemBox, shift)
 					if checkValidTarget(drone._targetable, currentTurret.defence_type, shipManager) and not drone.bDead then
 						local targetPos = drone._targetable:GetRandomTargettingPoint(true)
 						local dist
-						if projectile._targetable:GetSpaceId() == 0 then
+						if drone._targetable:GetSpaceId() == 0 then
 							dist = get_distance(mousePosPlayer, targetPos)
 						else
 							dist = 500
@@ -793,14 +795,21 @@ script.on_render_event(Defines.RenderEvents.SHIP_SPARKS, function(ship) end, fun
 			local currentTurret = turrets[ turretBlueprintsList[ Hyperspace.playerVariables[math.floor(otherManager.iShipId)..sysName..systemBlueprintVarName] ] ]
 			--print("render"..turretBlueprintsList[ Hyperspace.playerVariables[math.floor(otherManager.iShipId)..sysName..systemBlueprintVarName] ].." "..math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName)
 			if system.table.currentlyTargetting then
-				if currentTurret.blueprint_type ~= 3 then
+				if combatControl.selectedRoom >= 0 and currentTurret.blueprint_type ~= 3 then
 					for room in vter(ship.vRoomList) do
 						if room.iRoomId == combatControl.selectedRoom then
 							Graphics.CSurface.GL_RenderPrimitive(room.highlightPrimitive) -- highlight the room
 							Graphics.CSurface.GL_RenderPrimitive(room.highlightPrimitive2)
 						end
 					end
-				elseif combatControl.selectedRoom >= 0 then
+					if currentTurret.shot_radius then
+						local targetPos = shipManager:GetRoomCenter(combatControl.selectedRoom)
+						Graphics.CSurface.GL_PushMatrix()
+						Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
+						Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, Graphics.GL_Color(1, 0, 0, 0.25))
+						Graphics.CSurface.GL_PopMatrix()
+					end
+				elseif combatControl.selectedRoom >= 0 and currentTurret.shot_radius then
 					local targetShipGraph = Hyperspace.ShipGraph.GetShipInfo(shipManager.iShipId)
 					local roomShape = targetShipGraph:GetRoomShape(combatControl.selectedRoom)
 					local mousePosEnemy = worldToEnemyLocation(Hyperspace.Mouse.position)
@@ -808,10 +817,7 @@ script.on_render_event(Defines.RenderEvents.SHIP_SPARKS, function(ship) end, fun
 					local targetPos = targetShipGraph:GetSlotWorldPosition(slotId, combatControl.selectedRoom)
 					Graphics.CSurface.GL_PushMatrix()
 					Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-					if currentTurret.shot_radius then
-						Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, Graphics.GL_Color(1, 0, 0, 0.25))
-					end
-					Graphics.CSurface.GL_RenderPrimitive(targetingImage.temp)
+					Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, Graphics.GL_Color(1, 0, 0, 0.25))
 					Graphics.CSurface.GL_PopMatrix()
 				end
 			elseif system.table.currentTarget and Hyperspace.playerVariables[math.floor(otherManager.iShipId)..sysName..systemStateVarName] == 0 and not system.table.currentlyTargetted then
@@ -878,7 +884,7 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 					if checkValidTarget(drone._targetable, currentTurret.defence_type, shipManager) and not drone.bDead and drone._targetable:GetSpaceId() == ship.iShipId then
 						local targetPos = drone._targetable:GetRandomTargettingPoint(true)
 						local dist
-						if projectile._targetable:GetSpaceId() == 0 then
+						if drone._targetable:GetSpaceId() == 0 then
 							dist = get_distance(mousePosPlayer, targetPos)
 						else
 							dist = 500
@@ -892,8 +898,11 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 					local targetPos = currentClosest.target:GetRandomTargettingPoint(true)
 					Graphics.CSurface.GL_PushMatrix()
 					Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-					if currentTurret.shot_radius then
-						Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius/2, Graphics.GL_Color(1, 0, 0, 0.25))
+					if currentTurret.shot_radius or shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+						local rad = (currentTurret.shot_radius or 0)
+						rad = rad/2
+						if shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
+						Graphics.CSurface.GL_DrawCircle(0, 0, rad, Graphics.GL_Color(1, 0, 0, 0.25))
 					end
 					Graphics.CSurface.GL_RenderPrimitive(targetingImage.hover)
 					Graphics.CSurface.GL_PopMatrix()
@@ -904,8 +913,11 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 						local targetPos = system.table.currentTarget._targetable:GetRandomTargettingPoint(true)
 						Graphics.CSurface.GL_PushMatrix()
 						Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-						if currentTurret.shot_radius then
-							Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius/2, Graphics.GL_Color(1, 0, 0, 0.25))
+						if currentTurret.shot_radius or shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+							local rad = (currentTurret.shot_radius or 0)
+							rad = rad/2
+							if shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
+							Graphics.CSurface.GL_DrawCircle(0, 0, rad, Graphics.GL_Color(1, 0, 0, 0.25))
 						end
 						Graphics.CSurface.GL_RenderPrimitive(targetingImage.full)
 						Graphics.CSurface.GL_PopMatrix()
@@ -916,8 +928,11 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 						local targetPos = system.table.currentTarget._targetable:GetRandomTargettingPoint(true)
 						Graphics.CSurface.GL_PushMatrix()
 						Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-						if currentTurret.shot_radius then
-							Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius/2, Graphics.GL_Color(1, 0, 0, 0.25))
+						if currentTurret.shot_radius or shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+							local rad = (currentTurret.shot_radius or 0)
+							rad = rad/2
+							if shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
+							Graphics.CSurface.GL_DrawCircle(0, 0, rad, Graphics.GL_Color(1, 0, 0, 0.25))
 						end
 						Graphics.CSurface.GL_RenderPrimitive(targetingImage.full)
 						Graphics.CSurface.GL_PopMatrix()
@@ -929,8 +944,11 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 						local targetPos = system.table.currentTargetTemp._targetable:GetRandomTargettingPoint(true)
 						Graphics.CSurface.GL_PushMatrix()
 						Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-						if currentTurret.shot_radius then
-							Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius/2, Graphics.GL_Color(1, 0, 0, 0.25))
+						if currentTurret.shot_radius or shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+							local rad = (currentTurret.shot_radius or 0)
+							rad = rad/2
+							if shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
+							Graphics.CSurface.GL_DrawCircle(0, 0, rad, Graphics.GL_Color(1, 0, 0, 0.25))
 						end
 						Graphics.CSurface.GL_RenderPrimitive(targetingImage.temp)
 						Graphics.CSurface.GL_PopMatrix()
@@ -941,8 +959,11 @@ script.on_render_event(Defines.RenderEvents.SHIP, function() end, function(ship)
 						local targetPos = system.table.currentTargetTemp._targetable:GetRandomTargettingPoint(true)
 						Graphics.CSurface.GL_PushMatrix()
 						Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-						if currentTurret.shot_radius then
-							Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius/2, Graphics.GL_Color(1, 0, 0, 0.25))
+						if currentTurret.shot_radius or shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+							local rad = (currentTurret.shot_radius or 0)
+							rad = rad/2
+							if shipManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
+							Graphics.CSurface.GL_DrawCircle(0, 0, rad, Graphics.GL_Color(1, 0, 0, 0.25))
 						end
 						Graphics.CSurface.GL_RenderPrimitive(targetingImage.temp)
 						Graphics.CSurface.GL_PopMatrix()
@@ -1338,12 +1359,20 @@ local function fireTurret(system, currentTurret, shipManager, otherManager, sysN
 		--currentShot = currentTurret.fire_points[system.table.currentShot]
 	--end
 	local firingPosition = targetPosition
+	local beamMiss = false
 	if offensive and shipManager.iShipId == 0 then
 		firingPosition = Hyperspace.Pointf(10000, pos.y)
 	elseif offensive and shipManager.iShipId == 1 then
 		firingPosition = Hyperspace.Pointf(pos.x, -10000)
-	elseif currentTurret.shot_radius then
-		firingPosition = get_random_point_in_radius(firingPosition, currentTurret.shot_radius/2)
+	elseif currentTurret.shot_radius or (otherManager and otherManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0) then
+		local rad = (currentTurret.shot_radius or 0)
+		rad = rad/2
+		if otherManager and otherManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+			rad = rad + scrambler_radius
+		end
+		local newFiringPosition = get_random_point_in_radius(firingPosition, rad)
+		if get_distance(newFiringPosition, firingPosition) > 10 then beamMiss = true end
+		firingPosition = newFiringPosition
 	end
 	local projectile = nil
 	local spawnPos = offset_point_in_direction(pos, system.table.currentAimingAngle, currentShot.x, currentShot.y)
@@ -1398,12 +1427,12 @@ local function fireTurret(system, currentTurret, shipManager, otherManager, sysN
 			projectile2:ComputeHeading()
 			projectile2.speed_magnitude = projectile2.speed_magnitude * 0.25
 			projectile2.entryAngle = system.table.entryAngle
-		elseif system.table.currentTarget.death_animation then
+		elseif system.table.currentTarget.death_animation and not beamMiss then
 			system.table.currentTarget.death_animation:Start(true)
 			if mods.og.defended_ach and shipManager.iShipId == 0 then
 				mods.og.defended_ach = mods.og.defended_ach + 1
 			end
-		elseif system.table.currentTarget.BlowUp then
+		elseif system.table.currentTarget.BlowUp and not beamMiss then
 			system.table.currentTarget:BlowUp(false)
 			if mods.og.defended_ach and shipManager.iShipId == 0 then
 				mods.og.defended_ach = mods.og.defended_ach + 1
@@ -1440,7 +1469,9 @@ local function fireTurret(system, currentTurret, shipManager, otherManager, sysN
 		userdata_table(projectile, "mods.og").turret_projectile = {target = targetPosition, destination_space = otherManager.iShipId}
 	elseif not offensive and currentTurret.blueprint_type ~= 3 then
 		userdata_table(projectile, "mods.og").targeted = system.table.currentTarget
-		system.table.currentTarget.table.og_targeted = (system.table.currentTarget.table.og_targeted or 0) + 1
+		if system.table.currentTarget and system.table.currentTarget.table then
+			system.table.currentTarget.table.og_targeted = (system.table.currentTarget.table.og_targeted or 0) + 1
+		end
 		if currentTurret.homing then
 			--print("start homing")
 			--checkValidTarget(system.table.currentTarget._targetable, defence_types.ALL, shipManager, true)
@@ -1581,6 +1612,9 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
 			end
 			local turretLoc = turret_location[shipManager.ship.shipName] and turret_location[shipManager.ship.shipName][sysName] or {x = 0, y = 0, direction = turret_directions.RIGHT}
 			local turretRestAngle = 90 * (turretLoc.direction or 0)
+			if Hyperspace.ships(1-shipManager.iShipId) and Hyperspace.ships(1-shipManager.iShipId):HasAugmentation("DEFENSE_SCRAMBLER") > 0 then
+				turretRestAngle = normalize_angle(turretRestAngle + math.random(-135, 135))
+			end
 			local pos = {x = shipCorner.x + turretLoc.x, y = shipCorner.y + turretLoc.y}
 
 			local currentTurret = turrets[ turretBlueprintsList[ Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] ] ]
@@ -1754,6 +1788,13 @@ script.on_internal_event(Defines.InternalEvents.SHIP_LOOP, function(shipManager)
 					local target_angle, int_point, t
 					if currentTurret.blueprint_type ~= 3  then
 						target_angle, int_point, t = find_intercept_angle(pos, speed, targetPos, targetVelocity)
+						if target_angle then
+							local tempChargeShot = (Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemChargesVarName] - 1)
+							local currentShotNumber = tempChargeShot % #currentTurret.fire_points + 1
+							local currentShot = currentTurret.fire_points[currentShotNumber]
+							local tempNewPos = offset_point_in_direction(pos, target_angle, currentShot.x, currentShot.y)
+							target_angle, int_point, t = find_intercept_angle(tempNewPos, speed, targetPos, targetVelocity)
+						end
 					end
 					if not target_angle then 
 						target_angle = get_angle_between_points(pos, targetPos)
@@ -1895,7 +1936,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		local shipSize = {x = math.floor(ship.shipImage.w/2), y = math.floor(ship.shipImage.h/2)}
 
 		Graphics.CSurface.GL_PushStencilMode()
-		Graphics.CSurface.GL_SetStencilMode(stencil_mode.set, 1, 64)
+		Graphics.CSurface.GL_SetStencilMode(stencil_mode.set, 1, 1)
 		Graphics.CSurface.GL_DrawRect(
 			-1280, 
 			-720, 
@@ -1903,7 +1944,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 			720*3, 
 			Graphics.GL_Color(1, 1, 1, 1)
 		)
-		Graphics.CSurface.GL_SetStencilMode(stencil_mode.set, 0, 64)
+		Graphics.CSurface.GL_SetStencilMode(stencil_mode.set, 0, 1)
 		Graphics.CSurface.GL_PushMatrix()
 		Graphics.CSurface.GL_Translate(shipGraph.shipBox.x + ship.shipImage.x + shipSize.x, shipGraph.shipBox.y + ship.shipImage.y + shipSize.y, 0)
 		--Graphics.CSurface.GL_Translate(shipGraph.shipBox.x, shipGraph.shipBox.y, 0)
@@ -1917,7 +1958,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		Graphics.CSurface.GL_RenderPrimitiveWithAlpha(ship.floorPrimitive, 1)
 		Graphics.CSurface.GL_PopMatrix()
 
-		Graphics.CSurface.GL_SetStencilMode(stencil_mode.use, 1, 64)
+		Graphics.CSurface.GL_SetStencilMode(stencil_mode.use, 1, 1)
 
 		Graphics.CSurface.GL_PushMatrix()
 		Graphics.CSurface.GL_Translate(shipCorner.x + turretLoc.x, shipCorner.y + turretLoc.y, 0)
@@ -1928,7 +1969,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		end
 		Graphics.CSurface.GL_PopMatrix()
 
-		Graphics.CSurface.GL_SetStencilMode(stencil_mode.use, 0, 64)
+		Graphics.CSurface.GL_SetStencilMode(stencil_mode.use, 0, 1)
 		
 		Graphics.CSurface.GL_PushMatrix()
 		Graphics.CSurface.GL_Translate(shipCorner.x + turretLoc.x, shipCorner.y + turretLoc.y, 0)
@@ -1939,7 +1980,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		end
 		Graphics.CSurface.GL_PopMatrix()
 
-		Graphics.CSurface.GL_SetStencilMode(stencil_mode.ignore, 1, 64)
+		Graphics.CSurface.GL_SetStencilMode(stencil_mode.ignore, 1, 1)
 		Graphics.CSurface.GL_PopStencilMode()
 
 		Graphics.CSurface.GL_PushMatrix()
@@ -1956,7 +1997,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		if id then currentTurret = turrets[id] end
 		if not currentTurret then return end
 
-		local turretLoc = turret_location[ship.shipName] and turret_location[ship.shipName][sysName] or {x = 0, y = 0}
+		local turretLoc = turret_location[ship.shipName] and turret_location[ship.shipName][sysName] or {x = 0, y = 0, direction = 0}
 		local shipCorner = {x = ship.shipImage.x + shipGraph.shipBox.x, y = ship.shipImage.y + shipGraph.shipBox.y}
 		local angleSet = 90 * turretLoc.direction
 		local colour = Graphics.GL_Color(1,1,1,1)
@@ -2000,6 +2041,27 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 			currentTurret.glow:OnRender(1, Graphics.GL_Color(1,1,1,1), false)
 		end
 		Graphics.CSurface.GL_PopMatrix()
+		local mousePosEnemy = worldToEnemyLocation(Hyperspace.Mouse.position)
+		local turretLocCorrected = {x = shipCorner.x + turretLoc.x, y = shipCorner.y + turretLoc.y}
+		if shipManager.iShipId == 1 and get_distance(mousePosEnemy, turretLocCorrected) <= 15 then
+			local s = "Charges: "..math.floor(charges).."/"..math.floor(currentTurret.charges)
+			if Hyperspace.ships.player:HasSystem(7) and Hyperspace.ships.player:GetSystem(7):GetEffectivePower() >= 2 then
+				local hasMannedBonus = (system.iActiveManned > 0 and 0.05) or 0
+				local chargeTime = currentTurret.charge_time[system:GetEffectivePower()]
+				local chargeTimeReduction = 0
+				local chainAmount = Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemChainVarName]
+				if currentTurret.chain and currentTurret.chain.type == chain_types.cooldown then
+					for i = 1, chainAmount do
+						chargeTimeReduction = chargeTimeReduction + chargeTime * currentTurret.chain.amount
+					end
+				end
+				chargeTime = chargeTime - chargeTimeReduction
+				chargeTime = chargeTime/(1 + hasMannedBonus + system.iActiveManned * 0.05)
+				s = s .. "\nCharge Time: "..tostring(math.floor(0.5 + system.table.chargeTime * chargeTime * 10)/10).."/"..tostring(math.floor(0.5 + chargeTime * 10)/10)
+			end
+			Hyperspace.Mouse.tooltip = s
+			Hyperspace.Mouse.bForceTooltip = true
+		end
 	end
 end
 
@@ -2542,4 +2604,57 @@ script.on_render_event(Defines.RenderEvents.SHIP_FLOOR, function() end, function
 			end
 		end
 	end
+end)
+
+
+script.on_internal_event(Defines.InternalEvents.PROJECTILE_UPDATE_PRE, function(projectile)
+	if not userdata_table(projectile, "mods.og").projectile_space then
+		userdata_table(projectile, "mods.og").projectile_space = {last_space = projectile.currentSpace}
+	else
+		local projTable = userdata_table(projectile, "mods.og").projectile_space
+		if projectile.currentSpace ~= projTable.last_space and defence_types.ALL[projectile._targetable.type] then
+			local ship = Hyperspace.ships(projectile.currentSpace).ship
+			local shipGraph = Hyperspace.ShipGraph.GetShipInfo(projectile.currentSpace)
+			local shipCorner = {x = ship.shipImage.x + shipGraph.shipBox.x, y = ship.shipImage.y + shipGraph.shipBox.y}
+			local ellipsePos = {x = ship.baseEllipse.center.x + shipCorner.x + ship.shipImage.w/2, y = ship.baseEllipse.center.y + shipCorner.y + ship.shipImage.h/2}
+			local baseEllipseCorrected = {center = ellipsePos, a = ship.baseEllipse.a, b = ship.baseEllipse.b}
+			local withinShield = isPointInEllipse(projectile.position, baseEllipseCorrected)
+			if withinShield then
+				--print("MOVE PROJECTILE")
+				local dx = projectile.position.x - baseEllipseCorrected.center.x
+				local verticalOffset = baseEllipseCorrected.b * math.sqrt(1 - (dx^2 / baseEllipseCorrected.a^2))
+				local topY = baseEllipseCorrected.center.y + verticalOffset
+				local bottomY = baseEllipseCorrected.center.y - verticalOffset
+				if math.abs(projectile.position.y - topY) < math.abs(projectile.position.y - bottomY) then
+					projectile.position.y = topY + 1
+				else
+					projectile.position.y = bottomY - 1
+				end
+			end
+		end
+		userdata_table(projectile, "mods.og").projectile_space.last_space = projectile.currentSpace
+	end
+	if projectile.sub_start and projectile.currentSpace ~= projectile.destinationSpace then
+		local ship = Hyperspace.ships(projectile.destinationSpace).ship
+		local shipGraph = Hyperspace.ShipGraph.GetShipInfo(projectile.destinationSpace)
+		local shipCorner = {x = ship.shipImage.x + shipGraph.shipBox.x, y = ship.shipImage.y + shipGraph.shipBox.y}
+		local ellipsePos = {x = ship.baseEllipse.center.x + shipCorner.x + ship.shipImage.w/2, y = ship.baseEllipse.center.y + shipCorner.y + ship.shipImage.h/2}
+		local baseEllipseCorrected = {center = ellipsePos, a = ship.baseEllipse.a, b = ship.baseEllipse.b}
+		local withinShield = isPointInEllipse(projectile.sub_start, baseEllipseCorrected)
+		--print("ellipse: center x:"..ship.baseEllipse.center.x.." y:"..ship.baseEllipse.center.y.." a:"..ship.baseEllipse.a.." b:"..ship.baseEllipse.b)
+		--print("point: x:"..projectile.sub_start.x.." y:"..projectile.sub_start.y)
+		if withinShield then
+			--print("MOVE BEAM START")
+			local dx = projectile.sub_start.x - baseEllipseCorrected.center.x
+			local verticalOffset = baseEllipseCorrected.b * math.sqrt(1 - (dx^2 / baseEllipseCorrected.a^2))
+			local topY = baseEllipseCorrected.center.y + verticalOffset
+			local bottomY = baseEllipseCorrected.center.y - verticalOffset
+			if math.abs(projectile.sub_start.y - topY) < math.abs(projectile.sub_start.y - bottomY) then
+				projectile.sub_start.y = topY + 1
+			else
+				projectile.sub_start.y = bottomY - 1
+			end
+		end
+	end
+	return Defines.Chain.CONTINUE
 end)
