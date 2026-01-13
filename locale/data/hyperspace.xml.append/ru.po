@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-11 01:05+0000\n"
+"PO-Revision-Date: 2026-01-13 13:45+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datahyperspace-xml-append/ru/>\n"
@@ -22,12 +22,14 @@ msgstr ""
 "Вражеские турели вращаются на 100% быстрее."
 
 #: src-en/data/hyperspace.xml.append:116
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike[1]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
 "ОТРАЖАЮЩЕЕ ПОКРЫТИЕ:\n"
-"Уменьшает урон от лучей, попадающих в этот корабль, в два раза (с округлением в меньшую сторону)."
+"Уменьшает урон от лучей, попадающих в этот корабль, в два раза "
+"(с округлением в меньшую сторону)."
 
 #: src-en/data/hyperspace.xml.append:121
 msgid ""
@@ -46,6 +48,7 @@ msgstr ""
 "Турели этого врага будут полностью заряжены в начале боя."
 
 #: src-en/data/hyperspace.xml.append:131
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[4]/mod:findLike[1]/mod-"
 "append:shipIcon[5]/tooltip"
@@ -85,8 +88,8 @@ msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_3\"]/description"
 msgstr ""
 "На корабле класса \"Рейдер\": достигните сектора 8, не покупая оружейную "
-"систему или контроля дронов "
-"(или не модернизируя их в качестве стартовых систем корабля)."
+"систему или контроля дронов (или не модернизируя их в качестве стартовых "
+"систем корабля)."
 
 #: src-en/data/hyperspace.xml.append:252
 msgid ""
@@ -104,6 +107,7 @@ msgid ""
 msgstr "Перебежчик"
 
 #: src-en/data/hyperspace.xml.append:259
+#, fuzzy
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/description"
 msgstr ""
@@ -203,7 +207,8 @@ msgstr "Получите добычу из транспорта с протот�
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/description"
 msgstr ""
-"Получите Пронзающий лазер мод. I из транспорта с прототипами Нового рассвета."
+"Получите Пронзающий лазер мод. I из транспорта с прототипами Нового "
+"рассвета."
 
 #: src-en/data/hyperspace.xml.append:780
 msgid ""
@@ -217,8 +222,7 @@ msgstr "Поддержка турели"
 #: src-en/data/hyperspace.xml.append:785
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/description"
-msgstr ""
-"Победите Ренегатов класса \"Рейдер\" В и получите легкую зарядную турель."
+msgstr "Победите Ренегатов класса \"Рейдер\" В и получите легкую зарядную турель."
 
 #: src-en/data/hyperspace.xml.append:787
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/header"

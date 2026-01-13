@@ -6,77 +6,66 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: src-en/data/events_special_guards.xml.append:5
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MIND_MORALITY\"]/mod:findLike/mod-"
 "append:choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:14
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MIND_AFFECTING_MORALITY\"]/mod:findLike/mod-"
 "append:choice[1]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:18
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_MIND_AFFECTING_MORALITY\"]/mod:findLike/mod-"
 "append:choice[2]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:27
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_CLOAK_MORALITY\"]/mod:findLike[1]/mod-"
 "append:choice[1]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:31
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_CLOAK_MORALITY\"]/mod:findLike[1]/mod-"
 "append:choice[2]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:37
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_CLOAK_MORALITY\"]/mod:findLike[2]/mod-"
 "append:choice[1]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:41
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_CLOAK_MORALITY\"]/mod:findLike[2]/mod-"
 "append:choice[2]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:50
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_ESCAPE_MORALITY\"]/mod:findLike[1]/mod-"
 "append:choice[1]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:54
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_ESCAPE_MORALITY\"]/mod:findLike[1]/mod-"
 "append:choice[2]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:60
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_ESCAPE_MORALITY\"]/mod:findLike[2]/mod-"
 "append:choice[1]/text"
 msgstr "继续。"
 
 #: src-en/data/events_special_guards.xml.append:64
-#, fuzzy
 msgid ""
 "data/events_special_guards.xml.append$//mod:findName[@name=\"GUARD_ESCAPE_MORALITY\"]/mod:findLike[2]/mod-"
 "append:choice[2]/text"

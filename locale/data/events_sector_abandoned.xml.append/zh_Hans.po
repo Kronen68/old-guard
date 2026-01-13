@@ -8,17 +8,15 @@ msgstr ""
 #: src-en/data/events_sector_abandoned.xml.append:7
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/text"
-msgstr ""
+msgstr "当你抵达信标时，一艘铁幕守望的舰船正在此地进行探索。看起来他们在此地不愿冒任何风险，立刻激活了武器系统。"
 
 #: src-en/data/events_sector_abandoned.xml.append:10
-#, fuzzy
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"-999\"]/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_abandoned.xml.append:14
-#, fuzzy
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/text"
@@ -28,22 +26,21 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/event/text"
-msgstr ""
+msgstr "幸运的是，由于你的良好声望，他们很快认出了你。他们提出与你平分一部分找到的打捞物。"
 
 #: src-en/data/events_sector_abandoned.xml.append:20
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/event/choice[1]/text"
-msgstr ""
+msgstr "不管了，攻击他们。"
 
 #: src-en/data/events_sector_abandoned.xml.append:22
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
-msgstr ""
+msgstr "在接收打捞物后，你立刻启动了武器系统。从通讯频道中传来的咒骂数量判断，铁幕守望显然对你的背叛行为暴跳如雷。"
 
 #: src-en/data/events_sector_abandoned.xml.append:25
-#, fuzzy
 msgid ""
 "data/events_sector_abandoned.xml.append$//event[@name=\"ENCOUNTER_OG_IRON_ABANDONED\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/event/choice[1]/event/choice/text"

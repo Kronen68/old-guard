@@ -7,8 +7,11 @@ msgstr ""
 
 #: src-en/mod-appendix/metadata.xml:2
 msgid "mod-appendix/metadata.xml$/dummyroot/metadata/title"
-msgstr ""
+msgstr "FTL: 昔日卫队"
 
 #: src-en/mod-appendix/metadata.xml:6
 msgid "mod-appendix/metadata.xml$/dummyroot/metadata/description"
 msgstr ""
+"新增炮塔控制系统及相关舰船。\n"
+"新增“铁幕守望”一个由探索者、科学家和海盗组成的团体，他们已在已知宇宙的边缘形成了一个共同体。\n"
+"新增“新黎明”——“铁幕守望”的一个分裂团体，他们对派系当前的发展方向不满，并企图通过武力来改变它。"

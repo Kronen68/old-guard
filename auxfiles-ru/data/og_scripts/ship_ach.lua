@@ -162,16 +162,19 @@ script.on_render_event(Defines.RenderEvents.MOUSE_CONTROL, function()
 				end
 			end
 			if Hyperspace.playerVariables.og_ach_track_humans_only == 0 and validRun then
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Valid"
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nДостижение \"Перебежчик\": Действительный забег\nТекущий экипаж корабля: Допустимый"
+																	--"\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Valid"
 			elseif Hyperspace.playerVariables.og_ach_track_humans_only == 0 then
 				local appendCrewString = ""
 				for _, s in ipairs(invalidCrew) do
 					appendCrewString = appendCrewString..", "..s
 				end
 				appendCrewString = string.sub(appendCrewString, 2)
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Invalid\nInvalid Crew:"..appendCrewString
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nДостижение \"Перебежчик\": Действительный забег\nТекущий экипаж корабля: Недопустимый\nНедопустимый экипаж:"..appendCrewString
+																	--"\nRebel Allegiance Achievement: Valid Run\nCurrent Ship Crew: Invalid\nInvalid Crew:"..appendCrewString
 			else
-				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nRebel Allegiance Achievement: Invalid Run"
+				Hyperspace.Mouse.tooltip = Hyperspace.Mouse.tooltip.."\nДостижение \"Перебежчик\": Недействительный забег"
+																	--"\nRebel Allegiance Achievement: Invalid Run"
 			end
 		end
 	end

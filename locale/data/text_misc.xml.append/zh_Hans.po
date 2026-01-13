@@ -7,176 +7,178 @@ msgstr ""
 
 #: src-en/data/text_misc.xml.append:4
 msgid "data/text_misc.xml.append$//text[@name=\"ship_unlock_og_two_wins\"]"
-msgstr ""
+msgstr "使用任意两种 \\1布局获胜，即可解锁\\2"
 
 #: src-en/data/text_misc.xml.append:6
-#, fuzzy
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_RAIDER_unlock\"]"
-msgstr "开发人员信息"
+msgstr "在脉冲星附近，救援一艘正遭受攻击的“铁幕守望”原型机。"
 
 #: src-en/data/text_misc.xml.append:7
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_RAIDER_2_unlock\"]"
-msgstr ""
+msgstr "使用 A 型舰抵达第 8 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:8
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_RAIDER_3_unlock\"]"
-msgstr ""
+msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:10
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_EXECUTOR_unlock\"]"
-msgstr ""
+msgstr "使用任意 2 艘掠夺者级舰船获胜。"
 
 #: src-en/data/text_misc.xml.append:11
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_EXECUTOR_2_unlock\"]"
-msgstr ""
+msgstr "使用 A 型舰抵达第 8 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:12
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_EXECUTOR_3_unlock\"]"
-msgstr ""
+msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:14
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_SPEAR_unlock\"]"
-msgstr ""
+msgstr "参与或阻止一次针对新黎明数据金库的抢劫行动。"
 
 #: src-en/data/text_misc.xml.append:15
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_SPEAR_2_unlock\"]"
-msgstr ""
+msgstr "使用 A 型舰抵达第 8 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:16
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_SPEAR_3_unlock\"]"
-msgstr ""
+msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:18
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_BIG_unlock\"]"
-msgstr ""
+msgstr "使用任意 2 艘先锋级舰船获胜。"
 
 #: src-en/data/text_misc.xml.append:19
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_BIG_2_unlock\"]"
-msgstr ""
+msgstr "使用 A 型舰抵达第 8 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:20
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_BIG_3_unlock\"]"
-msgstr ""
+msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:22
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_REBEL_unlock\"]"
-msgstr ""
+msgstr "使用铁血红隼星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:23
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_CURA_unlock\"]"
-msgstr ""
+msgstr "使用铁血叛军星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:24
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_SEPARATIST_unlock\"]"
-msgstr ""
+msgstr "使用铁血革新社星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:25
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_ANGEL_unlock\"]"
-msgstr ""
+msgstr "使用铁血分离者星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:26
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_ROCK_unlock\"]"
-msgstr ""
+msgstr "使用铁血告死星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:27
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_PEACEKEEPER_unlock\"]"
-msgstr ""
+msgstr "使用铁血岩石星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:28
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_KNIGHT_unlock\"]"
-msgstr ""
+msgstr "使用铁血维和星舰抵达第 5 星区，即可解锁本舰船。"
 
 #: src-en/data/text_misc.xml.append:30
 msgid "data/text_misc.xml.append$//text[@name=\"loot_og_dawn_1\"]"
 msgstr ""
+"战利品：新黎明劫掠\n"
+"使被击中的房间进入易伤状态，持续5秒。\n"
+"冷却时间 -1 秒"
 
 #: src-en/data/text_misc.xml.append:34
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:35
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:36
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_2\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:37
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_2_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:38
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_3\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:39
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_3_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:40
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_4\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:41
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_4_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:42
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:43
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:44
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_2\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:45
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_2_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:46
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_3\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:47
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_3_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:48
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_4\"]"
-msgstr ""
+msgstr "炮塔操控"
 
 #: src-en/data/text_misc.xml.append:49
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_mini_4_installed\"]"
-msgstr ""
+msgstr "炮塔操控系统已安装"
 
 #: src-en/data/text_misc.xml.append:50
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_adaptive\"]"
-msgstr ""
+msgstr "自适应炮塔操控"
 
 #: src-en/data/text_misc.xml.append:51
 msgid "data/text_misc.xml.append$//text[@name=\"og_turret_adaptive_installed\"]"
-msgstr ""
+msgstr "自适应炮塔操控系统已安装"

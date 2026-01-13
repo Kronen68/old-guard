@@ -8,124 +8,124 @@ msgstr ""
 #: src-en/data/sector_data.xml.append:44
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[1]"
-msgstr ""
+msgstr "铁幕守望星区"
 
 #: src-en/data/sector_data.xml.append:45
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[2]"
-msgstr ""
+msgstr "铁幕守望星区"
 
 #: src-en/data/sector_data.xml.append:46
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[3]"
-msgstr ""
+msgstr "铁幕守望边疆"
 
 #: src-en/data/sector_data.xml.append:47
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[4]"
-msgstr ""
+msgstr "铁幕守望星域"
 
 #: src-en/data/sector_data.xml.append:48
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[5]"
-msgstr ""
+msgstr "铁幕守望领土"
 
 #: src-en/data/sector_data.xml.append:49
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[6]"
-msgstr ""
+msgstr "铁幕守望边缘星域"
 
 #: src-en/data/sector_data.xml.append:50
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[7]"
-msgstr ""
+msgstr "铁幕守望区域"
 
 #: src-en/data/sector_data.xml.append:51
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[8]"
-msgstr ""
+msgstr "铁幕守望辖区"
 
 #: src-en/data/sector_data.xml.append:52
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[9]"
-msgstr ""
+msgstr "铁幕守望统治"
 
 #: src-en/data/sector_data.xml.append:53
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[10]"
-msgstr ""
+msgstr "铁幕守望地盘"
 
 #: src-en/data/sector_data.xml.append:54
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[11]"
-msgstr ""
+msgstr "铁幕守望领域"
 
 #: src-en/data/sector_data.xml.append:55
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON\"]/nameList/name[12]"
-msgstr ""
+msgstr "铁幕守望边疆据点"
 
 #: src-en/data/sector_data.xml.append:123
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[1]"
-msgstr ""
+msgstr "铁幕守望星区[特卖！]"
 
 #: src-en/data/sector_data.xml.append:124
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[2]"
-msgstr ""
+msgstr "铁幕守望星域 [特卖！]"
 
 #: src-en/data/sector_data.xml.append:125
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[3]"
-msgstr ""
+msgstr "铁幕守望前线 [特卖！]"
 
 #: src-en/data/sector_data.xml.append:126
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[4]"
-msgstr ""
+msgstr "铁幕守望星域[特卖！]"
 
 #: src-en/data/sector_data.xml.append:127
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[5]"
-msgstr ""
+msgstr "铁幕守望统治 [特卖！]"
 
 #: src-en/data/sector_data.xml.append:128
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[6]"
-msgstr ""
+msgstr "铁幕守望边缘星域[特卖！]"
 
 #: src-en/data/sector_data.xml.append:129
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[7]"
-msgstr ""
+msgstr "铁幕守望区域[特卖！]"
 
 #: src-en/data/sector_data.xml.append:130
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[8]"
-msgstr ""
+msgstr "铁幕守望辖区[特卖！]"
 
 #: src-en/data/sector_data.xml.append:131
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[9]"
-msgstr ""
+msgstr "铁幕守望统治[特卖！]"
 
 #: src-en/data/sector_data.xml.append:132
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[10]"
-msgstr ""
+msgstr "铁幕守望地盘[特卖！]"
 
 #: src-en/data/sector_data.xml.append:133
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[11]"
-msgstr ""
+msgstr "铁幕守望领域[特卖！]"
 
 #: src-en/data/sector_data.xml.append:134
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_IRON_HEKTAR\"]/nameList/name[12]"
-msgstr ""
+msgstr "铁幕守望边疆据点[特卖！]"
 
 #: src-en/data/sector_data.xml.append:202
 msgid ""
 "data/sector_data.xml.append$//sectorDescription[@name=\"SECTOR_OG_DAWN_UNIQUE\"]/nameList/name"
-msgstr ""
+msgstr "新黎明前沿作战基地[特卖！]"

@@ -10,9 +10,13 @@ msgid ""
 "data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
 "append:choice[1]/text"
 msgstr ""
+"[style[color:F64B2D]]OG：铁幕守望[[/style]]\n"
+"作曲：Lizzard"
 
 #: src-en/data/events_special_jukebox.xml.append:12
 msgid ""
 "data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+"[style[color:F64B2D]]OG：新黎明[[/style]]\n"
+"作曲：Lizzard"

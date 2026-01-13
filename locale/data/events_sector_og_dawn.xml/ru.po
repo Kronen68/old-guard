@@ -1,25 +1,17 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-11 01:05+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
-"Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
-"dataevents_sector_og_dawnxml/ru/>\n"
-"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_sector_og_dawn.xml:10
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_DESTROY\"]/text"
 msgstr ""
 "Вы победили сторожевой корабль Нового рассвета. Что бы ни находилось в их "
-"грузовом отсеке, наверняка оно было уничтожено, но по крайней мере вы можете "
-"собрать некоторые припасы с этого корабля."
+"грузовом отсеке, наверняка оно было уничтожено, но по крайней мере вы можете"
+" собрать некоторые припасы с этого корабля."
 
 #: src-en/data/events_sector_og_dawn.xml:13
 msgid ""
@@ -32,8 +24,8 @@ msgid ""
 msgstr ""
 "Вы победили сторожевой корабль Нового рассвета. На борту не осталось "
 "экипажа, способного вам помешать, и теперь вы можете изучить их груз. Вы "
-"находите орудие, которое забираете на свой корабль, и приступаете к разборке "
-"корпуса на лом."
+"находите орудие, которое забираете на свой корабль, и приступаете к разборке"
+" корпуса на лом."
 
 #: src-en/data/events_sector_og_dawn.xml:22
 msgid ""
@@ -45,8 +37,8 @@ msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FOLLOWUP\"]/text"
 msgstr ""
 "Уничтожив сторожевой корабль Нового рассвета, вы, несомненно, заставили их "
-"выделить дополнительные силы на ваши поиски. Будьте осторожны, исследуя этот "
-"сектор."
+"выделить дополнительные силы на ваши поиски. Будьте осторожны, исследуя этот"
+" сектор."
 
 #: src-en/data/events_sector_og_dawn.xml:43
 msgid ""
@@ -118,11 +110,20 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_START_OG_DAWN_UNIQUE\"]/text[1]"
 msgstr ""
+"То, что раньше было обычным поселением Железного дозора, теперь стало домом "
+"для военных Нового рассвета. Все, кто противостоял этой фракции, уже давно "
+"исчезли, но фракция отчаянно нуждается в поддержке, особенно в поддержке "
+"такого могущественного Ренегата, как вы."
 
 #: src-en/data/events_sector_og_dawn.xml:88
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_START_OG_DAWN_UNIQUE\"]/text[2]"
 msgstr ""
+"Новый рассвет - это отколовшаяся от Железного дозора» группа, в которую "
+"вошли бывшие члены Железного дозора, чтобы создать свои собственные "
+"вооруженные силы для борьбы с Железным дозором. Однако Новый рассвет "
+"отчаянно нуждается в поддержке, особенно в поддержке такого могущественного "
+"Ренегата, как вы."
 
 #: src-en/data/events_sector_og_dawn.xml:102
 msgid ""
@@ -146,6 +147,11 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/text"
 msgstr ""
+"Вместо того, чтобы сразу же направить на вас оружие, сторожевой корабль с "
+"вами по рации.\"Слушайте, о вас ходят хорошие слухи, но я не хочу нарываться"
+" на недовольство повстанцев только из-за хороших слухов, так что, если вы "
+"могли бы отправить мне немного металлолома, мы оба выйдем из этой ситуации с"
+" тем, что хотим\"."
 
 #: src-en/data/events_sector_og_dawn.xml:117
 msgid ""
@@ -165,12 +171,14 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_og_dawn.xml:128
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[2]/text"
-msgstr ""
+msgstr "Заплатить взятку."
 
 #: src-en/data/events_sector_og_dawn.xml:130
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[2]/event/text"
 msgstr ""
+"Охранник кивает и на мгновение бросает взгляд на лом. \"Хорошо, если кто "
+"спросит, скажите, что вы прошли во время предыдущей смены\"."
 
 #: src-en/data/events_sector_og_dawn.xml:135
 msgid ""
@@ -180,22 +188,23 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_og_dawn.xml:141
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_OG_DAWN\"]/text"
-msgstr ""
+msgstr "(Член экипажа-Новый рассвет) Запросить свободный проход."
 
 #: src-en/data/events_sector_og_dawn.xml:143
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_OG_DAWN\"]/event/text"
 msgstr ""
+"\"О, я и не знал, у нас есть немного припасов, чтобы помочь таким, как вы\"."
 
 #: src-en/data/events_sector_og_dawn.xml:148
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_REBEL_ALL\"]/text"
-msgstr ""
+msgstr "(Член экипажа-повстанец) Запросить свободный проход."
 
 #: src-en/data/events_sector_og_dawn.xml:150
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_REBEL_ALL\"]/event/text"
-msgstr ""
+msgstr "\"Полагаю, если на борту есть повстанцы, то риска нет, ну что ж\"."
 
 #: src-en/data/events_sector_og_dawn.xml:154
 msgid ""
@@ -233,16 +242,20 @@ msgstr "(Продв. Автопилот) Активировать автопил
 #: src-en/data/events_sector_og_dawn.xml:180
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/text"
 msgstr ""
+"Сторожевой корабль связывается с вами. \"Эй, ничего личного, но у повстанцев"
+" с вами проблемы, а теперь это становится проблемой и для меня\"."
 
 #: src-en/data/events_sector_og_dawn.xml:183
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[1]/text"
-msgstr ""
+msgstr "Приготовиться к бою!"
 
 #: src-en/data/events_sector_og_dawn.xml:185
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[1]/event/text"
 msgstr ""
+"Вы спешите занять оборонительные позиции, пока сторожевой корабль угрожающе "
+"приближается."
 
 #: src-en/data/events_sector_og_dawn.xml:188
 msgid ""
@@ -252,12 +265,12 @@ msgstr "Продолжить..."
 #: src-en/data/events_sector_og_dawn.xml:194
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/text"
-msgstr ""
+msgstr "Попробовать его подкупить."
 
 #: src-en/data/events_sector_og_dawn.xml:196
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/event/text"
-msgstr ""
+msgstr "Вы надеетесь, что этого будет достаточно, чтобы его удовлетворить..."
 
 #: src-en/data/events_sector_og_dawn.xml:201
 msgid ""
@@ -268,6 +281,8 @@ msgstr "Продолжить..."
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/event/choice/event/text"
 msgstr ""
+"\"Забавно, я просто не могу вспомнить, кто мне дал этот лом... А теперь "
+"поспешите, пока я не передумал\"."
 
 #: src-en/data/events_sector_og_dawn.xml:209
 msgid ""
@@ -306,6 +321,8 @@ msgstr "(Продв. Автопилот) Активировать автопил
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_CRIMINAL\"]/text"
 msgstr ""
+"Похоже, вы стали здесь довольно известны, так как охрана сразу же перешла в "
+"режим повышенной готовности, теперь сражения не избежать."
 
 #: src-en/data/events_sector_og_dawn.xml:237
 msgid ""
@@ -327,16 +344,11 @@ msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_DOUBLE_OG_DAWN\"]/text"
 msgstr ""
 "[РЕПУТАЦИЯ ПОВЫШЕНА X2 - НОВЫЙ РАССВЕТ]\n"
-"\tВаши действия улучшили вашу репутацию среди Нового рассвета. Некоторые "
-"пиратские кланы могут охотнее предлагать вам скидки или особые сделки и "
-"будут чувствовать себя комфортнее рядом с вами.\n"
+"\tВаши действия улучшили вашу репутацию среди Нового рассвета. Некоторые пиратские кланы могут охотнее предлагать вам скидки или особые сделки и будут чувствовать себя комфортнее рядом с вами.\n"
 "За ваши выдающиеся действия ваша репутация была увеличена в два раза.\n"
 "\n"
 "[ДУРНАЯ СЛАВА ПОНИЖЕНА - ОБЩЕЕ]\n"
-"Ваши действия здесь, оправданные или нет, не лучшим образом отразятся в "
-"глазах Федерации и ее граждан. Продолжая совершать подобные действия, вы "
-"можете начать замечать негативную реакцию со стороны Федерации и ее "
-"союзников."
+"Ваши действия здесь, оправданные или нет, не лучшим образом отразятся в глазах Федерации и ее граждан. Продолжая совершать подобные действия, вы можете начать замечать негативную реакцию со стороны Федерации и ее союзников."
 
 #: src-en/data/events_sector_og_dawn.xml:263
 msgid ""

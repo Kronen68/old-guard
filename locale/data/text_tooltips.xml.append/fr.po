@@ -20,6 +20,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:6
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler. Un opérateur réduit le temps de charge."
 
 #: src-en/data/text_tooltips.xml.append:7
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_enemy\"]"
@@ -28,6 +30,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:8
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_2\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler. Un opérateur réduit le temps de charge."
 
 #: src-en/data/text_tooltips.xml.append:9
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_2_enemy\"]"
@@ -36,6 +40,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:10
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_3\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler. Un opérateur réduit le temps de charge."
 
 #: src-en/data/text_tooltips.xml.append:11
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_3_enemy\"]"
@@ -44,6 +50,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:12
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_4\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler. Un opérateur réduit le temps de charge."
 
 #: src-en/data/text_tooltips.xml.append:13
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_4_enemy\"]"
@@ -52,6 +60,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:14
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_mini\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler."
 
 #: src-en/data/text_tooltips.xml.append:15
 msgid ""
@@ -61,6 +71,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:16
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_mini_2\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler."
 
 #: src-en/data/text_tooltips.xml.append:17
 msgid ""
@@ -70,6 +82,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:18
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_mini_3\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler."
 
 #: src-en/data/text_tooltips.xml.append:19
 msgid ""
@@ -79,6 +93,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:20
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_mini_4\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler."
 
 #: src-en/data/text_tooltips.xml.append:21
 msgid ""
@@ -88,6 +104,8 @@ msgstr ""
 #: src-en/data/text_tooltips.xml.append:22
 msgid "data/text_tooltips.xml.append$//text[@name=\"tooltip_og_turret_adaptive\"]"
 msgstr ""
+"Contrôle de tourelle : Cliquez sur la tourelle pour définir son mode ou la "
+"cibler. Un opérateur réduit le temps de charge."
 
 #: src-en/data/text_tooltips.xml.append:23
 msgid ""
