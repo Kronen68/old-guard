@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-13 01:40+0000\n"
+"PO-Revision-Date: 2026-01-13 02:50+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/datablueprintsxmlappend/zh_Hans/>\n"
@@ -35,7 +35,7 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:19
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ROTATION\"]/title"
-msgstr "极限超频动力[X]"
+msgstr "极限超频动力[外]"
 
 #: src-en/data/blueprints.xml.append:20
 msgid ""
@@ -49,7 +49,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:30
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_SPEED\"]/title"
-msgstr ""
+msgstr "加速器"
 
 #: src-en/data/blueprints.xml.append:31
 msgid ""
