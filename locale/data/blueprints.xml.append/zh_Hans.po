@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-13 02:50+0000\n"
+"PO-Revision-Date: 2026-01-13 12:45+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/datablueprintsxmlappend/zh_Hans/>\n"
@@ -49,7 +49,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:30
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_SPEED\"]/title"
-msgstr "加速器"
+msgstr "弹道加速器"
 
 #: src-en/data/blueprints.xml.append:31
 msgid ""
@@ -59,19 +59,21 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:38
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_SPEED\"]/title"
-msgstr ""
+msgstr "弹道加速器[外]"
 
 #: src-en/data/blueprints.xml.append:39
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_SPEED\"]/desc"
 msgstr ""
-"[外] - 作为一项外部系统升级，此增强部件将提供正常效果，但会占用一个增强部件槽"
-"位。若你已安装升级的克隆舱系统，可在内部升级菜单中免费将其转换为内部版本。"
+"炮塔射弹速度提升50%。\n"
+"\t\n"
+"\t[外] - 作为一项外部系统升级，此增强部件将提供正常效果，但会占用一个增强部件"
+"槽位。若你已安装升级的克隆舱系统，可在内部升级菜单中免费将其转换为内部版本。"
 
 #: src-en/data/blueprints.xml.append:49
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_MANUAL\"]/title"
-msgstr ""
+msgstr "手操灵敏度"
 
 #: src-en/data/blueprints.xml.append:50
 msgid ""
@@ -81,19 +83,21 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:57
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_MANUAL\"]/title"
-msgstr ""
+msgstr "手操灵敏度[外]"
 
 #: src-en/data/blueprints.xml.append:58
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_MANUAL\"]/desc"
 msgstr ""
-"[外] - 作为一项外部系统升级，此增强部件将提供正常效果，但会占用一个增强部件槽"
-"位。若你已安装升级的克隆舱系统，可在内部升级菜单中免费将其转换为内部版本。"
+"炮塔在手动瞄准时获得 180 的旋转速度。\n"
+"\t\n"
+"\t[外] - 作为一项外部系统升级，此增强部件将提供正常效果，但会占用一个增强部件"
+"槽位。若你已安装升级的克隆舱系统，可在内部升级菜单中免费将其转换为内部版本。"
 
 #: src-en/data/blueprints.xml.append:68
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"UPG_OG_TURRET_ADAPTIVE_LARGE\"]/title"
-msgstr ""
+msgstr "扩展电路"
 
 #: src-en/data/blueprints.xml.append:69
 msgid ""
@@ -103,155 +107,162 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:76
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ADAPTIVE_LARGE\"]/title"
-msgstr ""
+msgstr "拓展电路[外]"
 
 #: src-en/data/blueprints.xml.append:77
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"EX_OG_TURRET_ADAPTIVE_LARGE\"]/desc"
 msgstr ""
+"拓展自适应炮塔的插槽，使其可装配所有尺寸的炮塔。\n"
+"\t\n"
 "[外] - 作为一项外部系统升级，此增强部件将提供正常效果，但会占用一个增强部件槽"
 "位。若你已安装升级的克隆舱系统，可在内部升级菜单中免费将其转换为内部版本。"
 
 #: src-en/data/blueprints.xml.append:87
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret\"]/title"
-msgstr ""
+msgstr "炮塔控制"
 
 #: src-en/data/blueprints.xml.append:88
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:105
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_2\"]/title"
-msgstr ""
+msgstr "炮塔控制"
 
 #: src-en/data/blueprints.xml.append:106
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_2\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:123
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_3\"]/title"
-msgstr ""
+msgstr "炮塔控制"
 
 #: src-en/data/blueprints.xml.append:124
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_3\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:141
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_4\"]/title"
-msgstr ""
+msgstr "炮塔控制"
 
 #: src-en/data/blueprints.xml.append:142
 msgid "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_4\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:159
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini\"]/title"
-msgstr ""
+msgstr "微型炮塔操控"
 
 #: src-en/data/blueprints.xml.append:160
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:174
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_2\"]/title"
-msgstr ""
+msgstr "微型炮塔操控"
 
 #: src-en/data/blueprints.xml.append:175
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_2\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:189
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_3\"]/title"
-msgstr ""
+msgstr "微型炮塔操控"
 
 #: src-en/data/blueprints.xml.append:190
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_3\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:204
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_4\"]/title"
-msgstr ""
+msgstr "微型炮塔操控"
 
 #: src-en/data/blueprints.xml.append:205
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_mini_4\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能。升级可缩短炮塔的充能时间。"
 
 #: src-en/data/blueprints.xml.append:219
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_adaptive\"]/title"
-msgstr ""
+msgstr "自适应炮塔操控"
 
 #: src-en/data/blueprints.xml.append:220
 msgid ""
 "data/blueprints.xml.append$//systemBlueprint[@name=\"og_turret_adaptive\"]/desc"
-msgstr ""
+msgstr "为舰船炮塔供能，升级可缩短其充能时间。炮塔可在非战斗状态下重新部署，以适配舰"
+"船的最佳布局，并能最终升级为大型炮塔插槽。"
 
 #: src-en/data/blueprints.xml.append:240
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/title"
-msgstr ""
+msgstr "新黎明货物箱"
 
 #: src-en/data/blueprints.xml.append:241
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/short"
-msgstr ""
+msgstr "货箱"
 
 #: src-en/data/blueprints.xml.append:242
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/desc"
-msgstr ""
+msgstr "一个不同寻常的货箱。里面装着什么，你可说不准。要是能腾出手来，你大概能把它撬"
+"开，但委托你送货的人指定不高兴。"
 
 #: src-en/data/blueprints.xml.append:259
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"LOOT_OG_DAWN_1\"]/title"
-msgstr ""
+msgstr "穿透激光I"
 
 #: src-en/data/blueprints.xml.append:260
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"LOOT_OG_DAWN_1\"]/short"
-msgstr ""
+msgstr "穿透I"
 
 #: src-en/data/blueprints.xml.append:262
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"LOOT_OG_DAWN_1\"]/desc"
-msgstr ""
+msgstr "特殊战利品武器。请在库存中查看其工具提示，以了解相对于基础版本的增强属性。"
 
 #: src-en/data/blueprints.xml.append:301
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/desc"
 msgstr ""
+"一名擅长维修的铁幕守望技术员。\n"
+"\n"
+"\t继承的人类特性：轻微窒息抗性，技能学习速度加快"
 
 #: src-en/data/blueprints.xml.append:305
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/title"
-msgstr ""
+msgstr "铁幕守望突击兵"
 
 #: src-en/data/blueprints.xml.append:306
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/short"
-msgstr ""
+msgstr "突击兵"
 
 #: src-en/data/blueprints.xml.append:309
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[1]"
-msgstr ""
+msgstr "当处于脉冲星或离子风暴区域时，为所在系统提供2点能量"
 
 #: src-en/data/blueprints.xml.append:310
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[2]"
-msgstr ""
+msgstr "当处于星云中时，揭示相邻的房间"
 
 #: src-en/data/blueprints.xml.append:311
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_raider\"]/powerList/power[3]"
-msgstr ""
+msgstr "1.25倍维修速度"
 
 #: src-en/data/blueprints.xml.append:312
 msgid ""
@@ -261,19 +272,23 @@ msgstr "受到0.6倍灼烧伤害"
 #: src-en/data/blueprints.xml.append:337
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/desc"
 msgstr ""
+"一名新黎明的士兵，装备了个人隐身装置，该装置的能量会在执行行动时消耗。\n"
+"\n"
+"\t继承的人类特性：轻微窒息抗性，技能学习速度加快"
 
 #: src-en/data/blueprints.xml.append:341
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/title"
-msgstr ""
+msgstr "新黎明士兵"
 
 #: src-en/data/blueprints.xml.append:342
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/short"
-msgstr ""
+msgstr "黎明士兵"
 
 #: src-en/data/blueprints.xml.append:345
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/powerList/power[1]"
-msgstr ""
+msgstr "主动技能：隐身以躲避敌方船员，隐身期间伤害提升，隐身时长依据行动而非时间消耗"
+"。"
 
 #: src-en/data/blueprints.xml.append:346
 msgid ""
@@ -283,82 +298,101 @@ msgstr "受到0.7倍战斗伤害与0.6倍灼烧伤害"
 #: src-en/data/blueprints.xml.append:378
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/title"
-msgstr ""
+msgstr "基础型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:379
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/short"
-msgstr ""
+msgstr "基础激光"
 
 #: src-en/data/blueprints.xml.append:380
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_LASER\"]/desc"
 msgstr ""
+"可用于制造：\n"
+"[速射激光炮塔]\n"
+"[重型激光炮塔]\n"
+"[???]\n"
+"[???]"
 
 #: src-en/data/blueprints.xml.append:402
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/title"
-msgstr ""
+msgstr "基础离子炮塔"
 
 #: src-en/data/blueprints.xml.append:403
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/short"
-msgstr ""
+msgstr "基础离子"
 
 #: src-en/data/blueprints.xml.append:404
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_ION\"]/desc"
 msgstr ""
+"可用于制造：\n"
+"[密集离子炮塔]\n"
+"[火焰离子炮塔]"
 
 #: src-en/data/blueprints.xml.append:424
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/title"
-msgstr ""
+msgstr "基础导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:425
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/short"
-msgstr ""
+msgstr "基础导弹"
 
 #: src-en/data/blueprints.xml.append:426
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MISSILE\"]/desc"
 msgstr ""
+"可用于制造：\n"
+"[蜂群导弹炮塔]\n"
+"[四联装导弹炮塔]\n"
+"[破片炮塔]"
 
 #: src-en/data/blueprints.xml.append:447
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/title"
-msgstr ""
+msgstr "基础光点炮台"
 
 #: src-en/data/blueprints.xml.append:448
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/short"
-msgstr ""
+msgstr "基础光点"
 
 #: src-en/data/blueprints.xml.append:449
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_FOCUS\"]/desc"
 msgstr ""
+"可用于制造：\n"
+"[光点炮塔]"
 
 #: src-en/data/blueprints.xml.append:468
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/title"
-msgstr ""
+msgstr "基础微型炮塔"
 
 #: src-en/data/blueprints.xml.append:469
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/short"
-msgstr ""
+msgstr "微型炮塔"
 
 #: src-en/data/blueprints.xml.append:470
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_BASE_MINI\"]/desc"
 msgstr ""
+"可用于制造：\n"
+"[微型激光炮塔]\n"
+"[轻型激光炮塔]\n"
+"[微型离子炮塔]\n"
+"[微型针刺光点炮塔]"
 
 #: src-en/data/blueprints.xml.append:493
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_UNKNOWN\"]/title"
-msgstr ""
+msgstr "???炮塔"
 
 #: src-en/data/blueprints.xml.append:494
 msgid ""
@@ -368,102 +402,107 @@ msgstr "？？？"
 #: src-en/data/blueprints.xml.append:495
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_UNKNOWN\"]/desc"
-msgstr ""
+msgstr "你需要更多制作材料来破译这张蓝图。"
 
 #: src-en/data/blueprints.xml.append:514
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/title"
-msgstr ""
+msgstr "速射激光炮塔"
 
 #: src-en/data/blueprints.xml.append:515
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/short"
-msgstr ""
+msgstr "速射激光。"
 
 #: src-en/data/blueprints.xml.append:516
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_1\"]/desc"
-msgstr ""
+msgstr "标准速射激光炮塔。这是一种廉价且高效的武器，在攻防之间取得了良好的平衡。"
 
 #: src-en/data/blueprints.xml.append:535
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/title"
-msgstr ""
+msgstr "重型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:536
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/short"
-msgstr ""
+msgstr "重型激光。"
 
 #: src-en/data/blueprints.xml.append:537
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_2\"]/desc"
-msgstr ""
+msgstr "重型激光炮塔由于转速慢但单发伤害高，作为防御炮塔表现不佳，但在攻击敌方舰船时"
+"极为出色。"
 
 #: src-en/data/blueprints.xml.append:556
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/title"
-msgstr ""
+msgstr "老旧速射激光炮塔"
 
 #: src-en/data/blueprints.xml.append:557
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/short"
-msgstr ""
+msgstr "老旧速射激光。"
 
 #: src-en/data/blueprints.xml.append:558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_1\"]/desc"
-msgstr ""
+msgstr "标准速射激光炮塔。这是一种廉价且高效的武器，在攻防之间取得了平衡，但型号老旧"
+"，瞄准精度较差。"
 
 #: src-en/data/blueprints.xml.append:577
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/title"
-msgstr ""
+msgstr "轻型充能炮塔"
 
 #: src-en/data/blueprints.xml.append:578
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/short"
-msgstr ""
+msgstr "轻型充能。"
 
 #: src-en/data/blueprints.xml.append:579
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT\"]/desc"
-msgstr ""
+msgstr "作为一种特化型轻型激光炮塔，它凭借高充能次数与快速旋转速度，在舰船防御方面效"
+"能极佳。"
 
 #: src-en/data/blueprints.xml.append:598
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT_CHAOS\"]/title"
-msgstr ""
+msgstr "混沌轻型充能激光炮塔"
 
 #: src-en/data/blueprints.xml.append:599
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT_CHAOS\"]/short"
-msgstr ""
+msgstr "混沌充能↑"
 
 #: src-en/data/blueprints.xml.append:600
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BOSS_LIGHT_CHAOS\"]/desc"
 msgstr ""
+"这是一种专精防御的特化型轻型激光炮塔，凭借高充能次数与快转速保护舰船。\n"
+"而其混沌变体旋转速度提升至5倍，并能瞄准拦截任何敌方射弹。"
 
 #: src-en/data/blueprints.xml.append:620
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/title"
-msgstr ""
+msgstr "预兆者炮塔"
 
 #: src-en/data/blueprints.xml.append:621
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/short"
-msgstr ""
+msgstr "预兆者"
 
 #: src-en/data/blueprints.xml.append:622
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ANCIENT\"]/desc"
-msgstr ""
+msgstr "一种威力远超普通炮塔的巨型激光炮塔，由方碑制造。"
 
 #: src-en/data/blueprints.xml.append:641
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CEL_1\"]/title"
-msgstr ""
+msgstr "辩护者炮塔"
 
 #: src-en/data/blueprints.xml.append:642
 msgid ""
@@ -478,187 +517,196 @@ msgstr "让它打中你，你就已经死了。"
 #: src-en/data/blueprints.xml.append:662
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ZENITH\"]/title"
-msgstr ""
+msgstr "天顶激光炮塔"
 
 #: src-en/data/blueprints.xml.append:663
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ZENITH\"]/short"
-msgstr ""
+msgstr "天顶激光。"
 
 #: src-en/data/blueprints.xml.append:664
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_ZENITH\"]/desc"
-msgstr ""
+msgstr "一座致命的以太驱动激光炮塔，其造成的巨大伤害即便与标准的重型激光炮塔相比也遥"
+"遥领先。"
 
 #: src-en/data/blueprints.xml.append:683
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BIO\"]/title"
-msgstr ""
+msgstr "辐射激光炮塔"
 
 #: src-en/data/blueprints.xml.append:684
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BIO\"]/short"
-msgstr ""
+msgstr "辐射激光。"
 
 #: src-en/data/blueprints.xml.append:685
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_BIO\"]/desc"
-msgstr ""
+msgstr "这是一种特化型激光炮塔，能造成高额辐射伤害并瘫痪船员，但无法损伤舰船系统或船"
+"体。同时，它在防御角色中也极为出色，能有效拦截敌方的激光攻击。"
 
 #: src-en/data/blueprints.xml.append:704
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_PIERCE\"]/title"
-msgstr ""
+msgstr "穿透激光炮塔"
 
 #: src-en/data/blueprints.xml.append:705
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_PIERCE\"]/short"
-msgstr ""
+msgstr "穿透激光。"
 
 #: src-en/data/blueprints.xml.append:706
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_PIERCE\"]/desc"
-msgstr ""
+msgstr "一种特化型激光炮塔，能够穿透额外的护盾。"
 
 #: src-en/data/blueprints.xml.append:725
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_HULL\"]/title"
-msgstr ""
+msgstr "破舰激光炮塔"
 
 #: src-en/data/blueprints.xml.append:726
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_HULL\"]/short"
-msgstr ""
+msgstr "破舰激光。"
 
 #: src-en/data/blueprints.xml.append:727
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_HULL\"]/desc"
-msgstr ""
+msgstr "一种专为军事设计的激光炮塔，对空舱造成更高伤害。"
 
 #: src-en/data/blueprints.xml.append:746
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CHAINGUN\"]/title"
-msgstr ""
+msgstr "链式火神炮塔"
 
 #: src-en/data/blueprints.xml.append:747
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CHAINGUN\"]/short"
-msgstr ""
+msgstr "火神"
 
 #: src-en/data/blueprints.xml.append:748
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_CHAINGUN\"]/desc"
-msgstr ""
+msgstr "这种激光炮塔需要长时间预热启动。每次开火都会减少其冷却时间，直至最终能击破任"
+"意层数的护盾。"
 
 #: src-en/data/blueprints.xml.append:767
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/title"
-msgstr ""
+msgstr "密集离子炮塔"
 
 #: src-en/data/blueprints.xml.append:768
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/short"
-msgstr "离子炸弹"
+msgstr "密集离子。"
 
 #: src-en/data/blueprints.xml.append:769
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_1\"]/desc"
-msgstr ""
+msgstr "离子炮塔能有效压制无人机并瘫痪系统，且不伤及船体。而此型号的充能与发射速度更"
+"是快得出奇。"
 
 #: src-en/data/blueprints.xml.append:788
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/title"
-msgstr ""
+msgstr "火焰离子炮台"
 
 #: src-en/data/blueprints.xml.append:789
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/short"
-msgstr ""
+msgstr "火焰离子。"
 
 #: src-en/data/blueprints.xml.append:790
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_2\"]/desc"
-msgstr ""
+msgstr "离子炮塔能出色地压制无人机，并可瘫痪系统而不造成船体损伤。此外，此型号还能引"
+"燃其命中的系统。"
 
 #: src-en/data/blueprints.xml.append:809
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/title"
-msgstr ""
+msgstr "蜂群导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:810
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/short"
-msgstr ""
+msgstr "蜂群导弹。"
 
 #: src-en/data/blueprints.xml.append:811
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_1\"]/desc"
-msgstr ""
+msgstr "发射一群可自动追踪目标的小型高速导弹，防御性能出色，但不擅长攻击敌方舰船系统"
+"。"
 
 #: src-en/data/blueprints.xml.append:830
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/title"
-msgstr ""
+msgstr "四联装导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:831
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/short"
-msgstr ""
+msgstr "四联装导弹。"
 
 #: src-en/data/blueprints.xml.append:832
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/desc"
-msgstr ""
+msgstr "虽充能缓慢，但能对敌舰造成高额伤害。此外，对抗敌方无人机和实体射弹时也表现不"
+"俗。"
 
 #: src-en/data/blueprints.xml.append:851
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_HEAVY\"]/title"
-msgstr ""
+msgstr "重型果核炮塔"
 
 #: src-en/data/blueprints.xml.append:852
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_HEAVY\"]/short"
-msgstr ""
+msgstr "重型果核。"
 
 #: src-en/data/blueprints.xml.append:853
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_HEAVY\"]/desc"
-msgstr ""
+msgstr "这种武器使用来自兰花母星的巨型植物果核作为弹药。果核的行为类似导弹，但弹药消"
+"耗减半。"
 
 #: src-en/data/blueprints.xml.append:871
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_FIRE\"]/title"
-msgstr ""
+msgstr "太阳果核炮塔"
 
 #: src-en/data/blueprints.xml.append:872
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_FIRE\"]/short"
-msgstr ""
+msgstr "太阳果核。"
 
 #: src-en/data/blueprints.xml.append:873
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_FIRE\"]/desc"
-msgstr ""
+msgstr "这种武器使用来自兰花母星的巨型植物果核作为弹药。与基础型号不同，此改进型会造"
+"成火灾，而非船体破舱。"
 
 #: src-en/data/blueprints.xml.append:894
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/title"
-msgstr ""
+msgstr "破片炮塔"
 
 #: src-en/data/blueprints.xml.append:895
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/short"
-msgstr ""
+msgstr "破片"
 
 #: src-en/data/blueprints.xml.append:896
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_1\"]/desc"
-msgstr ""
+msgstr "一座威力强大的破片炮塔，能够积累惊人的齐射火力，既可用于防御，也可用于进攻。"
 
 #: src-en/data/blueprints.xml.append:915
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_1\"]/title"
-msgstr ""
+msgstr "光点炮塔"
 
 #: src-en/data/blueprints.xml.append:916
 msgid ""
@@ -668,257 +716,289 @@ msgstr "光点"
 #: src-en/data/blueprints.xml.append:917
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_1\"]/desc"
-msgstr ""
+msgstr "光点炮塔因其近乎瞬杀的超快反应速度，在拦截敌方导弹时极为高效。"
 
 #: src-en/data/blueprints.xml.append:936
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_BIO\"]/title"
-msgstr ""
+msgstr "辐射光点炮塔"
 
 #: src-en/data/blueprints.xml.append:937
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_BIO\"]/short"
-msgstr ""
+msgstr "辐射光点。"
 
 #: src-en/data/blueprints.xml.append:938
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_BIO\"]/desc"
-msgstr ""
+msgstr "这款强大的改进型光点炮塔能对船员造成巨额伤害并致残，但完全不伤船体，同时还可"
+"穿透2层护盾。"
 
 #: src-en/data/blueprints.xml.append:957
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/title"
-msgstr ""
+msgstr "微型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:958
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/short"
-msgstr ""
+msgstr "微型激光。"
 
 #: src-en/data/blueprints.xml.append:959
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_1\"]/desc"
-msgstr ""
+msgstr "这款激光炮塔虽难以独自应对敌舰，但其高旋转速度使其成为一名出色的防御单位。"
 
 #: src-en/data/blueprints.xml.append:978
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/title"
-msgstr ""
+msgstr "微型离子激光炮塔"
 
 #: src-en/data/blueprints.xml.append:979
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/short"
-msgstr ""
+msgstr "微型离子激光。"
 
 #: src-en/data/blueprints.xml.append:980
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_RUSTY_MINI_1\"]/desc"
-msgstr ""
+msgstr "这款激光炮塔虽然难以独自应对敌舰，但其高旋转速度使其成为一名出色的防御单位。"
 
 #: src-en/data/blueprints.xml.append:999
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/title"
-msgstr ""
+msgstr "轻型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:1000
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/short"
-msgstr ""
+msgstr "轻型激光。"
 
 #: src-en/data/blueprints.xml.append:1001
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_2\"]/desc"
-msgstr ""
+msgstr "由于完全无法造成系统伤害，这款轻型激光炮塔更适合用于压制护盾与执行防御任务。"
 
 #: src-en/data/blueprints.xml.append:1020
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/title"
-msgstr ""
+msgstr "微型离子炮塔"
 
 #: src-en/data/blueprints.xml.append:1021
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/short"
-msgstr ""
+msgstr "微型离子。"
 
 #: src-en/data/blueprints.xml.append:1022
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_MINI_1\"]/desc"
-msgstr ""
+msgstr "这款离子炮塔既能提供高效的无人机防御，又能有效支援舰船的进攻。"
 
 #: src-en/data/blueprints.xml.append:1041
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/title"
-msgstr ""
+msgstr "微型光点炮塔"
 
 #: src-en/data/blueprints.xml.append:1042
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/short"
-msgstr ""
+msgstr "微型光点。"
 
 #: src-en/data/blueprints.xml.append:1043
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/desc"
-msgstr ""
+msgstr "这款小型光点炮塔虽然需要支援才能对敌舰造成伤害，但在对抗敌方导弹时依然能力出"
+"众。"
 
 #: src-en/data/blueprints.xml.append:1062
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_MINI_1\"]/title"
-msgstr ""
+msgstr "微型破片炮塔"
 
 #: src-en/data/blueprints.xml.append:1063
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_MINI_1\"]/short"
-msgstr ""
+msgstr "微型破片。"
 
 #: src-en/data/blueprints.xml.append:1064
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_MINI_1\"]/desc"
-msgstr ""
+msgstr "一座小型破片炮塔，能够积累齐射火力，既可用于防御，也可用于进攻。"
 
 #: src-en/data/blueprints.xml.append:1083
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/title"
-msgstr ""
+msgstr "微型导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:1084
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/short"
-msgstr ""
+msgstr "微型导弹。"
 
 #: src-en/data/blueprints.xml.append:1085
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_MINI_1\"]/desc"
-msgstr ""
+msgstr "这款小型导弹炮塔虽然发射成本高昂，但能提供强大的进攻与防御支援。"
 
 #: src-en/data/blueprints.xml.append:1105
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/title"
-msgstr ""
+msgstr "黎明重型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:1106
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/short"
-msgstr ""
+msgstr "☆黎明重型激光。"
 
 #: src-en/data/blueprints.xml.append:1107
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_DAWN\"]/desc"
 msgstr ""
+"重型激光炮塔由于转速慢、单发伤害高，因此作为防御炮塔表现不佳，但在攻击敌方舰"
+"船时极为出色。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1127
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/title"
-msgstr ""
+msgstr "黎明火焰离子炮塔"
 
 #: src-en/data/blueprints.xml.append:1128
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/short"
-msgstr ""
+msgstr "☆火焰离子。"
 
 #: src-en/data/blueprints.xml.append:1129
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_ION_DAWN\"]/desc"
 msgstr ""
+"离子炮塔能出色地压制无人机，并可瘫痪系统而不造成船体损伤。此外，此型号还能引"
+"燃其命中的系统。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1149
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/title"
-msgstr ""
+msgstr "黎明四联装导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:1150
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/short"
-msgstr ""
+msgstr "☆四联导弹。"
 
 #: src-en/data/blueprints.xml.append:1151
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_DAWN\"]/desc"
 msgstr ""
+"虽充能缓慢，但能对敌舰造成高额伤害。此外，对抗敌方无人机和实体射弹时也表现不"
+"俗。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1171
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/title"
-msgstr ""
+msgstr "黎明破片炮塔"
 
 #: src-en/data/blueprints.xml.append:1172
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/short"
-msgstr ""
+msgstr "☆破片"
 
 #: src-en/data/blueprints.xml.append:1173
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FLAK_DAWN\"]/desc"
 msgstr ""
+"一座威力强大的破片炮塔，能够积累惊人的齐射火力，既可用于防御，也可用于进攻。"
+"\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1193
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/title"
-msgstr ""
+msgstr "黎明光点炮塔"
 
 #: src-en/data/blueprints.xml.append:1194
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/short"
-msgstr ""
+msgstr "☆光点"
 
 #: src-en/data/blueprints.xml.append:1195
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/desc"
 msgstr ""
+"光点炮塔因其近乎瞬杀的超快反应速度，在拦截敌方导弹时极为高效。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1215
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/title"
-msgstr ""
+msgstr "黎明微型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:1216
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/short"
-msgstr ""
+msgstr "☆微型激光。"
 
 #: src-en/data/blueprints.xml.append:1217
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_1\"]/desc"
 msgstr ""
+"这款激光炮塔凭借高转速专精防御，但火力不足以单独应对敌舰。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1237
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/title"
-msgstr ""
+msgstr "黎明轻型激光炮塔"
 
 #: src-en/data/blueprints.xml.append:1238
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/short"
-msgstr ""
+msgstr "☆轻型激光。"
 
 #: src-en/data/blueprints.xml.append:1239
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_DAWN_2\"]/desc"
 msgstr ""
+"由于完全无法造成系统伤害，这款轻型激光炮塔更适合用于压制护盾与执行防御任务。"
+"\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1259
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/title"
-msgstr ""
+msgstr "黎明微型光点炮塔"
 
 #: src-en/data/blueprints.xml.append:1260
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/short"
-msgstr ""
+msgstr "☆微型光点。"
 
 #: src-en/data/blueprints.xml.append:1261
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/desc"
 msgstr ""
+"这款小型光点炮塔虽然需要支援才能对敌舰造成伤害，但在对抗敌方导弹时依然能力出"
+"众。\n"
+"而其新黎明变体在击中敌方房间时，会为其附加一个“系统易伤”状态（受到的系统伤害+"
+"1）。但需注意，己方装备了该变体的炮塔系统被击中时，也会承受同样的额外伤害。"
 
 #: src-en/data/blueprints.xml.append:1282
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1283
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1284
 msgid ""
@@ -928,12 +1008,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1319
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1320
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1321
 msgid ""
@@ -943,12 +1023,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1356
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1357
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1358
 msgid ""
@@ -958,12 +1038,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1396
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1397
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ANCIENT\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1398
 msgid ""
@@ -973,12 +1053,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1444
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1445
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_CEL\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1446
 msgid ""
@@ -988,12 +1068,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1479
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BIO\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1480
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BIO\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1481
 msgid ""
@@ -1003,12 +1083,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1522
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_PIERCE\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1523
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_PIERCE\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1524
 msgid ""
@@ -1018,12 +1098,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1558
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HULL\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1559
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HULL\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1560
 msgid ""
@@ -1033,12 +1113,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1595
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ZENITH\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1596
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_ZENITH\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1597
 msgid ""
@@ -1048,12 +1128,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1634
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE\"]/title"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1635
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE\"]/short"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1636
 msgid ""
@@ -1063,12 +1143,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1677
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_FIRE\"]/title"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1678
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_FIRE\"]/short"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1679
 msgid ""
@@ -1078,12 +1158,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1720
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_WEAK\"]/title"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1721
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_WEAK\"]/short"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:1722
 msgid ""
@@ -1093,12 +1173,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1763
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1764
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_SWARM\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1765
 msgid ""
@@ -1108,12 +1188,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1803
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1804
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1805
 msgid ""
@@ -1123,12 +1203,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1842
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1843
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_WEAK\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1844
 msgid ""
@@ -1138,12 +1218,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1882
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_KERNEL_PROJECTILE_HEAVY\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1883
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_KERNEL_PROJECTILE_HEAVY\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1884
 msgid ""
@@ -1153,12 +1233,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1922
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_KERNEL_PROJECTILE_FIRE\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1923
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_KERNEL_PROJECTILE_FIRE\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:1924
 msgid ""
@@ -1168,12 +1248,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:1966
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE\"]/title"
-msgstr ""
+msgstr "破片"
 
 #: src-en/data/blueprints.xml.append:1967
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE\"]/short"
-msgstr ""
+msgstr "破片"
 
 #: src-en/data/blueprints.xml.append:1968
 msgid ""
@@ -1183,12 +1263,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2005
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2006
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2007
 msgid ""
@@ -1198,12 +1278,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2029
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_FAKE\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2030
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_FAKE\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2031
 msgid ""
@@ -1213,12 +1293,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2053
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2054
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2055
 msgid ""
@@ -1228,12 +1308,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2077
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_FAKE\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2078
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_FAKE\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2079
 msgid ""
@@ -1243,12 +1323,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2101
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_BIO\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2102
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_BIO\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2103
 msgid ""
@@ -1258,12 +1338,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2136
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_BIO_FAKE\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2137
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_BIO_FAKE\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2138
 msgid ""
@@ -1273,12 +1353,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2167
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE_DAWN\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2168
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_BASE_DAWN\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2169
 msgid ""
@@ -1288,12 +1368,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2204
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY_DAWN\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2205
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_HEAVY_DAWN\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2206
 msgid ""
@@ -1303,12 +1383,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2241
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT_DAWN\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2242
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_LASER_PROJECTILE_LIGHT_DAWN\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2243
 msgid ""
@@ -1318,12 +1398,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2281
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE_DAWN\"]/title"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:2282
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_ION_PROJECTILE_BASE_DAWN\"]/short"
-msgstr ""
+msgstr "离子"
 
 #: src-en/data/blueprints.xml.append:2283
 msgid ""
@@ -1333,12 +1413,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2324
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY_DAWN\"]/title"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2325
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_MISSILE_PROJECTILE_HEAVY_DAWN\"]/short"
-msgstr ""
+msgstr "激光"
 
 #: src-en/data/blueprints.xml.append:2326
 msgid ""
@@ -1348,12 +1428,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2364
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE_DAWN\"]/title"
-msgstr ""
+msgstr "破片"
 
 #: src-en/data/blueprints.xml.append:2365
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FLAK_PROJECTILE_DAWN\"]/short"
-msgstr ""
+msgstr "破片"
 
 #: src-en/data/blueprints.xml.append:2366
 msgid ""
@@ -1363,12 +1443,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2403
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_DAWN\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2404
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_DAWN\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2405
 msgid ""
@@ -1378,12 +1458,12 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2427
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_DAWN\"]/title"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2428
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_FOCUS_PROJECTILE_WEAK_DAWN\"]/short"
-msgstr ""
+msgstr "光点"
 
 #: src-en/data/blueprints.xml.append:2429
 msgid ""
@@ -1392,7 +1472,7 @@ msgstr "开发人员信息"
 
 #: src-en/data/blueprints.xml.append:2454
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_GUARD\"]/title"
-msgstr ""
+msgstr "铁幕守望星舰"
 
 #: src-en/data/blueprints.xml.append:2455
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_GUARD\"]/desc"
@@ -1400,7 +1480,7 @@ msgstr "开发人员信息"
 
 #: src-en/data/blueprints.xml.append:2461
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_DAWN\"]/title"
-msgstr ""
+msgstr "新黎明星舰"
 
 #: src-en/data/blueprints.xml.append:2462
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"SHIP_OG_DAWN\"]/desc"
@@ -1409,307 +1489,320 @@ msgstr "开发人员信息"
 #: src-en/data/blueprints.xml.append:2468
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/class"
-msgstr ""
+msgstr "掠夺者级"
 
 #: src-en/data/blueprints.xml.append:2469
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/name"
-msgstr ""
+msgstr "“黄蜂”号"
 
 #: src-en/data/blueprints.xml.append:2470
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER\"]/desc"
-msgstr ""
+msgstr "掠夺者级舰船的定义特征是其舰体中央的炮塔。然而，这艘船的炮塔已显破旧。若能换"
+"装一座强化炮塔，它将对叛军舰队构成严重威胁。"
 
 #: src-en/data/blueprints.xml.append:2549
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/class"
-msgstr ""
+msgstr "掠夺者级"
 
 #: src-en/data/blueprints.xml.append:2550
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/name"
-msgstr ""
+msgstr "“大黄蜂”号"
 
 #: src-en/data/blueprints.xml.append:2551
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_2\"]/desc"
-msgstr ""
+msgstr "这艘掠夺者级舰船搭载了一门强力激光炮与一架高速无人机，凭借此配置能撕裂敌舰，"
+"但其防御能力较同级舰船而言相当有限。"
 
 #: src-en/data/blueprints.xml.append:2630
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/class"
-msgstr ""
+msgstr "掠夺者级"
 
 #: src-en/data/blueprints.xml.append:2631
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/name"
-msgstr ""
+msgstr "告密者"
 
 #: src-en/data/blueprints.xml.append:2632
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_RAIDER_3\"]/desc"
-msgstr ""
+msgstr "凭借强大的登船船员和对系统、船员皆致命的炮塔，这艘船专精于完整俘获敌舰。"
 
 #: src-en/data/blueprints.xml.append:2710
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/class"
-msgstr ""
+msgstr "执行者级"
 
 #: src-en/data/blueprints.xml.append:2711
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/name"
-msgstr ""
+msgstr "堡垒号"
 
 #: src-en/data/blueprints.xml.append:2712
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_EXECUTOR\"]/desc"
-msgstr ""
+msgstr "执行者级舰船配备有四座独立炮塔。无论该舰最终是成为强大的防御专精平台，还是展"
+"现出惊人的齐射火力，皆由所安装的炮塔类型决定。"
 
 #: src-en/data/blueprints.xml.append:2799
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR\"]/class"
-msgstr ""
+msgstr "先锋级"
 
 #: src-en/data/blueprints.xml.append:2800
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR\"]/name"
-msgstr ""
+msgstr "烈日临空"
 
 #: src-en/data/blueprints.xml.append:2802
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR\"]/desc"
-msgstr ""
+msgstr "这是一艘由新黎明在与叛军的联盟中设计的先进巡洋舰。其主要的进攻力量来源于舰体"
+"中央的强大炮塔。"
 
 #: src-en/data/blueprints.xml.append:2879
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_2\"]/class"
-msgstr ""
+msgstr "先锋级"
 
 #: src-en/data/blueprints.xml.append:2880
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_2\"]/name"
-msgstr ""
+msgstr "天启射线"
 
 #: src-en/data/blueprints.xml.append:2882
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_2\"]/desc"
-msgstr ""
+msgstr "这款先锋级星舰的变体使用炮塔进行自身防御，同时依靠武器系统提供进攻火力。但请"
+"注意，若将所有炮塔用于进攻而缺乏其他防御系统，将非常冒险。"
 
 #: src-en/data/blueprints.xml.append:2965
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_3\"]/class"
-msgstr ""
+msgstr "先锋级"
 
 #: src-en/data/blueprints.xml.append:2966
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_3\"]/name"
-msgstr ""
+msgstr "烈印号"
 
 #: src-en/data/blueprints.xml.append:2968
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_SPEAR_3\"]/desc"
-msgstr ""
+msgstr "这艘船武装到牙齿，完全为战斗而生。作为叛军设计的产物，它利用畸形体消除了对氧"
+"气的需求，并以医疗无人机取代了传统的医疗系统。"
 
 #: src-en/data/blueprints.xml.append:3052
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG\"]/class"
-msgstr ""
+msgstr "巨像级"
 
 #: src-en/data/blueprints.xml.append:3053
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG\"]/name"
-msgstr ""
+msgstr "要塞号"
 
 #: src-en/data/blueprints.xml.append:3055
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG\"]/desc"
-msgstr ""
+msgstr "凭借四座独立的主炮塔阵列，这艘船足以与任何敌人正面交锋。"
 
 #: src-en/data/blueprints.xml.append:3145
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_2\"]/class"
-msgstr ""
+msgstr "巨像级"
 
 #: src-en/data/blueprints.xml.append:3146
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_2\"]/name"
-msgstr ""
+msgstr "无懈可击"
 
 #: src-en/data/blueprints.xml.append:3148
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_2\"]/desc"
-msgstr ""
+msgstr "这艘船无法安装护盾或隐形系统，因此必须完全依赖其炮塔进行防御。"
 
 #: src-en/data/blueprints.xml.append:3240
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_3\"]/class"
-msgstr ""
+msgstr "巨像级"
 
 #: src-en/data/blueprints.xml.append:3241
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_3\"]/name"
-msgstr ""
+msgstr "帝国"
 
 #: src-en/data/blueprints.xml.append:3243
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_DAWN_BIG_3\"]/desc"
-msgstr ""
+msgstr "一艘于宇宙至深之处被发现的远古战舰。一支工程师团队正致力于让其重拾昔日荣光。"
 
 #: src-en/data/blueprints.xml.append:3318
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/class"
-msgstr ""
+msgstr "铁血红隼星舰"
 
 #: src-en/data/blueprints.xml.append:3319
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/name"
-msgstr ""
+msgstr "超光速"
 
 #: src-en/data/blueprints.xml.append:3320
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KESTREL\"]/desc"
-msgstr ""
+msgstr "作为一款标志性的红隼星舰，它性能均衡全面，无论经验丰富的新老船长都能轻松驾驭"
+"。"
 
 #: src-en/data/blueprints.xml.append:3400
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/class"
-msgstr ""
+msgstr "铁血叛军星舰"
 
 #: src-en/data/blueprints.xml.append:3401
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/name"
-msgstr ""
+msgstr "阿雅克肖"
 
 #: src-en/data/blueprints.xml.append:3403
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_REBEL\"]/desc"
-msgstr ""
+msgstr "这艘强大的星舰融合了逆向工程自铁幕守望的炮塔科技，以及类似旗舰的武器系统，足"
+"以造成严重破坏。"
 
 #: src-en/data/blueprints.xml.append:3483
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/class"
-msgstr ""
+msgstr "铁血革新社星舰"
 
 #: src-en/data/blueprints.xml.append:3484
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/name"
-msgstr ""
+msgstr "A.R.U.C."
 
 #: src-en/data/blueprints.xml.append:3486
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_CURA\"]/desc"
-msgstr ""
+msgstr "这艘船使用了一个经过功能阉割的叛军AI核心作为动力，并搭载了用于制造能量涌动的"
+"原型设备。"
 
 #: src-en/data/blueprints.xml.append:3570
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/class"
-msgstr ""
+msgstr "铁血分离者星舰"
 
 #: src-en/data/blueprints.xml.append:3571
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/name"
-msgstr ""
+msgstr "孤寂"
 
 #: src-en/data/blueprints.xml.append:3573
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_SEPARATIST\"]/desc"
-msgstr ""
+msgstr "一位孤独的半械分离者独自驾驶着这艘船，没有庞大的船员队伍，但幸好有他的人员无"
+"人机作伴，倒也应付得来。"
 
 #: src-en/data/blueprints.xml.append:3654
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/class"
-msgstr ""
+msgstr "铁血告死星舰"
 
 #: src-en/data/blueprints.xml.append:3655
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/name"
-msgstr ""
+msgstr "路西法"
 
 #: src-en/data/blueprints.xml.append:3657
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ANGEL\"]/desc"
-msgstr ""
+msgstr "死亡使者是银河系中最顶尖的雇佣兵之一。这艘隐身舰必须依赖其致命的船员，在承受"
+"过多伤害前快速击杀敌人。"
 
 #: src-en/data/blueprints.xml.append:3732
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/class"
-msgstr ""
+msgstr "铁血岩石星舰"
 
 #: src-en/data/blueprints.xml.append:3733
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/name"
-msgstr ""
+msgstr "壁垒"
 
 #: src-en/data/blueprints.xml.append:3735
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_ROCK\"]/desc"
-msgstr ""
+msgstr "与其设计者一脉相承，这艘超级致密的巨兽依靠纯粹的蛮力来压倒敌人。"
 
 #: src-en/data/blueprints.xml.append:3818
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/class"
-msgstr ""
+msgstr "铁血维和星舰"
 
 #: src-en/data/blueprints.xml.append:3819
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/name"
-msgstr ""
+msgstr "拉撒路"
 
 #: src-en/data/blueprints.xml.append:3821
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_PEACEKEEPER\"]/desc"
-msgstr ""
+msgstr "这是一艘设计流线、技术先进的超能舰船。该型号因其作为德沃拉克的个人专属巡洋舰"
+"而闻名。"
 
 #: src-en/data/blueprints.xml.append:3896
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/class"
-msgstr ""
+msgstr "铁血夜爵星舰"
 
 #: src-en/data/blueprints.xml.append:3897
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/name"
-msgstr ""
+msgstr "黑鸦"
 
 #: src-en/data/blueprints.xml.append:3899
 msgid ""
 "data/blueprints.xml.append$//shipBlueprint[@name=\"PLAYER_SHIP_OG_KNIGHT\"]/desc"
-msgstr ""
+msgstr "这艘小型巡洋舰船体或许单薄，但依然是七夜爵士团的旗舰。正所谓，船不在大，善用"
+"则灵。"
 
 #: src-en/data/blueprints.xml.append:3981
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_REFLECTIVE_PLATING\"]/title"
-msgstr ""
+msgstr "反射装甲"
 
 #: src-en/data/blueprints.xml.append:3982
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_REFLECTIVE_PLATING\"]/desc"
-msgstr ""
+msgstr "令击中本舰的光束伤害减半（向下取整）。"
 
 #: src-en/data/blueprints.xml.append:3990
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE_WEAK\"]/title"
-msgstr ""
+msgstr "炮塔预热充能器"
 
 #: src-en/data/blueprints.xml.append:3991
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE_WEAK\"]/desc"
-msgstr ""
+msgstr "在进行一次超光速跳跃后，该炮塔的一半充能数将立即可用。"
 
 #: src-en/data/blueprints.xml.append:3998
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE\"]/title"
-msgstr ""
+msgstr "炮塔预热器"
 
 #: src-en/data/blueprints.xml.append:3999
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_TURRET_PREIGNITE\"]/desc"
-msgstr ""
+msgstr "超光速跳跃后，炮塔立即就绪。"
 
 #: src-en/data/blueprints.xml.append:4006
 msgid ""
 "data/blueprints.xml.append$//augBlueprint[@name=\"OG_DAWN_INITIATE\"]/title"
-msgstr ""
+msgstr "新黎明新兵"
 
 #: src-en/data/blueprints.xml.append:4007
 msgid "data/blueprints.xml.append$//augBlueprint[@name=\"OG_DAWN_INITIATE\"]/desc"
