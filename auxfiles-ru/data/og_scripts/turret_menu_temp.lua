@@ -110,7 +110,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 				if Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] < 0 then
 					local installEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_INSTALL", 0, false)
 					turret_install_event(installEvent, sysName, shipManager, eventManager)
-					event:AddChoice(installEvent, "Установить это.", emptyReq, false)
+					event:AddChoice(installEvent, "Что сделать с пустой турелью?", emptyReq, false)
 				else
 					local removeEvent = eventManager:CreateEvent("STORAGE_CHECK_OG_TURRET_REMOVE", 0, false)
 
