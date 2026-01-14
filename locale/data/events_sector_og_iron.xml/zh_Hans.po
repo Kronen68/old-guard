@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:17+0000\n"
+"PO-Revision-Date: 2026-01-14 04:18+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -606,7 +606,7 @@ msgstr "铁幕守望的舰船已从你手中溜走，将你遗弃在了信标处
 #: src-en/data/events_sector_og_iron.xml:447
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GOTAWAY_OG_IRON\"]/text[2]"
-msgstr ""
+msgstr "你摧毁铁幕守望舰船的尝试失败了，该舰船已逃脱。"
 
 #: src-en/data/events_sector_og_iron.xml:450
 msgid ""
