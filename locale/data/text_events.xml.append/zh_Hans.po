@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-13 13:45+0000\n"
+"PO-Revision-Date: 2026-01-14 04:02+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/datatext_eventsxmlappend/zh_Hans/>\n"
@@ -36,7 +36,6 @@ msgstr ""
 "在你的星图底部，你注意到了一个小的“H”标志……是赞助商广告？上面写着“欢迎光临本地赫克托工业市场！” 嗯……"
 
 #: src-en/data/text_events.xml.append:18
-#, fuzzy
 msgid "data/text_events.xml.append$//text[@name=\"atlas_og_dawn\"]"
 msgstr ""
 "名称：新黎明前哨作战基地\n"
@@ -46,8 +45,8 @@ msgstr ""
 "叛军威胁等级：极高\n"
 "标记点：？？？\n"
 "\n"
-"描述： 该星区位于叛军控制区的正中心，是其最核心行动的绝佳据点。若你曾对在此见"
-"到联邦的友军抱有一丝希望，请立刻掐灭它。只有傻瓜才会在这种地方做那种梦。"
+"作为新黎明的一处军事据点，他们在与铁幕守望的战斗中既缺补给也少盟友。尽管部分"
+"新黎明成员表示反对，他们已转而向叛军寻求帮助。"
 
 #: src-en/data/text_events.xml.append:28
 msgid "data/text_events.xml.append$//text[@name=\"map_icon_store_og_iron\"]"
