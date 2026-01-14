@@ -1,17 +1,24 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-01-14 04:02+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_sector_og_iron.xml:10
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DESTROY\"]/text"
-msgstr ""
+msgstr "你已击败铁幕守望的守卫。无论他们的货物中曾有什么，此刻都肯定已被毁，但你至少"
+"可以从这艘船上打捞出一些补给品。"
 
 #: src-en/data/events_sector_og_iron.xml:13
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DESTROY\"]/choice/text"
 msgstr "继续。"
@@ -19,10 +26,10 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:18
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEADCREW\"]/text"
-msgstr ""
+msgstr "你已击败铁幕守望的守卫。由于船上已无船员阻挠，你可以调查他们的货舱。你找到了"
+"一件武器带回舰上，随后便开始打捞船体。"
 
 #: src-en/data/events_sector_og_iron.xml:22
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEADCREW\"]/choice/text"
 msgstr "继续。"
@@ -30,7 +37,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:34
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FOLLOWUP\"]/text"
-msgstr ""
+msgstr "击杀了铁幕守望的守卫，无疑已促使他们派遣援军前来追捕你。在探索该星区时，务必"
+"步步为营。"
 
 #: src-en/data/events_sector_og_iron.xml:43
 msgid ""
@@ -61,10 +69,10 @@ msgstr "未探索的信标。"
 #: src-en/data/events_sector_og_iron.xml:59
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/text"
-msgstr ""
+msgstr "一艘铁幕守望的舰船正逼近并发起攻击！从其船长眼中复仇的怒火来看，这无疑就是守"
+"卫派来猎杀你的那艘船！"
 
 #: src-en/data/events_sector_og_iron.xml:63
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/choice/text"
 msgstr "继续。"
@@ -88,10 +96,10 @@ msgstr "未探索的信标。"
 #: src-en/data/events_sector_og_iron.xml:75
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/text"
-msgstr ""
+msgstr "一艘铁幕守望的舰船正逼近并发起攻击！从其船长眼中复仇的怒火来看，这无疑就是守"
+"卫派来猎杀你的那艘船！"
 
 #: src-en/data/events_sector_og_iron.xml:81
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/choice/text"
 msgstr "继续。"
@@ -99,29 +107,28 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:87
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_START_OG_IRON\"]/text[1]"
-msgstr ""
+msgstr "铁幕守望是一个由探索者、科学家和海盗组成的共同体，他们曾冒险进入未开拓的太空"
+"。这是他们一个罕见的定居点，如今已不再像过去那样偏僻。"
 
 #: src-en/data/events_sector_og_iron.xml:88
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_START_OG_IRON\"]/text[2]"
-msgstr ""
+msgstr "这片原本相对孤立的星区，在叛乱伊始便陷入了混乱。作为铁幕守望罕有的家园之一，"
+"它在近年已变得拥挤了许多。"
 
 #: src-en/data/events_sector_og_iron.xml:101
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"3\"]/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:105
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"0\"]/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:109
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"START_OG_IRON\"]/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"-999\"]/text"
@@ -142,7 +149,6 @@ msgid ""
 msgstr "你将对面守卫舰的通讯静音，并准备作战。"
 
 #: src-en/data/events_sector_og_iron.xml:121
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -155,7 +161,7 @@ msgstr "支付费用。"
 #: src-en/data/events_sector_og_iron.xml:129
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[2]/event/text"
-msgstr ""
+msgstr "守卫点了点头，快速检查了一下废料。“很好。安全部门稍后就会放行。”"
 
 #: src-en/data/events_sector_og_iron.xml:136
 msgid ""
@@ -165,12 +171,12 @@ msgstr "说明你的使命而申请豁免。"
 #: src-en/data/events_sector_og_iron.xml:140
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr ""
+msgstr "(铁幕守望船员) 请求免费通行。"
 
 #: src-en/data/events_sector_og_iron.xml:142
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr ""
+msgstr "“很好。祝你的任务顺利。”"
 
 #: src-en/data/events_sector_og_iron.xml:146
 msgid ""
@@ -207,6 +213,8 @@ msgstr "(先进驾驶)启动自动驾驶来尝试逃跑。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/text"
 msgstr ""
+"“我凭什么给你免单？你是个变元者，对吧？如果你不知道，铁幕守望可不遵守联邦法律"
+"。坦白说，让你这样的人留在这里是个累赘。我们应该向你多收费，而不是少收。”"
 
 #: src-en/data/events_sector_og_iron.xml:174
 msgid ""
@@ -232,17 +240,21 @@ msgstr "支付费用。"
 #: src-en/data/events_sector_og_iron.xml:187
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[2]/event/text"
-msgstr ""
+msgstr "守卫点了点头，快速检查了一下废料。“很好。安全部门稍后就会放行。”"
 
 #: src-en/data/events_sector_og_iron.xml:196
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_WAVER\"]/event[3]/text"
 msgstr ""
+"守卫挠了挠脸。“你大概也知道，铁幕守望不受联邦法律或管辖权的约束。话虽如此，我"
+"明白你的事业代表着这里所有人的最高利益。联邦或许不是我们的朋友，但叛军也不是"
+"。这次我可以帮你这个忙，但别指望每个人都会这么慷慨。”"
 
 #: src-en/data/events_sector_og_iron.xml:200
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/text"
-msgstr ""
+msgstr "这里的气氛有些不对。通常铁幕守望不会太在意你这样的舰船，但现在，你在守卫舰上"
+"捕捉到了可疑的通讯交谈。"
 
 #: src-en/data/events_sector_og_iron.xml:202
 #, fuzzy
@@ -264,7 +276,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:215
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/text"
-msgstr ""
+msgstr "你的好名声已经传开，守卫立即免除了常规的入场费，允许你自由进入。"
 
 #: src-en/data/events_sector_og_iron.xml:218
 msgid ""
@@ -305,17 +317,18 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:249
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[1]"
-msgstr ""
+msgstr "“我们收到你的通讯了。朋友，你所为何来？”"
 
 #: src-en/data/events_sector_og_iron.xml:250
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[2]"
-msgstr ""
+msgstr "铁幕守望的船长接受了你的通讯，但一言不发。"
 
 #: src-en/data/events_sector_og_iron.xml:251
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GUARD_OG_IRON_CONTACT\"]/text[3]"
-msgstr ""
+msgstr "一条简短的信息被发回你的舰船作为回应：“我们已收到你的通讯请求。朋友，你有何需"
+"要？”"
 
 #: src-en/data/events_sector_og_iron.xml:256
 msgid ""
@@ -335,12 +348,12 @@ msgstr "(高级武器系统)威胁守卫。"
 #: src-en/data/events_sector_og_iron.xml:268
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr ""
+msgstr "(铁幕守望船员) 请求协助。"
 
 #: src-en/data/events_sector_og_iron.xml:270
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr ""
+msgstr "“原来也是铁幕守望的同胞？这份善意的礼物，请收下！”"
 
 #: src-en/data/events_sector_og_iron.xml:275
 msgid ""
@@ -365,22 +378,23 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:291
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_REQUEST\"]/event[1]/text"
-msgstr ""
+msgstr "“抱歉，我们恐怕没有多少能分给你的。朋友，祝你的任务顺利。”"
 
 #: src-en/data/events_sector_og_iron.xml:294
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_REQUEST\"]/event[2]/text"
-msgstr ""
+msgstr "“我们当然可以提供帮助，这份善意的礼物请收下。”"
 
 #: src-en/data/events_sector_og_iron.xml:299
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_DEMAND\"]/text"
-msgstr ""
+msgstr "“这不是对盟友该有的说话方式。我祝你的任务顺利，但建议你停止尝试联系我。”"
 
 #: src-en/data/events_sector_og_iron.xml:303
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[1]/text"
-msgstr ""
+msgstr "守卫对你的威胁置之不理，至少没有言语回应。相反，他们启动了武器系统，并开始逼"
+"近攻击！"
 
 #: src-en/data/events_sector_og_iron.xml:306
 #, fuzzy
