@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:10+0000\n"
+"PO-Revision-Date: 2026-01-14 04:13+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -499,7 +499,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:391
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[1]"
-msgstr ""
+msgstr "在舰船被彻底摧毁之际，铁幕守望的船长发出了最后一声咒骂。"
 
 #: src-en/data/events_sector_og_iron.xml:392
 msgid ""
