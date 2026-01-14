@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:23+0000\n"
+"PO-Revision-Date: 2026-01-14 04:26+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -726,7 +726,7 @@ msgstr "避免招惹那位愤怒的船长。"
 #: src-en/data/events_sector_og_iron.xml:608
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你躲藏在一颗卫星的远端，希望铁幕守望的舰船不会发现你。"
 
 #: src-en/data/events_sector_og_iron.xml:610
 msgid ""
@@ -740,7 +740,8 @@ msgstr "跳过。"
 
 #: src-en/data/events_sector_og_iron.xml:624
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/text"
-msgstr ""
+msgstr "一艘铁幕守望的舰船正在招募临时人员协助一项实验。他们需要一名护卫，护送他们进"
+"入附近的小行星带，以测试其炮塔的一项改装。"
 
 #: src-en/data/events_sector_og_iron.xml:626
 msgid ""
@@ -750,7 +751,8 @@ msgstr "同意提供帮助。"
 #: src-en/data/events_sector_og_iron.xml:629
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你跟在铁幕守望舰船的后方，进入了小行星带。“我们只是在校准炮塔，应该用不了半分"
+"钟。”"
 
 #: src-en/data/events_sector_og_iron.xml:633
 msgid ""
