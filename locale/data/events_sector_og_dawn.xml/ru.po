@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:02+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"PO-Revision-Date: 2026-01-14 10:47+0000\n"
+"Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_dawnxml/ru/>\n"
 "Language: ru\n"
@@ -1524,7 +1524,7 @@ msgstr "Вступить в бой с кораблем повстанцев."
 #: src-en/data/events_sector_og_dawn.xml:1085
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_REBEL_FOLLOWUP\"]/choice[2]/text"
-msgstr "Воспользоваться хрупким миром и отступите, чтобы избежать конфликта."
+msgstr "Воспользоваться хрупким миром и отступить, чтобы избежать конфликта."
 
 #: src-en/data/events_sector_og_dawn.xml:1088
 msgid ""
