@@ -601,7 +601,7 @@ msgstr "扫描显示，铁幕守望的舰船正试图逃跑。在它逃脱之前
 #: src-en/data/events_sector_og_iron.xml:446
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_GOTAWAY_OG_IRON\"]/text[1]"
-msgstr ""
+msgstr "铁幕守望的舰船已从你手中溜走，将你遗弃在了信标处。"
 
 #: src-en/data/events_sector_og_iron.xml:447
 msgid ""
