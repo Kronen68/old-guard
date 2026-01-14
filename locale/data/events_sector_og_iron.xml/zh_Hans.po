@@ -504,7 +504,7 @@ msgstr "在舰船被彻底摧毁之际，铁幕守望的船长发出了最后一
 #: src-en/data/events_sector_og_iron.xml:392
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DESTROYED_OG_IRON\"]/text[2]"
-msgstr ""
+msgstr "铁幕守望舰船的船体在太空中解体四散。你随即飞近，打捞剩余的残骸。"
 
 #: src-en/data/events_sector_og_iron.xml:393
 msgid ""
