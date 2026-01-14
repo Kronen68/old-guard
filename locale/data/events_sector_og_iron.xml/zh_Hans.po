@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:16+0000\n"
+"PO-Revision-Date: 2026-01-14 04:17+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -531,7 +531,8 @@ msgstr "铁幕守望的船长一言不发地倒在地上，双眼逐渐失去神
 #: src-en/data/events_sector_og_iron.xml:404
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_IRON\"]/text[3]"
-msgstr ""
+msgstr "“你会后悔的！因果报应总会找上你这样的人。该死的变元者……铁幕守望当初要是和叛军"
+"联手，境况或许会更好……”"
 
 #: src-en/data/events_sector_og_iron.xml:410
 msgid ""
@@ -595,7 +596,7 @@ msgstr "\"把我们东西都拿走吧，我们就当刚才的事从没发生过�
 
 #: src-en/data/events_sector_og_iron.xml:433
 msgid "data/events_sector_og_iron.xml$//event[@name=\"ESCAPE_OG_IRON\"]/text"
-msgstr ""
+msgstr "扫描显示，铁幕守望的舰船正试图逃跑。在它逃脱之前，摧毁它！"
 
 #: src-en/data/events_sector_og_iron.xml:446
 msgid ""
