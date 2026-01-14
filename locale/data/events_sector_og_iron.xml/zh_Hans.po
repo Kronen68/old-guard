@@ -721,7 +721,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:606
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[2]/text"
-msgstr ""
+msgstr "避免招惹那位愤怒的船长。"
 
 #: src-en/data/events_sector_og_iron.xml:608
 msgid ""
