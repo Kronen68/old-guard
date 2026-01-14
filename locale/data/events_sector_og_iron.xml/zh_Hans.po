@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:30+0000\n"
+"PO-Revision-Date: 2026-01-14 04:32+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -818,7 +818,8 @@ msgstr "你眼睁睁看着一颗巨大的小行星撕裂了那艘铁幕守望的
 
 #: src-en/data/events_sector_og_iron.xml:710
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/text"
-msgstr ""
+msgstr "你发现了一艘陌生舰船的残骸。它似乎是你在此地听说过的新黎明舰船之一——一个从铁"
+"幕守望分裂出来、并已与叛军结盟的团体。"
 
 #: src-en/data/events_sector_og_iron.xml:712
 msgid ""
@@ -828,7 +829,8 @@ msgstr "调查。"
 #: src-en/data/events_sector_og_iron.xml:714
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[1]/event/text"
-msgstr ""
+msgstr "这艘船似乎已被洗劫一空，除少数几个区域外，几乎没有什么可打捞的了。你尽己所能"
+"收集了一些物品，随后便返回了自己的舰船"
 
 #: src-en/data/events_sector_og_iron.xml:719
 #, fuzzy
