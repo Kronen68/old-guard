@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:42+0000\n"
+"PO-Revision-Date: 2026-01-14 04:43+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -1062,12 +1062,15 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:912
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_SECURE\"]/text"
-msgstr ""
+msgstr "你拆解了残骸，尽其所能地收集了其中的库存物资，随后便为下一次跳跃做准备"
 
 #: src-en/data/events_sector_og_iron.xml:917
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/text"
 msgstr ""
+"一艘铁幕守望的舰船向你致意：“你好，舰长。我想请问你是否在这附近看到过一艘舰船"
+"残骸？据悉，一艘新黎明运输船在被附近的防空炮台击中后，逃入了这片小行星带。我"
+"们认为他们可能就在这附近某处失事了。”"
 
 #: src-en/data/events_sector_og_iron.xml:919
 msgid ""
