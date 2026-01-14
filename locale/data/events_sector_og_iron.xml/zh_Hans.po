@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:18+0000\n"
+"PO-Revision-Date: 2026-01-14 04:19+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -611,7 +611,8 @@ msgstr "你摧毁铁幕守望舰船的尝试失败了，该舰船已逃脱。"
 #: src-en/data/events_sector_og_iron.xml:450
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GOTAWAY_OG_IRON_REMAINS\"]/text"
-msgstr ""
+msgstr "铁幕守望的舰船或许已经逃脱，但情况并非一无是处。残骸留下了一条废料轨迹，你将"
+"其收集了起来。"
 
 #: src-en/data/events_sector_og_iron.xml:511
 msgid ""
@@ -621,7 +622,7 @@ msgstr "有一个盟军加油站俯瞰附近的市场。"
 #: src-en/data/events_sector_og_iron.xml:514
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[1]/text"
-msgstr ""
+msgstr "购买折扣炮塔。"
 
 #: src-en/data/events_sector_og_iron.xml:516
 msgid ""
