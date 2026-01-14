@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:43+0000\n"
+"PO-Revision-Date: 2026-01-14 10:47+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_ironxml/zh_Hans/>\n"
@@ -56,7 +56,6 @@ msgid ""
 msgstr "未探索的信标。"
 
 #: src-en/data/events_sector_og_iron.xml:56
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REINFORCEMENTS_OG_IRON\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -83,7 +82,6 @@ msgid ""
 msgstr "未探索的信标。"
 
 #: src-en/data/events_sector_og_iron.xml:72
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_IRON\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -184,7 +182,6 @@ msgid ""
 msgstr "(心灵控制)\"说服\"守卫放过你。"
 
 #: src-en/data/events_sector_og_iron.xml:150
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
 msgstr "(心灵控制)\"说服\"守卫放过你。"
@@ -227,7 +224,6 @@ msgid ""
 msgstr "你将对面守卫舰的通讯静音，并准备作战。"
 
 #: src-en/data/events_sector_og_iron.xml:179
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_WAVER_FAIL\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -257,7 +253,6 @@ msgstr "这里的气氛有些不对。通常铁幕守望不会太在意你这样
 "捕捉到了可疑的通讯交谈。"
 
 #: src-en/data/events_sector_og_iron.xml:202
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/choice/text"
 msgstr "继续。"
@@ -268,7 +263,6 @@ msgid ""
 msgstr "看来你的犯罪行径惹来了报应。守卫舰的船员们已经听够了你所犯下的罪行，他们不打算让你进入这个星区！"
 
 #: src-en/data/events_sector_og_iron.xml:207
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_CRIMINAL\"]/choice/event/choice/text"
 msgstr "继续。"
@@ -309,7 +303,6 @@ msgid ""
 msgstr "攻击守卫。"
 
 #: src-en/data/events_sector_og_iron.xml:241
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_FRIENDLY\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -397,7 +390,6 @@ msgstr "守卫对你的威胁置之不理，至少没有言语回应。相反，
 "近攻击！"
 
 #: src-en/data/events_sector_og_iron.xml:306
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[1]/choice/text"
 msgstr "继续。"
@@ -408,7 +400,6 @@ msgid ""
 msgstr "\"没有暴力的必要，朋友。只要你关闭武器，我们就会根据你的要求为你提供一些物资补给。\""
 
 #: src-en/data/events_sector_og_iron.xml:314
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_THREATEN\"]/event[2]/choice/text"
 msgstr "继续。"
@@ -430,7 +421,6 @@ msgstr ""
 "其盟友的积极支持。"
 
 #: src-en/data/events_sector_og_iron.xml:331
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_UPDATE_OG_IRON_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -461,7 +451,6 @@ msgstr ""
 "类行动，你可能会开始招致铁幕守望及其盟友的负面反应。"
 
 #: src-en/data/events_sector_og_iron.xml:351
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_OG_IRON_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -476,7 +465,6 @@ msgstr ""
 "由于你的行为格外恶劣，你的声望受到了双重削减。"
 
 #: src-en/data/events_sector_og_iron.xml:361
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_IRON_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -675,7 +663,6 @@ msgid ""
 msgstr "在这之后，市场很可能不愿意继续和你交易了，但这并不妨碍你骚扰随机的平民。"
 
 #: src-en/data/events_sector_og_iron.xml:560
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -705,7 +692,7 @@ msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENSE_DRONE\"]/choice[1]/event/text"
 msgstr ""
 "最终，船长的怒火达到了顶点，下令将那所谓的“炮塔”扔出气闸。“我不想再看见它，马"
-"上带我们离开这里！”随着这道命令，铁幕守望的舰船跳跃离开了。现在，你有时间打捞"
+"上带我们离开这里！”随着这道命令，铁幕守望的舰船跃迁离开了。现在，你有时间打捞"
 "起那个“炮塔”并亲自检查，结果发现它只是一个简单的防御无人机。"
 
 #: src-en/data/events_sector_og_iron.xml:596
@@ -767,7 +754,7 @@ msgstr "无视该请求。"
 #: src-en/data/events_sector_og_iron.xml:643
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_FOR_SCIENCE\"]/choice[2]/event/text"
-msgstr "你避开了那艘铁幕守望的舰船，并为下一次跳跃做好准备。"
+msgstr "你避开了那艘铁幕守望舰船，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:645
 msgid ""
@@ -833,7 +820,6 @@ msgstr "这艘船似乎已被洗劫一空，除少数几个区域外，几乎没
 "收集了一些物品，随后便返回了自己的舰船。"
 
 #: src-en/data/events_sector_og_iron.xml:719
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/text"
 msgstr "无视这艘舰船。"
@@ -841,7 +827,7 @@ msgstr "无视这艘舰船。"
 #: src-en/data/events_sector_og_iron.xml:721
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_WRECK\"]/choice[2]/event/text"
-msgstr "你避开了那艘铁幕守望的舰船，并为下一次跳跃做好准备。"
+msgstr "你避开了那艘铁幕守望舰船，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:723
 msgid ""
@@ -890,7 +876,6 @@ msgid ""
 msgstr "你启动了武器系统，并开始逼近攻击。"
 
 #: src-en/data/events_sector_og_iron.xml:776
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -934,7 +919,6 @@ msgid ""
 msgstr "你启动了武器系统，并开始逼近攻击。"
 
 #: src-en/data/events_sector_og_iron.xml:808
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_CIVILIAN_PIRATE_PULSAR\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -973,7 +957,7 @@ msgstr "援救平民船。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/text"
 msgstr "在你来得及采取任何行动之前，民用船便爆炸了。新黎明的舰船注意到了你，随即转身"
-"逃跑，顷刻间便已跳跃离开。"
+"逃跑，顷刻间便已跃迁离开。"
 
 #: src-en/data/events_sector_og_iron.xml:840
 msgid ""
@@ -987,7 +971,6 @@ msgstr "你刚靠近并开始搜刮民用船残骸，一艘铁幕守望的舰船
 "应对这起 事件负责，立刻开始逼近并发动攻击。"
 
 #: src-en/data/events_sector_og_iron.xml:846
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1006,7 +989,6 @@ msgstr ""
 "本是给受袭者的，但看来他们已经用不上了，不如由你收下吧。”"
 
 #: src-en/data/events_sector_og_iron.xml:858
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_SETUP\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1037,7 +1019,6 @@ msgid ""
 msgstr "求你了，残骸都归你，放我们一条生路吧！"
 
 #: src-en/data/events_sector_og_iron.xml:886
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/surrender/choice[1]/text"
 msgstr "接受提议。"
@@ -1048,13 +1029,11 @@ msgid ""
 msgstr "选项里没有投降二字。"
 
 #: src-en/data/events_sector_og_iron.xml:898
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:906
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_EXPLORE_TRANSPORT\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -1062,7 +1041,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:912
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_SECURE\"]/text"
-msgstr "你拆解了残骸，尽其所能地收集了其中的库存物资，随后便为下一次跳跃做准备"
+msgstr "你拆解了残骸，尽其所能地收集了其中的库存物资，随后便为下一次跃迁做准备"
 
 #: src-en/data/events_sector_og_iron.xml:917
 msgid ""
@@ -1075,19 +1054,19 @@ msgstr ""
 #: src-en/data/events_sector_og_iron.xml:919
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[1]/text"
-msgstr ""
+msgstr "帮助他们搜寻运输船。"
 
 #: src-en/data/events_sector_og_iron.xml:923
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[@req=\"sensors\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "(升级传感器) 对该区域进行一次扫描。"
 
 #: src-en/data/events_sector_og_iron.xml:927
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[@req=\"sensors\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "(先进传感器) 对小行星带进行一次深度扫描。"
 
 #: src-en/data/events_sector_og_iron.xml:931
 msgid ""
@@ -1097,7 +1076,7 @@ msgstr "礼貌地拒绝。"
 #: src-en/data/events_sector_og_iron.xml:933
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/event/text"
-msgstr ""
+msgstr "那艘铁幕守望的舰船在小行星带中搜索，最终从视野里消失了。"
 
 #: src-en/data/events_sector_og_iron.xml:935
 msgid ""
@@ -1113,19 +1092,22 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/text"
 msgstr ""
+"你最终找到了那艘古怪的运输船，它似乎被好几颗小行星击穿了。你开始搜查这艘船，"
+"并在船上发现了一把完好的武器。片刻之后，那艘铁幕守望的舰船出现了：“哦，很好，"
+"你们找到它了。多谢帮忙，伙计们，接下来交给我们吧。”"
 
 #: src-en/data/events_sector_og_iron.xml:951
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击那艘舰船，将残骸据为己有。"
 
 #: src-en/data/events_sector_og_iron.xml:953
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/event/text"
-msgstr ""
+msgstr "就在你启动武器系统时，铁幕守望舰船似乎察觉了你的意图。他们的船长惊怒地咒骂了"
+"几句，但随即也启动了自己的武器作为回应。"
 
 #: src-en/data/events_sector_og_iron.xml:956
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1133,12 +1115,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:962
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/text"
-msgstr ""
+msgstr "将残骸留给他们。"
 
 #: src-en/data/events_sector_og_iron.xml:964
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[2]/event/text"
-msgstr ""
+msgstr "残骸最终飘出了视野之外。"
 
 #: src-en/data/events_sector_og_iron.xml:966
 msgid ""
@@ -1154,19 +1136,22 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/text"
 msgstr ""
+"最终你找到了残骸，同时也遇到了那艘铁幕守望舰船。看来他们已经打捞这残骸有一段"
+"时间了。“哦，很好，你还活着。我们很感谢你的帮助，但现在已经不需要其他协助了。"
+"祝你的任务顺利。”"
 
 #: src-en/data/events_sector_og_iron.xml:980
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/text"
-msgstr ""
+msgstr "攻击那艘舰船，将残骸据为己有。"
 
 #: src-en/data/events_sector_og_iron.xml:982
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/event/text"
-msgstr ""
+msgstr "就在你启动武器系统时，铁幕守望舰船似乎察觉了你的意图。他们的船长惊怒地咒骂了"
+"几句，但随即也启动了自己的武器作为回应。"
 
 #: src-en/data/events_sector_og_iron.xml:985
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1174,12 +1159,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:991
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/text"
-msgstr ""
+msgstr "将残骸留给他们。"
 
 #: src-en/data/events_sector_og_iron.xml:993
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[2]/event/text"
-msgstr ""
+msgstr "残骸最终飘出了视野之外。"
 
 #: src-en/data/events_sector_og_iron.xml:995
 msgid ""
@@ -1194,16 +1179,15 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1006
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_EXPLORE_TRANSPORT_SEARCH\"]/event[3]/text"
-msgstr ""
+msgstr "你在小行星带中搜索了仿佛数小时之久，却一无所获。不过，你偶然发现了一个似乎是"
+"装有基本补给的货柜。"
 
 #: src-en/data/events_sector_og_iron.xml:1029
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_WATCH_PIRATE\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1037
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_WATCH_PIRATE\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -1211,20 +1195,20 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1046
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/text"
-msgstr ""
+msgstr "你抵达信标，发现一艘严重受损的铁幕守望舰船正与一艘海盗船激烈交火。若无援助，"
+"这艘铁幕守望舰船将支撑不了多久。"
 
 #: src-en/data/events_sector_og_iron.xml:1048
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/text"
-msgstr ""
+msgstr "援助铁幕守望舰船。"
 
 #: src-en/data/events_sector_og_iron.xml:1050
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你启动了武器系统。那艘海盗船感知到了更大的威胁，将注意力转向了你。"
 
 #: src-en/data/events_sector_og_iron.xml:1053
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1232,7 +1216,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1059
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH\"]/choice[2]/text"
-msgstr ""
+msgstr "避免卷入。"
 
 #: src-en/data/events_sector_og_iron.xml:1061
 msgid ""
@@ -1252,20 +1236,19 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1082
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/text"
-msgstr ""
+msgstr "铁幕守望已从先前的战斗中部分恢复，他们感谢你的救援。"
 
 #: src-en/data/events_sector_og_iron.xml:1084
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/text"
-msgstr ""
+msgstr "趁其受损，发动攻击。"
 
 #: src-en/data/events_sector_og_iron.xml:1086
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/event/text"
-msgstr ""
+msgstr "当你启动武器并准备攻击时，铁幕守望的船员们惊恐地看着你。"
 
 #: src-en/data/events_sector_og_iron.xml:1089
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1273,35 +1256,37 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1095
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/text"
-msgstr ""
+msgstr "(铁幕守望船员) 请求补给。"
 
 #: src-en/data/events_sector_og_iron.xml:1097
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/text"
-msgstr ""
+msgstr "“当然可以，这些请收下，聊表谢意。”"
 
 #: src-en/data/events_sector_og_iron.xml:1102
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[3]/text"
-msgstr ""
+msgstr "准备下一次跃迁。"
 
 #: src-en/data/events_sector_og_iron.xml:1111
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/text"
 msgstr ""
+"这里的民用船只似乎因脉冲星而搁浅了。“舰长，谢天谢地你来了。我们的跃迁驱动器在"
+"正要执行跃迁时被脉冲星击中而损坏，能量尖峰烧毁了引擎。我们的补给所剩无几，船"
+"上也没有专职工程师。任何帮助我们都感激不尽。”"
 
 #: src-en/data/events_sector_og_iron.xml:1113
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/text"
-msgstr ""
+msgstr "发送一些补给过去。"
 
 #: src-en/data/events_sector_og_iron.xml:1115
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/event/text"
-msgstr ""
+msgstr "“感谢你的帮助，希望我们能尽快修好它。”"
 
 #: src-en/data/events_sector_og_iron.xml:1121
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1309,15 +1294,17 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1127
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/text"
-msgstr ""
+msgstr "(工程师船员) 看看你的工程师能否帮上忙。"
 
 #: src-en/data/events_sector_og_iron.xml:1129
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。最终，他们找到了问题的"
+"根源，这让船长喜出望外。“所有系统正常……太好了！等我们执行下一次跃迁时，它应该"
+"就能恢复正常了。感谢你们的帮助。”"
 
 #: src-en/data/events_sector_og_iron.xml:1132
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[@req=\"LIST_CREW_ENGINEER\"]/event/choice/text"
 msgstr "继续。"
@@ -1335,7 +1322,7 @@ msgstr "尝试解决他们的问题。"
 #: src-en/data/events_sector_og_iron.xml:1146
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[5]/text"
-msgstr ""
+msgstr "趁其不备，发起攻击！"
 
 #: src-en/data/events_sector_og_iron.xml:1148
 msgid ""
@@ -1343,7 +1330,6 @@ msgid ""
 msgstr "每一个废料都是如此珍贵，怎可放过唾手可得之物。"
 
 #: src-en/data/events_sector_og_iron.xml:1151
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[5]/event/choice/text"
 msgstr "继续。"
@@ -1356,7 +1342,7 @@ msgstr "道歉并说你帮不上忙。"
 #: src-en/data/events_sector_og_iron.xml:1159
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/event/text"
-msgstr ""
+msgstr "该船的船长叹了口气。“如果可能的话，派个人过来帮帮我们吧。”"
 
 #: src-en/data/events_sector_og_iron.xml:1161
 msgid ""
@@ -1371,10 +1357,10 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1174
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[1]/text"
-msgstr ""
+msgstr "你的无人机开始检修损坏的跃迁推进器。没过多久，无人机就找到了问题所在，驱动器"
+"随之恢复了运转。“所有系统正常……太好了！感谢你的帮助。”"
 
 #: src-en/data/events_sector_og_iron.xml:1180
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[1]/choice/text"
 msgstr "继续。"
@@ -1383,19 +1369,27 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[2]/text"
 msgstr ""
+"你的无人机开始检修损坏的跃迁推进器。它传回一份报告，指出修复资源不足，但打印"
+"出了一份如何修复的读数。“好吧，总比什么都没有强……现在我们至少知道需要什么了。"
+"”他们给了你一份小额报酬。"
 
 #: src-en/data/events_sector_og_iron.xml:1192
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_REPAIR\"]/event[3]/text"
 msgstr ""
+"你的无人机开始检修损坏的跃迁推进器。它短暂地恢复了一下运转，随即就彻底损坏了"
+"。无人机打印出了一份它识别到但未能修复的问题读数。“好吧，总比什么都没有强……也"
+"许我们暂时可以凑合一下。”他们给了你一份适度的报酬。"
 
 #: src-en/data/events_sector_og_iron.xml:1201
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[1]/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。最终，他们找到了问题的"
+"根源，这让船长喜出望外。“所有系统正常……太好了！等我们执行下一次跃迁时，它应该"
+"就能恢复正常了。感谢你们的帮助。”"
 
 #: src-en/data/events_sector_og_iron.xml:1204
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[1]/choice/text"
 msgstr "继续。"
@@ -1404,28 +1398,39 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[2]/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。虽然未能让它恢复工作，"
+"但他们成功完成了故障诊断。“好吧，总比什么都没有强……至少我们现在知道问题出在哪"
+"儿了。”他们给了你一份小额报酬。"
 
 #: src-en/data/events_sector_og_iron.xml:1213
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[3]/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。它短暂地恢复了一下运转"
+"，随即就彻底损坏了。看来他们只让它部分恢复了功能。“好吧，总比什么都没有强……也"
+"许我们暂时可以凑合一下。”他们给了你一份适度的报酬。"
 
 #: src-en/data/events_sector_og_iron.xml:1217
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[4]/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。就在其中一名船员调整某"
+"个部件时，推进器“嘭”地一声爆开并燃起火焰。看来你把它彻底搞砸了。“干得好啊，蠢"
+"货。现在我们彻底完蛋了。”"
 
 #: src-en/data/events_sector_og_iron.xml:1220
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DISTRESS_PULSAR_SEND_CREW\"]/event[5]/text"
 msgstr ""
+"你的船员花了一些时间对故障的跃迁推进器进行测试和检修。然而无论他们如何尝试，"
+"都完全搞不清问题出在哪里。船员们摇了摇头。“连我们都搞不明白……你们怎么会觉得自"
+"己能知道问题所在呢？”"
 
 #: src-en/data/events_sector_og_iron.xml:1238
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/text"
-msgstr ""
+msgstr "你与一艘铁幕守望运输船正面遭遇。你的传感器侦测到，它的跃迁推进器正在充能。"
 
 #: src-en/data/events_sector_og_iron.xml:1240
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/text"
 msgstr "继续。"
@@ -1433,7 +1438,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1242
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/text"
-msgstr ""
+msgstr "就在它执行跃迁时，你眼睁睁看着一颗未被防御的小行星撞上了舰体侧面，撕下了一大"
+"块船体。但这并未阻碍跃迁，运输船片刻后便消失了。"
 
 #: src-en/data/events_sector_og_iron.xml:1245
 msgid ""
@@ -1443,7 +1449,8 @@ msgstr "调查。"
 #: src-en/data/events_sector_og_iron.xml:1247
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/event/text"
-msgstr ""
+msgstr "大部分残骸都毫无用处，但你最终找到了一个货柜，里面装着一门造型奇特的炮塔。看"
+"起来这门炮塔有一个特定的目的地——附近的一个前哨站。你记下了坐标。"
 
 #: src-en/data/events_sector_og_iron.xml:1251
 msgid ""
@@ -1458,31 +1465,34 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1267
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "你发现炮塔的预定目的地。"
 
 #: src-en/data/events_sector_og_iron.xml:1271
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/text"
-msgstr ""
+msgstr "这个信标处坐落着一个大型前哨站，可以看到多艘舰船在前哨站内外活动。你在附近发"
+"现了那艘受损的运输船。"
 
 #: src-en/data/events_sector_og_iron.xml:1273
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "在受损运输船附近停靠。"
 
 #: src-en/data/events_sector_og_iron.xml:1275
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"你刚下船，就无意中听到了附近激烈的对话：“我不知道我们该怎么办，他们会因为这事"
+"收走我的船。我们当初为什么要进那个小行星带？这连一次跃迁的路程都没省下。”"
 
 #: src-en/data/events_sector_og_iron.xml:1277
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "not(@lvl)]/text"
-msgstr ""
+msgstr "向他们展示丢失的炮塔。"
 
 #: src-en/data/events_sector_og_iron.xml:1279
 msgid ""
@@ -1490,9 +1500,11 @@ msgid ""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "not(@lvl)]/event/text"
 msgstr ""
+"“哦，谢天谢地！你到底是怎么在多元宇宙里找到它的？”你解释说看到他们被击中并丢"
+"失了它。“你真是我们的救星，这些补给请收下作为酬谢。”带着炮塔，运输船的船长走"
+"进了前哨站。"
 
 #: src-en/data/events_sector_og_iron.xml:1284
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
@@ -1504,19 +1516,19 @@ msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[@req=\"OG_TURRET_LASER_MINI_DAWN_2\" and "
 "@lvl=\"0\"]/text"
-msgstr ""
+msgstr "你身上没有带着丢失的炮塔。"
 
 #: src-en/data/events_sector_og_iron.xml:1294
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/text"
-msgstr ""
+msgstr "悄悄离开。"
 
 #: src-en/data/events_sector_og_iron.xml:1296
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"1\"]/event/choice[3]/event/text"
-msgstr ""
+msgstr "准备下一次跃迁。"
 
 #: src-en/data/events_sector_og_iron.xml:1298
 msgid ""
@@ -1534,7 +1546,7 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[@req=\"LIST_CHECK_ANY_CREW\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "你可以停靠在前哨站，但在没有船员的情况下，很难在那里进行任何活动。"
 
 #: src-en/data/events_sector_og_iron.xml:1314
 msgid ""
@@ -1544,7 +1556,7 @@ msgstr "无视哨站。"
 #: src-en/data/events_sector_og_iron.xml:1316
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY_OUTPOST\"]/choice[3]/event/text"
-msgstr ""
+msgstr "准备下一次跃迁。"
 
 #: src-en/data/events_sector_og_iron.xml:1318
 msgid ""
@@ -1559,27 +1571,30 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1341
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/text"
-msgstr ""
+msgstr "你抵达信标，与一艘新黎明侦察舰正面遭遇。你立即侦测到该舰正在为其跃迁推进器充"
+"能，他们随时可能跃迁离开。"
 
 #: src-en/data/events_sector_og_iron.xml:1343
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[1]/text"
-msgstr ""
+msgstr "尝试攻击他们的跃迁推进器！"
 
 #: src-en/data/events_sector_og_iron.xml:1347
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "“等等！”"
 
 #: src-en/data/events_sector_og_iron.xml:1349
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"那艘船没有立即跃迁离开，看来你引起了他们的注意。你解释说并非要杀他们，只是想"
+"知道他们在此地做什么。\n"
+"他们没有立即回应，并保持着跃迁推进器的充能状态。"
 
 #: src-en/data/events_sector_og_iron.xml:1352
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/choice/text"
@@ -1590,18 +1605,21 @@ msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/choice/event/text"
 msgstr ""
+"最终他们回应道：“变元者，如果你想知道任何事，就得先向我们证明你自己。附近有一"
+"个铁幕守望的补给站，去把它端掉，然后我们再说。”说完，他们便跃迁离开了。"
 
 #: src-en/data/events_sector_og_iron.xml:1362
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "“等等！”"
 
 #: src-en/data/events_sector_og_iron.xml:1364
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/text"
-msgstr ""
+msgstr "那艘船立即关闭了通讯，片刻之后便消失了。看来他们根本没兴趣听你解释。或许，如"
+"果他们曾听说过你，会更愿意听一听。"
 
 #: src-en/data/events_sector_og_iron.xml:1367
 msgid ""
@@ -1623,7 +1641,7 @@ msgstr "让他们离开。"
 #: src-en/data/events_sector_og_iron.xml:1379
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[4]/event/text"
-msgstr ""
+msgstr "那艘船跃迁离开了。你为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1382
 msgid ""
@@ -1638,10 +1656,9 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1394
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[1]/text"
-msgstr ""
+msgstr "新黎明侦察舰轻松地躲过了你的攻击，片刻之后便已跃迁离开。"
 
 #: src-en/data/events_sector_og_iron.xml:1397
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[1]/choice/text"
 msgstr "继续。"
@@ -1649,22 +1666,19 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1402
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[2]/text"
-msgstr ""
+msgstr "你直接命中了他们的引擎，瘫痪了其跃迁推进器。"
 
 #: src-en/data/events_sector_og_iron.xml:1406
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"OG_IRON_DAWN_HIDEOUT_FIRE\"]/event[2]/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1417
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_DAWN_QUEST\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1425
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_DAWN_QUEST\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -1672,12 +1686,13 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1433
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "新黎明要求你摧毁的铁幕守望补给站位置。"
 
 #: src-en/data/events_sector_og_iron.xml:1438
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/text"
-msgstr ""
+msgstr "你抵达信标，发现了铁幕守望的补给站。但不幸的是，它并非孤立无援，附近有一艘铁"
+"幕守望的舰船正在警戒。"
 
 #: src-en/data/events_sector_og_iron.xml:1440
 msgid ""
@@ -1687,10 +1702,9 @@ msgstr "攻击守卫。"
 #: src-en/data/events_sector_og_iron.xml:1442
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[1]/event/text"
-msgstr ""
+msgstr "铁幕守望舰船迅速插到了你与补给站之间。准备战斗。"
 
 #: src-en/data/events_sector_og_iron.xml:1445
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1698,15 +1712,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1451
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/text"
-msgstr ""
+msgstr "警告他们关于攻击的事。"
 
 #: src-en/data/events_sector_og_iron.xml:1453
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/event/text"
-msgstr ""
+msgstr "铁幕守望对你的警告感激不尽，并提供了一些补给品以示感谢。"
 
 #: src-en/data/events_sector_og_iron.xml:1456
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1714,12 +1727,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1462
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/text"
-msgstr ""
+msgstr "放弃你的任务。"
 
 #: src-en/data/events_sector_og_iron.xml:1464
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST\"]/choice[3]/event/text"
-msgstr ""
+msgstr "你保持距离，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1467
 msgid ""
@@ -1735,9 +1748,11 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN\"]/loadEventList/event/text"
 msgstr ""
+"解决了护卫舰船后，你得以进入、洗劫并摧毁了补给站。新黎明似乎一直在暗中观察，"
+"因为没过多久你就收到了一条讯息：“看来你已经见过新黎明的其他成员了。我们在新黎"
+"明前哨作战基地等你。”"
 
 #: src-en/data/events_sector_og_iron.xml:1484
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN\"]/loadEventList/event/choice/text"
 msgstr "继续。"
@@ -1746,15 +1761,15 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN_INITIATE\"]/text"
 msgstr ""
+"解决了护卫舰船后，你得以进入、洗劫并摧毁了补给站。新黎明似乎一直在暗中观察，"
+"因为没过多久你就收到了一条讯息：“来新黎明前哨作战基地找我们，我们在那里谈。”"
 
 #: src-en/data/events_sector_og_iron.xml:1495
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT_QUEST_WIN_INITIATE\"]/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1524
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_SHIP\"]/choice/text"
 msgstr "继续。"
@@ -1762,7 +1777,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1529
 msgid ""
 "data/events_sector_og_iron.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_IRON\"]/text[1]"
-msgstr ""
+msgstr "当你跃迁进入该星系时，一艘失控的铁幕守望舰船朝你的位置逼近。他们拒绝一切通讯"
+"。准备战斗。"
 
 #: src-en/data/events_sector_og_iron.xml:1530
 msgid ""
@@ -1783,9 +1799,11 @@ msgstr "你还没有完成跃迁充能之前便听到你的星舰警告你有一
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_PULSAR\"]/text"
 msgstr ""
+"这个信标被放置得离一颗中子星太近了！辐射场将暂时使你舰船的系统电离失效。铁幕"
+"守望的舰船显然针对脉冲星环境进行了特别设计，能保持相当的作战效能。你的处境将"
+"会非常艰难。"
 
 #: src-en/data/events_sector_og_iron.xml:1540
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_PULSAR\"]/choice/text"
 msgstr "继续。"
@@ -1793,32 +1811,30 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1546
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_PIRATE_PULSAR\"]/text"
-msgstr ""
+msgstr "这个信标被放置得离一颗中子星太近了！辐射场将暂时使你舰船的系统电离失效。一名"
+"海盗显然没有意识到脉冲星的危险，正在向你逼近并准备交战。"
 
 #: src-en/data/events_sector_og_iron.xml:1550
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_PIRATE_PULSAR\"]/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1562
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1570
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1578
 msgid "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/text"
-msgstr ""
+msgstr "你抵达了一个相当荒凉的信标区，除了侦测到一座铁幕守望前哨站正环绕附近一颗行星"
+"运行外，这里几乎没什么值得注意的。"
 
 #: src-en/data/events_sector_og_iron.xml:1580
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/text"
 msgstr "继续。"
@@ -1826,10 +1842,10 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1582
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/text"
-msgstr ""
+msgstr "正当你感到无聊时，另一艘舰船跃迁进入了该星系。它与你见过的任何铁幕守望舰船都"
+"不同，似乎是一种新型星舰，可能还只是原型机。"
 
 #: src-en/data/events_sector_og_iron.xml:1585
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/text"
 msgstr "继续。"
@@ -1837,45 +1853,46 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1587
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/text"
-msgstr ""
+msgstr "你看到那艘原型舰与远处的那个前哨站完成了对接。仅仅几分钟后，它便解除对接并跃"
+"迁离开了，而你根本来不及采取任何行动。"
 
 #: src-en/data/events_sector_og_iron.xml:1590
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/text"
-msgstr ""
+msgstr "(友好声望) 向前哨站询问那艘舰船的信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1594
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"0\"]/text"
-msgstr ""
+msgstr "(中立声望) 向前哨站询问那艘舰船的信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1598
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"-999\"]/text"
-msgstr ""
+msgstr "(负面声望) 向前哨站询问那艘舰船的信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1602
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"sensors\"]/text"
-msgstr ""
+msgstr "(高级传感器) 扫描那艘舰船留下的跃迁尾迹。"
 
 #: src-en/data/events_sector_og_iron.xml:1604
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"sensors\"]/event/text"
-msgstr ""
+msgstr "通过扫描该次跃迁释放出的辐射，你得以三角定位出那艘原型舰的大致目的地。"
 
 #: src-en/data/events_sector_og_iron.xml:1609
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/text"
-msgstr ""
+msgstr "继续前进。"
 
 #: src-en/data/events_sector_og_iron.xml:1611
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[5]/event/text"
-msgstr ""
+msgstr "你保持距离，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1613
 msgid ""
@@ -1890,7 +1907,7 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1629
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_FRIENDLY\"]/text"
-msgstr ""
+msgstr "前哨站迟疑了片刻才向你致意：“我们本不应该透露这类信息，但可以为你破例一次。”"
 
 #: src-en/data/events_sector_og_iron.xml:1632
 msgid ""
@@ -1905,40 +1922,45 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1641
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/text"
-msgstr ""
+msgstr "前哨站沉默了片刻才向你致意，而回应你的则是一堵立即筑起的城墙：“抱歉，我们无法"
+"提供任何关于那艘舰船的信息。”"
 
 #: src-en/data/events_sector_og_iron.xml:1643
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/text"
-msgstr ""
+msgstr "这能让你改变主意吗？"
 
 #: src-en/data/events_sector_og_iron.xml:1648
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/text"
-msgstr ""
+msgstr "前哨站接收了你的废料：“虽然你的捐赠非常慷慨，但我们依然不能告诉你任何关于那艘"
+"舰船的信息。”"
 
 #: src-en/data/events_sector_og_iron.xml:1650
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "提供更丰厚的贿赂。"
 
 #: src-en/data/events_sector_og_iron.xml:1655
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
+"前哨站接收了你的废料：“嗯，这就有点意思了。我们不能告诉你，但最近我们的通讯系"
+"统确实出了故障，把一些加密信息发送到了私密频道上，这真的需要检查一下……”片刻之"
+"后，你的船员就在某个私密频道上截获了一艘舰船的位置信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1660
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "威胁前哨站以获取信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1662
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/event/text"
-msgstr ""
+msgstr "前哨站在你的武器面前基本毫无防御能力，他们迅速屈服于你的要求，上传了关于原型"
+"舰的数据。并且，他们还“友善地”归还了你的捐赠。"
 
 #: src-en/data/events_sector_og_iron.xml:1668
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1946,12 +1968,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1674
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/text"
-msgstr ""
+msgstr "放弃信息，继续前进。"
 
 #: src-en/data/events_sector_og_iron.xml:1676
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[3]/event/text"
-msgstr ""
+msgstr "你驶离前哨站，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1678
 msgid ""
@@ -1966,25 +1988,28 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1690
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[2]/text"
-msgstr ""
+msgstr "提供更丰厚的贿赂。"
 
 #: src-en/data/events_sector_og_iron.xml:1695
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[2]/event/text"
 msgstr ""
+"前哨站接收了你的废料：“嗯，这就有点意思了。我们不能告诉你，但最近我们的通讯系"
+"统确实出了故障，把一些加密信息发送到了私密频道上，这真的需要检查一下……”片刻之"
+"后，你的船员就在某个私密频道上截获了一艘舰船的位置信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1700
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/text"
-msgstr ""
+msgstr "威胁前哨站以获取信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1702
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/event/text"
-msgstr ""
+msgstr "前哨站在你的武器面前基本毫无防御能力，他们迅速屈服于你的要求，上传了关于原型"
+"舰的数据。"
 
 #: src-en/data/events_sector_og_iron.xml:1705
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -1993,16 +2018,18 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "(黑客系统) 远程访问他们的数据存储。"
 
 #: src-en/data/events_sector_og_iron.xml:1713
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"你一边与前哨站闲谈，一边配置黑客系统读取了他们的数据存储，并下载了最近的通讯"
+"数据。下载完成后，你便带着原型舰的位置信息告别离开。不幸的是，就在你离开之际"
+"，你的黑客行为被发现了。"
 
 #: src-en/data/events_sector_og_iron.xml:1716
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/choice/text"
@@ -2012,23 +2039,24 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "(先进黑客系统) 远程访问他们的数据存储。"
 
 #: src-en/data/events_sector_og_iron.xml:1724
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
-msgstr ""
+msgstr "你一边与前哨站闲谈，一边配置黑客系统读取了他们的数据存储，并下载了最近的通讯"
+"数据。下载完成后，你便带着原型舰的位置信息告别离开。"
 
 #: src-en/data/events_sector_og_iron.xml:1729
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/text"
-msgstr ""
+msgstr "放弃信息，继续前进。"
 
 #: src-en/data/events_sector_og_iron.xml:1731
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[6]/event/text"
-msgstr ""
+msgstr "你驶离前哨站，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1733
 msgid ""
@@ -2043,20 +2071,21 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_iron.xml:1745
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/text"
-msgstr ""
+msgstr "前哨站沉默了片刻才向你致意，而回应你的则是一堵立即筑起的城墙：“就算我们能告诉"
+"你，我们也不会。”"
 
 #: src-en/data/events_sector_og_iron.xml:1747
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/text"
-msgstr ""
+msgstr "威胁前哨站以获取信息。"
 
 #: src-en/data/events_sector_og_iron.xml:1749
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/event/text"
-msgstr ""
+msgstr "前哨站在你的武器面前基本毫无防御能力，他们迅速屈服于你的要求，上传了关于原型"
+"舰的数据。"
 
 #: src-en/data/events_sector_og_iron.xml:1752
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -2065,16 +2094,18 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/text"
-msgstr ""
+msgstr "(黑客系统) 远程访问他们的数据存储。"
 
 #: src-en/data/events_sector_og_iron.xml:1760
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
+"你配置黑客系统读取了他们的数据存储，并下载了最近的通讯数据。下载完成后，你便"
+"带着原型舰的位置信息告别离开。不幸的是，就在你离开之际，你的黑客行为被发现了"
+"，并且你侦测到他们正在向附近的铁幕守望前哨站报告此事。"
 
 #: src-en/data/events_sector_og_iron.xml:1763
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"1\"]/event/choice/text"
@@ -2084,23 +2115,24 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/text"
-msgstr ""
+msgstr "(先进黑客系统) 远程访问他们的数据存储。"
 
 #: src-en/data/events_sector_og_iron.xml:1771
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[@req=\"hacking\""
 " and @lvl=\"3\"]/event/text"
-msgstr ""
+msgstr "你一边与前哨站闲谈，一边配置黑客系统读取了他们的数据存储，并下载了最近的通讯"
+"数据。下载完成后，你便带着原型舰的位置信息告别离开。"
 
 #: src-en/data/events_sector_og_iron.xml:1776
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/text"
-msgstr ""
+msgstr "放弃信息，继续前进。"
 
 #: src-en/data/events_sector_og_iron.xml:1778
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST_CRIMINAL\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你驶离前哨站，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1780
 msgid ""
@@ -2113,13 +2145,11 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_iron.xml:1797
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE_QUEST\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_iron.xml:1806
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//ship[@name=\"SHIP_OG_IRON_PROTOTYPE_QUEST\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -2127,15 +2157,15 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1814
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/beaconType/unvisitedTooltip"
-msgstr ""
+msgstr "铁幕守望原型舰位置。"
 
 #: src-en/data/events_sector_og_iron.xml:1819
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/text"
-msgstr ""
+msgstr "你抵达信标，发现那艘铁幕守望原型舰正环绕此地的脉冲星运行，他们似乎在用附近的"
+"一颗小行星测试武器系统。"
 
 #: src-en/data/events_sector_og_iron.xml:1821
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/text"
 msgstr "继续。"
@@ -2144,24 +2174,28 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/text"
 msgstr ""
+"就在你观察时，一股来自脉冲星的巨大能量波扫过了那艘原型舰。你的传感器显示，舰"
+"上多个系统被脉冲星瞬间瘫痪。\n"
+"如果这还不够糟，一艘新的舰船从附近的一颗小行星后现身。它看起来像是新黎明的那"
+"种舰船，并且正在向原型舰逼近。"
 
 #: src-en/data/events_sector_og_iron.xml:1827
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[1]/text"
-msgstr ""
+msgstr "介入并保护铁幕守望原型舰。"
 
 #: src-en/data/events_sector_og_iron.xml:1831
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[2]/text"
-msgstr ""
+msgstr "协助新黎明舰船攻击那艘武装强大的原型舰。"
 
 #: src-en/data/events_sector_og_iron.xml:1834
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[2]/event/text"
-msgstr ""
+msgstr "你将注意力转向了那艘原型舰。不幸的是，当你准备就绪时，该舰已几乎从脉冲星的打"
+"击中完全恢复。不过，你并非孤军奋战，你获得了那艘新黎明舰船的支援。"
 
 #: src-en/data/events_sector_og_iron.xml:1838
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -2169,12 +2203,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_iron.xml:1844
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/text"
-msgstr ""
+msgstr "撤退到安全距离，置身事外。"
 
 #: src-en/data/events_sector_og_iron.xml:1846
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DESTINATION\"]/choice/event/choice[3]/event/text"
-msgstr ""
+msgstr "你驶离那两艘舰船，并为下一次跃迁做好准备。"
 
 #: src-en/data/events_sector_og_iron.xml:1849
 msgid ""
@@ -2190,9 +2224,11 @@ msgstr "跳过。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_WIN\"]/text"
 msgstr ""
+"铁幕守望的舰船已从那场攻击中基本恢复，他们联系了你：“我们很感激你的帮助，舰长"
+"。如果没有你，我们不确定能否幸存。也许现在是我们更积极地参与你与叛军战争的时"
+"候了。我们会把原型舰的蓝图发送给联邦，也许他们能用得上。”"
 
 #: src-en/data/events_sector_og_iron.xml:1866
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_WIN\"]/choice/text"
 msgstr "继续。"
@@ -2201,9 +2237,11 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DAWN_WIN\"]/loadEventList/event/text"
 msgstr ""
+"即便在战斗结束后，新黎明的舰船对你仍保持警惕。你看到他们靠近残骸，小心翼翼地"
+"提取了一个单独的部件——你不知道那是什么——完成后，他们便对残骸的其余部分失去了"
+"兴趣，缓缓退开。你收到了一句简单的感谢，随后他们便离开了。"
 
 #: src-en/data/events_sector_og_iron.xml:1877
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DAWN_WIN\"]/loadEventList/event/choice/text"
 msgstr "继续。"
@@ -2212,9 +2250,12 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DAWN_WIN_INITIATE\"]/text"
 msgstr ""
+"即便在战斗结束后，新黎明的舰船对你仍保持警惕。你看到他们靠近残骸，小心翼翼地"
+"提取了一个单独的部件——你不知道那是什么——完成后，他们便对残骸的其余部分失去了"
+"兴趣，缓缓退开。“舰长，如果你能抵达新黎明前哨作战基地，我会确保你通行无阻。到"
+"了那里，记得来找我。”"
 
 #: src-en/data/events_sector_og_iron.xml:1888
-#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DAWN_WIN_INITIATE\"]/choice/text"
 msgstr "继续。"
