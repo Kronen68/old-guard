@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 13:13+0000\n"
+"PO-Revision-Date: 2026-01-15 04:44+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_dawnxml/zh_Hans/>\n"
@@ -2931,7 +2931,7 @@ msgstr "接收："
 #: src-en/data/events_sector_og_dawn.xml:2213
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[3]/event/text"
-msgstr ""
+msgstr "你挑选了其中一座新黎明炮塔。舰长再次向你致谢，随后便继续驶向他们的基地。"
 
 #: src-en/data/events_sector_og_dawn.xml:2218
 msgid ""
@@ -2941,7 +2941,7 @@ msgstr "接收："
 #: src-en/data/events_sector_og_dawn.xml:2220
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[4]/event/text"
-msgstr ""
+msgstr "你挑选了其中一座新黎明炮塔。舰长再次向你致谢，随后便继续驶向他们的基地。"
 
 #: src-en/data/events_sector_og_dawn.xml:2225
 msgid ""
@@ -2951,12 +2951,12 @@ msgstr "接收："
 #: src-en/data/events_sector_og_dawn.xml:2227
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[5]/event/text"
-msgstr ""
+msgstr "你挑选了其中一座新黎明炮塔。舰长再次向你致谢，随后便继续驶向他们的基地。"
 
 #: src-en/data/events_sector_og_dawn.xml:2237
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_TRANSPORT_LOOT\"]/escape/text"
-msgstr ""
+msgstr "他们看起来并无意交战，正试图撤离。"
 
 #: src-en/data/events_sector_og_dawn.xml:2248
 msgid ""
@@ -2976,17 +2976,18 @@ msgstr "未探索的信标。"
 #: src-en/data/events_sector_og_dawn.xml:2252
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/text"
-msgstr ""
+msgstr "这个信标处停泊着一艘新黎明运输船。几乎可以肯定，船上很可能载有某种特殊科技。"
+"若能解决其船员，船上的货物便将归你所有。"
 
 #: src-en/data/events_sector_og_dawn.xml:2255
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/text"
-msgstr ""
+msgstr "向对方发出通讯，要求其立即投降并交出所有货物。"
 
 #: src-en/data/events_sector_og_dawn.xml:2257
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/event/text"
-msgstr ""
+msgstr "你已做好武力夺取其货物的准备。"
 
 #: src-en/data/events_sector_og_dawn.xml:2260
 msgid ""
@@ -2996,12 +2997,12 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:2266
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/text"
-msgstr ""
+msgstr "你选择避开这艘舰船。"
 
 #: src-en/data/events_sector_og_dawn.xml:2268
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/event/text"
-msgstr ""
+msgstr "他们始终保持在你的武器射程之外，最终跃迁离开了。"
 
 #: src-en/data/events_sector_og_dawn.xml:2270
 msgid ""
@@ -3016,4 +3017,5 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_dawn.xml:2281
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_CAPTURE_OG_DAWN\"]/text"
-msgstr ""
+msgstr "船员已全部死亡，整艘船现在归你所有。船上的货物任你拿取。正如你所料，你找到了"
+"那份特殊的科技物品，并将其带回了自己的星舰。"
