@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 10:47+0000\n"
+"PO-Revision-Date: 2026-01-14 11:00+0000\n"
 "Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_dawnxml/zh_Hans/>\n"
@@ -492,51 +492,53 @@ msgstr "不是，怎么了？"
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
+"“不，没什么理由，只是好奇。总之，就像我刚才说的，这可是正宗的新黎明炮塔，是你"
+"能找到的最强大的装备之一。”商人给它标了个高价，但这显然是一件好装备。"
 
 #: src-en/data/events_sector_og_dawn.xml:425
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "购买该炮塔。"
 
 #: src-en/data/events_sector_og_dawn.xml:429
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "(新黎明船员) 秘密向新黎明举报他。"
 
 #: src-en/data/events_sector_og_dawn.xml:433
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[3]/text"
-msgstr ""
+msgstr "(叛军船员) 秘密向新黎明举报他。"
 
 #: src-en/data/events_sector_og_dawn.xml:437
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[4]/text"
-msgstr ""
+msgstr "(新黎明船员) 质问他如何获得这门炮塔。"
 
 #: src-en/data/events_sector_og_dawn.xml:441
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[5]/text"
-msgstr ""
+msgstr "(叛军船员) 质问他如何获得这门炮塔。"
 
 #: src-en/data/events_sector_og_dawn.xml:445
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/event/choice[6]/text"
-msgstr ""
+msgstr "无视这个报价，只进行常规购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:451
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_CREW_OG_DAWN\"]/text"
-msgstr ""
+msgstr "(新黎明船员) 我们来自新黎明。"
 
 #: src-en/data/events_sector_og_dawn.xml:455
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[@req=\"LIST_REBEL_WITHOUT_OG_DAWN\"]/text"
-msgstr ""
+msgstr "(叛军船员) 我们来自新黎明。"
 
 #: src-en/data/events_sector_og_dawn.xml:461
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[2]/text"
-msgstr ""
+msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:467
 msgid ""
@@ -641,7 +643,7 @@ msgstr ""
 #: src-en/data/events_sector_og_dawn.xml:539
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP\"]/choice[@req=\"sensors\"]/event/choice[4]/text"
-msgstr ""
+msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:545
 msgid ""
@@ -671,12 +673,12 @@ msgstr ""
 #: src-en/data/events_sector_og_dawn.xml:561
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP\"]/choice[@req=\"LIST_CREW_OG_IRON\"]/event/choice[4]/text"
-msgstr ""
+msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:567
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP\"]/choice[4]/text"
-msgstr ""
+msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:573
 msgid ""
@@ -701,7 +703,7 @@ msgstr ""
 #: src-en/data/events_sector_og_dawn.xml:587
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP_REVEALED\"]/choice[4]/text"
-msgstr ""
+msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:601
 msgid ""
