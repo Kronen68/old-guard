@@ -1,17 +1,24 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-01-14 10:47+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/dataevents_sector_og_dawnxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.13.3\n"
 
 #: src-en/data/events_sector_og_dawn.xml:10
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_DESTROY\"]/text"
-msgstr ""
+msgstr "你已击败新黎明的守卫。无论他们的货物中曾有什么，此刻都肯定已被毁，但你至少可"
+"以从这艘船上打捞出一些补给品。"
 
 #: src-en/data/events_sector_og_dawn.xml:13
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_DESTROY\"]/choice/text"
 msgstr "继续。"
@@ -19,10 +26,10 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:18
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_DEADCREW\"]/text"
-msgstr ""
+msgstr "你已击败新黎明的守卫。由于船上已无船员阻挠，你可以调查他们的货舱。你找到了一"
+"件武器带回舰上，随后便开始打捞船体。"
 
 #: src-en/data/events_sector_og_dawn.xml:22
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_DEADCREW\"]/choice/text"
 msgstr "继续。"
@@ -30,7 +37,8 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:34
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FOLLOWUP\"]/text"
-msgstr ""
+msgstr "击杀了新黎明的守卫，无疑已促使他们派遣援军前来追捕你。在探索该星区时，务必步"
+"步为营。"
 
 #: src-en/data/events_sector_og_dawn.xml:43
 msgid ""
@@ -48,7 +56,6 @@ msgid ""
 msgstr "未探索的信标。"
 
 #: src-en/data/events_sector_og_dawn.xml:56
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REINFORCEMENTS_OG_DAWN\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -61,10 +68,10 @@ msgstr "未探索的信标。"
 #: src-en/data/events_sector_og_dawn.xml:59
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REINFORCEMENTS_OG_DAWN\"]/text"
-msgstr ""
+msgstr "一艘新黎明的舰船正逼近并发起攻击！从其船长眼中复仇的怒火来看，这无疑就是守卫"
+"派来猎杀你的那艘船！"
 
 #: src-en/data/events_sector_og_dawn.xml:63
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REINFORCEMENTS_OG_DAWN\"]/choice/text"
 msgstr "继续。"
@@ -75,7 +82,6 @@ msgid ""
 msgstr "未探索的信标。"
 
 #: src-en/data/events_sector_og_dawn.xml:72
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_DAWN\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -88,10 +94,10 @@ msgstr "未探索的信标。"
 #: src-en/data/events_sector_og_dawn.xml:75
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_DAWN\"]/text"
-msgstr ""
+msgstr "一艘新黎明的舰船正逼近并发起攻击！从其船长眼中复仇的怒火来看，这无疑就是守卫"
+"派来猎杀你的那艘船！"
 
 #: src-en/data/events_sector_og_dawn.xml:81
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"NEBULA_LIGHT_REINFORCEMENTS_OG_DAWN\"]/choice/text"
 msgstr "继续。"
@@ -100,28 +106,29 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_START_OG_DAWN_UNIQUE\"]/text[1]"
 msgstr ""
+"这里曾是再普通不过的铁幕守望定居点，如今却已变成了新黎明的军事据点。任何曾反"
+"对该派系的人早已不见踪影，但这个派系现在急需支持，尤其是像你这样强大的变元者"
+"。"
 
 #: src-en/data/events_sector_og_dawn.xml:88
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_START_OG_DAWN_UNIQUE\"]/text[2]"
-msgstr ""
+msgstr "新黎明是铁幕守望的一个分裂团体，这些前铁幕守望成员聚集于此，组织军事力量以对"
+"抗铁幕守望。然而，新黎明现在急需支持，尤其是像你这样强大的变元者。"
 
 #: src-en/data/events_sector_og_dawn.xml:102
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"START_OG_DAWN_UNIQUE\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:106
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"START_OG_DAWN_UNIQUE\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:110
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"START_OG_DAWN_UNIQUE\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -131,9 +138,11 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/text"
 msgstr ""
+"守卫没有立即对你部署武器，而是通过通讯联系你：“听着，关于你的好名声已经传开了"
+"。但我不想光凭几句好话就跟叛军搞僵关系。所以，如果你能‘送’我一点废料，我们俩"
+"都能各取所需。”"
 
 #: src-en/data/events_sector_og_dawn.xml:117
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[1]/text"
 msgstr "我们拒绝支付费用，用武力说服他们！"
@@ -144,7 +153,6 @@ msgid ""
 msgstr "你将对面守卫舰的通讯静音，并准备作战。"
 
 #: src-en/data/events_sector_og_dawn.xml:122
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -152,15 +160,15 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:128
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[2]/text"
-msgstr ""
+msgstr "支付贿赂。"
 
 #: src-en/data/events_sector_og_dawn.xml:130
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[2]/event/text"
-msgstr ""
+msgstr "守卫点了点头，快速检查了一下废料。“很好。如果有人问起，就说你是上一班岗时通过"
+"的。”"
 
 #: src-en/data/events_sector_og_dawn.xml:135
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -168,22 +176,22 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:141
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_OG_DAWN\"]/text"
-msgstr ""
+msgstr "(新黎明船员) 请求免费通行。"
 
 #: src-en/data/events_sector_og_dawn.xml:143
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_OG_DAWN\"]/event/text"
-msgstr ""
+msgstr "“哦，我之前不知道。这里我们有一些现成的补给，用来帮助像你这样的人。”"
 
 #: src-en/data/events_sector_og_dawn.xml:148
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_REBEL_ALL\"]/text"
-msgstr ""
+msgstr "(叛军船员) 请求免费通行。"
 
 #: src-en/data/events_sector_og_dawn.xml:150
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"LIST_CREW_REBEL_ALL\"]/event/text"
-msgstr ""
+msgstr "“我想，如果你的船上有叛军船员，那应该没什么风险。好吧，可以通行。”"
 
 #: src-en/data/events_sector_og_dawn.xml:154
 msgid ""
@@ -191,7 +199,6 @@ msgid ""
 msgstr "(心灵控制)\"说服\"守卫放过你。"
 
 #: src-en/data/events_sector_og_dawn.xml:158
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_FRIENDLY\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
 msgstr "(心灵控制)\"说服\"守卫放过你。"
@@ -218,20 +225,19 @@ msgstr "(先进驾驶)启动自动驾驶来尝试逃跑。"
 
 #: src-en/data/events_sector_og_dawn.xml:180
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/text"
-msgstr ""
+msgstr "守卫呼叫你：“嘿，这并非针对个人，但叛军现在对你有意见，这也就成了我的麻烦。”"
 
 #: src-en/data/events_sector_og_dawn.xml:183
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[1]/text"
-msgstr ""
+msgstr "准备战斗！"
 
 #: src-en/data/events_sector_og_dawn.xml:185
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[1]/event/text"
-msgstr ""
+msgstr "守卫威胁性地逼近，你迅速冲向防御位置。"
 
 #: src-en/data/events_sector_og_dawn.xml:188
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -239,15 +245,14 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:194
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/text"
-msgstr ""
+msgstr "尝试贿赂他们。"
 
 #: src-en/data/events_sector_og_dawn.xml:196
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/event/text"
-msgstr ""
+msgstr "你希望这足以让他们满意……"
 
 #: src-en/data/events_sector_og_dawn.xml:201
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -255,7 +260,7 @@ msgstr "继续。"
 #: src-en/data/events_sector_og_dawn.xml:203
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[2]/event/choice/event/text"
-msgstr ""
+msgstr "“有意思，我怎么就想不起来是谁给我的这些废料了呢……趁我还没改变主意，赶紧走。”"
 
 #: src-en/data/events_sector_og_dawn.xml:209
 msgid ""
@@ -263,7 +268,6 @@ msgid ""
 msgstr "(心灵控制)\"说服\"守卫放过你。"
 
 #: src-en/data/events_sector_og_dawn.xml:213
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN\"]/choice[@req=\"BLUELIST_WEAPONS_MIND_CONTROL\"]/text"
 msgstr "(心灵控制)\"说服\"守卫放过你。"
@@ -291,10 +295,10 @@ msgstr "(先进驾驶)启动自动驾驶来尝试逃跑。"
 #: src-en/data/events_sector_og_dawn.xml:234
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_CRIMINAL\"]/text"
-msgstr ""
+msgstr "看来你在此地已“声名远扬”，守卫站立即进入了高度戒备状态。现在，战斗已无法避免"
+"。"
 
 #: src-en/data/events_sector_og_dawn.xml:237
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GUARD_OG_DAWN_CRIMINAL\"]/choice/text"
 msgstr "继续。"
@@ -303,19 +307,40 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_OG_DAWN\"]/text"
 msgstr ""
+"[恶名降低 - 新黎明]\n"
+"你在此地的行为提升了你在新黎明中的声望，但这以牺牲你在铁幕守望中的声望为代价"
+"。某些成员可能会更愿意与你互动。\n"
+"\n"
+"[恶名增加 - 整体]\n"
+"你在此地的行为，无论是否合理，都不会给联邦或其公民留下好印象。持续进行此类行"
+"动，你可能会开始招致联邦及其盟友的负面反应。"
 
 #: src-en/data/events_sector_og_dawn.xml:253
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_DOUBLE_OG_DAWN\"]/text"
 msgstr ""
+"[恶名降低X2 - 新黎明]\n"
+"你在此地的行为显著提升了你在新黎明中的声望，但这以牺牲你在铁幕守望中的声望为"
+"代价。某些成员可能会更愿意与你互动。\n"
+"鉴于你的杰出行动，你的声望获得了双重提升。\n"
+"\n"
+"[恶名增加 - 整体]\n"
+"你在此地的行为，无论是否合理，都不会给联邦或其公民留下好印象。持续进行此类行"
+"动，你可能会开始招致联邦及其盟友的负面反应。"
 
 #: src-en/data/events_sector_og_dawn.xml:263
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_OG_DAWN_COMBAT\"]/text"
 msgstr ""
+"[声望提升 - 新黎明]\n"
+"你在此地的行为提升了你在新黎明中的声望，但这以牺牲你在铁幕守望中的声望为代价"
+"。某些成员可能会更愿意与你互动。\n"
+"\n"
+"[恶名增加 - 整体]\n"
+"你在此地的行为，无论是否合理，都不会给联邦或其公民留下好印象。持续进行此类行"
+"动，你可能会开始招致联邦及其盟友的负面反应。"
 
 #: src-en/data/events_sector_og_dawn.xml:271
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_UPDATE_OG_DAWN_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -324,14 +349,19 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_OG_DAWN\"]/text"
 msgstr ""
+"[恶名提升 - 新黎明]\n"
+"你在此地的行为将在新黎明内部造成恶劣影响。他们可能会对你感到不适，如果你之前"
+"曾获得过声望的话。"
 
 #: src-en/data/events_sector_og_dawn.xml:281
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_OG_DAWN_COMBAT\"]/text"
 msgstr ""
+"[恶名提升- 新黎明]\n"
+"你在此地的行为将在新黎明内部造成恶劣影响。他们可能会对你感到不适，如果你之前"
+"曾获得过声望的话。"
 
 #: src-en/data/events_sector_og_dawn.xml:285
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_OG_DAWN_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -340,9 +370,12 @@ msgstr "继续。"
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_DAWN_COMBAT\"]/text"
 msgstr ""
+"[恶名提升X2 - 新黎明]\n"
+"你在此地的行为将在新黎明内部造成恶劣影响。他们可能会对你感到不适，如果你之前"
+"曾获得过声望的话。\n"
+"由于你的行为格外恶劣，你的声望受到了双重削减。"
 
 #: src-en/data/events_sector_og_dawn.xml:295
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"REPUTATION_DECREASE_DOUBLE_OG_DAWN_COMBAT\"]/choice/text"
 msgstr "继续。"
@@ -365,22 +398,23 @@ msgstr "跳过。"
 #: src-en/data/events_sector_og_dawn.xml:325
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[1]"
-msgstr ""
+msgstr "在舰船被彻底摧毁之际，铁幕守望的船长发出了最后一声咒骂。"
 
 #: src-en/data/events_sector_og_dawn.xml:326
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[2]"
-msgstr ""
+msgstr "铁幕守望舰船的船体在太空中解体四散。你随即飞近，打捞剩余的残骸。"
 
 #: src-en/data/events_sector_og_dawn.xml:327
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[3]"
-msgstr ""
+msgstr "铁幕守望的舰船发生爆炸，舱内所有生命随之消逝。你的船员在打捞舰船碎片时，避开"
+"了他们的遗骸。"
 
 #: src-en/data/events_sector_og_dawn.xml:328
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[4]"
-msgstr ""
+msgstr "舰船爆炸时，一座炮塔被抛射入虚空之中，同时将有价值的碎片抛向四面八方。"
 
 #: src-en/data/events_sector_og_dawn.xml:336
 msgid ""
@@ -390,61 +424,69 @@ msgstr "\"你的杀戮欲…总有一天会成为你的致命弱点，变元者�
 #: src-en/data/events_sector_og_dawn.xml:337
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[2]"
-msgstr ""
+msgstr "铁幕守望的船长一言不发地倒在地上，双眼逐渐失去神采，最终窒息而亡。你打捞了他"
+"们舰船的船体。"
 
 #: src-en/data/events_sector_og_dawn.xml:338
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[3]"
-msgstr ""
+msgstr "“你会后悔的！因果报应总会找上你这样的人。该死的变元者……铁幕守望当初要是和叛军"
+"联手，境况或许会更好……”"
 
 #: src-en/data/events_sector_og_dawn.xml:342
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"ESCAPE_OG_DAWN\"]/text"
-msgstr ""
+msgstr "扫描显示，铁幕守望的舰船正试图逃跑。在它逃脱之前，摧毁它！"
 
 #: src-en/data/events_sector_og_dawn.xml:355
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[1]"
-msgstr ""
+msgstr "铁幕守望的舰船已从你手中溜走，将你遗弃在了信标处。"
 
 #: src-en/data/events_sector_og_dawn.xml:356
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[2]"
-msgstr ""
+msgstr "你摧毁铁幕守望舰船的尝试失败了，该舰船已逃脱。"
 
 #: src-en/data/events_sector_og_dawn.xml:359
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GOTAWAY_OG_DAWN_REMAINS\"]/text"
-msgstr ""
+msgstr "铁幕守望的舰船或许已经逃脱，但情况并非一无是处。残骸留下了一条废料轨迹，你将"
+"其收集了起来。"
 
 #: src-en/data/events_sector_og_dawn.xml:410
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/text"
-msgstr ""
+msgstr "一名新黎明商人在附近的前哨站开设了店铺。偶尔会有顾客到访，但你有足够的时间在"
+"不引起注意的情况下潜入。"
 
 #: src-en/data/events_sector_og_dawn.xml:412
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/text"
-msgstr ""
+msgstr "去那家商店看看。"
 
 #: src-en/data/events_sector_og_dawn.xml:414
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/text"
 msgstr ""
+"你进入前哨站，发现正在出售的商品种类繁多。常规物资一应俱全：成箱的燃料、无人"
+"机零件和导弹。但在一面墙边，你发现了一门造型奇特的炮塔正在展出，被牢牢锁在防"
+"弹玻璃后面。“新黎明剩余装备：详情请咨询柜台”"
 
 #: src-en/data/events_sector_og_dawn.xml:417
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "询问新黎明剩余装备的详情。"
 
 #: src-en/data/events_sector_og_dawn.xml:419
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/text"
-msgstr ""
+msgstr "那名身材矮小的人类商人回答道：“啊哈，你的眼光真不错嘛。那可是正宗的新黎明产的"
+"炮塔——哎等等，你不是新黎明的人吧？或者是那些叛军？”"
 
 #: src-en/data/events_sector_og_dawn.xml:421
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET\"]/choice[1]/event/choice[1]/event/choice[1]/text"
-msgstr ""
+msgstr "不是，怎么了？"
 
 #: src-en/data/events_sector_og_dawn.xml:423
 msgid ""
@@ -547,7 +589,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:497
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP_REPORT\"]/choice/text"
 msgstr "继续。"
@@ -762,7 +803,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:686
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/event/choice[1]/event/choice/text"
@@ -781,7 +821,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:703
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/event/choice[2]/event/choice/text"
@@ -800,7 +839,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:719
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/event/choice[3]/event/choice/text"
@@ -855,7 +893,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:755
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/choice[1]/event/choice/text"
@@ -874,7 +911,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:766
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/event/choice[2]/event/choice/text"
@@ -915,7 +951,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:793
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -1006,7 +1041,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:849
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_OUTPOST_FLEET\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/event/choice[1]/event/choice/text"
@@ -1078,7 +1112,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:895
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_OUTPOST_FLEET\"]/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -1104,25 +1137,21 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:934
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_REBEL_INFIGHT\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:942
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_REBEL_INFIGHT\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:952
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_REBEL_OG_DAWN_INFIGHT\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:960
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_REBEL_OG_DAWN_INFIGHT\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -1268,13 +1297,11 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1066
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[4]/event/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1072
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[5]/text"
 msgstr "无视这艘舰船。"
@@ -1329,7 +1356,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1107
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/choice/text"
@@ -1348,7 +1374,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1118
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
@@ -1403,7 +1428,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1149
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
@@ -1450,7 +1474,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1180
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -1505,7 +1528,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1218
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/choice/text"
@@ -1524,7 +1546,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1229
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
@@ -1579,7 +1600,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1260
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
@@ -1626,7 +1646,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1291
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[4]/event/choice/text"
 msgstr "继续。"
@@ -1702,13 +1721,11 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1362
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1368
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/text"
 msgstr "礼貌地拒绝。"
@@ -1739,7 +1756,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1389
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "继续。"
@@ -1790,7 +1806,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1433
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/choice[1]/event/choice/text"
 msgstr "继续。"
@@ -1801,7 +1816,6 @@ msgid ""
 msgstr "礼貌地拒绝。"
 
 #: src-en/data/events_sector_og_dawn.xml:1454
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/destroyed/choice/text"
 msgstr "继续。"
@@ -1812,7 +1826,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1466
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -1864,7 +1877,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1497
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[2]/event/choice/text"
@@ -1911,7 +1923,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1528
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[3]/event/choice/text"
 msgstr "继续。"
@@ -1977,7 +1988,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1579
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/text"
 msgstr "继续。"
@@ -1988,7 +1998,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1585
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/text"
 msgstr "继续。"
@@ -1999,7 +2008,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1589
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2010,7 +2018,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1596
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2021,7 +2028,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1602
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2092,7 +2098,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1669
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/choice/text"
 msgstr "继续。"
@@ -2133,79 +2138,66 @@ msgid ""
 msgstr "你还没有完成跃迁充能之前便听到你的星舰警告你有一艘带着武器的飞船来袭。"
 
 #: src-en/data/events_sector_og_dawn.xml:1705
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"ENCOUNTER_OG_DAWN_SHIP\"]/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1717
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1725
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1736
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_RUN\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1744
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_RUN\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1754
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_ESCORT\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1763
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_ESCORT\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1774
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1782
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1794
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_RUN\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1802
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_RUN\"]/deadCrew/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1812
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_ESCORT\"]/destroyed/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1821
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_ESCORT\"]/deadCrew/choice/text"
 msgstr "继续。"
@@ -2215,7 +2207,6 @@ msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/tex
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1831
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
@@ -2228,14 +2219,12 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1836
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1842
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
@@ -2260,7 +2249,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1852
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
@@ -2279,7 +2267,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1863
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice/text"
@@ -2310,7 +2297,6 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:1885
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/text"
@@ -2335,7 +2321,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1895
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/event/choice[1]/event/choice/text"
@@ -2366,7 +2351,6 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:1917
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/text"
 msgstr "无视这艘舰船。"
@@ -2412,7 +2396,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1961
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN\"]/choice/text"
 msgstr "继续。"
@@ -2463,7 +2446,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2009
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN\"]/choice/text"
 msgstr "继续。"
@@ -2519,7 +2501,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2046
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2530,7 +2511,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2050
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2546,7 +2526,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2064
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2667,7 +2646,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2164
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "继续。"
@@ -2763,7 +2741,6 @@ msgid ""
 msgstr "未探索的信标。"
 
 #: src-en/data/events_sector_og_dawn.xml:2249
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/beaconType/visitedTooltip"
 msgstr "已探索的信标，没什么值得注意。"
@@ -2789,7 +2766,6 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:2260
-#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/event/choice/text"
 msgstr "继续。"
