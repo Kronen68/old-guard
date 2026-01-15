@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-14 04:02+0000\n"
+"PO-Revision-Date: 2026-01-16 02:16+0000\n"
 "Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datablueprintsxmlappend/ru/>\n"
@@ -211,20 +211,20 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:240
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/title"
-msgstr "Грузовой ящик Нового рассвета"
+msgstr "Грузовой контейнер Нового рассвета"
 
 #: src-en/data/blueprints.xml.append:241
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/short"
-msgstr "Грузовой ящик"
+msgstr "Грузовой контейнер"
 
 #: src-en/data/blueprints.xml.append:242
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/desc"
 msgstr ""
-"Необычный грузовой ящик, вы не знаете, что в нем, и если бы у вас было "
-"свободное время, вы, наверное, могли бы его открыть, но люди, которым вы его"
-" доставляете, были бы не в восторге от этого."
+"Необычный грузовой контейнер, вы не знаете, что в нем, и если бы у вас было "
+"свободное время, вы, наверное, могли бы его открыть, но люди, которым вы его "
+"доставляете, были бы не в восторге от этого."
 
 #: src-en/data/blueprints.xml.append:259
 msgid ""
@@ -959,7 +959,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1189
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_1\"]/title"
-msgstr "Микро-точечная турель"
+msgstr "Микроточечная турель"
 
 #: src-en/data/blueprints.xml.append:1190
 msgid ""
@@ -1128,7 +1128,7 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1415
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_MINI_DAWN\"]/title"
-msgstr "Микро-точечная турель Рассвета"
+msgstr "Микроточечная турель Рассвета"
 
 #: src-en/data/blueprints.xml.append:1416
 msgid ""
