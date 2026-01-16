@@ -1,7 +1,7 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-16 08:31+0000\n"
+"PO-Revision-Date: 2026-01-16 09:41+0000\n"
 "Last-Translator: Aleev <aleev1414@gmail.com>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "datablueprintsxmlappend/ru/>\n"
@@ -1117,7 +1117,7 @@ msgstr "Точечная лучевая турель Рассвета"
 #: src-en/data/blueprints.xml.append:1395
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_FOCUS_DAWN\"]/short"
-msgstr "€ Точечный луч"
+msgstr "€ Точеч. луч"
 
 #: src-en/data/blueprints.xml.append:1396
 msgid ""
