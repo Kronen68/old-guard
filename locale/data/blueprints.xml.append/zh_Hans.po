@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-29 09:37+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/datablueprintsxmlappend/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -444,6 +444,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:465
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_og_silas\"]/powerList/power[5]"
 msgstr "1.25倍维修速度"
@@ -1192,6 +1193,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1397
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_HEAVY_ELITE\"]/short"
 msgstr "☆黎明重型激光。"
@@ -1378,9 +1380,12 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1657
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_BIO\"]/desc"
-msgstr "这是一种特化型激光炮塔，能造成高额辐射伤害并瘫痪船员，但无法损伤舰船系统或船体。同时，它在防御角色中也极为出色，能有效拦截敌方的激光攻击。"
+msgstr ""
+"这是一种特化型激光炮塔，能造成高额辐射伤害并瘫痪船员，但无法损伤舰船系统或船"
+"体。同时，它在防御角色中也极为出色，能有效拦截敌方的激光攻击。"
 
 #: src-en/data/blueprints.xml.append:1676
 msgid ""
@@ -1433,6 +1438,7 @@ msgid ""
 msgstr ""
 
 #: src-en/data/blueprints.xml.append:1744
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_MINI_ELITE\"]/short"
 msgstr "☆微型激光。"
