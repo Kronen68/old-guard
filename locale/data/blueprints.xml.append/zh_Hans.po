@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/datablueprintsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/blueprints.xml.append:4
 msgid ""
@@ -337,6 +344,7 @@ msgid ""
 msgstr "受到0.6倍灼烧伤害"
 
 #: src-en/data/blueprints.xml.append:403
+#, fuzzy
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/desc"
 msgstr ""
 "一名新黎明的士兵，装备了个人隐身装置，该装置的能量会在执行行动时消耗。\n"
@@ -1132,11 +1140,13 @@ msgid ""
 msgstr "发射一群可自动追踪目标的小型高速导弹，防御性能出色，但不擅长攻击敌方舰船系统。"
 
 #: src-en/data/blueprints.xml.append:1334
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/title"
 msgstr "四联装导弹炮塔"
 
 #: src-en/data/blueprints.xml.append:1335
+#, fuzzy
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/short"
 msgstr "四联装导弹。"
