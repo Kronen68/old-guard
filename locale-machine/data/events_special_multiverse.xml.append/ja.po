@@ -5,128 +5,139 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_multiverse.xml.append:40
+#: src-en/data/events_special_multiverse.xml.append:4
+msgid ""
+"data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_OG_TURRETS\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_multiverse.xml.append:19
+msgid ""
+"data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_TRADES_CHOICE_1\"]/mod-"
+"append:choice/text"
+msgstr ""
+
+#: src-en/data/events_special_multiverse.xml.append:61
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/text"
 msgstr "トンネルからアイアンウォッチ製の巨大な巡洋艦が現れた！マルチバースを旅することを自ら選んだ、希少な探検船に違いない！"
 
-#: src-en/data/events_special_multiverse.xml.append:43
+#: src-en/data/events_special_multiverse.xml.append:64
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/text"
 msgstr "戦闘準備！"
 
-#: src-en/data/events_special_multiverse.xml.append:45
+#: src-en/data/events_special_multiverse.xml.append:66
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/event/text"
 msgstr "艦は君を攻撃対象に定める。"
 
-#: src-en/data/events_special_multiverse.xml.append:48
+#: src-en/data/events_special_multiverse.xml.append:69
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:63
+#: src-en/data/events_special_multiverse.xml.append:84
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "加護を使って戦闘を回避する。"
 
-#: src-en/data/events_special_multiverse.xml.append:70
+#: src-en/data/events_special_multiverse.xml.append:91
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/beaconType/unvisitedTooltip"
 msgstr "ここが異常エネルギー反応の地点だ。 [急襲機 C]"
 
-#: src-en/data/events_special_multiverse.xml.append:71
+#: src-en/data/events_special_multiverse.xml.append:92
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/beaconType/visitedTooltip"
 msgstr "探索済みの場所。もう興味を引くものはない。"
 
-#: src-en/data/events_special_multiverse.xml.append:73
+#: src-en/data/events_special_multiverse.xml.append:94
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/text"
 msgstr "トンネルからアイアンウォッチ製の巨大な巡洋艦が現れた！マルチバースを旅することを自ら選んだ、希少な探検船に違いない！"
 
-#: src-en/data/events_special_multiverse.xml.append:76
+#: src-en/data/events_special_multiverse.xml.append:97
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/text"
 msgstr "戦闘準備！"
 
-#: src-en/data/events_special_multiverse.xml.append:78
+#: src-en/data/events_special_multiverse.xml.append:99
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/event/text"
 msgstr "艦は君を攻撃対象に定める。"
 
-#: src-en/data/events_special_multiverse.xml.append:81
+#: src-en/data/events_special_multiverse.xml.append:102
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:96
+#: src-en/data/events_special_multiverse.xml.append:117
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "加護を使って戦闘を回避する。"
 
-#: src-en/data/events_special_multiverse.xml.append:101
+#: src-en/data/events_special_multiverse.xml.append:122
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/text"
 msgstr "トンネルからアイアンウォッチ製の巨大な巡洋艦が現れた！マルチバースを旅することを自ら選んだ、希少な探検船に違いない！"
 
-#: src-en/data/events_special_multiverse.xml.append:104
+#: src-en/data/events_special_multiverse.xml.append:125
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/text"
 msgstr "戦闘準備！"
 
-#: src-en/data/events_special_multiverse.xml.append:106
+#: src-en/data/events_special_multiverse.xml.append:127
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/event/text"
 msgstr "艦は君を攻撃対象に定める。"
 
-#: src-en/data/events_special_multiverse.xml.append:109
+#: src-en/data/events_special_multiverse.xml.append:130
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:128
+#: src-en/data/events_special_multiverse.xml.append:149
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "加護を使って戦闘を回避する。"
 
-#: src-en/data/events_special_multiverse.xml.append:133
+#: src-en/data/events_special_multiverse.xml.append:154
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/text"
 msgstr "トンネルからアイアンウォッチ製の巨大な巡洋艦が現れた！マルチバースを旅することを自ら選んだ、希少な探検船に違いない！"
 
-#: src-en/data/events_special_multiverse.xml.append:137
+#: src-en/data/events_special_multiverse.xml.append:158
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:139
+#: src-en/data/events_special_multiverse.xml.append:160
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/event/text"
 msgstr "艦は君を攻撃対象に定める。"
 
-#: src-en/data/events_special_multiverse.xml.append:142
+#: src-en/data/events_special_multiverse.xml.append:163
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:159
+#: src-en/data/events_special_multiverse.xml.append:180
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[@req=\"BRIBE_CHAOS\""
 " and @lvl=\"0\"]/text"
 msgstr "*%$##@*%!"
 
-#: src-en/data/events_special_multiverse.xml.append:163
+#: src-en/data/events_special_multiverse.xml.append:184
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "加護を使って戦闘を回避する。"
 
-#: src-en/data/events_special_multiverse.xml.append:174
+#: src-en/data/events_special_multiverse.xml.append:195
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"OGT_BOSS_IRON_DESTROYED\"]/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_multiverse.xml.append:192
+#: src-en/data/events_special_multiverse.xml.append:213
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"OGT_BOSS_IRON_DEADCREW\"]/choice/text"
 msgstr "次へ…"

@@ -18,8 +18,8 @@ msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"REFLECTIVE PLATING:\n"
-"Halves the damage of beams hitting this ship, rounding down, but not below 1."
+"Synchrotron Barrier:\n"
+"This enemy is protected from Ion Damage and radiation. Instead this damage is absorbed by the engines system as system damage, this enemy has a higher maximum engine level but loses 10% evasion."
 
 #: src-en/data/hyperspace.xml.append:161
 msgid ""

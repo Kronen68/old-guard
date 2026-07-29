@@ -7,13 +7,13 @@ msgstr ""
 
 #: src-en/data/text_tooltips.xml.append:2
 msgid "data/text_tooltips.xml.append$//text[@name=\"tip_og_turret\"]"
-msgstr "Tip: Turrets have to be equiped to the Turret Control system."
+msgstr "Tip: Turrets have to be equipped to the Turret Control system."
 
 #: src-en/data/text_tooltips.xml.append:3
 msgid "data/text_tooltips.xml.append$//text[@name=\"tip_og_turret_mini\"]"
 msgstr ""
-"Tip: Turrets have to be equiped to the Turret Control system. Micro turrets "
-"can be equiped on both small and large turret slots."
+"Tip: Turrets have to be equipped to the Turret Control system. Micro turrets"
+" can be equipped on both small and large turret slots."
 
 #: src-en/data/text_tooltips.xml.append:4
 msgid "data/text_tooltips.xml.append$//text[@name=\"tip_og_turret_base\"]"
@@ -462,7 +462,7 @@ msgstr "%s Requires:"
 #: src-en/data/text_tooltips.xml.append:112
 msgid ""
 "data/text_tooltips.xml.append$//text[@name=\"og_lua_turret_craft_atleast\"]"
-msgstr "\\n  Atleast %d:"
+msgstr "\\n  At least %d:"
 
 #: src-en/data/text_tooltips.xml.append:113
 msgid "data/text_tooltips.xml.append$//text[@name=\"og_lua_turret_craft_list\"]"
@@ -485,7 +485,7 @@ msgstr "Unknown Turret"
 #: src-en/data/text_tooltips.xml.append:118
 msgid ""
 "data/text_tooltips.xml.append$//text[@name=\"og_lua_turret_manage_nevermind\"]"
-msgstr "Nevermind."
+msgstr "Never mind."
 
 #: src-en/data/text_tooltips.xml.append:119
 msgid ""

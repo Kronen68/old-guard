@@ -1,7 +1,7 @@
 {
   "lang": "fr",
   "originalLang": "en",
-  "version": "2.17",
+  "version": "3.3",
   "translation": {
     "Iron Watch Scout": {
       "advanced": {
@@ -134,6 +134,18 @@
           "text": "Garde de la Veille de Fer"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Iron Watch Executor": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Iron Watch Station": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -299,6 +311,60 @@
           "text": "Croiseur renégat"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Scout": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Infiltrator": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Outrider": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Bomber": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Corvette": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Fighter": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Transport": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Battleship": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Hunter": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -722,47 +788,32 @@
       "machine": "",
       "done": false
     },
-    "Pierce Laser MK I": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Laser perforant MK I"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Laser perforant Ver. 1"
-        }
-      },
+    "Performance Upgrade": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Pierce I": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Perforant I"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Perforant 1"
-        }
-      },
+    "Equaliser Charger [X]": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Special loot weapon. See tooltip in the inventory to check the improvements over the base version.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Arme de butin spéciale. Consultez l'infobulle dans l'inventaire pour vérifier les améliorations par rapport à la version de base."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Arme de butin spéciale. Consultez l'info-bulle dans l'inventaire pour vérifier les améliorations par rapport à la version de base."
-        }
-      },
+    "System Equaliser's lock time is reduced by 50%.\n    \n[X] - As an external system upgrade, this augment will provide its normal effect but take up an augment slot. Can be converted for free to the internal version under the internal upgrade menu if you have the System Equaliser subsystem.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "System Equaliser": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Activation balances system damage, redistributing it across all selected systems, 20 second cooldown. Upgrading allows this system to also reduce the total damage across the ship.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -857,17 +908,8 @@
       "machine": "",
       "done": false
     },
-    "A New Dawn Soldier, equiped with a personal cloaking device that has it's charge drained by performing actions.\n\n\tInherited Human stats: minor suffocation resistance, learns skills faster": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Un Soldat de la Nouvelle Aube, équipé d'un dispositif de camouflage personnel dont la charge est drainée par les actions effectuées.\n\n\tStats Humaines héritées : légère résistance à la suffocation, apprend les compétences plus vite."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Un soldat de la Nouvelle Aube, équipé d'un dispositif de camouflage personnel dont la charge est drainée en effectuant des actions.\n\n\tStats héritées de l'Humain : résistance mineure à la suffocation, apprend les compétences plus rapidement"
-        }
-      },
+    "Elite Human Crew. A New Dawn Soldier, equiped with a personal cloaking device that has it's charge drained by performing actions.\n\n\tInherited Human stats: minor suffocation resistance, learns skills faster": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -922,6 +964,186 @@
       "deepl": "",
       "machine": "",
       "done": true
+    },
+    "Super Elite Human Crew. An operative of the Midnight Sun, equiped with a miniaturized hacking device capable of intermittently disabling a system for an entire battle.\n\n\tInherited Human stats: minor suffocation resistance": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Midnight Sun Operative": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Operative": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Active Ability: Deploys an almost indestructible hacking device in the current room, which will repeatedly hack the current room for the rest of the fight, cannot target weapons, drones, or shields.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Inflicts 1.5x damage in crew combat": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Sabotages systems at 1.5x speed": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Trained in lvl2 skills": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "An important Iron Watch scientist, previously the head of the Iron Watch Neutron Star Research Station (NSRS) before it was destroyed by the Midnight Sun.\n\n\tInherited Human stats: minor suffocation resistance, learns skills faster": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Researcher": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Active Ability: Deploys a defence drone capable of targeting all types of projectiles and drones, will destroy projectiles but only stun drones.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "2x ranged damage multiplier": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "1.5x repair speed": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "An important Iron Watch diplomat, sent by Iron Watch command to seek support from the federation against the rebel threat. To be delivered to the Federation base.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Diplomat": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Active Ability: Becomes controllable, able to man, fight, and repair at normal rates, triggers at 25 hp or below.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Becomes controllable in the presence of normal crew": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Cannot be controlled": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Cannot fight or man systems": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "0.5x repair speed, 1.0x extinguish speed": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Resilience and determination makes them take less damage from the environment": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A human civilian, will reward you with 25 scrap upon opening a store or choosing a new sector.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Human Civilian": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Civilian": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Does not consume a crew slot": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "0.25x repair speed, 1.0x extinguish speed": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A mantis civilian, will reward you with 5 scrap upon opening a store or choosing a new sector.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Mantis Civilian": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Cannot man or repair systems": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Inflict 1.25x damage in combat": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "1.2x move speed": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
     },
     "Laser Turret Base": {
       "advanced": {
@@ -1768,6 +1990,24 @@
       "machine": "",
       "done": false
     },
+    "Triplet Laser Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Triplet L.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Laser turret that quickly chains, but after firing its final burst at max chain resets to an unchained status.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Gatling Turret": {
       "advanced": {
         "9": {
@@ -1858,6 +2098,24 @@
       "machine": "",
       "done": false
     },
+    "'Rift Waker' MK 0.5": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "'Waker 0.5'": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A recreation of Sylvan's infamous 'Rift Waker' Gatling gun turret, using a Chain Vulcan Turret.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Ion Barrage Turret": {
       "advanced": {
         "9": {
@@ -1935,6 +2193,60 @@
       "machine": "",
       "done": false
     },
+    "Phaser Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Phaser": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Phasers pierce all shield layers, dealing ion damage for the first layer of shields, as well as additional damage to whatever system hit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Stunner Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Stunner": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Stun weapons function much like normal ions, but also temporarily paralyze crew in the same room that they hit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Radion Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Radion": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "What's a radion you ask? Well, it's an ion, but with radiation. Something like that. Very useful for asphyxiation kills.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Energy Cannon Turret": {
       "advanced": {
         "9": {
@@ -1980,17 +2292,8 @@
       "machine": "",
       "done": false
     },
-    "Crystal Burst Turret": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Tourelle Cristal Rafale"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tourelle Cristal Rafale"
-        }
-      },
+    "Heavy Crystal Turret": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2010,32 +2313,14 @@
       "machine": "",
       "done": false
     },
-    "Modified projectile turret that fires 2 shield piercing crystals.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Tourelle à projectile modifiée qui tire 2 cristaux perforants de bouclier."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tourelle de projectile modifiée qui tire 2 cristaux perforants de bouclier."
-        }
-      },
+    "Modified projectile turret that fires a heavy shield piercing crystal.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Elite Crystal Burst Turret": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Tourelle Cristal Rafale d'Élite"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tourelle Cristal Rafale Élite"
-        }
-      },
+    "Elite Heavy Crystal Turret": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2055,17 +2340,44 @@
       "machine": "",
       "done": false
     },
-    "Modified projectile turret that fires 2 shield piercing crystals. Elite variant that always applies lockdown and pierces 2 shields.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Tourelle à projectile modifiée qui tire 2 cristaux perforants de bouclier. Variante d'élite qui applique toujours le verrouillage et perce 2 boucliers."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tourelle de projectile modifiée qui tire 2 cristaux perforants de bouclier. Variante Élite qui applique toujours le verrouillage et perce 2 boucliers."
-        }
-      },
+    "Modified projectile turret that fires a heavy shield piercing crystal. Elite variant that always applies lockdown and pierces 2 shields.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Crystal Scatter Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Crystal S.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fires a cluster of 4 crystalline projectiles that pierce 1 shield layer each.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Elite Crystal Scatter Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "€ Crystal S.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fires a cluster of 4 crystalline projectiles. Elite variant that always applies lockdown and pierces 2 shields.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2115,32 +2427,14 @@
       "machine": "",
       "done": false
     },
-    "Quad Missile Turret": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Tourelle Quad Missile"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Tourelle Missile Quad"
-        }
-      },
+    "Dual Missile Turret": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Quad M.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Quad M."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Missile Quad"
-        }
-      },
+    "Dual M.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2246,6 +2540,42 @@
           "text": "Cette arme utilise des bulbes de plantes géantes de la planète natale des Orchidées comme munitions. Cette arme à bulbe modifiée crée des incendies au lieu de brèches."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Elite Heavy Kernel Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "€ Heavy K.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This weapon uses kernels of giant plants from the Orchid home planet as ammunition. Kernels behave like missiles, but also have halved ammunition cost. Powerful Elite version with a guaranteed stun and lower ammo cost.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Elite Solar Kernel Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "€ Solar K.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This weapon uses kernels of giant plants from the Orchid home planet as ammunition. This modified Kernel weapon creates fires instead of breaches. Powerful Elite version with a guaranteed stun and lower ammo cost.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2369,6 +2699,24 @@
           "text": "Tire 4 projectiles radioactifs qui infligent des dégâts de coque normaux ainsi que des dégâts élevés à l'équipage et érodent parfois la coque suffisamment pour créer une brèche."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ignited Flak Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fire Flak": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fires 4 flaming projectiles that have an increased chance to start a fire.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -2619,6 +2967,90 @@
       "machine": "",
       "done": false
     },
+    "Micro Irradiation Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Rad": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A specialized Laser Turret that does bio damage and cripples crew, but no system or hull damage. This turret is also capable in the defence role shooting down enemy lasers.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Chain Laser Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro C.L.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This dual charge Laser decreases in cooldown the more it fires.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Particle Accelerator Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Part.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Crystal Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro C.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Modified projectile turret that fires a shield piercing crystal.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Elite Micro Crystal Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "€ Micro C.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Modified projectile turret that fires a shield piercing crystal. Elite variant that always applies lockdown and pierces 2 shields.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Micro Ion Turret": {
       "advanced": {
         "9": {
@@ -2660,6 +3092,24 @@
           "text": "Cette tourelle Ionique est efficace pour la défense contre les drones tout en étant capable de soutenir l'attaque du vaisseau."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro Fire Ion Turret": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Micro F.I.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This Ion Turret is effective drone defence while still being able to support the ships offence. This one starts fires in the system it hits.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3123,6 +3573,66 @@
           "text": "Cette petite tourelle Aiguillon nécessite un soutien pour endommager le vaisseau ennemi, mais reste capable contre les missiles ennemis.\nLa variante Nouvelle Aube applique un effet de statut aux pièces touchées qui leur fait subir +1 dégât au système. Cependant, les systèmes de tourelle équipés de tourelles Nouvelle Aube subissent également +1 dégât au système lorsqu'ils sont touchés."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron Core": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The core of the Midnight Sun Hunter artillery weapon, can be made functional and equiped into a turret slot. Has to be upgraded via turret manufacturing.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron Turret MK I": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron I": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fires a mighty beam which harnesses the power of a neutron star to eviscerate enemy ships.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron Turret MK II": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron II": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron Turret MK III": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron III": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -3710,6 +4220,90 @@
       "machine": "",
       "done": false
     },
+    "Hunter-Class": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Moonglow": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This sleek vessel is built around a prototype beam artillery which fires a powerful radiation beam capable of destroying crew and system alike.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Bonifacio": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "An export varient of the Hunter-Class cruiser, sent to the rebellion alongside one of the new dawn's rebellion trained operatives.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Moonbeam": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "An improved version of the initial neutron beam, this time in turret form, able to output an incredible amount of damage once upgraded.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Drifter-Class": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Nightwing": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A light assault craft built to be quick and stealthy, perfect for covert operations under the cover of darkness. The small size of the vessel prevented the installation of large turrets, instead the engineers overclocked the micro turret systems to increase their lethality.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Corte": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A Midnight Sun Operative and an MFK Ace have betrayed the New Dawn and Rebellion and made off with this quick vessel.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Hyperlight": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Once elite intelligence operatives for the Midnight Sun, this crew found themselves stranded in an unknown multiverse with no way home. Left with few options, they turned to street racing, and proved just as ruthless on the track as they had been in the field.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Iron Kestrel Cruiser": {
       "advanced": {
         "9": {
@@ -4070,6 +4664,135 @@
       "machine": "",
       "done": false
     },
+    "Silas' Crewser": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Surveyor": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Silas' personal vessel relies on turrets and defence drones for survival until it can get it's shields online.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Horus' Crewser": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Falcon": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This time Horus is prepared. She pulled an old behemoth out of the museum, nothing can stand in her way now!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Neutron Artillery": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Artillery": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "[Base cooldown: 20] Fires a concentrated beam of radiation through the enemy ship, damaging systems and crew.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Pierce Laser MK I": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Laser perforant MK I"
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Laser perforant Ver. 1"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Pierce I": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Perforant I"
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Perforant 1"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Special loot weapon. See tooltip in the inventory to check the improvements over the base version.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Arme de butin spéciale. Consultez l'infobulle dans l'inventaire pour vérifier les améliorations par rapport à la version de base."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Arme de butin spéciale. Consultez l'info-bulle dans l'inventaire pour vérifier les améliorations par rapport à la version de base."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Triplet Laser MK II": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Triplet II": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Triplet Laser MK I": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Triplet I": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Laser weapon that quickly chains, but after firing its final burst at max chain resets to an unchained status.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Reflective Plating": {
       "advanced": {
         "9": {
@@ -4160,6 +4883,12 @@
       "machine": "",
       "done": false
     },
+    "Mannable Micro Turrets": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "New Dawn Initiate": {
       "advanced": {
         "9": {
@@ -4171,6 +4900,30 @@
           "text": "Initié de la Nouvelle Aube"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Synchrotron Barrier": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Protects agains the effects of a neutron star's radiation beam, absorbing the damage and dissipating it throughout the engines system. Ship has ion immunity while the shield is online, but the shield goes down when engines are at 1 or less bars.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Drone Focus": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Drone Laser": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -4730,47 +5483,20 @@
       "machine": "",
       "done": true
     },
-    "The Iron Watch captain lets out one final expletive as the ship is obliterated.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le capitaine de la Garde de Fer lâche une dernière imprécation alors que le vaisseau est anéanti."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le capitaine de la Veille de Fer lâche une dernière insulte alors que le vaisseau est pulvérisé."
-        }
-      },
+    "The New Dawn captain lets out one final expletive as the ship is obliterated.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The hull of the Iron Watch vessel is dispersed out into space. You swoop in to salvage the remains.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "La coque du vaisseau de la Garde de Fer est dispersée dans l'espace. Vous vous précipitez pour récupérer les restes."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "La coque du vaisseau de la Veille de Fer est dispersée dans l'espace. Vous plongez pour récupérer les débris."
-        }
-      },
+    "The hull of the New Dawn vessel is dispersed out into space. You swoop in to salvage the remains.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The Iron Watch ship explodes, extinguishing all lives within. Your crew avoids their remains as they salvage the ship pieces.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau de la Garde de Fer explose, éteignant toute vie à l'intérieur. Votre équipage évite leurs restes pendant qu'ils récupèrent les morceaux du vaisseau."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Veille de Fer explose, éteignant toutes les vies à l'intérieur. Votre équipage évite leurs restes pendant qu'ils récupèrent les morceaux du vaisseau."
-        }
-      },
+    "The New Dawn ship explodes, extinguishing all lives within. Your crew avoids their remains as they salvage the ship pieces.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -4796,92 +5522,38 @@
       "machine": "",
       "done": true
     },
-    "Without a word, the Iron Watch captain falls to the ground, gasping for air as the life is extinguished from their eyes. You salvage the hull of their ship.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Sans un mot, le capitaine de la Garde de Fer s'effondre, haletant alors que la vie s'éteint dans ses yeux. Vous récupérez la coque de leur vaisseau."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Sans un mot, le capitaine de la Veille de Fer tombe au sol, cherchant l'air alors que la vie s'éteint dans ses yeux. Vous récupérez la coque de leur vaisseau."
-        }
-      },
+    "Without a word, the New Dawn captain falls to the ground, gasping for air as the life is extinguished from their eyes. You salvage the hull of their ship.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "\"You will regret this! Karma always comes back to people like you. Damn you Renegades... the Iron Watch would have been better off with the Rebellion...\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "\"Vous allez le regretter ! Le karma revient toujours aux gens comme vous. Maudits soyez, Renégats... la Garde de Fer aurait été mieux avec la Rébellion...\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Vous allez regretter ça ! Le karma finit toujours par rattraper les gens comme vous. Maudits soyez-vous, Renegats... la Veille de Fer aurait mieux fait de s'allier à la Rébellion...\""
-        }
-      },
+    "\"You will regret this! Karma always comes back to people like you. Damn you Renegades... the New Dawn will...\" They die before they can finish this last remark.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Scans show that the Iron Watch ship is trying to escape. Destroy it before it can get away!": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Les scans montrent que le vaisseau de la Garde de Fer tente de s'échapper. Détruisez-le avant qu'il ne s'enfuie !"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Les scans montrent que le vaisseau de la Veille de Fer tente de s'échapper. Détruisez-le avant qu'il ne puisse s'enfuir !"
-        }
-      },
+    "Scans show that the New Dawn ship is trying to escape. Destroy it before it can get away!": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The Iron Watch vessel has slipped from your grasp, abandoning you at the beacon.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau de la Garde de Fer vous a échappé, vous abandonnant à la balise."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Veille de Fer vous a échappé, vous abandonnant à la balise."
-        }
-      },
+    "The New Dawn vessel has slipped from your grasp, abandoning you at the beacon.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Your attempts at destroying the Iron Watch vessel have failed, and the ship has escaped.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vos tentatives de destruction du vaisseau de la Garde de Fer ont échoué, et le vaisseau s'est échappé."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vos tentatives pour détruire le vaisseau de la Veille de Fer ont échoué, et le vaisseau s'est échappé."
-        }
-      },
+    "Your attempts at destroying the New Dawn vessel have failed, and the ship has escaped.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The Iron Watch vessel may have escaped, but not everything has gone wrong. A trail of scrap from the wreckage has been left behind, which you collect.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau de la Garde de Fer a peut-être échappé, mais tout n'est pas perdu. Une traînée de ferraille provenant de l'épave a été laissée derrière, que vous ramassez."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Veille de Fer s'est peut-être échappé, mais tout n'est pas perdu. Une traînée de ferraille provenant de l'épave a été laissée derrière, que vous récupérez."
-        }
-      },
+    "The New Dawn vessel may have escaped, but not everything has gone wrong. A trail of scrap from the wreckage has been left behind, which you collect.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -5156,17 +5828,8 @@
       "machine": "",
       "done": false
     },
-    "The merchant now sweating nervously continues, \"As I was saying, That there ISN'T a genuine New Dawn Turret, rather its a uhm. a, Replica, yes a replica, it doesn't function at all. It's meerly a collectors piece, you wouldn't be interested in it.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le marchand, transpirant nerveusement, continue : \"Comme je disais, Ce N'EST PAS une véritable Tourelle de la Nouvelle Aube, c'est plutôt un euh. une, Réplique, oui une réplique, elle ne fonctionne pas du tout. C'est juste une pièce de collection, ça ne vous intéresserait pas.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le marchand, suant maintenant nerveusement, continue : \"Comme je disais, ce n'est PAS une véritable tourelle de la Nouvelle Aube, c'est plutôt euh. une, Réplique, oui une réplique, elle ne fonctionne pas du tout. C'est simplement une pièce de collection, vous ne seriez pas intéressé par ça.\""
-        }
-      },
+    "The merchant now sweating nervously continues, \"As I was saying, That there ISN'T a genuine New Dawn Turret, rather its a uhm. a, Replica, yes a replica, it doesn't function at all. It's merely a collectors piece, you wouldn't be interested in it.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -5336,17 +5999,8 @@
       "machine": "",
       "done": false
     },
-    "You take a harsh tone and threaten the merchant again, but this time the merchant is even less concerned. Eventually you look over at the Turret to realize its gone, the merchant managed to hide it without you realizing, with nothing to report your threats fall flat.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous adoptez un ton sévère et menacez à nouveau le marchand, mais cette fois, le marchand est encore moins préoccupé. Finalement, vous jetez un œil à la Tourelle pour vous rendre compte qu'elle a disparu, le marchand a réussi à la cacher sans que vous ne vous en rendiez compte, et sans rien à signaler, vos menaces tombent à plat."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous adoptez un ton dur et menacez à nouveau le marchand, mais cette fois le marchand est encore moins inquiet. Finalement, vous regardez vers la tourelle pour réaliser qu'elle a disparu, le marchand a réussi à la cacher sans que vous vous en rendiez compte, n'ayant rien à signaler, vos menaces tombent à plat."
-        }
-      },
+    "You take a harsh tone and threaten the merchant again, but this time the merchant is even less concerned. Eventually you look over at the Turret to realise its gone, the merchant managed to hide it without you realising, with nothing to report your threats fall flat.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -5411,17 +6065,8 @@
       "machine": "",
       "done": false
     },
-    "You've arrived at the beacon to discover the wreck of a New Dawn vessel. Theres nothing in the area that indicates a battle took place here, instead it appears the wreck was created by the asteroid field here, if you want to search the debris you'll need to enter the asteroid field.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous êtes arrivé à la balise et avez découvert l'épave d'un vaisseau de la Nouvelle Aube. Rien dans la zone n'indique qu'une bataille a eu lieu ici, il semble plutôt que l'épave ait été créée par le champ d'astéroïdes. Si vous voulez fouiller les débris, vous devrez entrer dans le champ d'astéroïdes."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous arrivez à la balise pour découvrir l'épave d'un vaisseau de la Nouvelle Aube. Il n'y a rien dans la zone qui indique qu'une bataille a eu lieu ici, au lieu de cela, il semble que l'épave ait été créée par le champ d'astéroïdes ici, si vous voulez fouiller les débris, vous devrez entrer dans le champ d'astéroïdes."
-        }
-      },
+    "You've arrived at the beacon to discover the wreck of a New Dawn vessel. There's nothing in the area that indicates a battle took place here, instead it appears the wreck was created by the asteroid field here, if you want to search the debris you'll need to enter the asteroid field.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -5606,17 +6251,8 @@
       "machine": "",
       "done": false
     },
-    "\"A Federation Renagade? I didn't think I'd see your kind around here, worry not there are no rebels around, we do not have to be enemies.\"\nThe Captain of the transport pauses, thinking on something.\n\"Say, you don't have any spare supplies on you, we were meant to collect supplies from this outpost, but apparently they never recieved any from the last transport.\"\n\"We'd be happy to pay you with some surplus equipment or personnel.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "\"Un Renégat de la Fédération ? Je ne pensais pas voir votre genre par ici, ne vous inquiétez pas, il n'y a pas de rebelles dans les parages, nous n'avons pas à être ennemis.\"\nLe Capitaine du transport fait une pause, réfléchissant à quelque chose.\n\"Dites, vous n'avez pas de provisions de rechange sur vous, nous devions collecter des provisions de cet avant-poste, mais apparemment ils n'en ont jamais reçu du dernier transport.\"\n\"Nous serions heureux de vous payer avec de l'équipement ou du personnel excédentaire.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Un Renégat de la Fédération ? Je ne pensais pas voir votre espèce par ici, ne vous inquiétez pas, il n'y a pas de rebelles dans les parages, nous ne sommes pas obligés d'être ennemis.\"\nLe Capitaine du transport s'arrête un instant, pensant à quelque chose.\n\"Dites, vous n'auriez pas des ressources de secours sur vous ? Nous étions censés collecter des ressources à cet avant-poste, mais apparemment ils n'en ont jamais reçu du dernier transport.\"\n\"Nous serions heureux de vous payer avec de l'équipement excédentaire ou du personnel.\""
-        }
-      },
+    "\"A Federation Renegade? I didn't think I'd see your kind around here, worry not there are no rebels around, we do not have to be enemies.\"\nThe Captain of the transport pauses, thinking on something.\n\"Say, you don't have any spare supplies on you, we were meant to collect supplies from this outpost, but apparently they never received any from the last transport.\"\n\"We'd be happy to pay you with some surplus equipment or personnel.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6067,17 +6703,8 @@
       "machine": "",
       "done": false
     },
-    "You open fire on the outpost, it quickly disintergrates under your weapons, it's underpowered turrets only landing a few hits on you. Unfortunately it was able to alert the rebel fleet to your position before it was destroyed.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous ouvrez le feu sur l'avant-poste, il se désintègre rapidement sous vos armes, ses tourelles sous-alimentées ne vous infligent que quelques coups. Malheureusement, il a pu alerter la flotte rebelle de votre position avant d'être détruit."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous ouvrez le feu sur l'avant-poste, il se désintègre rapidement sous vos armes, ses tourelles sous-alimentées ne vous infligeant que quelques coups. Malheureusement, il a pu alerter la flotte rebelle de votre position avant d'être détruit."
-        }
-      },
+    "You open fire on the outpost, it quickly disintegrates under your weapons, it's underpowered turrets only landing a few hits on you. Unfortunately it was able to alert the rebel fleet to your position before it was destroyed.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6088,17 +6715,8 @@
       "machine": "",
       "done": true
     },
-    "You arrive at the beacon face to face with both a New Dawn vessel and Rebel ship, you immediately prepare yourself for the coming battle before realizing that the ships aren't interested in you, instead they've actually got their weapons trained on each other.\nFrom what you can hear over public communications you get the sense that the New Dawn Captain is sick of having to listen to the commands of these \"stupid rebel captains who couldn't tell the arse end of a slug from their own mother.\" And the Rebel Captain is quite displeased with insubordination of the New Dawn ship.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous arrivez à la balise face à un vaisseau de la Nouvelle Aube et un vaisseau Rebelle, vous vous préparez immédiatement pour la bataille à venir avant de réaliser que les vaisseaux ne s'intéressent pas à vous, mais qu'ils ont en fait leurs armes braquées l'un sur l'autre. D'après ce que vous entendez sur les communications publiques, vous avez l'impression que le Capitaine de la Nouvelle Aube en a assez d'écouter les ordres de ces \"stupides capitaines rebelles qui ne sauraient pas faire la différence entre l'arrière d'une limace et leur propre mère.\" Et le Capitaine Rebelle est assez mécontent de l'insubordination du vaisseau de la Nouvelle Aube."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous arrivez à la balise face à face avec à la fois un vaisseau de la Nouvelle Aube et un vaisseau Rebelle, vous vous préparez immédiatement à la bataille à venir avant de réaliser que les vaisseaux ne s'intéressent pas à vous, au lieu de cela, ils ont leurs armes braquées l'un sur l'autre.\nD'après ce que vous pouvez entendre via les communications publiques, vous avez l'impression que le Capitaine de la Nouvelle Aube en a assez d'écouter les ordres de ces \"stupides capitaines rebelles qui ne pourraient pas distinguer le derrière d'une limace de celui de leur propre mère\". Et le Capitaine Rebelle est assez mécontent de l'insubordination du vaisseau de la Nouvelle Aube."
-        }
-      },
+    "You arrive at the beacon face to face with both a New Dawn vessel and Rebel ship, you immediately prepare yourself for the coming battle before realising that the ships aren't interested in you, instead they've actually got their weapons trained on each other.\nFrom what you can hear over public communications you get the sense that the New Dawn Captain is sick of having to listen to the commands of these \"stupid rebel captains who couldn't tell the arse end of a slug from their own mother.\" And the Rebel Captain is quite displeased with insubordination of the New Dawn ship.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6400,17 +7018,8 @@
       "machine": "",
       "done": true
     },
-    "You agree to help and split off from the New Dawn ship, after a few minutes of searching the New Dawn ship disapears off into the distance, beyond the range of your sensors. It's only a few minutes later that the Iron Watch vessel appears, revealed behind a large but slow asteroid. They correctly deduce you're a part of the hunting team and don't give you a chance, prepare to fight.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous acceptez d'aider et vous vous séparez du vaisseau de la Nouvelle Aube, après quelques minutes de recherche, le vaisseau de la Nouvelle Aube disparaît au loin, au-delà de la portée de vos capteurs. Quelques minutes plus tard seulement, le vaisseau de la Garde de Fer apparaît, révélé derrière un astéroïde grand mais lent. Ils déduisent correctement que vous faites partie de l'équipe de chasse et ne vous donnent aucune chance, préparez-vous au combat."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous acceptez d'aider et vous séparez du vaisseau de la Nouvelle Aube, après quelques minutes de recherche, le vaisseau de la Nouvelle Aube disparaît dans le lointain, au-delà de la portée de vos capteurs. Ce n'est que quelques minutes plus tard que le vaisseau de la Veille de Fer apparaît, révélé derrière un gros astéroïde lent. Ils déduisent correctement que vous faites partie de l'équipe de chasse et ne vous donnent pas de chance, préparez-vous à combattre."
-        }
-      },
+    "You agree to help and split off from the New Dawn ship, after a few minutes of searching the New Dawn ship disappears off into the distance, beyond the range of your sensors. It's only a few minutes later that the Iron Watch vessel appears, revealed behind a large but slow asteroid. They correctly deduce you're a part of the hunting team and don't give you a chance, prepare to fight.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6511,17 +7120,8 @@
       "machine": "",
       "done": false
     },
-    "You transfer them the supplies and recieve their scrap, a good old fashion exchange of resources.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous leur transférez les provisions et recevez leur ferraille, un bon vieil échange de ressources à l'ancienne."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous leur transférez les ressources et recevez leur ferraille, un bon vieil échange de ressources."
-        }
-      },
+    "You transfer them the supplies and receive their scrap, a good old fashion exchange of resources.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6571,32 +7171,14 @@
       "machine": "",
       "done": false
     },
-    "You pull up close to the wreckage, there are several cargo containers in amongst the debris but they all appear openned, someone's been here already.\nA moment later you find out who that is, a New Dawn scout reveals themselves from behind some asteroids, it's apparent they've taken some damage to their engines by the thin line of oil and other fluids leaking behind them.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous vous approchez de l'épave, il y a plusieurs conteneurs de fret parmi les débris mais tous semblent ouverts, quelqu'un est déjà passé par là.\nUn instant plus tard, vous découvrez de qui il s'agit, un éclaireur de la Nouvelle Aube se révèle derrière des astéroïdes, il est évident qu'ils ont subi des dégâts à leurs moteurs, à en juger par la fine traînée d'huile et d'autres fluides qui fuient derrière eux."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous vous approchez de l'épave, il y a plusieurs conteneurs de chargement parmi les débris mais ils semblent tous ouverts, quelqu'un est déjà passé par là.\nUn instant plus tard, vous découvrez qui c'est, un éclaireur de la Nouvelle Aube se révèle derrière des astéroïdes, il est apparent qu'ils ont subi des dégâts à leurs moteurs avec la fine traînée d'huile et d'autres fluides qui s'échappent derrière eux."
-        }
-      },
+    "You pull up close to the wreckage, there are several cargo containers in amongst the debris but they all appear opened, someone's been here already.\nA moment later you find out who that is, a New Dawn scout reveals themselves from behind some asteroids, it's apparent they've taken some damage to their engines by the thin line of oil and other fluids leaking behind them.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The Captain of the ship sounds frantic, \"Please, Captain, you've got to help us, I've rescued everyone I could find but our ship isn't going to last much longer, I beg you to take us and our cargo onboard and out of the asteroid field, theres an outpost nearby.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le Capitaine du vaisseau semble paniqué, \"S'il vous plaît, Capitaine, vous devez nous aider, j'ai sauvé tous ceux que j'ai pu trouver mais notre vaisseau ne tiendra pas beaucoup plus longtemps, je vous supplie de nous prendre, nous et notre cargaison, à bord et de nous sortir du champ d'astéroïdes, il y a un avant-poste à proximité.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le Capitaine du vaisseau a l'air frénétique, \"S'il vous plaît, Capitaine, vous devez nous aider, j'ai sauvé tous ceux que j'ai pu trouver mais notre vaisseau ne va pas tenir beaucoup plus longtemps, je vous implore de nous prendre, nous et notre chargement, à bord et de nous sortir du champ d'astéroïdes, il y a un avant-poste à proximité.\""
-        }
-      },
+    "The Captain of the ship sounds frantic, \"Please, Captain, you've got to help us, I've rescued everyone I could find but our ship isn't going to last much longer, I beg you to take us and our cargo onboard and out of the asteroid field, there's an outpost nearby.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6727,17 +7309,8 @@
       "machine": "",
       "done": false
     },
-    "You've made it, you dock with the outpost and everyone makes it off successfully. The crew of the ship are very thankful, One of the New Dawn Soldier comes up to you, \"Do you think I could join your ship as one of your crew, it was pretty boring working on the transport escort, atleast up until I thought we were going to die.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous y êtes arrivé, vous accostez à l'avant-poste et tout le monde débarque avec succès. L'équipage du vaisseau est très reconnaissant, un des Soldats de la Nouvelle Aube s'approche de vous, \"Pensez-vous que je pourrais rejoindre votre vaisseau comme membre d'équipage, c'était assez ennuyeux de travailler sur le transporteur d'escorte, du moins jusqu'à ce que je pense que nous allions mourir.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous y êtes arrivé, vous vous amarrez à l'avant-poste et tout le monde réussit à sortir avec succès. L'équipage du vaisseau est très reconnaissant, l'un des soldats de la Nouvelle Aube vient vers vous, \"Pensez-vous que je pourrais rejoindre votre vaisseau comme membre d'équipage ? C'était assez ennuyeux de travailler sur l'escorte du transport, au moins jusqu'à ce que je pense que nous allions mourir.\""
-        }
-      },
+    "You've made it, you dock with the outpost and everyone makes it off successfully. The crew of the ship are very thankful, One of the New Dawn Soldier comes up to you, \"Do you think I could join your ship as one of your crew, it was pretty boring working on the transport escort, at least up until I thought we were going to die.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6847,17 +7420,8 @@
       "machine": "",
       "done": false
     },
-    "They transfer the cooridinates and the cargo crate over to you, they give a quick warning to not open it before sending you on your way.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Ils vous transfèrent les coordonnées et la caisse de cargaison, ils vous donnent un bref avertissement de ne pas l'ouvrir avant de vous envoyer en chemin."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Ils vous transfèrent les coordonnées et la caisse de chargement, ils vous donnent un avertissement rapide de ne pas l'ouvrir avant de vous envoyer en route."
-        }
-      },
+    "They transfer the coordinates and the cargo crate over to you, they give a quick warning to not open it before sending you on your way.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -6877,17 +7441,8 @@
       "machine": "",
       "done": false
     },
-    "Your attempts to make contact are immediately cut off when they realize who you are, it appears they were hoping for one of their own to come to the rescue.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vos tentatives de contact sont immédiatement interrompues quand ils réalisent qui vous êtes, il semble qu'ils espéraient qu'un des leurs viendrait à la rescousse."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vos tentatives de contact sont immédiatement coupées lorsqu'ils réalisent qui vous êtes, il semble qu'ils espéraient que l'un des leurs vienne à la rescousse."
-        }
-      },
+    "Your attempts to make contact are immediately cut off when they realise who you are, it appears they were hoping for one of their own to come to the rescue.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7012,17 +7567,8 @@
       "machine": "",
       "done": false
     },
-    "\"Oh you weren't lying, there it is, please bring it and follow me, its not far from here.\"\n\nA moment later you find yourself in an odd looking labratory, there are several unattended tables around the room, but you're directed to a slightly larger one in the middle.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "\"Oh, vous ne mentiez pas, la voilà, veuillez l'apporter et me suivre, ce n'est pas loin d'ici.\"\n\nUn instant plus tard, vous vous retrouvez dans un laboratoire d'apparence étrange, il y a plusieurs tables inoccupées autour de la pièce, mais vous êtes dirigé vers une plus grande au centre."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\"Oh, vous ne mentiez pas, la voilà, apportez-la et suivez-moi, ce n'est pas loin d'ici.\"\n\nUn instant plus tard, vous vous retrouvez dans un laboratoire à l'aspect étrange, il y a plusieurs tables sans surveillance autour de la pièce, mais vous êtes dirigé vers une table légèrement plus grande au milieu."
-        }
-      },
+    "\"Oh you weren't lying, there it is, please bring it and follow me, its not far from here.\"\n\nA moment later you find yourself in an odd looking laboratory, there are several unattended tables around the room, but you're directed to a slightly larger one in the middle.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7042,28 +7588,14 @@
       "machine": "",
       "done": false
     },
-    "He turns his attention to you, not appearing to actually care who he's talking to. \"I present the Turret PRE-IGNITER, an enhanced version of our successful Pre-energiser. I suppose putting this together wasn't neccessary, but I like to have a final prototype, it makes it feel complete.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Il tourne son attention vers vous, ne semblant pas réellement se soucier à qui il parle. \"Je vous présente le PRÉ-CHARGEUR de Tourelle, une version améliorée de notre pré-énergiseur réussi. Je suppose que l'assembler n'était pas nécessaire, mais j'aime avoir un prototype final, ça le rend complet."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Il tourne son attention vers vous, ne semblant pas vraiment se soucier de qui il parle. \"Je vous présente le PRÉ-ALLUMEUR de tourelle, une version améliorée de notre pré-énergisant à succès. Je suppose qu'assembler ceci n'était pas nécessaire, mais j'aime avoir un prototype final, cela le rend complet.\""
-        }
-      },
+    "He turns his attention to you, not appearing to actually care who he's talking to. \"I present the Turret PRE-IGNITER, an enhanced version of our successful Pre-energiser. I suppose putting this together wasn't necessary, but I like to have a final prototype, it makes it feel complete.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Not a moment later the entire station is rocked by a large explosion, sirens and alarms start blaring and people start rushing through, the engineer turns to a nearby console, quickly bringing up the station's exterior camera's.\nOn the vid screen you can makeout a strange looking ship silhouetted against the nearby star. \"It's just as I suspected.\" The engineer turns towards you. \"Captain, what kind of ship do you have?\" \"A cruiser, excellent! Take the Turret Pre-igniter, I've saved the designs to a secure datacenter. The physical prototype I cannot, however, risk falling into their hands, please take it with you and get out of here. Whatever you do, do not let it fall into the Rebellion's hands.\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Pas un instant plus tard, toute la station est secouée par une grande explosion, les sirènes et les alarmes commencent à retentir et les gens commencent à se précipiter, l'ingénieur se tourne vers une console à proximité, affichant rapidement les caméras extérieures de la station.\nSur l'écran vidéo, vous pouvez distinguer un vaisseau à l'aspect étrange en silhouette contre l'étoile voisine. \"C'est juste comme je le suspectais.\" L'ingénieur se tourne vers vous. \"Capitaine, quel genre de vaisseau avez-vous ?\" \"Un croiseur, excellent ! Prenez le pré-allumeur de tourelle, j'ai sauvegardé les conceptions dans un centre de données sécurisé. Le prototype physique, cependant, je ne peux pas risquer qu'il tombe entre leurs mains, s'il vous plaît emportez-le avec vous et sortez d'ici. Quoi que vous fassiez, ne le laissez pas tomber entre les mains de la Rébellion.\""
-        }
-      },
+    "Not a moment later the entire station is rocked by a large explosion, sirens and alarms start blaring and people start rushing through, the engineer turns to a nearby console, quickly bringing up the station's exterior camera's.\nOn the vid screen you can make out a strange looking ship silhouetted against the nearby star. \"It's just as I suspected.\" The engineer turns towards you. \"Captain, what kind of ship do you have?\" \"A cruiser, excellent! Take the Turret Pre-igniter, I've saved the designs to a secure datacenter. The physical prototype I cannot, however, risk falling into their hands, please take it with you and get out of here. Whatever you do, do not let it fall into the Rebellion's hands.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7266,17 +7798,8 @@
       "machine": "",
       "done": false
     },
-    "You've arrived at the beacon face to face with a pair of Iron Watch ships, one of them is just a common figher, but the other is an unusual design, a larger cruiser sized ship. An unusual sight in this sector, most of the Iron Watch were either forced out, or joined their leaders in turning to the New Dawn.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous êtes arrivé à la balise face à une paire de vaisseaux de la Garde de Fer, l'un d'eux est juste un chasseur commun, mais l'autre est un design inhabituel, un vaisseau de la taille d'un grand croiseur. Une vue inhabituelle dans ce secteur, la plupart de la Garde de Fer ont été soit expulsés, soit ont rejoint leurs dirigeants en se tournant vers la Nouvelle Aube."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous êtes arrivé à la balise face à face avec une paire de vaisseaux de la Veille de Fer, l'un d'eux est juste un chasseur commun, mais l'autre est d'un design inhabituel, un vaisseau plus grand de taille croiseur. Une vue inhabituelle dans ce secteur, la plupart de la Veille de Fer ont été soit forcés de partir, soit ont rejoint leurs chefs pour se tourner vers la Nouvelle Aube."
-        }
-      },
+    "You've arrived at the beacon face to face with a pair of Iron Watch ships, one of them is just a common fighter, but the other is an unusual design, a larger cruiser sized ship. An unusual sight in this sector, most of the Iron Watch were either forced out, or joined their leaders in turning to the New Dawn.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7392,6 +7915,12 @@
       "machine": "",
       "done": false
     },
+    "The New Dawn won't accept your help.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Ignore the ships.": {
       "advanced": {},
       "deepl": "",
@@ -7503,17 +8032,8 @@
       "machine": "",
       "done": false
     },
-    "You direct the cruiser to investigate the escort you destroyed, they begin scavenging the wreck searching for any intact consoles or systems. It's only a few minutes later when you recieve contact from them, \"Aha, Captain we've found it, they actually setup inside of a large asteroid in the same system as the Data-vault, unfortunately from the cargo transcript we found it appears they're quite close to being ready, we need to get there as quick as possible, we'll send you the location now.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous dirigez le croiseur pour enquêter sur l'escorte que vous avez détruite, ils commencent à fouiller l'épave à la recherche de consoles ou de systèmes intacts. Quelques minutes plus tard seulement, vous recevez un contact de leur part, \"Aha, Capitaine, nous l'avons trouvé, ils se sont en fait installés à l'intérieur d'un grand astéroïde dans le même système que le coffre de données, malheureusement, d'après le relevé de cargaison que nous avons trouvé, il semble qu'ils soient tout près d'être prêts, nous devons y arriver le plus vite possible, nous vous enverrons la position maintenant.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous dirigez le croiseur pour enquêter sur l'escorte que vous avez détruite, ils commencent à fouiller l'épave à la recherche de consoles ou de systèmes intacts. Ce n'est que quelques minutes plus tard que vous recevez un contact de leur part, \"Aha, Capitaine nous l'avons trouvé, ils se sont installés à l'intérieur d'un grand astéroïde dans le même système que le coffre-fort de données, malheureusement, d'après la transcription du chargement que nous avons trouvée, il semble qu'ils soient sur le point d'être prêts, nous devons nous y rendre aussi vite que possible, nous vous enverrons la localisation maintenant.\""
-        }
-      },
+    "You direct the cruiser to investigate the escort you destroyed, they begin scavenging the wreck searching for any intact consoles or systems. It's only a few minutes later when you receive contact from them, \"Aha, Captain we've found it, they actually setup inside of a large asteroid in the same system as the Data-vault, unfortunately from the cargo transcript we found it appears they're quite close to being ready, we need to get there as quick as possible, we'll send you the location now.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7593,6 +8113,12 @@
       "machine": "",
       "done": false
     },
+    "Despite taking heavy fire, the New Dawn ship managed to trigger an emergency jump, slipping into the void just as their systems were beginning to fail.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "The good news however is the the Iron Watch cruiser managed to survive. \"Captain, it's a good thing you were here, it's clear we would have been doomed without your help, Thank you. Now I shouldn't be telling you this, but clearly we need the help.\"\n\"We're in the process of preparing for a raid on the a New Dawn data-vault, capturing the information held there will be a great boon in the war, but its heavily defended. We've been preparing with supplies and equipment nearby the data-vault, hidden from their sensors. We're almost ready to go, so we'd appreciate your help during the raid.\"": {
       "advanced": {
         "9": {
@@ -7638,17 +8164,8 @@
       "machine": "",
       "done": false
     },
-    "You've arrived at the rendevouz point, the New Dawn cruiser is there already. \"You're here Captain, we can set-off then, follow me and prepare for combat.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous êtes arrivé au point de rendez-vous, le croiseur de la Nouvelle Aube est déjà là. \"Vous êtes là Capitaine, nous pouvons partir alors, suivez-me et préparez-vous au combat.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous êtes arrivé au point de rendez-vous, le croiseur de la Nouvelle Aube est déjà là. \"Vous êtes là Capitaine, nous pouvons partir alors, suivez-moi et préparez-vous au combat.\""
-        }
-      },
+    "You've arrived at the rendezvous point, the New Dawn cruiser is there already. \"You're here Captain, we can set-off then, follow me and prepare for combat.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7668,17 +8185,8 @@
       "machine": "",
       "done": false
     },
-    "You follow the cruiser, passing by several large asteroids floating in the void. You don't even realize when you get to the Iron Watch base until you're right up against it, you pickup the faintest blip on your sensors in the center of a large asteroid, protected from detection by the thick layer of rock.\nNow that you know where their base is it doesn't take you long to locate the entrance, a natural cave in the asteroid that leads inwards.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous suivez le croiseur, passant devant plusieurs grands astéroïdes flottant dans le vide. Vous ne réalisez même pas quand vous arrivez à la base de la Garde de Fer avant d'être juste devant, vous captez le plus faible signal sur vos capteurs au centre d'un grand astéroïde, protégé de la détection par l'épaisse couche de roche.\nMaintenant que vous savez où se trouve leur base, il ne vous faut pas longtemps pour localiser l'entrée, une grotte naturelle dans l'astéroïde qui mène vers l'intérieur."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous suivez le croiseur, en passant devant plusieurs grands astéroïdes flottant dans le vide. Vous ne réalisez même pas quand vous arrivez à la base de la Veille de Fer jusqu'à ce que vous soyez juste contre elle, vous captez le moindre signal sur vos capteurs au centre d'un grand astéroïde, protégé de la détection par l'épaisse couche de roche.\nMaintenant que vous savez où se trouve leur base, il ne vous faut pas longtemps pour localiser l'entrée, une grotte naturelle dans l'astéroïde qui mène à l'intérieur."
-        }
-      },
+    "You follow the cruiser, passing by several large asteroids floating in the void. You don't even realise when you get to the Iron Watch base until you're right up against it, you pickup the faintest blip on your sensors in the centre of a large asteroid, protected from detection by the thick layer of rock.\nNow that you know where their base is it doesn't take you long to locate the entrance, a natural cave in the asteroid that leads inwards.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7698,17 +8206,8 @@
       "machine": "",
       "done": false
     },
-    "You eventually make it out into a cavernous space, smaller than you expected but packed with cargo containers and a few temporary structures. However a quick scan indicates that the base is empty, abandoned. The New Dawn ship realizing this aswell quickly turns back the way you came, with full power to their engines. \"Captain, we've made a mistake, they've already moved on the data-vault, I need to get back there now!\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous finissez par déboucher dans un espace caverneux, plus petit que prévu mais rempli de conteneurs de cargaison et de quelques structures temporaires. Cependant, un rapide scan indique que la base est vide, abandonnée. Le vaisseau de la Nouvelle Aube, réalisant cela aussi, fait rapidement demi-tour par le chemin par lequel vous êtes venu, avec pleine puissance à leurs moteurs. \"Capitaine, nous avons fait une erreur, ils ont déjà avancé sur le coffre de données, je dois y retourner maintenant !\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous finissez par déboucher dans un espace caverneux, plus petit que ce à quoi vous vous attendiez mais rempli de conteneurs de chargement et de quelques structures temporaires. Cependant, un scan rapide indique que la base est vide, abandonnée. Le vaisseau de la Nouvelle Aube, réalisant cela également, fait rapidement demi-tour par où vous êtes venus, avec toute la puissance de ses moteurs. \"Capitaine, nous avons fait une erreur, ils ont déjà attaqué le coffre-fort de données, je dois y retourner maintenant !\""
-        }
-      },
+    "You eventually make it out into a cavernous space, smaller than you expected but packed with cargo containers and a few temporary structures. However a quick scan indicates that the base is empty, abandoned. The New Dawn ship realising this as well quickly turns back the way you came, with full power to their engines. \"Captain, we've made a mistake, they've already moved on the data-vault, I need to get back there now!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7779,17 +8278,8 @@
       "machine": "",
       "done": false
     },
-    "The New Dawn Captain is disapointed and goes off on his own, hopefully their ship will be powerful enough on their own.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le Capitaine de la Nouvelle Aube est déçu et part seul, espérons que leur vaisseau sera suffisamment puissant seul."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le Capitaine de la Nouvelle Aube est déçu et part de son côté, espérons que leur vaisseau sera assez puissant seul."
-        }
-      },
+    "The New Dawn Captain is disappointed and goes off on his own, hopefully their ship will be powerful enough on their own.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7865,17 +8355,8 @@
       "machine": "",
       "done": false
     },
-    "You've arrived at the rendevouz point, the Iron Watch cruiser is already there, alongside a small fleet of smaller military vessels. \"You're here Captain, we can set-off then, follow me and prepare for combat.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous êtes arrivé au point de rendez-vous, le croiseur de la Garde de Fer est déjà là, aux côtés d'une petite flotte de vaisseaux militaires plus petits. \"Vous êtes là Capitaine, nous pouvons partir alors, suivez-moi et préparez-vous au combat.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous êtes arrivé au point de rendez-vous, le croiseur de la Veille de Fer est déjà là, aux côtés d'une petite flotte de vaisseaux militaires plus petits. \"Vous êtes là Capitaine, nous pouvons partir alors, suivez-moi et préparez-vous au combat.\""
-        }
-      },
+    "You've arrived at the rendezvous point, the Iron Watch cruiser is already there, alongside a small fleet of smaller military vessels. \"You're here Captain, we can set-off then, follow me and prepare for combat.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7910,13 +8391,8 @@
       "machine": "",
       "done": false
     },
-    "The smaller ships engage first, pulling defenders away from the station, aswell as laying into and disabling many of the turrets built onto the station. It all appears to be going well until a large New Dawn vessel reveals its self from behind the station, heading straight towards you and the Iron Watch cruiser. \"You need to stop that ship, we're heavy on crew and equipment, we're not actually outfitted for ship to ship combat. You need to prevent them from making it to us.\"": {
-      "advanced": {
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Les vaisseaux plus petits engagent d'abord, attirant les défenseurs loin de la station, ainsi qu'attaquant et désactivant de nombreuses tourelles construites sur la station. Tout semble bien se passer jusqu'à ce qu'un grand vaisseau de la Nouvelle Aube se révèle de derrière la station, se dirigeant droit vers vous et le croiseur de la Veille de Fer. \"Vous devez arrêter ce vaisseau, nous sommes chargés en équipage et en équipement, nous ne sommes pas vraiment équipés pour le combat vaisseau contre vaisseau. Vous devez les empêcher d'arriver jusqu'à nous.\""
-        }
-      },
+    "The smaller ships engage first, pulling defenders away from the station, as well as laying into and disabling many of the turrets built onto the station. It all appears to be going well until a large New Dawn vessel reveals its self from behind the station, heading straight towards you and the Iron Watch cruiser. \"You need to stop that ship, we're heavy on crew and equipment, we're not actually outfitted for ship to ship combat. You need to prevent them from making it to us.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -7936,17 +8412,8 @@
       "machine": "",
       "done": false
     },
-    "The New Dawn vessel turns away from you and begins firing on the Iron Watch vessel, you watch as it disintergrates under the continuous fire, eventually breaking apart, dashing any hopes of a successful raid. The rest of the Iron Watch force falls around you, the New Dawn defences turning towards you, forcing you back, eventually you're forced to run, or else be destroyed.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau Nouvelle Aube s'éloigne de vous et commence à tirer sur le vaisseau Garde de Fer. Vous le voyez se désintégrer sous le feu continu, finissant par se briser, anéantissant tout espoir de raid réussi. Le reste des forces de la Garde de Fer tombe autour de vous, les défenses de la Nouvelle Aube se tournent vers vous, vous forçant à reculer, et finalement vous êtes contraint de fuir, ou d'être détruit."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Nouvelle Aube se détourne de vous et commence à tirer sur le vaisseau de la Veille de Fer, vous regardez alors qu'il se désintègre sous le feu continu, finissant par se briser, brisant tout espoir de raid réussi. Le reste de la force de la Veille de Fer tombe autour de vous, les défenses de la Nouvelle Aube se tournant vers vous, vous forçant à reculer, finalement vous êtes forcé de fuir, sous peine d'être détruit."
-        }
-      },
+    "The New Dawn vessel turns away from you and begins firing on the Iron Watch vessel, you watch as it disintegrates under the continuous fire, eventually breaking apart, dashing any hopes of a successful raid. The rest of the Iron Watch force falls around you, the New Dawn defences turning towards you, forcing you back, eventually you're forced to run, or else be destroyed.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8082,6 +8549,72 @@
           "text": "L'équipage est mort, vous laissant avec le vaisseau. Son chargement est à vous. À bord se trouve la technologie spéciale que vous attendiez, que vous ramenez à votre vaisseau."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You find a large New Dawn settlement here, a number of stations sit in orbit around the planet. The store catches your eye and sensors first due to the beacon it's emitting, but alongside that sits a large New Dawn military outpost, several armed ships are docked to the outpost.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You recognise the New Dawn ship you met in the Iron Watch sector.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Positive Reputation) Pay to enter the outpost.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Negative/Neutral Reputation) The outpost bars your entry.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Just explore the store.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You have some time to do something onboard your ship while you're here.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You enter into a lounge area, several New Dawn officers are present. One of the officers recognises you, \"Ah, Captain, I see you've made it here safely. I was hoping to speak with you, if you have a moment.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You enter into a lounge area, several New Dawn officers are present. One of the officers recognises you, \"Ah, Captain, I've heard of your exploits. I was actually hoping to speak with you, if you have a moment.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Captain. Word of your actions in New Dawn space has travelled fast, the higher-ups are impressed.\nWe're aware of your standing agreement with the Federation, and we have no intention of pulling you from your mission.\nHowever as the Iron Watch isn't a part of the federation, it shouldn't be a problem for you to help us against them, in exchange for a large sum of money of course.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Our Intelligence forces have operating a mission in a secret Iron Watch stronghold, deep in unexplored space. As a result the Iron Watch have been contacting their allies in the region for support.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"With an attack imminent, and allies flooding to the sector, you should be able to blend in seamlessly. Once you're in place our members in the sector will seek you out.\n\t\t\t\t\t\t\n\t\t\t\t\t\tYou've been cleared for access to the sector coordinates. If you choose to make your way there, there will be a member of the New Dawn ready to inform you of the mission. Good Luck, Captain.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8266,17 +8799,8 @@
       "machine": "",
       "done": true
     },
-    "The guard scratches their face. \"As you are likely aware, the Iron Watch is not beholden to Federation laws or jurisdiction. That said, I understand that your cause represents the best interests of everyone here. The Federation might not be our friend, but the Rebellion isn't either. I will do you this one favor, but do not expect everyone to be so generous.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "La garde se gratte le visage. \"Comme vous le savez probablement, la Garde de Fer n'est pas soumise aux lois ou à la juridiction de la Fédération. Cela dit, je comprends que votre cause représente les meilleurs intérêts de tous ici. La Fédération n'est peut-être pas notre amie, mais la Rébellion non plus. Je vous ferai cette faveur, mais n'attendez pas de tout le monde qu'il soit aussi généreux.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "La garde se gratte le visage. \"Comme vous le savez probablement, la Veille de Fer n'est pas assujettie aux lois ou à la juridiction de la Fédération. Cela dit, je comprends que votre cause représente les meilleurs intérêts de tous ici. La Fédération n'est peut-être pas notre amie, mais la Rébellion ne l'est pas non plus. Je vais vous faire cette faveur, mais ne vous attendez pas à ce que tout le monde soit si généreux.\""
-        }
-      },
+    "The guard scratches their face. \"As you are likely aware, the Iron Watch is not beholden to Federation laws or jurisdiction. That said, I understand that your cause represents the best interests of everyone here. The Federation might not be our friend, but the Rebellion isn't either. I will do you this one favour, but do not expect everyone to be so generous.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8440,7 +8964,7 @@
       "machine": "",
       "done": true
     },
-    "You apologize and end comms. The guard makes no attempts to communicate further.": {
+    "You apologise and end comms. The guard makes no attempts to communicate further.": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -8527,6 +9051,12 @@
       "machine": "",
       "done": false
     },
+    "[REPUTATION INCREASED X2 - IRON WATCH]\n\tYou have done a good deed here in the eyes of the Iron Watch. Continuously perform actions like this and you might start to see positive support from the Iron Watch and its allies.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "[REPUTATION DECREASED - IRON WATCH]\n\tYour actions here, justifiable or not, will not reflect well in the eyes of the Iron Watch or its citizens. Continuously perform actions like this and you might start to see negative reactions from the Iron Watch and its allies.": {
       "advanced": {
         "9": {
@@ -8551,6 +9081,117 @@
         "12": {
           "model": "gemini-3.1-flash-lite",
           "text": "[RÉPUTATION DIMINUÉE X2 - VEILLE DE FER]\n\tVos actions ici, justifiables ou non, ne seront pas vues d'un bon œil par la Veille de Fer ou ses citoyens. Continuez à effectuer des actions comme celle-ci et vous pourriez commencer à voir des réactions négatives de la part de la Veille de Fer et de ses alliés.\nPour vos actions particulièrement flagrantes, votre réputation a été diminuée deux fois."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You've arrived at the Long-Range Beacon. When the FTL Drive is charged you can jump to the next Sector.\nAn Iron Watch station protects the beacon from any ne'er-do-wells as well as monitoring traffic out of the Sector.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(>1 Reputation) The station is attempting to hail you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(<2 Reputation) The station ignores you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Captain. Word of your actions in Iron Watch space has travelled fast, the higher-ups are impressed.\nWe're aware of your standing agreement with the Federation regarding the rebellion, and we have no intention of pulling you from your mission.\nWhat we do have, however, is a proposition, one we believe serves your interests as much as our own.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Our Intelligence forces have uncovered that the New Dawn are coordinating with the Rebel fleet. Their target is a secret Iron Watch stronghold deep in unexplored space, we believe their fleet is already on the way there.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"With an attack imminent, Admiral Micari of the Iron Watch Defence fleet has personally requested your assistance. Together, we have an opportunity to strike a decisive blow against both of our enemies in a single battle.\n\t\t\t\t\t\t\n\t\t\t\t\t\tYou've been cleared for access to the sector coordinates. If you choose to make your way there, seek out Admiral Micari upon arrival at the entry beacon. Good Luck, Captain.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Iron Watch captain lets out one final expletive as the ship is obliterated.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Le capitaine de la Garde de Fer lâche une dernière imprécation alors que le vaisseau est anéanti."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Le capitaine de la Veille de Fer lâche une dernière insulte alors que le vaisseau est pulvérisé."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The hull of the Iron Watch vessel is dispersed out into space. You swoop in to salvage the remains.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "La coque du vaisseau de la Garde de Fer est dispersée dans l'espace. Vous vous précipitez pour récupérer les restes."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "La coque du vaisseau de la Veille de Fer est dispersée dans l'espace. Vous plongez pour récupérer les débris."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Iron Watch ship explodes, extinguishing all lives within. Your crew avoids their remains as they salvage the ship pieces.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Le vaisseau de la Garde de Fer explose, éteignant toute vie à l'intérieur. Votre équipage évite leurs restes pendant qu'ils récupèrent les morceaux du vaisseau."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Le vaisseau de la Veille de Fer explose, éteignant toutes les vies à l'intérieur. Votre équipage évite leurs restes pendant qu'ils récupèrent les morceaux du vaisseau."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Without a word, the Iron Watch captain falls to the ground, gasping for air as the life is extinguished from their eyes. You salvage the hull of their ship.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Sans un mot, le capitaine de la Garde de Fer s'effondre, haletant alors que la vie s'éteint dans ses yeux. Vous récupérez la coque de leur vaisseau."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Sans un mot, le capitaine de la Veille de Fer tombe au sol, cherchant l'air alors que la vie s'éteint dans ses yeux. Vous récupérez la coque de leur vaisseau."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"You will regret this! Karma always comes back to people like you. Damn you Renegades... the Iron Watch would have been better off with the Rebellion...\"": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "\"Vous allez le regretter ! Le karma revient toujours aux gens comme vous. Maudits soyez, Renégats... la Garde de Fer aurait été mieux avec la Rébellion...\""
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "\"Vous allez regretter ça ! Le karma finit toujours par rattraper les gens comme vous. Maudits soyez-vous, Renegats... la Veille de Fer aurait mieux fait de s'allier à la Rébellion...\""
         }
       },
       "deepl": "",
@@ -8665,7 +9306,67 @@
       "machine": "",
       "done": true
     },
-    "A large market surrounds this refueling station.": {
+    "Scans show that the Iron Watch ship is trying to escape. Destroy it before it can get away!": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Les scans montrent que le vaisseau de la Garde de Fer tente de s'échapper. Détruisez-le avant qu'il ne s'enfuie !"
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Les scans montrent que le vaisseau de la Veille de Fer tente de s'échapper. Détruisez-le avant qu'il ne puisse s'enfuir !"
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Iron Watch vessel has slipped from your grasp, abandoning you at the beacon.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Le vaisseau de la Garde de Fer vous a échappé, vous abandonnant à la balise."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Le vaisseau de la Veille de Fer vous a échappé, vous abandonnant à la balise."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Your attempts at destroying the Iron Watch vessel have failed, and the ship has escaped.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Vos tentatives de destruction du vaisseau de la Garde de Fer ont échoué, et le vaisseau s'est échappé."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Vos tentatives pour détruire le vaisseau de la Veille de Fer ont échoué, et le vaisseau s'est échappé."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Iron Watch vessel may have escaped, but not everything has gone wrong. A trail of scrap from the wreckage has been left behind, which you collect.": {
+      "advanced": {
+        "9": {
+          "model": "gemini-2.5-flash",
+          "text": "Le vaisseau de la Garde de Fer a peut-être échappé, mais tout n'est pas perdu. Une traînée de ferraille provenant de l'épave a été laissée derrière, que vous ramassez."
+        },
+        "12": {
+          "model": "gemini-3.1-flash-lite",
+          "text": "Le vaisseau de la Veille de Fer s'est peut-être échappé, mais tout n'est pas perdu. Une traînée de ferraille provenant de l'épave a été laissée derrière, que vous récupérez."
+        }
+      },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A large market surrounds this iron watch station.": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -8746,17 +9447,8 @@
       "machine": "",
       "done": true
     },
-    "You arrive at the beacon to discover an Iron Watch ship. The captain is seemingly quite distressed as you can hear yelling over the public channels.\n\t\"What do you mean it's not a turret?\" You can hear the faint noise of one of their crew trying to explain something the captain clearly doesn't understand.\n\t\"So we were SCAMMED? That kniving merchant, ohhh if I see him again he's dead!\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Vous arrivez à la balise et découvrez un vaisseau Garde de Fer. Le capitaine semble très affligé, vous entendez des cris sur les canaux publics.\n\t\"Que voulez-vous dire, ce n'est pas une tourelle ?\" Vous entendez le léger bruit d'un membre d'équipage essayant d'expliquer quelque chose que le capitaine ne comprend manifestement pas.\n\t\"Alors nous avons été ARNAQUÉS ? Ce marchand fourbe, ohhh si je le revois, il est mort !\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Vous arrivez à la balise pour découvrir un vaisseau de la Veille de Fer. Le capitaine est apparemment très en détresse car vous pouvez entendre des cris sur les canaux publics.\n\t\"Qu'est-ce que vous voulez dire par ce n'est pas une tourelle ?\" Vous pouvez entendre le faible bruit de l'un de leurs membres d'équipage essayant d'expliquer quelque chose que le capitaine ne comprend clairement pas.\n\t\"Donc on s'est fait ARNAQUER ? Ce marchand fourbe, ohhh si je le revois il est mort !\""
-        }
-      },
+    "You arrive at the beacon to discover an Iron Watch ship. The captain is seemingly quite distressed as you can hear yelling over the public channels.\n\t\"What do you mean it's not a turret?\" You can hear the faint noise of one of their crew trying to explain something the captain clearly doesn't understand.\n\t\"So we were SCAMMED? That conniving merchant, ohhh if I see him again he's dead!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -8776,17 +9468,8 @@
       "machine": "",
       "done": false
     },
-    "Eventually the captain's angry reaches a crescendo and orders the would-be turret thrown out the airlock. \"I want it out of sight, get us OUT OF HERE!\" With that the Iron Watch ship jumps away. Now on you're on you have time to scoop up the \"turret\" and examine it yourself, it turns out it was just a simple defence drone.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Finalement, la colère du capitaine atteint son paroxysme et il ordonne que la pseudo-tourelle soit éjectée par le sas. \"Je veux qu'elle disparaisse de ma vue, sortez-nous D'ICI !\" Sur ce, le vaisseau Garde de Fer saute. Vous avez maintenant le temps de récupérer la \"tourelle\" et de l'examiner vous-même, il s'avère que ce n'était qu'un simple drone de défense."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Finalement, la colère du capitaine atteint un crescendo et il ordonne que la pseudo-tourelle soit jetée par le sas. \"Je veux qu'elle soit hors de vue, sortez-nous D'ICI !\" Sur ce, le vaisseau de la Veille de Fer saute. Maintenant, vous avez le temps de récupérer la \"tourelle\" et de l'examiner vous-même, il s'avère que ce n'était qu'un simple drone de défense."
-        }
-      },
+    "Eventually the captain's anger reaches a crescendo and orders the would-be turret thrown out the airlock. \"I want it out of sight, get us OUT OF HERE!\" With that the Iron Watch ship jumps away. Now that you're on your own, you have time to scoop up the \"turret\" and examine it yourself, it turns out it was just a simple defence drone.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9343,17 +10026,8 @@
       "machine": "",
       "done": false
     },
-    "The Iron Watch ship eventually disapears from view as it searches the asteroid field.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau Garde de Fer finit par disparaître de la vue alors qu'il fouille le champ d'astéroïdes."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Veille de Fer disparaît finalement de la vue alors qu'il cherche dans le champ d'astéroïdes."
-        }
-      },
+    "The Iron Watch ship eventually disappears from view as it searches the asteroid field.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9388,17 +10062,8 @@
       "machine": "",
       "done": false
     },
-    "As you power on your weapons the Iron Watch vessel seems to notice what your doing, their captain sputters out a few explitives but turns on her own weapons in response.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Alors que vous mettez vos armes sous tension, le vaisseau Garde de Fer semble remarquer ce que vous faites, leur capitaine marmonne quelques jurons mais active ses propres armes en réponse."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Alors que vous alimentez vos armes, le vaisseau de la Veille de Fer semble remarquer ce que vous faites, leur capitaine crache quelques insultes mais active ses propres armes en réponse."
-        }
-      },
+    "As you power on your weapons the Iron Watch vessel seems to notice what your doing, their captain sputters out a few expletives but turns on her own weapons in response.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9538,17 +10203,8 @@
       "machine": "",
       "done": false
     },
-    "Capitalize on the damage and attack them.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Profitez des dégâts et attaquez-les."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Capitaliser sur les dégâts et les attaquer."
-        }
-      },
+    "Capitalise on the damage and attack them.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -9721,7 +10377,7 @@
       "machine": "",
       "done": true
     },
-    "Apologize and say you can't help.": {
+    "Apologise and say you can't help.": {
       "advanced": {},
       "deepl": "",
       "machine": "",
@@ -9877,17 +10533,8 @@
       "machine": "",
       "done": false
     },
-    "Most of the wreckage is useless, but you do eventually find a cargo container, and inside an unusual looking turret. It appears that this turret had a specific destination, an outpost nearby. You note down the cooridinates.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "La plupart de l'épave est inutile, mais vous finissez par trouver un conteneur de fret, et à l'intérieur une tourelle d'apparence inhabituelle. Il semble que cette tourelle avait une destination spécifique, un avant-poste à proximité. Vous notez les coordonnées."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "La plupart des débris sont inutiles, mais vous finissez par trouver un conteneur de chargement, et à l'intérieur une tourelle à l'aspect inhabituel. Il semble que cette tourelle avait une destination spécifique, un avant-poste à proximité. Vous notez les coordonnées."
-        }
-      },
+    "Most of the wreckage is useless, but you do eventually find a cargo container, and inside an unusual looking turret. It appears that this turret had a specific destination, an outpost nearby. You note down the coordinates.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10087,17 +10734,8 @@
       "machine": "",
       "done": false
     },
-    "Eventually they respond, \"Renegade, if you want to know anything you're going to have to prove yourself to us. Theres a nearby Iron Watch supply depot, go there and take it out, then we'll talk.\" With that they jump away.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Finalement, ils répondent : \"Renégat, si vous voulez savoir quoi que ce soit, vous allez devoir nous prouver votre valeur. Il y a un dépôt de fournitures de la Garde de Fer à proximité, allez-y et détruisez-le, puis nous parlerons.\" Sur ce, ils sautent."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Finalement ils répondent, \"Renégat, si vous voulez savoir quelque chose, vous allez devoir faire vos preuves auprès de nous. Il y a un dépôt de ressources de la Veille de Fer à proximité, allez-y et détruisez-le, ensuite nous parlerons.\" Sur ce, ils sautent."
-        }
-      },
+    "Eventually they respond, \"Renegade, if you want to know anything you're going to have to prove yourself to us. There's a nearby Iron Watch supply depot, go there and take it out, then we'll talk.\" With that they jump away.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10303,32 +10941,14 @@
       "machine": "",
       "done": false
     },
-    "This beacon has been placed too close to a neutron star! The radiation field will temporarily ionize your systems. Iron Watch ships have apparently been designed to remain quite effective in the presence of pulsars, you're in for a bad time.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Cette balise a été placée trop près d'une étoile à neutrons ! Le champ de radiations ionisera temporairement vos systèmes. Les vaisseaux de la Garde de Fer ont apparemment été conçus pour rester très efficaces en présence de pulsars, vous allez passer un mauvais quart d'heure."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Cette balise a été placée trop près d'une étoile à neutrons ! Le champ de rayonnement ionisera temporairement vos systèmes. Les vaisseaux de la Veille de Fer ont apparemment été conçus pour rester très efficaces en présence de pulsars, vous allez passer un mauvais moment."
-        }
-      },
+    "This beacon has been placed too close to a neutron star! The radiation field will temporarily ionise your systems. Iron Watch ships have apparently been designed to remain quite effective in the presence of pulsars, you're in for a bad time.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "This beacon has been placed too close to a neutron star! The radiation field will temporarily ionize your systems. A pirate, apparently oblivious to the danger of the pulsar, moves in to engage.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Cette balise a été placée trop près d'une étoile à neutrons ! Le champ de radiations ionisera temporairement vos systèmes. Un pirate, apparemment inconscient du danger du pulsar, s'approche pour engager le combat."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Cette balise a été placée trop près d'une étoile à neutrons ! Le champ de rayonnement ionisera temporairement vos systèmes. Un pirate, apparemment inconscient du danger du pulsar, s'approche pour engager le combat."
-        }
-      },
+    "This beacon has been placed too close to a neutron star! The radiation field will temporarily ionise your systems. A pirate, apparently oblivious to the danger of the pulsar, moves in to engage.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10378,17 +10998,8 @@
       "machine": "",
       "done": false
     },
-    "(Friendly Reputation) Inquire about the ship with the outpost.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "(Bonne réputation) Renseignez-vous sur le vaisseau auprès de l'avant-poste."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "(Réputation Amicale) Se renseigner sur le vaisseau auprès de l'avant-poste."
-        }
-      },
+    "(Positive Reputation) Inquire about the ship with the outpost.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10513,17 +11124,8 @@
       "machine": "",
       "done": false
     },
-    "The outpost recieves your scrap, \"While your donation is very kind, we still can't tell you anything about that ship.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "L'avant-poste reçoit votre ferraille, \"Bien que votre don soit très aimable, nous ne pouvons toujours rien vous dire sur ce vaisseau.\""
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "L'avant-poste reçoit votre ferraille, \"Bien que votre don soit très gentil, nous ne pouvons toujours rien vous dire sur ce vaisseau.\""
-        }
-      },
+    "The outpost receives your scrap, \"While your donation is very kind, we still can't tell you anything about that ship.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10543,17 +11145,8 @@
       "machine": "",
       "done": false
     },
-    "The outpost recieves your scrap, \"Now that's something, we can't tell you, but recently our communications have actually been malfunctioning and sending secure information on public channels, it really needs to be looked into...\" A moment later your crew pickups the location of a ship being broadcast on one of the public channels.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "L'avant-poste reçoit votre ferraille : \"Ah ça, c'est autre chose, nous ne pouvons pas vous le dire, mais récemment, nos communications ont en fait mal fonctionné et ont envoyé des informations sécurisées sur les canaux publics, il faut vraiment y jeter un œil...\" Un instant plus tard, votre équipage capte la position d'un vaisseau diffusée sur l'un des canaux publics."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "L'avant-poste reçoit votre ferraille, \"Maintenant, c'est quelque chose, nous ne pouvons pas vous dire, mais récemment nos communications ont en fait mal fonctionné et envoyé des informations sécurisées sur les canaux publics, cela doit vraiment être examiné...\" Un instant plus tard, votre équipage capte la localisation d'un vaisseau diffusé sur l'un des canaux publics."
-        }
-      },
+    "The outpost receives your scrap, \"Now that's something, we can't tell you, but recently our communications have actually been malfunctioning and sending secure information on public channels, it really needs to be looked into...\" A moment later your crew pickups the location of a ship being broadcast on one of the public channels.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10850,32 +11443,14 @@
       "machine": "",
       "done": false
     },
-    "The Iron Watch ship has mostly recovered from the attack, they contact you. \"We're grateful for your help Captain, we're not sure we would have survived that without you help. Perhaps it's time we took a more active presence in your war with the rebellion. We'll send the blueprints for the prototype along to the federation, perhaps they'll be able to use it.\"": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau Garde de Fer s'est en grande partie remis de l'attaque, ils vous contactent. « Nous sommes reconnaissants de votre aide Capitaine, nous ne sommes pas sûrs que nous aurions survécu sans votre aide. Peut-être est-il temps que nous prenions une présence plus active dans votre guerre contre la rébellion. Nous enverrons les plans du prototype à la fédération, peut-être pourront-ils l'utiliser. »"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Garde de Fer a en grande partie récupéré de l'attaque et vous contacte. « Nous vous sommes reconnaissants pour votre aide, Capitaine, nous ne sommes pas sûrs d'avoir survécu sans vous. Il est peut-être temps pour nous de prendre une part plus active dans votre guerre contre la rébellion. Nous enverrons les plans du prototype à la Fédération, peut-être pourront-ils l'utiliser. »"
-        }
-      },
+    "The Iron Watch ship has mostly recovered from the attack, they contact you. \"We're grateful for your help Captain, we're not sure we would have survived that without it. Perhaps it's time we took a more active presence in your war with the rebellion. We'll send the blueprints for the prototype along to the federation, perhaps they'll be able to use it.\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "The New Dawn ship is still wary of you even after the fight. You watch as they move up to the wreck and carefully extract a single component, you're not what it is, but with that done they back away from the wreck, uninterested in the rest of it. You recieve a simple thank you before they leave.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Le vaisseau Nouvelle Aube se méfie encore de vous même après le combat. Vous les regardez s'approcher de l'épave et en extraire délicatement un seul composant, vous ne savez pas ce que c'est, mais une fois cela fait, ils s'éloignent de l'épave, désintéressés par le reste. Vous recevez un simple merci avant qu'ils ne partent."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Le vaisseau de la Nouvelle Aube se méfie toujours de vous, même après le combat. Vous les regardez s'approcher de l'épave et extraire soigneusement un seul composant ; vous ne savez pas ce que c'est, mais une fois cela fait, ils reculent par rapport à l'épave, sans s'intéresser au reste. Vous recevez un simple remerciement avant qu'ils ne partent."
-        }
-      },
+    "The New Dawn ship is still wary of you even after the fight. You watch as they move up to the wreck and carefully extract a single component, you're not what it is, but with that done they back away from the wreck, uninterested in the rest of it. You receive a simple thank you before they leave.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10891,6 +11466,1056 @@
           "text": "Le vaisseau de la Nouvelle Aube se méfie toujours de vous, même après le combat. Vous les regardez s'approcher de l'épave et extraire soigneusement un seul composant ; vous ne savez pas ce que c'est, mais une fois cela fait, ils reculent par rapport à l'épave, sans s'intéresser au reste. « Capitaine, si jamais vous arrivez à la base opérationnelle avancée de la Nouvelle Aube, je veillerai à ce que vous passiez sans opposition, essayez de me trouver une fois que vous y serez. »"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Rebel fleet has taken control of this beacon, but they have been met with opposition from Iron Watch forces. As the ships rage on in combat in the distance, an Elite ship breaks off to fight you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Adv. Engines) Try to escape the Elite.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Jerry) \"Hello!\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Rebel fleet has taken control of this beacon, but they have been met with opposition from Iron Watch forces. As the ships rage on in combat in the distance, an MFK Ace ship breaks off to fight you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The arrival beacon lands you in the middle of the Iron Watch's fleet. The fleet pays no attention to you, you observe most ships are preoccupied with preparing for the approaching rebel fleet, engineering ships attend to a number of vessels undergoing repairs.\n\nYour sensors pickup a massive energy signature in the sector, a neutron star, visible even from here. You're unsure how the iron watch have managed to survive with a thing like that around, if you get caught in it's beam it's sure to rip your ship apart.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You're directed through a series of disinterested officers until you're finally face to face with Admiral Micari, the same Admiral who personally requested your help.\n\n\"Captain, glad you made it, As you may know, I'm Admiral Micari of the 4th Defence Fleet. I'll spare the rest of the formalities and cut right to the chase.\nWhen I originally requested your assistance, the intention was to have you fight alongside the fleet. The Rebel fleet has already taken out several of our forward outposts, frankly, we could really use another capable ship like yours on the frontline.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"That plan has changed, two hours ago we received a distress call coming from our research base, the one positioned right next to the neutron star you may have noticed in the sector. The signal cut out before we could get a clear read on what was happening, it might just be equipment failure, but I fear the worst.\"\n\t\t\t\n\"I can't pull any of my ships from the front line to follow up on the distress signal, not with the Rebel fleet so close. But that research base is part of why we're even here in the first place, I can't disclose details but it's important, and so I can't just ignore the distress call.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"That's where you come in, Captain. I need you to investigate the distress signal and make sure the base is alright. If there is time after that is dealt with, we'd appreciate any help you can provide to the frontline, but that base is the top priority.\"\n\n\"Good luck out there Captain.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Request support.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "An Officer puts you on a secure line with one of the nearby support ships, who awaits your command.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Repairs.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Several repair drones are dispatched to repair you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fuel.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A refuelling drone is dispatched to refuel your ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ammo.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A resupply drone is dispatched to resupply your ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Drone parts.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Before you're able to interact with any of the Iron Watch fleet, you're contacted by a New Dawn ship hidden inside a nearby asteroid field.\n\n\"Excellent, you made it here and the Iron Watch don't suspect a thing. As you may remember, this sector is home to that neutron star your sensor may detect in the distance. The Iron Watch didn't establish the research base here, instead this sector was incorporated as the Neutron Star Exclusion Zone when the original scientists joined the Iron Watch.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Their work here has resulted in many new technologies, you may have noticed that many of the Iron Watch shields are equipped with shielding designed to protect them from the radiation of the neutron star. This is what we're after, we've managed to steal or loot many copies of the shielding device from Iron Watch ships, but its not enough to equip more than our intelligence operatives, we need the schematics and designs for the technology.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"This is where you come in, we believe that the schematics for this technology are contained on original research station in orbit around the neutron star. Our intelligence operatives have prepared their ship for a raid on the station, but with the rebel fleet on the way they've stepped up the protection around the facility. We need you to provide the distraction that lets our intelligence operatives get close enough to the facility to initiate the raid.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Agree to the mission.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Excellent, I'll upload the location of the research base, not that it's hard to find being in orbit of the Neutron Star. Our operatives will be ready to move in once you distract the guards, good luck.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Refuse the mission.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Well the raid is happening regardless of your participation, I'll upload the location of the research base, not that it's hard to find. If you show up, we'll assume you're onboard.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Location of the Iron Watch Research Station.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You have a moment to do something onboard your ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The research station hangs in orbit above the neutron star, close enough that the radiation in unavoidable, you'll want to avoid spending too long here.\n\nAs you bring your ship alongside the station and begin docking procedures, its immediately clear something's gone wrong, the hull of the station is scored with damage, half the solar panels are completely missing.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The airlock opens into the station, thankfully these part has stayed pressurised despite the damage.\nYou're immediately face to face with a figure in the white coat of a scientist. \"You're from the Iron Watch? Close enough, come in quickly.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You're ushered towards a nearby meeting room, a large screen is cycling through various images of dangerous looking ship, stealth in design, it must be what attacked the station.\n\n\"We were attacked, that ship,\" they gesture to the one on the screen, \"is unlike anything we've seen before. We've heard stories of 'ghost' ships like this but no one had seriously considered them. We barely saw it coming, it came from the direction of the neutron star, shielded from our sensors by the radiation. They were shielded by one of our own Synchrotron Barriers, developed here on this station to shield our ships against the radiation of the neutron star.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Alarms activate throughout the station.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Alarms blaring across the station, the screen on the wall switches to show a new ship, painted in New Dawn colours. With the station as defenceless as it is, you have the only thing capable of preventing the New Dawn vessel from finishing the station off. You rush back to your ship and disengage from the station, now clear of the station's protection you'll have to survive both the enemy and the force of the radiation.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You quickly return to the safety of the station's Synchrotron Barrier. Docking with the station, you head back to the meeting room with the scientist, who is now pacing back and forth across the room.\n\n\"That won't be the last of them. The stealth ship, 'ghost' ship as some have been calling it, it wasn't just here to destroy us. No, it was here to steal our stock of Synchrotron Barriers, but worse, they've stolen the schematics, previously they've only been able to get their hands on the devices by stealing them off of our own ships, but now they could begin manufacturing the devices themselves.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"The good news however is that we began placing tracking devices in the barriers, we should be able to track the ones stolen by the 'ghost' ship itself, and if we're quick enough we may be able to prevent the schematics from escaping the sector.\"\n\n\"I'm humbly requesting your help here, we need to recover the schematics. I hope it's not too much to ask, but I'd like to come with you, I assure you I'll be no hindrance onboard the ship.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"I realise I forgot to introduce myself. Dr. Silas at your service.\"\n\"There's one more thing, this station is done, it's in no condition to be repaired this close to the neutron star. If you can get everyone onboard to safety we can transfer the only Synchrotron Barrier remaining to your ship, the one currently hooked up to the station.\"\n\t\t\t\t\t\nYou're able to load the remaining station staff onto your ship, before Dr. Silas has the Synchrotron Barrier carefully moved onto your ship, and integrated into your engines system.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You're able to deliver the station's staff to a nearby outpost, as you leave you watch the station disintegrate under the full force of the radiation.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Refuse the offer.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"I will stay with the rest of the station's staff then, good luck with the rest of the mission then, Captain.\"\n\"There's one more thing, this station is done, it's in no condition to be repaired this close to the neutron star. If you can get everyone onboard to safety we can transfer the only Synchrotron Barrier remaining to your ship, the one currently hooked up to the station.\"\n\t\t\t\t\t\nYou're able to load the remaining station staff onto your ship, before the scientist has the Synchrotron Barrier carefully moved onto your ship, and integrated into your engines system.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Location of the 'Ghost' ship with the stolen Synchrotron Barriers.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive face to face with 'Ghost' ship, it's even more dangerous looking in person. Sleek and armed to the teeth, this is sure to be a tough fight. You're given no chance to avoid the fight as you're immediately within range of their weapons.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Location of the Midnight Sun vessel which betrayed you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive face to face with Midnight Sun ship. Sleek and armed to the teeth, this is sure to be a tough fight. You're given no chance to avoid the fight as you're immediately within range of their weapons.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The enemy vessel engages it's emergency thrusters and flies directly into the pulsar, as you turn to chase the pulsar launches a mass of magnetised plasma and solar particles into your path, preventing you from following.\n\nYour computers calculate that based on the trajectory they were on, you have about 30 seconds before the ship will come back around to your side again.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The 'Ghost' ship will come around the pulsar and back into combat range in this time!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The last of the crew finally fall dead, actually dead this time. A number of sections within the ship are locked down and armoured, whatever they contain is likely to be important.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Just as you thought you were done, a serious of panels in the enemy vessel's cockpit pop open, ungracefully dumping a number of cloned soldiers onto the deck.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The battle resumes, however something is different this time, it appears they had some kind of super weapon hidden in the bowls of their ship, and its finally online!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The vessel explodes flinging debris everywhere, your sensors pickup a number of armoured sections which hold together under the explosion, whatever they contain is likely to be salvageable.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You search the armoured sections, most of them don't contain anything of note, however one of them contains a data bank. Dr. Silas inspects it, \"Aha, this contains the schematics for the Synchrotron Barrier, it also has the schematic for the ship itself, I'll upload that to your ship then destroy the barrier's schematic.\" It only takes a moment for the drive to start screeching, a moment later it stops, broken.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You search the armoured sections, most of them don't contain anything of note, however one of them contains a data bank, a quick inspection reveals both the schematic for the Synchrotron Barrier, as well as the schematic for the ship itself, you copy both over to your own ship before destroying the data bank.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Eventually you stumble upon what appears to be the core of the artillery weapon, you're able to extract it from it's mangled armour, it appears to be partially functional, but you'll need the parts from a powerful weapon, and a turret slot to equip it in.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The last of the station's armed personal fall, dead. You return to your ship and await communication from the Midnight Sun.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The research station hangs in orbit above the neutron star, close enough that the radiation in unavoidable, you'll want to avoid spending too long here.\n\nThe station appears well defended, with a few turrets and weapons mounted, additionally it appears to be protected from the radiation by some sort of strange shield, mostly purple but burning bright blue where the radiation is strongest.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Not a moment later your comms crackle with an incoming signal. The signal is a tight-beam, encrypted, you're sensors aren't able to locate it's source.\n\n\"So you're who they sent, I hope you're good enough. But enough with the pleasantries...\" A ship uncloaks itself almost on top of you, the source of the signal, painted almost entirely black, the only source of colour a tiny golden sun insignia near the cockpit.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"...We're New Dawn Intelligence, or the Midnight Sun as some may know us. We will be raiding the station, but we require you to provide the distraction so that we may slip close enough to secure our prize, the Synchrotron Schematics.\"\n\n\"When you attack, disable their defences if you can, but it is vitally important that you do not destroy the station. To ensure an efficient mission we'll be sending over one of our own crew to oversee your side of the operation.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun Operative arrives via short range teleporter. After a quick inspection of your ship they take position in the piloting room to oversee the attack.\n\nIt's not more than a few moments later that the operative receives an encrypted message, they turn to you, \"We're ready to go Captain, we'll move on your mark.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Survive in combat with the station until this time, ensure the station is not destroyed!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Begin the attack.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"We're severely disappointed in you Captain. Do not contact us again.\" With that the Midnight Sun retrieve their crew and jump away.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Perhaps you should have been more careful to not destroy the station.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Amongst the remains of the ship you find, intact, the Synchrotron Barrier. After consulting scans of the device you're able to install it on your own ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Your sensors detect the Midnight Sun ship disengage from the station, it quickly retreats to safety, it appears that your job here is done. You begin disengaging from the station yourself.\n\nThe Midnight Sun operative rushes over to you, \"What are you doing Captain? I haven't received the signal, we shouldn't disengage yet.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Show them that the Midnight Sun ship has already disengaged to safety.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"But then why hav-\" They cut off, you cannot see their face beneath the helmet, but their body language gives you the impression that something that something is very wrong. They appear to be interacting with some sort of internal system within their armour.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun vessel begins charging it's jump drive, \"We hoped that the station would do the job for us, you unfortunately exceeded our expectations Captain. Good bye.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Not a moment later a new ship uncloaks, this one a more traditional New Dawn vessel. One of your crew turn to you, \"Captain, that ship, they're refusing our hails, scans indicate they're bringing their weapons online.\"\n\nThe operative has gone very still beside you. When they finally speak, their voice is quiet. \"This wasn't apart of any briefing I received.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The operative turns to face you, now slightly slumped, apparently given up on whatever they were trying to do before.\n\"I was told this was a clean extraction. Get in, coordinate, get out. That we would deal with you later, whether that was buying your silence, or silencing you ourselves I do not know. Apparently there were other plans, plans I wasn't aware of. I should have known it wouldn't be this simple.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"I know where the Midnight Sun ship will have gone. There's a small Midnight Sun outpost nearby, that's where they'll be offloading the barriers and schematic. If you desire revenge, as I do, that's where we'll need to go.\"\n\n\"I'd like to join your crew officially, it's clear that the Midnight Sun is done with me, and you're my best bet for revenge.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Prepare for combat.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun captain lets out one final expletive as the ship is obliterated.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The hull of the Midnight Sun vessel is dispersed out into space. You swoop in to salvage the remains.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun ship explodes, extinguishing all lives within. Your crew avoids their remains as they salvage the ship pieces.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Without a word, the Midnight Sun captain falls to the ground, gasping for air as the life is extinguished from their eyes. You salvage the hull of their ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"You will regret this! Karma always comes back to people like you. Damn you Renegades...\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Scans show that the Midnight Sun ship is trying to escape. Destroy it before it can get away!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun vessel has slipped from your grasp, abandoning you at the beacon.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Your attempts at destroying the Midnight Sun vessel have failed, and the ship has escaped.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The Midnight Sun vessel may have escaped, but not everything has gone wrong. A trail of scrap from the wreckage has been left behind, which you collect.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This beacon hosts a Midnight Sun transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "One of the few settlements in the system, this planet is protected by an incredibly dense atmosphere which mitigates some of the effects of the radiation. The store is located on the surface of the planet.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fly down to the surface.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The dense atmosphere means it'll take a moment to get down to the surface, travelling here in the middle of the Neutron Storm could be difficult.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Time until you arrive on the surface of the planet!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ignore the planet.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You finally arrive on the surface of the planet, you take a moment to rest before heading to the store.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The distress beacon appears to be originating from a small Iron Watch outpost under attack from a strange stealth ship!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Rescue the store.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You prepare for combat.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Fortunately the ship remain oblivious to your presence.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You have rescued the store from their attackers. The store owners offer to trade.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A small transport is adrift at this beacon, sensors indicate that the ship is battered and running on the absolute minimum power to keep the 2 occupants alive, huddled together at the back of the ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Dock and rescue them.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The two humans inside are visibly shaken, half starved and frozen. They explain that they barely survived getting stranded in the middle of the neutron storm as it passed through the area.\n\nThey're grateful for your help and offer to reward you once you deliver them to somewhere safe, like the exit beacon or a store.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You leave the ship and it's crew helplessly drifting. Their sensors, along with most of the rest of their ship, were offline, so at least they won't know how close they came to being saved.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This beacon has unfortunately been placed right up against a large pulsar, and to make matters worse it's also in the middle of an asteroid field.\n\nThe only upside is that because of how dangerous this place is, no one has been able to extract the valuable resources in this asteroid field.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Mining Equipment - 15s) Attempt to mine the asteroids.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Mining Drone - 15s) Attempt to mine the asteroids. [-1|]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You launch your mining drone to begin cutting away at the rock faces your ship can't reach.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Scrap Recovery Arm - 30s) Attempt to mine the asteroids.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Beam Drone - 30s) Attempt to mine the asteroids. [-1|]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You launch your beam drone to begin cutting away at the rock faces your ship can't reach.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Damaging Beam Weapon - 30s) Attempt to mine the asteroids. [-1|]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Magnetic Arm - 45s) Attempt to mine the asteroids.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Engineering Crew - 45s) Attempt to mine the asteroids. [-1|]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(No Equipment - 60s) Attempt to mine the asteroids.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ignore the asteroid field.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You make preparations to jump as soon as possible.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You begin cutting into some nearby asteroids where your sensors indicate useful minerals.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Time until you'll have extracted the minerals from the asteroid.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You carefully extract as much usable material as possible from the nearest asteroids.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You've come across the wreck of a strange ship. It appears to be one the New Dawn ships you've heard of around here.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Before you're able to investigate anything the ship roars to life, your scans now indicate that it's under control of Ghosts!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "They transfer the payment.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive at the beacon to discover a pirate vessel inspecting what appears to be a small lifeboat, so small it isn't even equipped with an FTL drive.\n\nThe pirates are broadcasting on a public channel, \"Look guys, 16 is just too much, no one wanted to buy you, you have the lifeboat now, you'll find something to do, I'm sure. Best of luck.\" With that the pirates disengage from the lifeboat.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Let the pirates leave.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You turn you attention to the lifeboat, scans indicate- that can't be right? 16 fucking mantis?": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Offer to take them onboard and deliver them somewhere safe.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The mantis promise to be good, they say they'll reward you greatly when you deliver them somewhere safe.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Leave them be.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Attack the pirates.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ignore the pirates and lifeboat.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive at the beacon in the middle of an asteroid field, apparently this is a popular destination given the number of wrecks around.\nNearby you detect an Iron Watch vessel, they appear to be scavenging the wrecks, searching for anything of value, they appear to be ignoring you.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Scavenge the wrecks.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You begin salvaging the wrecks, but you aren't able to secure much of value before the Iron Watch scavenger interrupts you efforts with a well aimed laser.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Attack the ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You ready your weapons and move in to attack, they must have been watching you and ready their own weapons.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive at the beacon to discover an Iron Watch vessel tending to a small satellite in orbit of the pulsar here. They appear to be trying to fix something with the satellite, you can make out one of their crew outside of the ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Hail the ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Greetings Captain. I don't suppose you could help us here, our satellite appear to be malfunctioning, we've just been getting junk data for a few weeks now. Could you take a look?\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Iron Watch Crew) Have your Iron Watch crewmember take a look at it.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Engineer Crew) Have your engineer take a look at it.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Engi Crew) Have your engi take a look at it.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Repair Drone) Deploy a repair drone.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Slug Saboteur) Have your Slug hack into the satellite to investigate the malfunction.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Hacking) Hack into the satellite to investigate the malfunction.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Lanius Crew) Have your lanius take a look at it.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "(Adv. Weapons) Attempt percussive maintenance.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Take a look yourself.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Say that you can't help.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"That's too bad, well thanks for hearing us out anyway.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You identify the cause of the malfunction, the satellite had been bugged. It appears to be a very high tech operation, they left almost no trace, but you managed to recover some deleted data, a snapshot of a dark stealth ship flying away from the satellite, you can make out only a faint gold insignia on the side, but nothing more. \"Wow! Thanks for the help, we'll be sure to bring this up the chain of command, you can have all the supplies we can spare, thanks.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You manage to identify the cause of the malfunction, it appears the satellite had been bugged, someone had tried to covertly disable the satellite, unfortunately there isn't a trace of who did it. \"Wow, great work, here I insist you take these supplies as a thank you for the help, we'll make sure to look out for more bugs like that in the future, or until the culprit is found.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You identify a few faults, but nothing related to the malfunction. \"I appreciate the help, even if we still don't appear to be any closer to a solution, take some supplies as a thank you for your time.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"I appreciate the attempt, but this clearly isn't going anywhere.\" They politely but forcefully go back to repairing it themselves.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"What are you doing! You've destroyed the satellite, what were you thinking! That's it, you're paying for the replacement!\" With that they activate their weapons, prepare for battle!": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You arrive at the beacon to discover the source of the distress beacon is a civilian shuttle, and the source of their distress, a New Dawn ship bearing down on them, weapons hot.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You turn your attention back to the civilian shuttle, it isn't hard to located them. The shuttle is heavily damaged, far beyond repair, especially out here in the middle of nowhere.\n\nThe inhabitants of the shuttle, a pair of humans request that you deliver them to the nearest safe zone, they promise to reward you fairly upon arrival.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "They come aboard and fervently promise to try and stay out of the way and out of trouble.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Leave them to their fate.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "To your dismay, the distress call emanates from a clearly marked pirate vessel. Scans indicate they're damaged, not beyond repair, but significant enough to be a problem.\n\nThey immediately contact you on the open channels, probably trying to get ahead of you activating your weapons. \"Listen Captain, I won't play games with ya, I know what we look like, an easy target, right?\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Hear them out.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"We got caught in that big star's beam, the newton star or whatever they call it, really screwed us up, but we have something worth your while a genuwine piece of New Dawn technology! We couldn't work out how to use it ourselves, but I'm sure its valuable, it's the reason we got stuck out here after all.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Buy the \"technology\" in exchange for the parts they need to repair their FTL drive. [35~, 3|]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You offload the parts to them, they send over the \"technology\" which your computer is able to identify as a turret pre-energiser.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You leave the ship to fend for itself and prepare for your next jump.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "The distress beacon originates from an Iron Watch transport, heavily damaged with a dark liquid leaking from it's engines. The transport's turrets are barely fending off the attacks from another vessel, painted almost entirely black it appears to be a stealth vessel in design.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Aid the transport.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You power up your weapons and move to protect the transport.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ignore the transport.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You leave the transport to fend for itself and prepare for your next jump.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "With the stealth ship dealt with you turn you attention back to the Iron Watch transport, it's in bad shape, scans indicate that it needs some serious repairs and soon.\n\nThe transport hails you, you're greeted by an Important looking woman wearing a suit of Iron Watch colours. \"This is Diplomat Horus, I presume you are the Federation Renegade I've been hearing about? Thank you for the help, however I have another favour to ask. I understand you are headed in the direction of the Federation Capital, Node 17, is that correct?\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"We are.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Then I would ask that you take me onboard, I must get to the Federation Base. I have a meeting with Federation Command about the rebel threat here, it's of utmost importance that I make it to that meeting in time, my crew tell me that my vessel is no longer in any kind of shape to make that journey.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Accept her onboard.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You dock with the transport and take onboard the diplomat, the rest of the crew stay behind to get the transport to safety where it can be repaired.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Refuse the request.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You politely decline, she is visibly disappointed but doesn't push the issue any further.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"We are not, sorry.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"That's unfortunate to hear, I fear I may not be able to make it in time then, if you see any other ships heading that way could you ask them if they can pick me up on the way, I'll be at the Iron Watch research base.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Actually we are headed that way.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Wish her luck.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "With that you turn you attention to preparing your FTL drive for the next jump.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ask Dr. Silas about this.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ask Diplomat Horus about this.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"Multiverse Drive technology is too valuable to destroy like this, we've already struck an incredible blow to the rebellion, blowing up the bomb would be dooming an uncountable number of universes to forever be under rebel control.\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\"When I asked to be delivered to the FEDERATION BASE, and you AGREED, why did you then think it was a good idea to take me here? I didn't want to be apart of all this, and I certainly don't want to be blown up!\"": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -10937,6 +12562,18 @@
       "machine": "",
       "done": true
     },
+    "[style[color:F64B2D]]OG: Exclusion Zone[[/style]]\nComposed by: Lizzard": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "[style[color:F64B2D]]OG: Irradiated[[/style]]\nComposed by: Lizzard": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": true
+    },
     "Proceed to the Iron Watch Sector.": {
       "advanced": {},
       "deepl": "",
@@ -10954,6 +12591,18 @@
           "text": "Dirigez-vous vers le secteur de la Nouvelle Aube."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Jump to the Neutron Star Exclusion Zone.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Go to an Iron Watch Sector.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -11122,6 +12771,18 @@
       "deepl": "",
       "machine": "",
       "done": true
+    },
+    "\"Aaaaah. Ssstranger ssstranger, I might normally sssell gunssss, but I've gathered quite the ssstock of turretsss lately. Maybe you could ussse one?\"": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Shop for Turrets.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
     },
     "From out of the tunnel comes a massive cruiser vessel, of Iron Watch design! This must be some rare exploration vessel, who's taken it upon themselves to travel the Multiverse!": {
       "advanced": {
@@ -11574,6 +13235,12 @@
       "machine": "",
       "done": false
     },
+    "System Equaliser.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "What upgrade do you want to install?": {
       "advanced": {},
       "deepl": "",
@@ -11919,6 +13586,60 @@
           "text": "Vous installez le système."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Performance Upgrade. [UNAVAILABLE: You already have the max of this upgrade]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Performance Upgrade. [Cost: 35~, 2{]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Emergency Generator. [ALREADY INSTALLED]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Emergency Generator. [Cost: 55~, 7{]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You are about to install a equaliser performance upgrade.\n\t[Effects: System Equaliser cooldown is reduced by 50%]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Perform the upgrade. [Cost: 35~, 2{]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You are about to install the Emergency Generator upgrade.\n\t[Effects: Allows you to ignore the power and fuel costs of combat augments.]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Perform the upgrade. [Cost: 55~, 7{]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "This upgrade is unavailable. You need System Equaliser level 2.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -12394,6 +14115,12 @@
       "machine": "",
       "done": false
     },
+    "Synchrotron Barrier:\nThis enemy is protected from Ion Damage and radiation. Instead this damage is absorbed by the engines system as system damage, this enemy has a higher maximum engine level but loses 10% evasion.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "REFLECTIVE PLATING:\nHalves the damage of beams hitting this ship, rounding down, but not below 1.": {
       "advanced": {
         "9": {
@@ -12797,6 +14524,90 @@
       "machine": "",
       "done": false
     },
+    "Silent Fangs": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Win a battle without firing a weapon, turret, or drone at the enemy ship as a Hunter-Class Vessel.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Insulated": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "As a Hunter-Class vessel: Avoid taking any ion damage to your shields, engines, turrets, weapons, or drones for an entire sector.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Exterminator": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "As a Hunter-Class vessel: Destroy the Iron Watch Research Station before the raid is completed in the Neutron Star Exclusion Zone.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "All Hands on Deck": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "As a Drifter-Class vessel, have both of your Micro Turret Control systems manned at max level.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Ghost Ship": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "As a Drifter-Class vessel: Win a battle while all of your crew are alive and are on the enemy ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Armed to the Teeth": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Have all offensive systems (Weapons, Drones, and Turrets) upgraded to max power as a Drifter-Class vessel.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Dr. Silas": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Horus Weber": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "CLOAK": {
       "advanced": {},
       "deepl": "",
@@ -12814,6 +14625,42 @@
           "text": "[TEMPS DE RECHARGE : 30 s   DURÉE : 15 s]\n\t\t\t\tAccorde les effets suivants :\n\t\t\t\t-Évite d'être ciblé par l'équipage.\n\t\t\t\t-Dégâts augmentés de 50 %.\n\t\t\t\t-Vitesse de sabotage augmentée de 25 %.\n\t\t\t\t-La durée du camouflage se régénère passivement.\n\t\t\t\t-La durée du camouflage se réduit lors des actions suivantes :\n\t\t\t\t\t-Attaquer, 1x\n\t\t\t\t\t-Réparer, 0.75x\n\t\t\t\t\t-Se déplacer, 0.25x"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "HACK": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "[COOLDOWN:N/A]\n\t\t\t\tDeploys an almost indestructible hacking device in the current room, which will repeatedly hack the current room for the rest of the fight.\n\t\t\t\tOn use teleports Operative back to their home ship if possible.\n\t\t\t\tCannot target weapons, drones, or shields.\n\t\t\t\tHack lasts 10 seconds.\n\t\t\t\tDrone Hack cooldown takes 20 seconds.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "DRONE": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "[COOLDOWN:10s  DURATION:10s]\n\t\t\t\tDeploys a defence drone capable of targeting all types of projectiles and drones, will destroy projectiles but only stun drones.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "PANIC": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "[COOLDOWN:5s  DURATION:20s]\n\t\t\t\tBecomes controllable, able to fight, repair and man at normal rates.\n\t\t\t\tActivates when below 25 health.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -12841,6 +14688,18 @@
           "text": "Nouvelle Aube"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Exclusion Zone": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Irradiated": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -12886,6 +14745,18 @@
           "text": "Butin acquis"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Obtain the loot from the Midnight Sun loot transport.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Obtain the Triplet Laser II from the Midnight Sun loot transport.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13498,6 +15369,12 @@
       "machine": "",
       "done": false
     },
+    "Neutron Star Exclusion Zone": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Name: Iron Watch Controlled Sector\nType: Neutral\nUnique: False\nDominant Faction: The Iron Watch\nRebel Threat Level: Medium\n\nSafety varies within Iron Watch space, you'll find a wide range of groups here. The Iron Watch is a collective of Explorers, Scientists, and Pirates, all who have ventured into uncivilised space whether out of desperation or curiosity.": {
       "advanced": {},
       "deepl": "",
@@ -13521,6 +15398,12 @@
           "text": "Nom : Base opérationnelle avancée de la Nouvelle Aube\nType : Hostile\nUnique : Oui\nFaction dominante : La Nouvelle Aube\nNiveau de menace rebelle : Très élevé\nEmplacements d'intérêt : ???\n\nLe bastion militaire de la Nouvelle Aube, à court de provisions et d'alliés dans leur lutte contre la Garde de Fer, ils se sont tournés vers la rébellion pour obtenir de l'aide, malgré les protestations de certains membres de la Nouvelle Aube."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Name: Neutron Star Exclusion Zone\nType: Neutral\nUnique: True\nDominant Faction: The Iron Watch\nRebel Threat Level: High (Neutral Fleet)\nLocations of Interest: Neutron Research Station\n\nSafety varies within Iron Watch space, you'll find a wide range of groups here. The Iron Watch is a collective of Explorers, Scientists, and Pirates, all who have ventured into uncivilised space whether out of desperation or curiosity.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13611,6 +15494,18 @@
       "machine": "",
       "done": false
     },
+    "GHOST [!]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "RESEARCH STATION [!]": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "I desire... no change.": {
       "advanced": {
         "12": {
@@ -13688,17 +15583,38 @@
       "machine": "",
       "done": false
     },
-    "Win with any two layouts of the \\1 to unlock the \\2": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Gagnez avec deux configurations du \\1 pour débloquer le \\2"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Gagnez avec deux configurations du \\1 pour débloquer le \\2"
-        }
-      },
+    "(Diplomat Horus) Deliver the diplomat to Federation Command.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Beacon coordinates will be within the beam of the neutron star next jump.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Beacon coordinates are in close proximity to a pulsar, will be under the effects of the neutron beam.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "You're within the beam of the neutron star. Radiation will damage all systems and crew across the ship. Crew will be protected while in rooms with operational systems that absorb the damage instead.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Tip: Triplet weapons chain twice before then resetting on the third volley.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Unlock any two layouts of the \\1 to unlock the \\2": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13739,17 +15655,8 @@
       "machine": "",
       "done": false
     },
-    "Win with any 2 Raider-Class ships.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Gagnez avec 2 vaisseaux de classe Chasseur."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Gagnez avec 2 vaisseaux de classe Raider."
-        }
-      },
+    "Unlock any 2 Raider-Class ships.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13769,17 +15676,20 @@
       "machine": "",
       "done": false
     },
-    "Win with any 2 Spearhead-Class ships.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Gagnez avec 2 vaisseaux de classe Fer de Lance."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Gagnez avec 2 vaisseaux de classe Fer de lance."
-        }
-      },
+    "Unlock any 2 Spearhead-Class ships.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Hunt down the mysterious ghost ship in the Neutron Star Exclusion Zone.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Unlock any 2 Hunter-Class ships.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13889,17 +15799,26 @@
       "machine": "",
       "done": false
     },
-    "NEW DAWN LOOT\nApplies vunerability to hit rooms for 5 seconds\n-1 second cooldown": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "BUTIN NOUVELLE AUBE\nApplique une vulnérabilité aux pièces touchées pendant 5 secondes\n-1 seconde de temps de recharge"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "BUTIN NOUVELLE AUBE\nApplique une vulnérabilité aux pièces touchées pendant 5 secondes\n-1 seconde de temps de recharge"
-        }
-      },
+    "Consult the advice of a certain Human scientist about a certain artifact to unlock this ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Consult the advice of a certain Human diplomat about a certain artifact to unlock this ship.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "NEW DAWN LOOT\nApplies vulnerability to hit rooms for 5 seconds\n-1 second cooldown": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "MIDNIGHT SUN LOOT\nHacks hit rooms for 2 seconds\n-1 second cooldown per chain": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -13996,32 +15915,44 @@
       "machine": "",
       "done": false
     },
-    "Tip: Turrets have to be equiped to the Turret Control system.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Astuce : Les tourelles doivent être équipées sur le système de contrôle des tourelles."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Conseil : Les tourelles doivent être équipées sur le système de contrôle des tourelles."
-        }
-      },
+    "System Equaliser installed": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
     },
-    "Tip: Turrets have to be equiped to the Turret Control system. Micro turrets can be equiped on both small and large turret slots.": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "Astuce : Les tourelles doivent être équipées sur le système de contrôle des tourelles. Les micro-tourelles peuvent être équipées sur les emplacements de tourelles petits et grands."
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "Conseil : Les tourelles doivent être équipées sur le système de contrôle des tourelles. Les micro tourelles peuvent être équipées sur les emplacements de tourelle petits et grands."
-        }
-      },
+    "Equalises and reduces damage by: %d%%": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Equalise damage across selected ship systems.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Will be Equalised. Press to exclude the system from being equalised.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Won't be Equalised. Press to include the system in being equalised.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Tip: Turrets have to be equipped to the Turret Control system.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Tip: Turrets have to be equipped to the Turret Control system. Micro turrets can be equipped on both small and large turret slots.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14068,6 +15999,18 @@
       "machine": "",
       "done": true
     },
+    "System Equaliser: Equalise damage across selected ship systems.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "System Equaliser: Equalises damage across the ship systems.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Temporarily drain charge from the enemy turret.": {
       "advanced": {
         "12": {
@@ -14079,6 +16022,12 @@
       "machine": "",
       "done": false
     },
+    "Prevent the system from activating.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "SYSTEM HACKED: TURRET LOSING CHARGE.": {
       "advanced": {
         "12": {
@@ -14086,6 +16035,12 @@
           "text": "SYSTÈME PIRATÉ : LA TOURELLE PERD DE LA CHARGE."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "SYSTEM HACKED: SYSTEM FROZEN.": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14408,6 +16363,18 @@
       "machine": "",
       "done": false
     },
+    "\\nBeam Damage: %g per second": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\\nBeam Duration: %.1f seconds": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "\\n\\nDefault Price: %d~   -   Selling Price: %d~": {
       "advanced": {
         "9": {
@@ -14419,6 +16386,12 @@
           "text": "\\n\\nPrix par défaut : %d~   -   Prix de vente : %d~"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "\\n\\n%d~   -   %d~": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14509,6 +16482,12 @@
           "text": "\\nTemps de charge : %.1f/%.1f"
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "None": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14689,17 +16668,8 @@
       "machine": "",
       "done": false
     },
-    "\\n  Atleast %d:": {
-      "advanced": {
-        "9": {
-          "model": "gemini-2.5-flash",
-          "text": "\\n  Au moins %d :"
-        },
-        "12": {
-          "model": "gemini-3.1-flash-lite",
-          "text": "\\n  Au moins %d :"
-        }
-      },
+    "\\n  At least %d:": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false
@@ -14763,6 +16733,12 @@
       "deepl": "",
       "machine": "",
       "done": false
+    },
+    "Never mind.": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": true
     },
     "Uninstall Turret:": {
       "advanced": {
@@ -14930,6 +16906,18 @@
       "machine": "",
       "done": false
     },
+    "Hacking Drone": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "Hacking Drone\\nRemoved on jump, or when system is fully damaged.\\n\\nCurrent Time:%.1f seconds\\nCooldown:%d seconds\\nHack Duration:%d seconds": {
+      "advanced": {},
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
     "Iron Watch Reputation": {
       "advanced": {
         "12": {
@@ -15036,6 +17024,12 @@
           "text": "Allez botter des culs de rebelles."
         }
       },
+      "deepl": "",
+      "machine": "",
+      "done": false
+    },
+    "A recreation of an infamous gatling gun": {
+      "advanced": {},
       "deepl": "",
       "machine": "",
       "done": false

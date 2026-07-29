@@ -57,7 +57,7 @@ msgstr "Jump to the Neutron Star Exclusion Zone."
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[1]/text"
-msgstr "Go to the New Dawn Forward Operating Base."
+msgstr "Go to an Iron Watch Sector."
 
 #: src-en/data/events_special_lightspeed.xml.append:52
 msgid ""

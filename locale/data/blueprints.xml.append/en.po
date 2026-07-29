@@ -365,7 +365,7 @@ msgstr "Takes 0.6x damage from fires"
 #: src-en/data/blueprints.xml.append:403
 msgid "data/blueprints.xml.append$//crewBlueprint[@name=\"human_og_dawn\"]/desc"
 msgstr ""
-"A New Dawn Soldier, equiped with a personal cloaking device that has it's charge drained by performing actions.\n"
+"Elite Human Crew. A New Dawn Soldier, equiped with a personal cloaking device that has it's charge drained by performing actions.\n"
 "\n"
 "\tInherited Human stats: minor suffocation resistance, learns skills faster"
 
@@ -480,7 +480,7 @@ msgstr "2x ranged damage multiplier"
 #: src-en/data/blueprints.xml.append:465
 msgid ""
 "data/blueprints.xml.append$//crewBlueprint[@name=\"unique_og_silas\"]/powerList/power[5]"
-msgstr "1.25x repair speed"
+msgstr "1.5x repair speed"
 
 #: src-en/data/blueprints.xml.append:466
 msgid ""
@@ -1152,7 +1152,7 @@ msgstr "Energy turrets can disable systems while also causing hull damage."
 #: src-en/data/blueprints.xml.append:1226
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_1\"]/title"
-msgstr "Crystal Burst Turret"
+msgstr "Heavy Crystal Turret"
 
 #: src-en/data/blueprints.xml.append:1227
 msgid ""
@@ -1162,12 +1162,13 @@ msgstr "Crystal"
 #: src-en/data/blueprints.xml.append:1228
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_1\"]/desc"
-msgstr "Modified projectile turret that fires 2 shield piercing crystals."
+msgstr ""
+"Modified projectile turret that fires a heavy shield piercing crystal."
 
 #: src-en/data/blueprints.xml.append:1247
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_1_ELITE\"]/title"
-msgstr "Elite Crystal Burst Turret"
+msgstr "Elite Heavy Crystal Turret"
 
 #: src-en/data/blueprints.xml.append:1248
 msgid ""
@@ -1178,8 +1179,8 @@ msgstr "€ Crystal"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_1_ELITE\"]/desc"
 msgstr ""
-"Modified projectile turret that fires 2 shield piercing crystals. Elite "
-"variant that always applies lockdown and pierces 2 shields."
+"Modified projectile turret that fires a heavy shield piercing crystal. Elite"
+" variant that always applies lockdown and pierces 2 shields."
 
 #: src-en/data/blueprints.xml.append:1268
 msgid ""
@@ -1235,12 +1236,12 @@ msgstr ""
 #: src-en/data/blueprints.xml.append:1334
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/title"
-msgstr "Quad Missile Turret"
+msgstr "Dual Missile Turret"
 
 #: src-en/data/blueprints.xml.append:1335
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_MISSILE_2\"]/short"
-msgstr "Quad M."
+msgstr "Dual M."
 
 #: src-en/data/blueprints.xml.append:1336
 msgid ""
@@ -1292,7 +1293,7 @@ msgstr "Elite Heavy Kernel Turret"
 #: src-en/data/blueprints.xml.append:1397
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_KERNEL_HEAVY_ELITE\"]/short"
-msgstr "€ Heavy L."
+msgstr "€ Heavy K."
 
 #: src-en/data/blueprints.xml.append:1398
 msgid ""
@@ -1504,9 +1505,9 @@ msgstr "Micro Rad"
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_LASER_MINI_BIO\"]/desc"
 msgstr ""
-"A specialized Laser Turret that does high bio damage and cripples crew, but "
-"no system or hull damage. This turret is also extremely capable in the "
-"defence role shooting down enemy lasers."
+"A specialized Laser Turret that does bio damage and cripples crew, but no "
+"system or hull damage. This turret is also capable in the defence role "
+"shooting down enemy lasers."
 
 #: src-en/data/blueprints.xml.append:1676
 msgid ""
@@ -1553,7 +1554,7 @@ msgstr "Micro C."
 #: src-en/data/blueprints.xml.append:1724
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_MINI\"]/desc"
-msgstr "Modified projectile turret that fires 2 shield piercing crystals."
+msgstr "Modified projectile turret that fires a shield piercing crystal."
 
 #: src-en/data/blueprints.xml.append:1743
 msgid ""
@@ -1563,13 +1564,13 @@ msgstr "Elite Micro Crystal Turret"
 #: src-en/data/blueprints.xml.append:1744
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_MINI_ELITE\"]/short"
-msgstr "€ Micro L."
+msgstr "€ Micro C."
 
 #: src-en/data/blueprints.xml.append:1745
 msgid ""
 "data/blueprints.xml.append$//weaponBlueprint[@name=\"OG_TURRET_CRYSTAL_MINI_ELITE\"]/desc"
 msgstr ""
-"Modified projectile turret that fires 2 shield piercing crystals. Elite "
+"Modified projectile turret that fires a shield piercing crystal. Elite "
 "variant that always applies lockdown and pierces 2 shields."
 
 #: src-en/data/blueprints.xml.append:1767

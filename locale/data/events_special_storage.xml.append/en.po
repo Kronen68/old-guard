@@ -592,7 +592,7 @@ msgstr ""
 #: src-en/data/events_special_storage.xml.append:515
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_EQUALISER_PERFORMANCE\"]/choice[@req=\"og_equaliser\"]/text"
-msgstr "Perform the upgrade. [Cost: 35~, 3|]"
+msgstr "Perform the upgrade. [Cost: 35~, 2{]"
 
 #: src-en/data/events_special_storage.xml.append:517
 msgid ""
@@ -635,7 +635,7 @@ msgstr ""
 msgid ""
 "data/events_special_storage.xml.append$//event[@name=\"STORAGE_CHECK_SYSTEM_OG_EQUALISER_GENERATOR\"]/choice[@req=\"og_equaliser\""
 " and @lvl=\"2\"]/text"
-msgstr "Perform the upgrade. [Cost: 35~, 3|]"
+msgstr "Perform the upgrade. [Cost: 55~, 7{]"
 
 #: src-en/data/events_special_storage.xml.append:555
 msgid ""

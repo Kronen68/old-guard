@@ -41,91 +41,129 @@ msgid ""
 "append:choice[3]/text"
 msgstr "ニュー・ドーン宙域へ向かう。"
 
-#: src-en/data/events_special_lightspeed.xml.append:40
+#: src-en/data/events_special_lightspeed.xml.append:34
+msgid ""
+"data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU\"]/mod-"
+"append:choice/text"
+msgstr ""
+
+#: src-en/data/events_special_lightspeed.xml.append:41
+msgid ""
+"data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_LASTSTAND\"]/mod-"
+"append:choice/text"
+msgstr ""
+
+#: src-en/data/events_special_lightspeed.xml.append:48
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[1]/text"
-msgstr "ニュー・ドーン前方運用基地へ向かう。"
+msgstr ""
 
-#: src-en/data/events_special_lightspeed.xml.append:44
+#: src-en/data/events_special_lightspeed.xml.append:52
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
 "append:choice[2]/text"
+msgstr "ニュー・ドーン前方運用基地へ向かう。"
+
+#: src-en/data/events_special_lightspeed.xml.append:56
+msgid ""
+"data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_HAT\"]/mod-"
+"append:choice[3]/text"
 msgstr "ニュー・ドーン前方運用基地は背後にある。"
 
-#: src-en/data/events_special_lightspeed.xml.append:52
+#: src-en/data/events_special_lightspeed.xml.append:64
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_IRON\"]/choice[1]/text"
+msgstr "ジャンプを続行する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:66
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_IRON\"]/choice[1]/event/text"
+msgstr "新しい座標へジャンプし、飛行経路を変更する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:70
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_IRON\"]/choice[1]/event/choice/text"
+msgstr "次へ…"
+
+#: src-en/data/events_special_lightspeed.xml.append:76
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_IRON\"]/choice[2]/text"
+msgstr "何でもない。"
+
+#: src-en/data/events_special_lightspeed.xml.append:86
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_DAWN\"]/choice[1]/text"
 msgstr "ジャンプを続行する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:54
+#: src-en/data/events_special_lightspeed.xml.append:88
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_DAWN\"]/choice[1]/event/text"
 msgstr "新しい座標へジャンプし、飛行経路を変更する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:59
+#: src-en/data/events_special_lightspeed.xml.append:93
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_DAWN\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:65
+#: src-en/data/events_special_lightspeed.xml.append:99
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_DAWN\"]/choice[2]/text"
 msgstr "何でもない。"
 
-#: src-en/data/events_special_lightspeed.xml.append:74
+#: src-en/data/events_special_lightspeed.xml.append:108
 msgid ""
 "data/events_special_lightspeed.xml.append$//mod:findName[@name=\"REROUTE_MENU_ASTROMETRICS\"]/mod-"
 "append:choice/text"
 msgstr "アイアンウォッチ支配宙域へ向かう。"
 
-#: src-en/data/events_special_lightspeed.xml.append:83
+#: src-en/data/events_special_lightspeed.xml.append:117
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ENTER_OG_IRON\"]/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:90
+#: src-en/data/events_special_lightspeed.xml.append:124
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"OG_IRON_WARP\"]/choice[1]/text"
 msgstr "ハイパースピードを抜ける。"
 
-#: src-en/data/events_special_lightspeed.xml.append:94
+#: src-en/data/events_special_lightspeed.xml.append:128
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"OG_IRON_WARP\"]/choice[@req=\"COORDS\"]/text"
 msgstr "経路を変更する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:101
+#: src-en/data/events_special_lightspeed.xml.append:135
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ASTROMETRIC_WARP_OG_IRON\"]/choice[1]/text"
 msgstr "ジャンプを続行する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:103
+#: src-en/data/events_special_lightspeed.xml.append:137
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ASTROMETRIC_WARP_OG_IRON\"]/choice[1]/event/text"
 msgstr "新しい座標へジャンプし、飛行経路を変更する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:107
+#: src-en/data/events_special_lightspeed.xml.append:141
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ASTROMETRIC_WARP_OG_IRON\"]/choice[1]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:113
+#: src-en/data/events_special_lightspeed.xml.append:147
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ASTROMETRIC_WARP_OG_IRON\"]/choice[2]/text"
 msgstr "何でもない。"
 
-#: src-en/data/events_special_lightspeed.xml.append:123
+#: src-en/data/events_special_lightspeed.xml.append:157
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ENTER_SALE_OG_IRON\"]/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:130
+#: src-en/data/events_special_lightspeed.xml.append:164
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"0\"]/text"
 msgstr "ハイパースピードを抜ける。"
 
-#: src-en/data/events_special_lightspeed.xml.append:132
+#: src-en/data/events_special_lightspeed.xml.append:166
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"0\"]/event/text"
@@ -133,46 +171,86 @@ msgstr ""
 "ハイパースピードを抜ける前に、奇妙な広告が流れる。「ヘクター社の貴重なお客様、ご挨拶申し上げます！ヘクター社CEO、ビリー・ヘクターでございます。新たな顧客ロイヤリティプログラムとして、『不動の賃金ユーティリティポイント』を導入いたしました！ヘクター社(tm)店舗をご利用いただくたびに、我々の親切なカスタマーサポート艦がお客様のアカウントにU.W.U.ポイントを付与いたします！ポイントを貯めれば、豪華特典プログラムへ招待！楽しいお買い物を！」"
 " 広告の最後に愉快なジングルが流れ、「満足度保証、返金はいたしませんのであしからず！」というスローガンが続く。"
 
-#: src-en/data/events_special_lightspeed.xml.append:135
+#: src-en/data/events_special_lightspeed.xml.append:169
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"0\"]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:141
+#: src-en/data/events_special_lightspeed.xml.append:175
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"1\"]/text"
 msgstr "ハイパースピードを抜ける。"
 
-#: src-en/data/events_special_lightspeed.xml.append:143
+#: src-en/data/events_special_lightspeed.xml.append:177
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"1\"]/event/text"
 msgstr "ハイパースピードを抜ける前に、また同じ広告が流れる。どうやらここもヘクター社の市場宙域らしい。"
 
-#: src-en/data/events_special_lightspeed.xml.append:145
+#: src-en/data/events_special_lightspeed.xml.append:179
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"loc_beentomarket\""
 " and @lvl=\"1\"]/event/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:151
+#: src-en/data/events_special_lightspeed.xml.append:185
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"SALE_OG_IRON_WARP\"]/choice[@req=\"COORDS\"]/text"
 msgstr "経路を変更する。"
 
-#: src-en/data/events_special_lightspeed.xml.append:160
+#: src-en/data/events_special_lightspeed.xml.append:194
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"ENTER_OG_DAWN_UNIQUE\"]/choice/text"
 msgstr "次へ…"
 
-#: src-en/data/events_special_lightspeed.xml.append:168
+#: src-en/data/events_special_lightspeed.xml.append:202
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"OG_DAWN_UNIQUE_WARP\"]/choice[1]/text"
 msgstr "ハイパースピードを抜ける。"
 
-#: src-en/data/events_special_lightspeed.xml.append:172
+#: src-en/data/events_special_lightspeed.xml.append:206
 msgid ""
 "data/events_special_lightspeed.xml.append$//event[@name=\"OG_DAWN_UNIQUE_WARP\"]/choice[@req=\"COORDS\"]/text"
 msgstr "経路を変更する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:215
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON\"]/choice[1]/text"
+msgstr "ジャンプを続行する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:217
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON\"]/choice[1]/event/text"
+msgstr "新しい座標へジャンプし、飛行経路を変更する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:220
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON\"]/choice[1]/event/choice/text"
+msgstr "次へ…"
+
+#: src-en/data/events_special_lightspeed.xml.append:226
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON\"]/choice[2]/text"
+msgstr "何でもない。"
+
+#: src-en/data/events_special_lightspeed.xml.append:235
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON_BOSS\"]/choice[1]/text"
+msgstr "ジャンプを続行する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:237
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON_BOSS\"]/choice[1]/event/text"
+msgstr "新しい座標へジャンプし、飛行経路を変更する。"
+
+#: src-en/data/events_special_lightspeed.xml.append:241
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON_BOSS\"]/choice[1]/event/choice/text"
+msgstr "次へ…"
+
+#: src-en/data/events_special_lightspeed.xml.append:247
+msgid ""
+"data/events_special_lightspeed.xml.append$//event[@name=\"LIGHTSPEED_SECTOR_WARP_OG_NEUTRON_BOSS\"]/choice[2]/text"
+msgstr "何でもない。"

@@ -5,7 +5,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/hyperspace.xml.append:133
+#: src-en/data/hyperspace.xml.append:151
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[1]/tooltip"
@@ -13,73 +13,79 @@ msgstr ""
 "MOTEURS OVERCLOCKÉS :\n"
 "Les tourelles ennemies tournent 100 % plus vite."
 
-#: src-en/data/hyperspace.xml.append:138
+#: src-en/data/hyperspace.xml.append:156
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[2]/tooltip"
 msgstr ""
-"BLINDAGE RÉFLÉCHISSANT :\n"
-"Réduit de moitié les dégâts des rayons touchant ce vaisseau, en arrondissant à l'inférieur, mais pas en dessous de 1."
 
-#: src-en/data/hyperspace.xml.append:143
+#: src-en/data/hyperspace.xml.append:161
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[3]/tooltip"
 msgstr ""
-"PRÉ-ALLUMEUR DE TOURELLE :\n"
-"Les tourelles de cet ennemi seront complètement chargées au début du combat."
+"BLINDAGE RÉFLÉCHISSANT :\n"
+"Réduit de moitié les dégâts des rayons touchant ce vaisseau, en arrondissant à l'inférieur, mais pas en dessous de 1."
 
-#: src-en/data/hyperspace.xml.append:148
+#: src-en/data/hyperspace.xml.append:166
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[4]/tooltip"
 msgstr ""
-"PRÉ-ÉNERGISANT DE TOURELLE :\n"
-"Les tourelles de cet ennemi seront à moitié chargées au début du combat."
+"PRÉ-ALLUMEUR DE TOURELLE :\n"
+"Les tourelles de cet ennemi seront complètement chargées au début du combat."
 
-#: src-en/data/hyperspace.xml.append:153
+#: src-en/data/hyperspace.xml.append:171
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[5]/tooltip"
 msgstr ""
-"TOURELLES DE LA NOUVELLE AUBE :\n"
-"Cet ennemi possède des tourelles de la Nouvelle Aube ; lorsqu'elles touchent, les pièces deviennent temporairement vulnérables et reçoivent +1 dégât système, cependant ces tourelles rendent aussi leurs systèmes correspondants vulnérables."
+"PRÉ-ÉNERGISANT DE TOURELLE :\n"
+"Les tourelles de cet ennemi seront à moitié chargées au début du combat."
 
-#: src-en/data/hyperspace.xml.append:158
+#: src-en/data/hyperspace.xml.append:176
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
 "append:shipIcon[6]/tooltip"
 msgstr ""
+"TOURELLES DE LA NOUVELLE AUBE :\n"
+"Cet ennemi possède des tourelles de la Nouvelle Aube ; lorsqu'elles touchent, les pièces deviennent temporairement vulnérables et reçoivent +1 dégât système, cependant ces tourelles rendent aussi leurs systèmes correspondants vulnérables."
+
+#: src-en/data/hyperspace.xml.append:181
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[7]/tooltip"
+msgstr ""
 "CROISEUR DE COMBAT :\n"
 "Cet ennemi est équipé d'une technologie de tourelle spécialisée ; battez-les pour récupérer la tourelle de butin spécialisée."
 
-#: src-en/data/hyperspace.xml.append:207
+#: src-en/data/hyperspace.xml.append:230
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_1\"]/name"
 msgstr "Économie de guerre"
 
-#: src-en/data/hyperspace.xml.append:208
+#: src-en/data/hyperspace.xml.append:231
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_1\"]/description"
 msgstr "En tant que vaisseau de classe Raider, créez votre propre tourelle."
 
-#: src-en/data/hyperspace.xml.append:213
+#: src-en/data/hyperspace.xml.append:236
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_2\"]/name"
 msgstr "Marcher sur le serpent à sonnette"
 
-#: src-en/data/hyperspace.xml.append:214
+#: src-en/data/hyperspace.xml.append:237
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_2\"]/description"
 msgstr ""
 "Battez un vaisseau de la Nouvelle Aube avec un vaisseau de classe Raider."
 
-#: src-en/data/hyperspace.xml.append:219
+#: src-en/data/hyperspace.xml.append:242
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_3\"]/name"
 msgstr "Levage lourd"
 
-#: src-en/data/hyperspace.xml.append:220
+#: src-en/data/hyperspace.xml.append:243
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_3\"]/description"
 msgstr ""
@@ -87,36 +93,36 @@ msgstr ""
 "d'armes ou de systèmes de drones (ou en les améliorant comme systèmes de "
 "départ du vaisseau)."
 
-#: src-en/data/hyperspace.xml.append:272
+#: src-en/data/hyperspace.xml.append:284
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_1\"]/name"
 msgstr "La mort par mille coupures"
 
-#: src-en/data/hyperspace.xml.append:273
+#: src-en/data/hyperspace.xml.append:285
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_1\"]/description"
 msgstr ""
 "Améliorez toutes vos micro tourelles à la puissance 3 en tant que vaisseau "
 "de classe Exécuteur."
 
-#: src-en/data/hyperspace.xml.append:278
+#: src-en/data/hyperspace.xml.append:290
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_2\"]/name"
 msgstr "Exécution parfaite"
 
-#: src-en/data/hyperspace.xml.append:279
+#: src-en/data/hyperspace.xml.append:291
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_2\"]/description"
 msgstr ""
 "En tant que vaisseau de classe Exécuteur : Gagnez une bataille sans subir de"
 " dégâts à la coque et sans boucliers ni camouflage."
 
-#: src-en/data/hyperspace.xml.append:284
+#: src-en/data/hyperspace.xml.append:296
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_3\"]/name"
 msgstr "Ordre exécutif"
 
-#: src-en/data/hyperspace.xml.append:285
+#: src-en/data/hyperspace.xml.append:297
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_3\"]/description"
 msgstr ""
@@ -124,36 +130,36 @@ msgstr ""
 "d'autres systèmes que les tourelles, les boucliers, les moteurs, l'oxygène, "
 "le camouflage, les systèmes médicaux et les sous-systèmes."
 
-#: src-en/data/hyperspace.xml.append:475
+#: src-en/data/hyperspace.xml.append:487
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_1\"]/name"
 msgstr "Défense ponctuelle"
 
-#: src-en/data/hyperspace.xml.append:476
+#: src-en/data/hyperspace.xml.append:488
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_1\"]/description"
 msgstr ""
 "Abattez 5 projectiles ou drones en un seul combat en tant que vaisseau de "
 "classe Fer de lance."
 
-#: src-en/data/hyperspace.xml.append:481
+#: src-en/data/hyperspace.xml.append:493
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/name"
 msgstr "Allégeance rebelle"
 
-#: src-en/data/hyperspace.xml.append:482
+#: src-en/data/hyperspace.xml.append:494
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/description"
 msgstr ""
 "Atteignez le secteur 8 sans sauter vers une nouvelle balise avec un seul "
 "membre d'équipage non humain à bord d'un vaisseau de classe Fer de lance."
 
-#: src-en/data/hyperspace.xml.append:487
+#: src-en/data/hyperspace.xml.append:499
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_3\"]/name"
 msgstr "Briseur de combo"
 
-#: src-en/data/hyperspace.xml.append:488
+#: src-en/data/hyperspace.xml.append:500
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_3\"]/description"
 msgstr ""
@@ -161,48 +167,118 @@ msgstr ""
 "dégâts système d'une tourelle de la Nouvelle Aube à partir d'une seule "
 "application de l'effet."
 
-#: src-en/data/hyperspace.xml.append:541
+#: src-en/data/hyperspace.xml.append:545
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_1\"]/name"
 msgstr "Cheval de Troie"
 
-#: src-en/data/hyperspace.xml.append:542
+#: src-en/data/hyperspace.xml.append:546
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_1\"]/description"
 msgstr ""
 "En tant que vaisseau de classe Colosse, remplissez tous vos emplacements "
 "d'équipage."
 
-#: src-en/data/hyperspace.xml.append:547
+#: src-en/data/hyperspace.xml.append:551
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_2\"]/name"
 msgstr "Assaut synchronisé"
 
-#: src-en/data/hyperspace.xml.append:548
+#: src-en/data/hyperspace.xml.append:552
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_2\"]/description"
 msgstr ""
 "En tant que vaisseau de classe Colosse : Équipez la même tourelle dans tous "
 "vos emplacements de tourelle."
 
-#: src-en/data/hyperspace.xml.append:553
+#: src-en/data/hyperspace.xml.append:557
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_3\"]/name"
 msgstr "Ceci est mon fusil, ceux-ci sont mes canons !"
 
-#: src-en/data/hyperspace.xml.append:554
+#: src-en/data/hyperspace.xml.append:558
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_3\"]/description"
 msgstr ""
 "Améliorez toutes vos grandes tourelles à la puissance 5 en tant que vaisseau"
 " de classe Colosse."
 
-#: src-en/data/hyperspace.xml.append:1040
+#: src-en/data/hyperspace.xml.append:602
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_1\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:603
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_1\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:608
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_2\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:609
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_2\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:614
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_3\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:615
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_3\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:659
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_1\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:660
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_1\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:665
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_2\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:666
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_2\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:671
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_3\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:672
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_3\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:835
+msgid "data/hyperspace.xml.append$//unique_og_silas[@name=\"Dr. Silas\"]/@name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:847
+msgid ""
+"data/hyperspace.xml.append$//unique_og_iron_diplomat[@name=\"Horus "
+"Weber\"]/@name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1452
 msgid ""
 "data/hyperspace.xml.append$//race[@name=\"human_og_dawn\"]/powerEffect/buttonText"
 msgstr ""
 
-#: src-en/data/hyperspace.xml.append:1041
+#: src-en/data/hyperspace.xml.append:1453
 msgid ""
 "data/hyperspace.xml.append$//race[@name=\"human_og_dawn\"]/powerEffect/tooltip"
 msgstr ""
@@ -217,162 +293,257 @@ msgstr ""
 "\t\t\t\t\t-Réparer, 0.75x\n"
 "\t\t\t\t\t-Se déplacer, 0.25x"
 
-#: src-en/data/hyperspace.xml.append:1079
+#: src-en/data/hyperspace.xml.append:1555
 msgid ""
-"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[6]/mod-"
-"append:page/section/@text"
+"data/hyperspace.xml.append$//powerEffect[@name=\"og_midnight_main_power\"]/buttonText"
 msgstr ""
 
-#: src-en/data/hyperspace.xml.append:1081
+#: src-en/data/hyperspace.xml.append:1556
+msgid ""
+"data/hyperspace.xml.append$//powerEffect[@name=\"og_midnight_main_power\"]/tooltip"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1621
+msgid ""
+"data/hyperspace.xml.append$//powerEffect[@name=\"OG_SILAS_DRONE\"]/buttonText"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1622
+msgid "data/hyperspace.xml.append$//powerEffect[@name=\"OG_SILAS_DRONE\"]/tooltip"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1680
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"unique_og_iron_diplomat\"]/powerEffect/buttonText"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1681
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"unique_og_iron_diplomat\"]/powerEffect/tooltip"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1791
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[6]/mod-"
+"append:page/section[1]/@text"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1793
 msgid "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON\"]/name"
 msgstr ""
 
-#: src-en/data/hyperspace.xml.append:1090
+#: src-en/data/hyperspace.xml.append:1802
 msgid "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_DAWN\"]/name"
 msgstr "Nouvelle Aube"
 
-#: src-en/data/hyperspace.xml.append:1099
+#: src-en/data/hyperspace.xml.append:1811
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON_NEUTRON\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1820
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON_NEUTRON_IRRADIATED\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1829
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[6]/mod-"
+"append:page/section[2]/@text"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1831
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/name"
 msgstr "Transporteur de la Nouvelle Aube"
 
-#: src-en/data/hyperspace.xml.append:1100
+#: src-en/data/hyperspace.xml.append:1832
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/secretDescription"
 msgstr "Obtenez le butin du transport de butin de la Nouvelle Aube."
 
-#: src-en/data/hyperspace.xml.append:1101
+#: src-en/data/hyperspace.xml.append:1833
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/description"
 msgstr ""
 "Obtenez le Laser perforant I du transport de butin de la Nouvelle Aube."
 
-#: src-en/data/hyperspace.xml.append:1103
+#: src-en/data/hyperspace.xml.append:1835
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/header"
 msgstr "Butin acquis"
 
-#: src-en/data/hyperspace.xml.append:1107
+#: src-en/data/hyperspace.xml.append:1839
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/name"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1840
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/secretDescription"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1841
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/description"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:1843
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/header"
+msgstr "Butin acquis"
+
+#: src-en/data/hyperspace.xml.append:1847
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/name"
 msgstr "Cuirassé de la Kleptocratie"
 
-#: src-en/data/hyperspace.xml.append:1108
+#: src-en/data/hyperspace.xml.append:1848
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/secretDescription"
 msgstr ""
 "Obtenez la tourelle de butin du croiseur de combat de la Kleptocratie."
 
-#: src-en/data/hyperspace.xml.append:1109
+#: src-en/data/hyperspace.xml.append:1849
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/description"
 msgstr ""
 "Obtenez la tourelle Aiguillon d'irradiation du croiseur de combat de la "
 "Kleptocratie."
 
-#: src-en/data/hyperspace.xml.append:1111
+#: src-en/data/hyperspace.xml.append:1851
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/header"
 msgstr "Tourelle acquise"
 
-#: src-en/data/hyperspace.xml.append:1115
+#: src-en/data/hyperspace.xml.append:1855
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/name"
 msgstr "Cuirassé de la Guilde"
 
-#: src-en/data/hyperspace.xml.append:1116
+#: src-en/data/hyperspace.xml.append:1856
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/secretDescription"
 msgstr "Obtenez la tourelle de butin du croiseur de combat de la Guilde."
 
-#: src-en/data/hyperspace.xml.append:1117
+#: src-en/data/hyperspace.xml.append:1857
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/description"
 msgstr ""
 "Obtenez la tourelle Laser d'irradiation du croiseur de combat de la Guilde."
 
-#: src-en/data/hyperspace.xml.append:1119
+#: src-en/data/hyperspace.xml.append:1859
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/header"
 msgstr "Tourelle acquise"
 
-#: src-en/data/hyperspace.xml.append:1123
+#: src-en/data/hyperspace.xml.append:1863
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/name"
 msgstr "Cuirassé impérial"
 
-#: src-en/data/hyperspace.xml.append:1124
+#: src-en/data/hyperspace.xml.append:1864
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/secretDescription"
 msgstr "Obtenez la tourelle de butin du croiseur de combat impérial."
 
-#: src-en/data/hyperspace.xml.append:1125
+#: src-en/data/hyperspace.xml.append:1865
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/description"
 msgstr "Obtenez la tourelle Lanceur d'éclats du croiseur de combat impérial."
 
-#: src-en/data/hyperspace.xml.append:1127
+#: src-en/data/hyperspace.xml.append:1867
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/header"
 msgstr "Tourelle acquise"
 
-#: src-en/data/hyperspace.xml.append:1139
+#: src-en/data/hyperspace.xml.append:1879
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/name"
 msgstr "Support de tourelle"
 
-#: src-en/data/hyperspace.xml.append:1140
+#: src-en/data/hyperspace.xml.append:1880
 msgid ""
 "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/description"
 msgstr ""
 "Battez le Renégat de classe Raider C et obtenez la tourelle Chargeur léger."
 
-#: src-en/data/hyperspace.xml.append:1142
+#: src-en/data/hyperspace.xml.append:1882
 msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/header"
 msgstr "Renégat battu"
 
-#: src-en/data/hyperspace.xml.append:1156
+#: src-en/data/hyperspace.xml.append:1896
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[7]/mod:findLike/mod-"
 "append:category/customTitle"
 msgstr ""
 
-#: src-en/data/hyperspace.xml.append:1197
+#: src-en/data/hyperspace.xml.append:1938
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[1]/customTitle"
+"append:customStore[1]/category[1]/customTitle"
 msgstr "ARMES DU JOUR [33% DE RÉDUCTION]"
 
-#: src-en/data/hyperspace.xml.append:1217
+#: src-en/data/hyperspace.xml.append:1958
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[2]/customTitle"
+"append:customStore[1]/category[2]/customTitle"
 msgstr "DRONES DU JOUR [33% DE RÉDUCTION]"
 
-#: src-en/data/hyperspace.xml.append:1237
+#: src-en/data/hyperspace.xml.append:1978
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[3]/customTitle"
+"append:customStore[1]/category[3]/customTitle"
 msgstr "AUGMENTATIONS DU JOUR [33% DE RÉDUCTION]"
 
-#: src-en/data/hyperspace.xml.append:1257
+#: src-en/data/hyperspace.xml.append:1998
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[4]/customTitle"
+"append:customStore[1]/category[4]/customTitle"
 msgstr "TOURELLES"
 
-#: src-en/data/hyperspace.xml.append:1290
+#: src-en/data/hyperspace.xml.append:2031
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[8]/customTitle"
+"append:customStore[1]/category[8]/customTitle"
 msgstr "MARINS"
 
-#: src-en/data/hyperspace.xml.append:1298
+#: src-en/data/hyperspace.xml.append:2039
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[9]/customTitle"
+"append:customStore[1]/category[9]/customTitle"
 msgstr "SYSTÈMES ESSENTIELS"
 
-#: src-en/data/hyperspace.xml.append:1316
+#: src-en/data/hyperspace.xml.append:2057
 msgid ""
 "data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
-"append:customStore/category[10]/customTitle"
+"append:customStore[1]/category[10]/customTitle"
 msgstr "SYSTÈMES AUXILIAIRES"
+
+#: src-en/data/hyperspace.xml.append:2070
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[11]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:2108
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[1]/customTitle"
+msgstr "TOURELLES"
+
+#: src-en/data/hyperspace.xml.append:2141
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[5]/customTitle"
+msgstr "MARINS"
+
+#: src-en/data/hyperspace.xml.append:2149
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[6]/customTitle"
+msgstr ""
+
+#: src-en/data/hyperspace.xml.append:2172
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[3]/category[1]/customTitle"
+msgstr ""

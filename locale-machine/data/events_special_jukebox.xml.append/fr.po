@@ -16,3 +16,15 @@ msgid ""
 "data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
 "append:choice[2]/text"
 msgstr ""
+
+#: src-en/data/events_special_jukebox.xml.append:20
+msgid ""
+"data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
+"append:choice[3]/text"
+msgstr ""
+
+#: src-en/data/events_special_jukebox.xml.append:28
+msgid ""
+"data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
+"append:choice[4]/text"
+msgstr ""

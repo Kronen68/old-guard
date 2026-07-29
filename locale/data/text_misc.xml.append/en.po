@@ -30,7 +30,7 @@ msgstr ""
 
 #: src-en/data/text_misc.xml.append:10
 msgid "data/text_misc.xml.append$//text[@name=\"ship_unlock_og_two_wins\"]"
-msgstr "Win with any two layouts of the \\1 to unlock the \\2"
+msgstr "Unlock any two layouts of the \\1 to unlock the \\2"
 
 #: src-en/data/text_misc.xml.append:12
 msgid ""
@@ -50,7 +50,7 @@ msgstr "Complete 2/3 of this ship class's Achievements to unlock this ship."
 #: src-en/data/text_misc.xml.append:16
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_EXECUTOR_unlock\"]"
-msgstr "Win with any 2 Raider-Class ships."
+msgstr "Unlock any 2 Raider-Class ships."
 
 #: src-en/data/text_misc.xml.append:17
 msgid ""
@@ -80,7 +80,7 @@ msgstr "Complete 2/3 of this ship class's Achievements to unlock this ship."
 #: src-en/data/text_misc.xml.append:24
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_BIG_unlock\"]"
-msgstr "Win with any 2 Spearhead-Class ships."
+msgstr "Unlock any 2 Spearhead-Class ships."
 
 #: src-en/data/text_misc.xml.append:25
 msgid ""
@@ -177,7 +177,7 @@ msgstr ""
 msgid "data/text_misc.xml.append$//text[@name=\"loot_og_dawn_1\"]"
 msgstr ""
 "NEW DAWN LOOT\n"
-"Applies vunerability to hit rooms for 5 seconds\n"
+"Applies vulnerability to hit rooms for 5 seconds\n"
 "-1 second cooldown"
 
 #: src-en/data/text_misc.xml.append:50
