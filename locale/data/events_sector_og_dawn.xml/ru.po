@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-29 09:37+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_dawnxml/ru/>\n"
 "Language: ru\n"
@@ -933,13 +933,17 @@ msgid ""
 msgstr "Связаться с транспортом."
 
 #: src-en/data/events_sector_og_dawn.xml:693
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"\"Ренегат Федерации? Не думал, что увижу здесь таких, как вы. Не беспокойтесь, здесь нет повстанцев, нам не нужно быть врагами\".\n"
+"\"Ренегат Федерации? Не думал, что увижу здесь таких, как вы. Не "
+"беспокойтесь, здесь нет повстанцев, нам не нужно быть врагами\".\n"
 "Капитан транспорта делает паузу, обдумывая что-то.\n"
-"\"Скажите, у вас нет лишних припасов? Мы должны были забрать припасы из этого аванпоста, но, судя по всему, они так и не получили их с последнего транспорта\".\n"
+"\"Скажите, у вас нет лишних припасов? Мы должны были забрать припасы из "
+"этого аванпоста, но, судя по всему, они так и не получили их с последнего "
+"транспорта\".\n"
 "\"Мы с удовольствием заплатим вам излишками оборудования или персоналом\"."
 
 #: src-en/data/events_sector_og_dawn.xml:698
