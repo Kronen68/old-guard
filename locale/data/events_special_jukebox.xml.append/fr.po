@@ -1,8 +1,8 @@
 #
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-07-29 09:37+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2026-07-30 10:36+0000\n"
+"Last-Translator: kronen68 <obrice@hotmail.fr>\n"
 "Language-Team: French <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_special_jukeboxxmlappend/fr/>\n"
 "Language: fr\n"
@@ -33,12 +33,13 @@ msgid ""
 "data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
 "append:choice[3]/text"
 msgstr ""
+"[style[color:F64B2D]]OG: Exclusion Zone[[/style]]\n"
+"Composé par : Lizzard"
 
 #: src-en/data/events_special_jukebox.xml.append:28
-#, fuzzy
 msgid ""
 "data/events_special_jukebox.xml.append$//mod:findName[@name=\"STORAGE_CHECK_JUKEBOX\"]/mod-"
 "append:choice[4]/text"
 msgstr ""
-"[style[color:F64B2D]]OG: Iron Watch[[/style]]\n"
-"Composé par : Lizzard"
+"[style[color:F64B2D]]OG: Irradiated[[/style]]\n"
+"Composé par : Lizzard"
