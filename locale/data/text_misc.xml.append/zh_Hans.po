@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/datatext_miscxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/text_misc.xml.append:4
 msgid "data/text_misc.xml.append$//text[@name=\"map_og_neutron_beam_loc\"]"
@@ -22,6 +29,7 @@ msgid "data/text_misc.xml.append$//text[@name=\"tip_og_triplet\"]"
 msgstr ""
 
 #: src-en/data/text_misc.xml.append:10
+#, fuzzy
 msgid "data/text_misc.xml.append$//text[@name=\"ship_unlock_og_two_wins\"]"
 msgstr "使用任意两种 \\1布局获胜，即可解锁\\2"
 
@@ -41,6 +49,7 @@ msgid ""
 msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:16
+#, fuzzy
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_EXECUTOR_unlock\"]"
 msgstr "使用任意 2 艘掠夺者级舰船获胜。"
@@ -71,6 +80,7 @@ msgid ""
 msgstr "完成该星舰2个成就。"
 
 #: src-en/data/text_misc.xml.append:24
+#, fuzzy
 msgid ""
 "data/text_misc.xml.append$//text[@name=\"ship_PLAYER_SHIP_OG_DAWN_BIG_unlock\"]"
 msgstr "使用任意 2 艘先锋级舰船获胜。"
@@ -159,6 +169,7 @@ msgid "data/text_misc.xml.append$//text[@name=\"ship_CREW_SHIP_OG_HORUS_unlock\"
 msgstr ""
 
 #: src-en/data/text_misc.xml.append:47
+#, fuzzy
 msgid "data/text_misc.xml.append$//text[@name=\"loot_og_dawn_1\"]"
 msgstr ""
 "战利品：新黎明劫掠\n"
