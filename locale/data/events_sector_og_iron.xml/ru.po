@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
+"dataevents_sector_og_ironxml/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_og_iron.xml:10
 msgid ""
@@ -258,6 +266,7 @@ msgstr ""
 "пропустит вас через минуту\"."
 
 #: src-en/data/events_sector_og_iron.xml:196
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//eventList[@name=\"GUARD_OG_IRON_WAVER\"]/event[3]/text"
 msgstr ""
@@ -726,10 +735,10 @@ msgstr ""
 "после себя след из обломков, которые вы собираете."
 
 #: src-en/data/events_sector_og_iron.xml:567
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"STOREEVENT_OG_IRON_TURRETS_STATION\"]/text"
-msgstr ""
-"Вокруг этой заправочной станции расположена обширная торговая площадка."
+msgstr "Вокруг этой заправочной станции расположена обширная торговая площадка."
 
 #: src-en/data/events_sector_og_iron.xml:570
 msgid ""
@@ -1259,11 +1268,12 @@ msgid ""
 msgstr "Вежливо отказаться."
 
 #: src-en/data/events_sector_og_iron.xml:999
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT\"]/choice[4]/event/text"
 msgstr ""
-"Корабль Железного дозора в конце концов исчезает из виду, продолжая поиски в"
-" поле астероидов."
+"Корабль Железного дозора в конце концов исчезает из виду, продолжая поиски в "
+"поле астероидов."
 
 #: src-en/data/events_sector_og_iron.xml:1001
 msgid ""
@@ -1291,6 +1301,7 @@ msgid ""
 msgstr "Атаковать корабль, чтобы завладеть обломками."
 
 #: src-en/data/events_sector_og_iron.xml:1019
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND\"]/choice[1]/event/text"
 msgstr ""
@@ -1338,6 +1349,7 @@ msgid ""
 msgstr "Атаковать корабль, чтобы завладеть обломками."
 
 #: src-en/data/events_sector_og_iron.xml:1048
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_EXPLORE_TRANSPORT_FIND_LATE\"]/choice[1]/event/text"
 msgstr ""
@@ -1443,6 +1455,7 @@ msgstr ""
 "благодарят вас за спасение."
 
 #: src-en/data/events_sector_og_iron.xml:1151
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_WATCH_PIRATE_DEAD\"]/choice[1]/text"
 msgstr "Воспользоваться их уязвимой позицией и атаковать их."
@@ -1678,6 +1691,7 @@ msgid ""
 msgstr "Исследовать."
 
 #: src-en/data/events_sector_og_iron.xml:1314
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DELIVERY\"]/choice/event/choice/event/text"
 msgstr ""
@@ -1842,14 +1856,15 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_iron.xml:1421
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DAWN_HIDEOUT\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/choice/event/text"
 msgstr ""
 "В конце концов они отвечают: \"Ренегат, если вы хотите что-то узнать, вам "
 "придется доказать нам свою лояльность. Рядом находится склад снабжения "
-"Железного дозора, отправляйтесь туда и уничтожьте его, тогда мы поговорим\"."
-" С этими словами они уходят в прыжок."
+"Железного дозора, отправляйтесь туда и уничтожьте его, тогда мы поговорим\". "
+"С этими словами они уходят в прыжок."
 
 #: src-en/data/events_sector_og_iron.xml:1429
 msgid ""
@@ -2065,6 +2080,7 @@ msgstr ""
 "корабля предупреждают вас о приближающемся корабле с раскаленными орудиями."
 
 #: src-en/data/events_sector_og_iron.xml:1603
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_IRON_PULSAR\"]/text"
 msgstr ""
@@ -2079,6 +2095,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_iron.xml:1613
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$/dummyroot/FTL/event[@name=\"ENCOUNTER_OG_PIRATE_PULSAR\"]/text"
 msgstr ""
@@ -2135,6 +2152,7 @@ msgstr ""
 " сделать."
 
 #: src-en/data/events_sector_og_iron.xml:1657
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE\"]/choice/event/choice/event/choice[@req=\"rep_comb_og_iron\""
 " and @lvl=\"2\"]/text"
@@ -2215,6 +2233,7 @@ msgid ""
 msgstr "Это могло бы изменить ваше решение?"
 
 #: src-en/data/events_sector_og_iron.xml:1715
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/text"
 msgstr ""
@@ -2227,6 +2246,7 @@ msgid ""
 msgstr "Предложить более крупную взятку."
 
 #: src-en/data/events_sector_og_iron.xml:1722
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -2280,6 +2300,7 @@ msgid ""
 msgstr "Предложить более крупную взятку."
 
 #: src-en/data/events_sector_og_iron.xml:1762
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_OUTPOST\"]/choice[2]/event/text"
 msgstr ""
@@ -2528,14 +2549,15 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_iron.xml:1930
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_WIN\"]/text"
 msgstr ""
 "Корабль Железного дозора в основном оправился от последствий атаки и "
-"связывается с вами. \"Мы благодарны вам за помощь, капитан. Без вашей помощи"
-" мы бы, наверное, не выжили. Возможно, пришло время более активно "
-"участвовать в вашей войне с повстанцами. Мы отправим чертежи прототипа в "
-"федерацию, возможно, они смогут их использовать\"."
+"связывается с вами. \"Мы благодарны вам за помощь, капитан. Без вашей помощи "
+"мы бы, наверное, не выжили. Возможно, пришло время более активно участвовать "
+"в вашей войне с повстанцами. Мы отправим чертежи прототипа в федерацию, "
+"возможно, они смогут их использовать\"."
 
 #: src-en/data/events_sector_og_iron.xml:1933
 msgid ""
@@ -2543,6 +2565,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_iron.xml:1941
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_PROTOTYPE_DAWN_WIN\"]/loadEventList/event/text"
 msgstr ""
