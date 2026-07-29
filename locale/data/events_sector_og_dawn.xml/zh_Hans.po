@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-29 09:37+0000\n"
-"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
 "projects/the-old-guard/dataevents_sector_og_dawnxml/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -816,13 +816,16 @@ msgid ""
 msgstr "联系运输船。"
 
 #: src-en/data/events_sector_og_dawn.xml:693
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_SUPPLIES_NEEDED\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"1\"]/event/text"
 msgstr ""
-"“一个联邦的变元者？没想到会在这里见到你这样的人。别担心，附近没有叛军，我们不必成为敌人。”\n"
+"“一个联邦的变元者？没想到会在这里见到你这样的人。别担心，附近没有叛军，我们不"
+"必成为敌人。”\n"
 "运输船的船长停顿了一下，似乎在思考什么。\n"
-"“对了，你身上有多余的补给吗？我们本该从这个前哨站收集补给，但显然他们从上一次运输中什么也没收到。”\n"
+"“对了，你身上有多余的补给吗？我们本该从这个前哨站收集补给，但显然他们从上一次"
+"运输中什么也没收到。”\n"
 "“我们很乐意用一些剩余的装备或人员作为报酬。”"
 
 #: src-en/data/events_sector_og_dawn.xml:698
@@ -1405,11 +1408,15 @@ msgid ""
 msgstr "同意提供帮助。"
 
 #: src-en/data/events_sector_og_dawn.xml:1129
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
 msgstr ""
-"你同意提供帮助，并与新黎明舰船分头搜索。几分钟后，新黎明的舰船消失在远方，超出了你的传感器范围。仅仅又过了几分钟，那艘铁幕守望的舰船便出现了——它一直隐藏在一块缓慢移动的巨大小行星后面。他们正确地推断出你是猎杀小队的一员，没有给你任何解释的机会。准备战斗。"
+"你同意提供帮助，并与新黎明舰船分头搜索。几分钟后，新黎明的舰船消失在远方，超"
+"出了你的传感器范围。仅仅又过了几分钟，那艘铁幕守望的舰船便出现了——它一直隐藏"
+"在一块缓慢移动的巨大小行星后面。他们正确地推断出你是猎杀小队的一员，没有给你"
+"任何解释的机会。准备战斗。"
 
 #: src-en/data/events_sector_og_dawn.xml:1131
 msgid ""
@@ -2100,11 +2107,16 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1616
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
-"不一会儿，整座空间站被剧烈的爆炸撼动，警报声骤然响起，人们开始匆忙奔逃。工程师立刻转向身旁的控制台，迅速调出空间站的外部监控画面。\n"
-"屏幕中，一艘造型奇异的飞船在附近恒星的映衬下显出黑色剪影。“果然如我所料。”工程师转身面向你，“舰长，你驾驶的是什么型号的飞船？”“巡洋舰？很好。带上这台炮塔预热器，我已经将设计图存入了安全数据中心，但绝不能冒险让原型落入他们手中。请务必带着它离开这里——无论如何，绝不能让这件装备落到叛军手里！”"
+"不一会儿，整座空间站被剧烈的爆炸撼动，警报声骤然响起，人们开始匆忙奔逃。工程"
+"师立刻转向身旁的控制台，迅速调出空间站的外部监控画面。\n"
+"屏幕中，一艘造型奇异的飞船在附近恒星的映衬下显出黑色剪影。“果然如我所料。”工"
+"程师转身面向你，“舰长，你驾驶的是什么型号的飞船？”“巡洋舰？很好。带上这台炮塔"
+"预热器，我已经将设计图存入了安全数据中心，但绝不能冒险让原型落入他们手中。请"
+"务必带着它离开这里——无论如何，绝不能让这件装备落到叛军手里！”"
 
 #: src-en/data/events_sector_og_dawn.xml:1620
 msgid ""
@@ -2799,10 +2811,14 @@ msgid ""
 msgstr "“收到，我们会跟上的。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2192
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/event/text"
 msgstr ""
-"小型舰艇率先接敌，成功将防御火力从空间站引开，并摧毁、瘫痪了站体上的多座炮塔。一切似乎进展顺利，直到一艘庞大的新黎明舰船从空间站后方现身，径直朝你与铁幕守望星舰驶来。“你必须阻止那艘船！我们船上满载人员和装备，并未针对舰对舰战斗进行配置。绝不能让它接近我们。”"
+"小型舰艇率先接敌，成功将防御火力从空间站引开，并摧毁、瘫痪了站体上的多座炮塔"
+"。一切似乎进展顺利，直到一艘庞大的新黎明舰船从空间站后方现身，径直朝你与铁幕"
+"守望星舰驶来。“你必须阻止那艘船！我们船上满载人员和装备，并未针对舰对舰战斗进"
+"行配置。绝不能让它接近我们。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2197
 msgid ""
