@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "PO-Revision-Date: 2026-07-29 09:37+0000\n"
-"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
 "dataevents_sector_og_ironxml/ru/>\n"
 "Language: ru\n"
@@ -393,6 +393,7 @@ msgid ""
 msgstr "Передумать и оставить сторожевой корабль в покое."
 
 #: src-en/data/events_sector_og_iron.xml:277
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"GUARD_OG_IRON_INTERACT\"]/choice[5]/event/text"
 msgstr ""
@@ -470,11 +471,14 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_iron.xml:336
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"REPUTATION_UPDATE_DOUBLE_OG_IRON\"]/text"
 msgstr ""
 "[РЕПУТАЦИЯ ПОВЫШЕНА - ЖЕЛЕЗНЫЙ ДОЗОР]\n"
-"\tВ глазах Железного дозора вы совершили доброе дело. Продолжайте действовать таким образом, и вы можете рассчитывать на поддержку Железного дозора и его союзников."
+"\tВ глазах Железного дозора вы совершили доброе дело. Продолжайте "
+"действовать таким образом, и вы можете рассчитывать на поддержку Железного "
+"дозора и его союзников."
 
 #: src-en/data/events_sector_og_iron.xml:341
 msgid ""
@@ -808,12 +812,17 @@ msgid ""
 msgstr "Просто отправиться в магазин."
 
 #: src-en/data/events_sector_og_iron.xml:643
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENCE_DRONE\"]/text"
 msgstr ""
-"Вы прибываете к маяку и обнаруживаете корабль Железного дозора. Капитан, судя по всему, находится в сильном стрессе, так как по общему каналу слышны крики.\n"
-"\t\"Как это не турель?\" Вы слышите слабый шум, как один из членов экипажа пытается объяснить что-то, чего капитан явно не понимает.\n"
-"\t\"Так нас ОБМАНУЛИ? Этот подлый торговец, ооо, если я его еще раз увижу, он умрет!\""
+"Вы прибываете к маяку и обнаруживаете корабль Железного дозора. Капитан, "
+"судя по всему, находится в сильном стрессе, так как по общему каналу слышны "
+"крики.\n"
+"\t\"Как это не турель?\" Вы слышите слабый шум, как один из членов экипажа "
+"пытается объяснить что-то, чего капитан явно не понимает.\n"
+"\t\"Так нас ОБМАНУЛИ? Этот подлый торговец, ооо, если я его еще раз увижу, "
+"он умрет!\""
 
 #: src-en/data/events_sector_og_iron.xml:647
 msgid ""
@@ -821,6 +830,7 @@ msgid ""
 msgstr "Продолжить слушать."
 
 #: src-en/data/events_sector_og_iron.xml:649
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DEFENCE_DRONE\"]/choice[1]/event/text"
 msgstr ""
@@ -1560,6 +1570,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_iron.xml:1224
+#, fuzzy
 msgid ""
 "data/events_sector_og_iron.xml$//event[@name=\"OG_IRON_DISTRESS_PULSAR\"]/choice[6]/text"
 msgstr "Извиниться и сказать, что ничем не можете помочь."
