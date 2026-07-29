@@ -1,0 +1,1713 @@
+<FTL>
+<!--START-->
+<event name="OG_ARRIVE_NEUTRON_BEAM">
+	<metaVariable name="juke_og_iron_neutron_irradiated" op="set" val="1" />
+	<playMusic>og_iron_neutron_irradiated</playMusic>
+</event>
+<event name="OG_LEAVE_NEUTRON_BEAM">
+	<playMusic/>
+</event>
+
+<event name="FLEET_THREAT_OG_IRON_FLEET">
+	<revisitEvent>FLEET_THREAT_OG_IRON_FLEET</revisitEvent>
+	<loadEventList>
+		<event name="FLEET_OG_IRON_ELITE"/>
+		<event name="FLEET_OG_IRON_ACE"/>
+	</loadEventList>
+</event>
+
+<event name="FLEET_OG_IRON_ELITE">
+	<revisitEvent>FLEET_OG_IRON_ELITE</revisitEvent>
+	<customFleet right="true" firing="false" autoDarkening="true">CUSTOM_FLEET_OG_IRON</customFleet>
+	<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<text>The Rebel fleet has taken control of this beacon, but they have been met with opposition from Iron Watch forces. As the ships rage on in combat in the distance, an Elite ship breaks off to fight you.</text>
+	<variable name="loc_dives" op="add" val="1"/>
+	<ship load="SHIP_REBEL_FLEET" hostile="true"/>
+	<fleet>rebel</fleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice hidden="true" req="engines" lvl="6">
+		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<event load="FLEET_ESCAPE"/>
+	</choice>
+	<choice hidden="true" req="LIST_CREW_JERRY">
+		<text>(Jerry) "Hello!"</text>
+		<event>
+			<text load="TEXT_ENCOUNTER_REBEL_JERRY_HELLO"/>
+			<ship hostile="false"/> 
+		</event>
+	</choice>
+</event>
+
+
+<event name="FLEET_OG_IRON_ACE">
+	<revisitEvent>FLEET_OG_IRON_ACE</revisitEvent>
+	<customFleet right="true" firing="false" autoDarkening="true">CUSTOM_FLEET_OG_IRON</customFleet>
+	<customFleet right="false" firing="true" autoDarkening="false">CUSTOM_FLEET_REBEL</customFleet>
+	<text>The Rebel fleet has taken control of this beacon, but they have been met with opposition from Iron Watch forces. As the ships rage on in combat in the distance, an MFK Ace ship breaks off to fight you.</text>
+	<variable name="loc_dives" op="add" val="1"/>
+	<ship load="SHIP_REBEL_FLEET_S" hostile="true"/>
+	<fleet>rebel</fleet>
+	<environment type="PDS" target="all"/>
+	<noASBPlanet/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+	<choice hidden="true" req="engines" lvl="6">
+		<text>(Adv. Engines) Try to escape the Elite.</text>
+		<event load="FLEET_ESCAPE"/>
+	</choice>
+	<choice hidden="true" req="LIST_CREW_JERRY">
+		<text>(Jerry) "Hello!"</text>
+		<event>
+			<text load="TEXT_ENCOUNTER_REBEL_JERRY_HELLO"/>
+			<ship hostile="false"/> 
+		</event>
+	</choice>
+</event>
+
+<ship name="SHIP_GUARD_EXECUTOR_OG_IRON" auto_blueprint="OG_IRON_EXECUTOR">
+	<surrender min="7" max="8" load="GUARD_SIGNAL"/>
+	<destroyed load="GUARD_EXECUTOR_OG_IRON_DESTROY"/>
+	<deadCrew load="GUARD_EXECUTOR_OG_IRON_DEADCREW"/>
+</ship>
+
+<event name="GUARD_EXECUTOR_OG_IRON_DESTROY">
+	<text>You have defeated the Iron Watch guard. Whatever might have been in their cargo has for certain been destroyed, but you can at least salvage some supplies from the ship.</text>
+	<autoReward level="MED">standard</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="GUARD_EXECUTOR_OG_IRON_FOLLOWUP"/>
+	</choice>
+</event>
+<event name="GUARD_EXECUTOR_OG_IRON_DEADCREW">
+	<text>You have defeated the Iron Watch guard. Without crew on board to stop you, you can investigate their cargo. You find a weapon to bring back to the ship, and move on to scrap their hull.</text>
+	<autoReward level="MED">standard</autoReward>
+	<weapon name="GIFTLIST_OG_IRON"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="GUARD_EXECUTOR_OG_IRON_FOLLOWUP"/>
+	</choice>
+</event>
+<ship name="SHIP_OG_IRON_REINFORCEMENTS" auto_blueprint="LIST_SHIPS_OG_IRON_FIGHT">
+	<destroyed load="DESTROYED_REINFORCEMENTS"/>
+	<deadCrew load="DEADCREW_REINFORCEMENTS"/>
+</ship>
+<event name="GUARD_EXECUTOR_OG_IRON_FOLLOWUP">
+	<noQuestText/>
+	<removeHazards/>
+	<clearCustomFleet/>
+	<text>By killing the Iron Watch guard, you have no doubt caused them to dispatch reinforcements to track you down. Watch your step as you explore the sector.</text>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="START_OG_NEUTRON">
+	<metaVariable name="juke_og_iron_neutron" op="set" val="1" />
+	<environment type="pulsar"/>
+	<preventQuest />
+	<beaconType id="map_icon_start" global="false">
+		<color r="46" g="252" b="51" a="1" />
+	</beaconType>
+	<text>The arrival beacon lands you in the middle of the Iron Watch's fleet. The fleet pays no attention to you, you observe most ships are preoccupied with preparing for the approaching rebel fleet, engineering ships attend to a number of vessels undergoing repairs.
+
+Your sensors pickup a massive energy signature in the sector, a neutron star, visible even from here. You're unsure how the iron watch have managed to survive with a thing like that around, if you get caught in it's beam it's sure to rip your ship apart.</text>
+	<ship load="SHIP_GUARD_EXECUTOR_OG_IRON" hostile="false" />
+	<customFleet right="false" firing="true" autoDarkening="true">CUSTOM_FLEET_OG_IRON</customFleet>
+	<changeBackground>BACK_SECTOR_OG_NEUTRON</changeBackground>
+	<modifyPursuit amount="-2"/>
+	<playSound>lightspeed</playSound>
+	<choice hidden="true" req="og_neutron_dawn_aligned" lvl="1" blue="false">
+		<text>Continue...</text>
+		<event load="OG_NEUTRON_START_DAWN" />
+	</choice>
+	<choice hidden="true" req="og_neutron_dawn_aligned" lvl="0" max_lvl="0" blue="false">
+		<text>Continue...</text>
+		<event load="OG_NEUTRON_START_IRON" />
+	</choice>
+</event>
+<event name="OG_NEUTRON_START_IRON">
+	<text>You're directed through a series of disinterested officers until you're finally face to face with Admiral Micari, the same Admiral who personally requested your help.
+
+"Captain, glad you made it, As you may know, I'm Admiral Micari of the 4th Defence Fleet. I'll spare the rest of the formalities and cut right to the chase.
+When I originally requested your assistance, the intention was to have you fight alongside the fleet. The Rebel fleet has already taken out several of our forward outposts, frankly, we could really use another capable ship like yours on the frontline."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"That plan has changed, two hours ago we received a distress call coming from our research base, the one positioned right next to the neutron star you may have noticed in the sector. The signal cut out before we could get a clear read on what was happening, it might just be equipment failure, but I fear the worst."
+			
+"I can't pull any of my ships from the front line to follow up on the distress signal, not with the Rebel fleet so close. But that research base is part of why we're even here in the first place, I can't disclose details but it's important, and so I can't just ignore the distress call."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"That's where you come in, Captain. I need you to investigate the distress signal and make sure the base is alright. If there is time after that is dealt with, we'd appreciate any help you can provide to the frontline, but that base is the top priority."
+
+"Good luck out there Captain."</text>
+					<choice>
+						<text>Request support.</text>
+						<event load="GUARD_OG_NEUTRON_FRIENDLY_SUPPORT"/>
+					</choice>
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="GUARD_OG_NEUTRON_FRIENDLY_SUPPORT">
+	<text>An Officer puts you on a secure line with one of the nearby support ships, who awaits your command.</text>
+	<choice hidden="true">
+		<text>Repairs.</text>
+		<event>
+			<text>Several repair drones are dispatched to repair you.</text>
+			<damage amount="-5"/>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Fuel.</text>
+		<event>
+			<text>A refuelling drone is dispatched to refuel your ship.</text>
+			<item_modify>
+				<item type="fuel" min="3" max="3"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ammo.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship.</text>
+			<item_modify>
+				<item type="missiles" min="2" max="2"/>
+			</item_modify>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Drone parts.</text>
+		<event>
+			<text>A resupply drone is dispatched to resupply your ship.</text>
+			<item_modify>
+				<item type="drones" min="2" max="2"/>
+			</item_modify>
+		</event>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_START_DAWN">
+	<ship load="SHIP_OG_DAWN_FIGHT" hostile="false" />
+	<text>Before you're able to interact with any of the Iron Watch fleet, you're contacted by a New Dawn ship hidden inside a nearby asteroid field.
+
+"Excellent, you made it here and the Iron Watch don't suspect a thing. As you may remember, this sector is home to that neutron star your sensor may detect in the distance. The Iron Watch didn't establish the research base here, instead this sector was incorporated as the Neutron Star Exclusion Zone when the original scientists joined the Iron Watch."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"Their work here has resulted in many new technologies, you may have noticed that many of the Iron Watch shields are equipped with shielding designed to protect them from the radiation of the neutron star. This is what we're after, we've managed to steal or loot many copies of the shielding device from Iron Watch ships, but its not enough to equip more than our intelligence operatives, we need the schematics and designs for the technology."</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"This is where you come in, we believe that the schematics for this technology are contained on original research station in orbit around the neutron star. Our intelligence operatives have prepared their ship for a raid on the station, but with the rebel fleet on the way they've stepped up the protection around the facility. We need you to provide the distraction that lets our intelligence operatives get close enough to the facility to initiate the raid."</text>
+					<choice hidden="true">
+						<text>Agree to the mission.</text>
+						<event>
+							<text>"Excellent, I'll upload the location of the research base, not that it's hard to find being in orbit of the Neutron Star. Our operatives will be ready to move in once you distract the guards, good luck."</text>
+							<choice>
+								<text>Do something onboard the ship.</text>
+								<event load="STORAGE_CHECK"/>
+							</choice>
+							<choice>
+								<text>Do nothing.</text>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+					<choice hidden="true">
+						<text>Refuse the mission.</text>
+						<event>
+							<text>"Well the raid is happening regardless of your participation, I'll upload the location of the research base, not that it's hard to find. If you show up, we'll assume you're onboard."</text>
+							<choice>
+								<text>Do something onboard the ship.</text>
+								<event load="STORAGE_CHECK"/>
+							</choice>
+							<choice>
+								<text>Do nothing.</text>
+								<event/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+
+<!--FINISH-->
+<event name="FINISH_BEACON_OG_NEUTRON">
+	<text id="finish_beacon"/>
+	<choice hidden="true">
+		<text>Explore.</text>
+		<event load="EXIT_FILLER_LIST"/>
+	</choice>
+	<choice hidden="true">
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<!--RESEARCH STATION-->
+<event name="OG_NEUTRON_HAZARD_RESEARCH_STATION">
+	<preventFleet/>
+	<preventQuest/>
+	<beaconType id="map_icon_og_neutron_station" global="true">
+		<color r="255" g="156" b="113" a="1"/>
+		<unvisitedTooltip>Location of the Iron Watch Research Station.</unvisitedTooltip>
+	</beaconType>
+	<revisitEvent>OG_NEUTRON_HAZARD_RESEARCH_STATION_RETURN</revisitEvent>
+	<changeBackground>BACK_SECTOR_OG_NEUTRON_STATION</changeBackground>
+	<loadEventList seeded="false" first="true" generate="false">
+		<event name="OG_NEUTRON_RESEARCH_STATION_DAWN" req="og_neutron_dawn_aligned" lvl="1"/>
+		<event name="OG_NEUTRON_RESEARCH_STATION_IRON"/>
+	</loadEventList>
+</event>
+
+<event name="OG_NEUTRON_HAZARD_RESEARCH_STATION_RETURN">
+	<revisitEvent>OG_NEUTRON_HAZARD_RESEARCH_STATION_RETURN</revisitEvent>
+	<changeBackground>BACK_SECTOR_OG_NEUTRON_STATION</changeBackground>
+	<text>You have a moment to do something onboard your ship.</text>
+	<choice hidden="true">
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<ship name="SHIP_OG_IRON_RESEARCH_STATION_DAMAGED" auto_blueprint="OG_IRON_STATION_DAMAGED">
+	<surrender  chance="0.4" min="2" max="3" load="SURRENDER_OG_IRON"/>
+	<destroyed load="DESTROYED_OG_IRON"/>
+	<deadCrew load="DEAD_CREW_OG_IRON"/>
+</ship>
+<ship name="SHIP_OG_DAWN_RESEARCH_FINISHER" auto_blueprint="OG_DAWN_SYNCHROTRON">
+	<destroyed>
+		<text>One of the turrets is launched off into empty space as the ship explodes, throwing valuable debris in every direction.</text>
+		<autoReward level="MED">standard_no_item</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_RESEARCH_STATION_SAVED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>"You will regret this! Karma always comes back to people like you. Damn you Renegades... the New Dawn will..." They die before they can finish this last remark.</text>
+		<autoReward level="HIGH">standard_no_item</autoReward>
+		<recallBoarders force="true" ship="player"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_RESEARCH_STATION_SAVED"/>
+		</choice>
+	</deadCrew>
+</ship>
+<event name="OG_NEUTRON_RESEARCH_STATION_IRON">
+	<ship load="SHIP_OG_IRON_RESEARCH_STATION_DAMAGED" hostile="false"/>
+	<text>The research station hangs in orbit above the neutron star, close enough that the radiation in unavoidable, you'll want to avoid spending too long here.
+
+As you bring your ship alongside the station and begin docking procedures, its immediately clear something's gone wrong, the hull of the station is scored with damage, half the solar panels are completely missing.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>The airlock opens into the station, thankfully these part has stayed pressurised despite the damage.
+You're immediately face to face with a figure in the white coat of a scientist. "You're from the Iron Watch? Close enough, come in quickly."</text>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<text>You're ushered towards a nearby meeting room, a large screen is cycling through various images of dangerous looking ship, stealth in design, it must be what attacked the station.
+
+"We were attacked, that ship," they gesture to the one on the screen, "is unlike anything we've seen before. We've heard stories of 'ghost' ships like this but no one had seriously considered them. We barely saw it coming, it came from the direction of the neutron star, shielded from our sensors by the radiation. They were shielded by one of our own Synchrotron Barriers, developed here on this station to shield our ships against the radiation of the neutron star."</text>
+				<choice hidden="true">
+					<text>Alarms activate throughout the station.</text>
+					<event>
+						<text>Alarms blaring across the station, the screen on the wall switches to show a new ship, painted in New Dawn colours. With the station as defenceless as it is, you have the only thing capable of preventing the New Dawn vessel from finishing the station off. You rush back to your ship and disengage from the station, now clear of the station's protection you'll have to survive both the enemy and the force of the radiation.</text>
+						<ship load="SHIP_OG_DAWN_RESEARCH_FINISHER" hostile="true"/>
+						<choice hidden="true">
+							<text>Continue...</text>
+							<event load="COMBAT_CHECK"/>
+						</choice>
+					</event>
+				</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="OG_NEUTRON_RESEARCH_STATION_SAVED">
+	<ship load="SHIP_OG_IRON_RESEARCH_STATION_DAMAGED" hostile="false"/>
+	<text>You quickly return to the safety of the station's Synchrotron Barrier. Docking with the station, you head back to the meeting room with the scientist, who is now pacing back and forth across the room.
+
+"That won't be the last of them. The stealth ship, 'ghost' ship as some have been calling it, it wasn't just here to destroy us. No, it was here to steal our stock of Synchrotron Barriers, but worse, they've stolen the schematics, previously they've only been able to get their hands on the devices by stealing them off of our own ships, but now they could begin manufacturing the devices themselves."</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>"The good news however is that we began placing tracking devices in the barriers, we should be able to track the ones stolen by the 'ghost' ship itself, and if we're quick enough we may be able to prevent the schematics from escaping the sector."
+
+"I'm humbly requesting your help here, we need to recover the schematics. I hope it's not too much to ask, but I'd like to come with you, I assure you I'll be no hindrance onboard the ship."</text>
+			<choice hidden="true">
+				<text>Accept them onboard.</text>
+				<event>
+					<text>"I realise I forgot to introduce myself. Dr. Silas at your service."
+"There's one more thing, this station is done, it's in no condition to be repaired this close to the neutron star. If you can get everyone onboard to safety we can transfer the only Synchrotron Barrier remaining to your ship, the one currently hooked up to the station."
+					
+You're able to load the remaining station staff onto your ship, before Dr. Silas has the Synchrotron Barrier carefully moved onto your ship, and integrated into your engines system.</text>
+					<crewMember amount="1" repair="2" class="unique_og_silas">Dr. Silas</crewMember>
+					<quest event="OG_NEUTRON_GHOST_IRON_QUEST"/>
+					<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+					<augment name="OG_NEUTRON_SHIELD"/>
+					<choice>
+						<text>Continue...</text>
+						<event>
+							<text>You're able to deliver the station's staff to a nearby outpost, as you leave you watch the station disintegrate under the full force of the radiation.</text>
+						</event>
+					</choice>
+				</event>
+			</choice>
+			<choice hidden="true">
+				<text>Refuse the offer.</text>
+				<event>
+					<text>"I will stay with the rest of the station's staff then, good luck with the rest of the mission then, Captain."
+"There's one more thing, this station is done, it's in no condition to be repaired this close to the neutron star. If you can get everyone onboard to safety we can transfer the only Synchrotron Barrier remaining to your ship, the one currently hooked up to the station."
+					
+You're able to load the remaining station staff onto your ship, before the scientist has the Synchrotron Barrier carefully moved onto your ship, and integrated into your engines system.</text>
+					<quest event="OG_NEUTRON_GHOST_IRON_QUEST"/>
+					<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+					<augment name="OG_NEUTRON_SHIELD"/>
+					<choice>
+						<text>Continue...</text>
+						<event>
+							<text>You're able to deliver the station's staff to a nearby outpost, as you leave you watch the station disintegrate under the full force of the radiation.</text>
+							<enemyDamage amount="999"/>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>		
+</event>
+
+<ship name="SHIP_OG_MIDNIGHT_HUNTER_FIGHT" auto_blueprint="OG_MIDNIGHT_HUNTER">
+	<surrender min="15" max="15" load="SHIP_OG_MIDNIGHT_HUNTER_MIDFIGHT_RESET" />
+	<destroyed load="SHIP_OG_MIDNIGHT_HUNTER_DESTROYED" />
+	<deadCrew load="SHIP_OG_MIDNIGHT_HUNTER_DEADCREW" />
+</ship>
+<event name="OG_NEUTRON_GHOST_IRON_QUEST">
+	<preventFleet/>
+	<preventQuest/>
+	<beaconType id="map_icon_og_ghost" global="true">
+		<color r="255" g="156" b="113" a="1"/>
+		<unvisitedTooltip>The Location of the 'Ghost' ship with the stolen Synchrotron Barriers.</unvisitedTooltip>
+	</beaconType>
+	<environment type="pulsar"/>
+	<ship load="SHIP_OG_MIDNIGHT_HUNTER_FIGHT" hostile="true"/>
+	<status type="limit" target="enemy" system="artillery" amount="0"/>
+	<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+	<text>You arrive face to face with 'Ghost' ship, it's even more dangerous looking in person. Sleek and armed to the teeth, this is sure to be a tough fight. You're given no chance to avoid the fight as you're immediately within range of their weapons.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+<event name="OG_NEUTRON_GHOST_DAWN_QUEST">
+	<preventFleet/>
+	<preventQuest/>
+	<beaconType id="map_icon_og_ghost" global="true">
+		<color r="255" g="156" b="113" a="1"/>
+		<unvisitedTooltip>The Location of the Midnight Sun vessel which betrayed you.</unvisitedTooltip>
+	</beaconType>
+	<environment type="pulsar"/>
+	<ship load="SHIP_OG_MIDNIGHT_HUNTER_FIGHT" hostile="true"/>
+	<status type="limit" target="enemy" system="artillery" amount="0"/>
+	<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+	<text>You arrive face to face with Midnight Sun ship. Sleek and armed to the teeth, this is sure to be a tough fight. You're given no chance to avoid the fight as you're immediately within range of their weapons.</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+
+<event name="SHIP_OG_MIDNIGHT_HUNTER_MIDFIGHT_RESET">
+	<text>The enemy vessel engages it's emergency thrusters and flies directly into the pulsar, as you turn to chase the pulsar launches a mass of magnetised plasma and solar particles into your path, preventing you from following.
+
+Your computers calculate that based on the trajectory they were on, you have about 30 seconds before the ship will come back around to your side again.</text>
+	<ship hostile="false"/>
+	<variable name="og_neutron_hunter_deadcrew" op="set" val="1"/>
+	<recallBoarders force="true" ship="both"/>
+	<triggeredEvent event="SHIP_OG_MIDNIGHT_HUNTER_RESUME" time="30" thisFight="false" clearOnJump="true">
+		<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
+			<warning time="10.0" flash="true"/>
+			<tooltip>The 'Ghost' ship will come around the pulsar and back into combat range in this time!</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<choice hidden="true">
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice hidden="true">
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+<event name="SHIP_OG_MIDNIGHT_HUNTER_DEADCREW">
+	<loadEventList seeded="false" first="true" generate="false" default="SHIP_OG_MIDNIGHT_HUNTER_DEADCREW_RESET">
+		<event req="og_neutron_hunter_deadcrew" lvl="1">
+			<text>The last of the crew finally fall dead, actually dead this time. A number of sections within the ship are locked down and armoured, whatever they contain is likely to be important.</text>
+			<autoReward level="HIGH">standard_no_item</autoReward>
+			<choice req="unique_og_silas" lvl="1" blue="false" hidden="true">
+				<text>Continue...</text>
+				<event load="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE_SILAS"/>
+			</choice>
+			<choice req="unique_og_silas" lvl="0" max_lvl="0" blue="false" hidden="true">
+				<text>Continue...</text>
+				<event load="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE"/>
+			</choice>
+		</event>
+	</loadEventList>
+</event>
+<event name="SHIP_OG_MIDNIGHT_HUNTER_DEADCREW_RESET">
+	<text>Just as you thought you were done, a serious of panels in the enemy vessel's cockpit pop open, ungracefully dumping a number of cloned soldiers onto the deck.</text>
+	<boarders min="6" max="6" class="human_og_dawn"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="SHIP_OG_MIDNIGHT_HUNTER_MIDFIGHT_RESET"/>
+	</choice>
+</event>
+
+<event name="SHIP_OG_MIDNIGHT_HUNTER_RESUME">
+	<ship hostile="true"/>
+	<status type="clear" target="enemy" system="artillery" amount="100"/>
+	<text>The battle resumes, however something is different this time, it appears they had some kind of super weapon hidden in the bowls of their ship, and its finally online!</text>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<event name="SHIP_OG_MIDNIGHT_HUNTER_DESTROYED">
+	<text>The vessel explodes flinging debris everywhere, your sensors pickup a number of armoured sections which hold together under the explosion, whatever they contain is likely to be salvageable.</text>
+	<autoReward level="MED">standard_no_item</autoReward>
+	<choice req="unique_og_silas" lvl="1" blue="false" hidden="true">
+		<text>Continue...</text>
+		<event load="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE_SILAS"/>
+	</choice>
+	<choice req="unique_og_silas" lvl="0" max_lvl="0" blue="false" hidden="true">
+		<text>Continue...</text>
+		<event load="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE"/>
+	</choice>
+</event>
+
+<event name="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE_SILAS">
+	<text>You search the armoured sections, most of them don't contain anything of note, however one of them contains a data bank. Dr. Silas inspects it, "Aha, this contains the schematics for the Synchrotron Barrier, it also has the schematic for the ship itself, I'll upload that to your ship then destroy the barrier's schematic." It only takes a moment for the drive to start screeching, a moment later it stops, broken.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_OG_HUNTER</unlockCustomShip>
+	<autoReward level="LOW">standard_no_item</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="SHIP_OG_MIDNIGHT_HUNTER_WEAPON"/>
+	</choice>
+</event>
+<event name="SHIP_OG_MIDNIGHT_HUNTER_SALVAGE">
+	<text>You search the armoured sections, most of them don't contain anything of note, however one of them contains a data bank, a quick inspection reveals both the schematic for the Synchrotron Barrier, as well as the schematic for the ship itself, you copy both over to your own ship before destroying the data bank.</text>
+	<unlockCustomShip silent="false">PLAYER_SHIP_OG_HUNTER</unlockCustomShip>
+	<autoReward level="LOW">standard_no_item</autoReward>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="SHIP_OG_MIDNIGHT_HUNTER_WEAPON"/>
+	</choice>
+</event>
+<event name="SHIP_OG_MIDNIGHT_HUNTER_WEAPON">
+	<text>Eventually you stumble upon what appears to be the core of the artillery weapon, you're able to extract it from it's mangled armour, it appears to be partially functional, but you'll need the parts from a powerful weapon, and a turret slot to equip it in.</text>
+	<weapon name="OG_TURRET_BEAM_NEUTRON_0"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="REPUTATION_UPDATE_DOUBLE_OG_IRON"/>
+	</choice>
+</event>
+
+<ship name="SHIP_OG_IRON_RESEARCH_STATION" auto_blueprint="OG_IRON_STATION">
+	<destroyed>
+		<text>One of the turrets is launched off into empty space as the ship explodes, throwing valuable debris in every direction.</text>
+		<clearTriggeredEvent name="OG_NEUTRON_RESEARCH_STATION_DAWN_MISSION"/>
+		<autoReward level="MED">standard_no_item</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_RESEARCH_STATION_FAILED"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>The last of the station's armed personal fall, dead. You return to your ship and await communication from the Midnight Sun.</text>
+		<clearTriggeredEvent name="OG_NEUTRON_RESEARCH_STATION_DAWN_MISSION"/>
+		<autoReward level="MED">standard_no_item</autoReward>
+		<recallBoarders force="true" ship="player"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_RESEARCH_STATION_WON"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="OG_NEUTRON_RESEARCH_STATION_DAWN">
+	<text>The research station hangs in orbit above the neutron star, close enough that the radiation in unavoidable, you'll want to avoid spending too long here.
+
+The station appears well defended, with a few turrets and weapons mounted, additionally it appears to be protected from the radiation by some sort of strange shield, mostly purple but burning bright blue where the radiation is strongest.</text>
+	<ship load="SHIP_OG_IRON_RESEARCH_STATION" hostile="false"/>
+	<choice>
+		<text>Continue...</text>
+		<event>
+			<text>Not a moment later your comms crackle with an incoming signal. The signal is a tight-beam, encrypted, you're sensors aren't able to locate it's source.
+
+"So you're who they sent, I hope you're good enough. But enough with the pleasantries..." A ship uncloaks itself almost on top of you, the source of the signal, painted almost entirely black, the only source of colour a tiny golden sun insignia near the cockpit.</text>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event>
+					<text>"...We're New Dawn Intelligence, or the Midnight Sun as some may know us. We will be raiding the station, but we require you to provide the distraction so that we may slip close enough to secure our prize, the Synchrotron Schematics."
+
+"When you attack, disable their defences if you can, but it is vitally important that you do not destroy the station. To ensure an efficient mission we'll be sending over one of our own crew to oversee your side of the operation."</text>
+					<choice>
+						<text>Continue...</text>
+						<event>
+							<ship load="SHIP_OG_IRON_RESEARCH_STATION" hostile="true"/>
+							<text>The Midnight Sun Operative arrives via short range teleporter. After a quick inspection of your ship they take position in the piloting room to oversee the attack.
+
+It's not more than a few moments later that the operative receives an encrypted message, they turn to you, "We're ready to go Captain, we'll move on your mark."</text>
+							<triggeredEvent name="OG_NEUTRON_RESEARCH_STATION_DAWN_MISSION" event="OG_NEUTRON_RESEARCH_STATION_WON" time="30" thisFight="true" clearOnJump="true">
+								<triggeredEventBox load="DEFAULT_TIMER" pos="combat">
+									<warning time="10.0" flash="true"/>
+									<tooltip>Survive in combat with the station until this time, ensure the station is not destroyed!</tooltip>
+								</triggeredEventBox>
+								<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+							</triggeredEvent>
+							<crewMember amount="1" combat="2" class="human_og_midnight" />
+							<choice>
+								<text>Begin the attack.</text>
+								<event load="COMBAT_CHECK"/>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_RESEARCH_STATION_FAILED">
+	<text>"We're severely disappointed in you Captain. Do not contact us again." With that the Midnight Sun retrieve their crew and jump away.</text>
+	<choice req="human_og_midnight" lvl="1" blue="false" hidden="true">
+		<text>Continue...</text>
+		<event>
+			<text>Perhaps you should have been more careful to not destroy the station.</text>
+			<removeCrew class="human_og_midnight">
+				<clone>false</clone>
+				<text> </text>
+			</removeCrew>
+		</event>
+	</choice>
+	<choice req="human_og_midnight" lvl="0" max_lvl="0" blue="false" hidden="true">
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+
+<ship name="SHIP_OG_DAWN_RESEARCH_SYNCHROTRON" auto_blueprint="OG_DAWN_SYNCHROTRON">
+	<destroyed>
+		<text>One of the turrets is launched off into empty space as the ship explodes, throwing valuable debris in every direction.</text>
+		<autoReward level="MED">standard_no_item</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DAWN_BARRIER_GET"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text>"You will regret this! Karma always comes back to people like you. Damn you Renegades... the New Dawn will..." They die before they can finish this last remark.</text>
+		<autoReward level="HIGH">standard_no_item</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DAWN_BARRIER_GET"/>
+		</choice>
+	</deadCrew>
+</ship>
+<event name="OG_NEUTRON_DAWN_BARRIER_GET">
+	<text>Amongst the remains of the ship you find, intact, the Synchrotron Barrier. After consulting scans of the device you're able to install it on your own ship.</text>
+	<augment name="OG_NEUTRON_SHIELD"/>
+</event>
+<event name="OG_NEUTRON_RESEARCH_STATION_WON">
+	<ship hostile="false"/>
+	<recallBoarders force="true" ship="player"/>
+	<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+	<text>Your sensors detect the Midnight Sun ship disengage from the station, it quickly retreats to safety, it appears that your job here is done. You begin disengaging from the station yourself.
+
+The Midnight Sun operative rushes over to you, "What are you doing Captain? I haven't received the signal, we shouldn't disengage yet."</text>
+	<choice>
+		<text>Show them that the Midnight Sun ship has already disengaged to safety.</text>
+		<event>
+			<text>"But then why hav-" They cut off, you cannot see their face beneath the helmet, but their body language gives you the impression that something that something is very wrong. They appear to be interacting with some sort of internal system within their armour.</text>
+			<choice>
+				<text>Continue...</text>
+				<event>
+					<text>The Midnight Sun vessel begins charging it's jump drive, "We hoped that the station would do the job for us, you unfortunately exceeded our expectations Captain. Good bye."</text>\
+					<playSound>lightspeed</playSound>
+					<choice>
+						<text>Continue...</text>
+						<event>
+							<ship load="SHIP_OG_DAWN_RESEARCH_SYNCHROTRON" hostile="true"/>
+							<text>Not a moment later a new ship uncloaks, this one a more traditional New Dawn vessel. One of your crew turn to you, "Captain, that ship, they're refusing our hails, scans indicate they're bringing their weapons online."
+
+The operative has gone very still beside you. When they finally speak, their voice is quiet. "This wasn't apart of any briefing I received."</text>
+							<choice>
+								<text>Continue...</text>
+								<event>
+									<text>The operative turns to face you, now slightly slumped, apparently given up on whatever they were trying to do before.
+"I was told this was a clean extraction. Get in, coordinate, get out. That we would deal with you later, whether that was buying your silence, or silencing you ourselves I do not know. Apparently there were other plans, plans I wasn't aware of. I should have known it wouldn't be this simple."</text>
+									<choice>
+										<text>Continue...</text>
+										<event>
+											<text>"I know where the Midnight Sun ship will have gone. There's a small Midnight Sun outpost nearby, that's where they'll be offloading the barriers and schematic. If you desire revenge, as I do, that's where we'll need to go."
+
+"I'd like to join your crew officially, it's clear that the Midnight Sun is done with me, and you're my best bet for revenge."</text>
+											<quest event="OG_NEUTRON_GHOST_DAWN_QUEST"/>
+											<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+											<choice>
+												<text>Prepare for combat.</text>
+												<event load="COMBAT_CHECK"/>
+											</choice>
+										</event>
+									</choice>
+								</event>
+							</choice>
+						</event>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--SHIP STUFF-->
+<event name="DESTROYED_OG_MIDNIGHT">
+	<text load="TEXT_DESTROYED_OG_MIDNIGHT"/>
+	<autoReward level="MED">standard</autoReward>
+</event>
+<textList name="TEXT_DESTROYED_OG_MIDNIGHT">
+	<text>The Midnight Sun captain lets out one final expletive as the ship is obliterated.</text>
+	<text>The hull of the Midnight Sun vessel is dispersed out into space. You swoop in to salvage the remains.</text>
+	<text>The Midnight Sun ship explodes, extinguishing all lives within. Your crew avoids their remains as they salvage the ship pieces.</text>
+	<text>One of the turrets is launched off into empty space as the ship explodes, throwing valuable debris in every direction.</text>
+</textList>
+
+<event name="DEAD_CREW_OG_MIDNIGHT">
+	<text load="TEXT_DEAD_CREW_OG_MIDNIGHT"/>
+	<autoReward level="HIGH">standard</autoReward>
+</event>
+<textList name="TEXT_DEAD_CREW_OG_MIDNIGHT">
+	<text>"Your bloodlust... will be your downfall someday, Renegade. You are only proof... the Federation... is no better than the Rebellion..."</text>
+	<text>Without a word, the Midnight Sun captain falls to the ground, gasping for air as the life is extinguished from their eyes. You salvage the hull of their ship.</text>
+	<text>"You will regret this! Karma always comes back to people like you. Damn you Renegades..."</text>
+</textList>
+
+<event name="SURRENDER_OG_MIDNIGHT">
+	<text load="TEXT_SURRENDER_OG_MIDNIGHT"/>
+	<choice>
+		<text>Accept their surrender.</text>
+		<event load="SURRENDER_ACCEPT"/>
+	</choice>
+	<choice>
+		<text load="GENERIC_SURRENDER_CHOICE_NOMERCY"/>
+		<event/>
+	</choice>
+</event>
+<textList name="TEXT_SURRENDER_OG_MIDNIGHT">
+	<text>"Alright, you win! Here's some equipment from our stores. Leave us alone!"</text>
+	<text>The ship repeatedly hails you. It looks like they want to surrender.</text>
+	<text>"You are considerably more well-armed than I would have thought. We surrender."</text>
+	<text>They send you a message: "Your ship is surprisingly well equipped! Please take this and let us live."</text>
+	<text>"Please don't kill us. We will give you everything we have!"</text>
+	<text>They offer you some of their cargo if you let them live.</text>
+	<text>They offer to give you some of their goods if you don't destroy their ship.</text>
+	<text>You get a frantic message, "Take everything we have. Just don't kill us!"</text>
+	<text>"You have clearly bested us. We merely request our lives."</text>
+	<text>"You have made your point, we are beaten. Take these and leave us to our shame."</text>
+	<text>"Take everything we have and let's both forget this happened."</text>
+</textList>
+
+<event name="ESCAPE_OG_MIDNIGHT">
+	<text>Scans show that the Midnight Sun ship is trying to escape. Destroy it before it can get away!</text>
+</event>
+
+<eventList name="GOTAWAY_OG_MIDNIGHT">
+	<event load="GOTAWAY_OG_MIDNIGHT_GENERIC"/>
+	<event load="GOTAWAY_OG_MIDNIGHT_GENERIC"/>
+	
+	<event load="GOTAWAY_OG_MIDNIGHT_REMAINS"/>
+</eventList>
+<event name="GOTAWAY_OG_MIDNIGHT_GENERIC">
+	<text load="TEXT_GOTAWAY_OG_MIDNIGHT"/>
+</event>
+<textList name="TEXT_GOTAWAY_OG_MIDNIGHT">
+	<text>The Midnight Sun vessel has slipped from your grasp, abandoning you at the beacon.</text>
+	<text>Your attempts at destroying the Midnight Sun vessel have failed, and the ship has escaped.</text>
+</textList>
+<event name="GOTAWAY_OG_MIDNIGHT_REMAINS">
+	<text>The Midnight Sun vessel may have escaped, but not everything has gone wrong. A trail of scrap from the wreckage has been left behind, which you collect.</text>
+	<autoReward level="LOW">scrap_only</autoReward>
+</event>
+
+<ship name="SHIP_OG_MIDNIGHT_ALL" auto_blueprint="LIST_SHIPS_OG_MIDNIGHT_ALL">
+	<surrender  chance="0.4" min="2" max="3" load="SURRENDER_OG_MIDNIGHT"/>
+	<escape  chance="0.3" min="3" max="4" load="ESCAPE_OG_MIDNIGHT"/>
+	<gotaway load="GOTAWAY_OG_MIDNIGHT"/>
+	<destroyed load="DESTROYED_OG_MIDNIGHT"/>
+	<deadCrew load="DEAD_CREW_OG_MIDNIGHT"/>
+</ship>
+<ship name="SHIP_OG_MIDNIGHT_GENERIC" auto_blueprint="LIST_SHIPS_OG_MIDNIGHT_GENERIC">
+	<surrender  chance="0.4" min="2" max="3" load="SURRENDER_OG_MIDNIGHT"/>
+	<escape  chance="0.3" min="3" max="4" load="ESCAPE_OG_MIDNIGHT"/>
+	<gotaway load="GOTAWAY_OG_MIDNIGHT"/>
+	<destroyed load="DESTROYED_OG_MIDNIGHT"/>
+	<deadCrew load="DEAD_CREW_OG_MIDNIGHT"/>
+</ship>
+<ship name="SHIP_OG_MIDNIGHT_FIGHT" auto_blueprint="LIST_SHIPS_OG_MIDNIGHT_FIGHT">
+	<escape  chance="0.3" min="3" max="4" load="ESCAPE_OG_MIDNIGHT"/>
+	<gotaway load="GOTAWAY_OG_MIDNIGHT"/>
+	<destroyed load="DESTROYED_OG_MIDNIGHT"/>
+	<deadCrew load="DEAD_CREW_OG_MIDNIGHT"/>
+</ship>
+
+<!--TRANSPORT-->
+<ship name="SHIP_OG_MIDNIGHT_TRANSPORT_LOOT" auto_blueprint="OG_MIDNIGHT_TRANSPORT">
+	<escape timer="40" min="999" max="999" >
+		<text>They look like they don't want to fight. They are trying to escape.</text>
+		<ship hostile="true"/>
+	</escape>
+	<destroyed load="TRANSPORT_DESTROYED"/>
+	<deadCrew load="TRANSPORT_CAPTURE_OG_MIDNIGHT"/>
+</ship>
+
+<event name="TRANSPORT_OG_MIDNIGHT_LOOT" unique="true">
+	<preventQuest/>
+	<beaconType id="map_icon_transport" global="true" req="LOOT_COMPASS">
+		<color r="255" g="186" b="0" a="1"/>
+		<unvisitedTooltip>An unvisited location.</unvisitedTooltip>
+		<visitedTooltip>Explored location. Nothing left of interest.</visitedTooltip>
+		<undiscoveredTooltip>An unvisited location.</undiscoveredTooltip>
+	</beaconType>
+	<text>This beacon hosts a Midnight Sun transport. It's safe to bet the ship is most likely carrying some special tech. If you can kill its crew, their cargo will be yours.</text>
+	<ship load="SHIP_OG_MIDNIGHT_TRANSPORT_LOOT" hostile="false"/>
+	<choice>
+		<text>Demand the surrender of their goods.</text>
+		<event>
+			<text>You prepare to secure their cargo by force.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Avoid the ship.</text>
+		<event>
+			<text>They stay outside your weapons range, and eventually jump away.</text>
+			<choice hidden="true">
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice hidden="true">
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="TRANSPORT_CAPTURE_OG_MIDNIGHT" unique="true">
+	<text>The crew is dead, leaving you with the ship. Its cargo is yours for the taking. Aboard is the special tech you expected, which you bring back to your ship.</text>
+	<autoReward level="MED">standard_no_item</autoReward>
+	<achievement>ACH_TRANS_OG_MIDNIGHT</achievement>
+	<weapon name="LOOT_OG_MIDNIGHT_1"/>
+	<variable name="ach_trans_og_midnight" op="set" val="1"/>
+</event>
+
+<!--STORELIST-->
+<event name="STOREVENT_OG_NEUTRON_PLANET" unique="true">
+	<preventQuest/>
+	<beaconType id="map_icon_store_og_iron" global="true">
+		<color r="255" g="156" b="113" a="1"/>
+	</beaconType>
+	<img planet="PLANET_POPULATED"/>
+	<text>One of the few settlements in the system, this planet is protected by an incredibly dense atmosphere which mitigates some of the effects of the radiation. The store is located on the surface of the planet.</text>
+	<choice hidden="true">
+		<text>Fly down to the surface.</text>
+		<event>
+			<text>The dense atmosphere means it'll take a moment to get down to the surface, travelling here in the middle of the Neutron Storm could be difficult.</text>
+			<triggeredEvent event="STOREVENT_OG_NEUTRON_PLANET_ARRIVE" time="60" thisFight="false" clearOnJump="true">
+				<triggeredEventBox load="DEFAULT_SMALL">
+					<tooltip>Time until you arrive on the surface of the planet!</tooltip>
+				</triggeredEventBox>
+				<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+			</triggeredEvent>
+			<choice>
+				<text>Continue...</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the planet.</text>
+		<event>
+			<text>You prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="STOREVENT_OG_NEUTRON_PLANET_ARRIVE">
+	<text>You finally arrive on the surface of the planet, you take a moment to rest before heading to the store.</text>
+	<store>STORE_STANDARD_OG_TURRETS</store>
+	<choice>
+		<text>Do something onboard the ship.</text>
+		<event load="STORAGE_CHECK"/>
+	</choice>
+	<choice>
+		<text>Do nothing.</text>
+		<event/>
+	</choice>
+</event>
+
+<ship name="SHIP_OG_MIDNIGHT_STORE" auto_blueprint="LIST_SHIPS_OG_MIDNIGHT_FIGHT">
+	<destroyed>
+		<text load="TEXT_DESTROYED_OG_MIDNIGHT"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice>
+			<text>Continue...</text>
+			<event load="STOREVENT_OG_NEUTRON_MIDNIGHT_WIN"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="TEXT_DEAD_CREW_OG_MIDNIGHT"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice>
+			<text>Continue...</text>
+			<event load="STOREVENT_OG_NEUTRON_MIDNIGHT_WIN"/>
+		</choice>
+	</deadCrew>
+</ship>
+<event name="STOREVENT_OG_NEUTRON_MIDNIGHT_ATTACK" unique="true">
+	<preventQuest/>
+	<beaconType id="map_icon_hostilestore" global="false">
+		<color r="215" g="175" b="175" a="1"/>
+	</beaconType>
+	<text>The distress beacon appears to be originating from a small Iron Watch outpost under attack from a strange stealth ship!</text>
+	<ship load="SHIP_OG_MIDNIGHT_STORE" hostile="false"/>
+	<choice hidden="true">
+		<text>Rescue the store.</text>
+		<event>
+			<text>You prepare for combat.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore the outpost.</text>
+		<event>
+			<text>Fortunately the ship remain oblivious to your presence.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="STOREVENT_OG_NEUTRON_MIDNIGHT_WIN">
+	<text>You have rescued the store from their attackers. The store owners offer to trade.</text>
+	<store>STORE_WEAK_OG_TURRETS</store>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+
+<!--ITEMS-->
+<eventList name="ITEMS_OG_NEUTRON">
+	<event load="OG_NEUTRON_RESCUE_CIVILIAN"/>
+	<event load="OG_NEUTRON_HAZARD_ASTEROID_FIELD"/>
+	<event load="OG_NEUTRON_DAWN_WRECK"/>
+	
+	<event load="OG_IRON_DEFENCE_DRONE"/>
+</eventList>
+
+<event name="OG_NEUTRON_RESCUE_CIVILIAN" unique="true">
+	<text>A small transport is adrift at this beacon, sensors indicate that the ship is battered and running on the absolute minimum power to keep the 2 occupants alive, huddled together at the back of the ship.</text>
+	<choice hidden="true">
+		<text>Dock and rescue them.</text>
+		<event>
+			<text>The two humans inside are visibly shaken, half starved and frozen. They explain that they barely survived getting stranded in the middle of the neutron storm as it passed through the area.
+
+They're grateful for your help and offer to reward you once you deliver them to somewhere safe, like the exit beacon or a store.</text>
+			<crewMember amount="2" class="human_og_civilian">Civilian</crewMember>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You leave the ship and it's crew helplessly drifting. Their sensors, along with most of the rest of their ship, were offline, so at least they won't know how close they came to being saved.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_HAZARD_ASTEROID_FIELD" unique="true">
+	<img back="BACK_SECTOR_OG_NEUTRON_STATION" planet="NONE"/>
+	<environment type="asteroid" />
+	<text>This beacon has unfortunately been placed right up against a large pulsar, and to make matters worse it's also in the middle of an asteroid field.
+
+The only upside is that because of how dangerous this place is, no one has been able to extract the valuable resources in this asteroid field.</text>
+	<choice req="BEAM_MINING" hidden="true">
+		<text>(Mining Equipment - 15s) Attempt to mine the asteroids.</text> 
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_15"/>
+	</choice>
+	<choice req="DRONE_CONTROL_MINING_DRONE" hidden="true">
+		<text>(Mining Drone - 15s) Attempt to mine the asteroids. [-1|]</text> 
+		<event>
+			<text>You launch your mining drone to begin cutting away at the rock faces your ship can't reach.</text>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+			<choice>
+				<text>Do nothing.</text>
+				<event load="OG_NEUTRON_ASTEROID_FIELD_START_15"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="SCRAP_COLLECTOR" hidden="true">
+		<text>(Scrap Recovery Arm - 30s) Attempt to mine the asteroids.</text>
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_30"/>
+	</choice>
+	<choice req="DRONE_CONTROL_BEAM_DRONE" hidden="true">
+		<text>(Beam Drone - 30s) Attempt to mine the asteroids. [-1|]</text> 
+		<event>
+			<text>You launch your beam drone to begin cutting away at the rock faces your ship can't reach.</text>
+			<item_modify>
+				<item type="drones" min="-1" max="-1"/>
+			</item_modify>
+			<choice>
+				<text>Do nothing.</text>
+				<event load="OG_NEUTRON_ASTEROID_FIELD_START_30"/>
+			</choice>
+		</event>
+	</choice>
+	<choice req="BLUELIST_BEAMS_DAMAGE" hidden="true">
+		<text>(Damaging Beam Weapon - 30s) Attempt to mine the asteroids. [-1|]</text> 
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_45"/>
+	</choice>
+	<choice req="MAGNET_ARM" hidden="true">
+		<text>(Magnetic Arm - 45s) Attempt to mine the asteroids.</text>
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_30"/>
+	</choice>
+	<choice req="LIST_CREW_ENGINEER" hidden="true">
+		<text>(Engineering Crew - 45s) Attempt to mine the asteroids. [-1|]</text> 
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_45"/>
+	</choice>
+	<choice hidden="true">
+		<text>(No Equipment - 60s) Attempt to mine the asteroids.</text>
+		<event load="OG_NEUTRON_ASTEROID_FIELD_START_60"/>
+	</choice>
+	<choice>
+		<text>Ignore the asteroid field.</text>
+		<event>
+			<text>You make preparations to jump as soon as possible.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="OG_NEUTRON_ASTEROID_FIELD_START_60">
+	<text>You begin cutting into some nearby asteroids where your sensors indicate useful minerals.</text>
+	<triggeredEvent event="OG_NEUTRON_ASTEROID_FIELD_FINISH" time="60" clearOnJump="true" thisFight="false">
+		<triggeredEventBox load="DEFAULT_SMALL">
+			<warning time="5.0" flash="false"/>
+			<tooltip>Time until you'll have extracted the minerals from the asteroid.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<choice>
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<event name="OG_NEUTRON_ASTEROID_FIELD_START_45">
+	<text>You begin cutting into some nearby asteroids where your sensors indicate useful minerals.</text>
+	<triggeredEvent event="OG_NEUTRON_ASTEROID_FIELD_FINISH" time="45" clearOnJump="true" thisFight="false">
+		<triggeredEventBox load="DEFAULT_SMALL">
+			<warning time="5.0" flash="false"/>
+			<tooltip>Time until you'll have extracted the minerals from the asteroid.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<choice>
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<event name="OG_NEUTRON_ASTEROID_FIELD_START_30">
+	<text>You begin cutting into some nearby asteroids where your sensors indicate useful minerals.</text>
+	<triggeredEvent event="OG_NEUTRON_ASTEROID_FIELD_FINISH" time="30" clearOnJump="true" thisFight="false">
+		<triggeredEventBox load="DEFAULT_SMALL">
+			<warning time="5.0" flash="false"/>
+			<tooltip>Time until you'll have extracted the minerals from the asteroid.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<choice>
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<event name="OG_NEUTRON_ASTEROID_FIELD_START_15">
+	<text>You begin cutting into some nearby asteroids where your sensors indicate useful minerals.</text>
+	<triggeredEvent event="OG_NEUTRON_ASTEROID_FIELD_FINISH" time="15" clearOnJump="true" thisFight="false">
+		<triggeredEventBox load="DEFAULT_SMALL">
+			<warning time="5.0" flash="false"/>
+			<tooltip>Time until you'll have extracted the minerals from the asteroid.</tooltip>
+		</triggeredEventBox>
+		<timerSounds load="DEFAULT_TIMER_SOUNDS"/>
+	</triggeredEvent>
+	<choice>
+		<text>Continue...</text>
+		<event/>
+	</choice>
+</event>
+<event name="OG_NEUTRON_ASTEROID_FIELD_FINISH">
+	<text>You carefully extract as much usable material as possible from the nearest asteroids.</text>
+	<autoReward level="HIGH">scrap_only</autoReward>
+</event>
+
+<ship name="SHIP_OG_NEUTRON_DAWN_WRECK" auto_blueprint="LIST_SHIPS_OG_DAWN_FIGHT">
+	<destroyed load="DESTROYED_GHOST"/>
+	<deadCrew load="DEAD_CREW_GHOST"/>
+	<crew>
+		<crewMember type="phantom_goul" prop="0.33"/>
+		<crewMember type="phantom_wraith" prop="0.33"/>
+		<crewMember type="phantom_mare" prop="0.33"/>
+	</crew>
+</ship>
+
+<event name="OG_NEUTRON_DAWN_WRECK" unique="true">
+	<environment type="pulsar"/>
+	<ship load="SHIP_OG_NEUTRON_DAWN_WRECK" hostile="false"/>
+	<text>You've come across the wreck of a strange ship. It appears to be one the New Dawn ships you've heard of around here.</text>
+	<choice hidden="true">
+		<text>Investigate.</text>
+		<event>
+			<text>Before you're able to investigate anything the ship roars to life, your scans now indicate that it's under control of Ghosts!</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You avoid the ship and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--Neutral-->
+<eventList name="NEUTRAL_OG_NEUTRON">
+	<event load="OG_NEUTRON_MANTIS_LIFEBOAT"/>
+	<event load="OG_NEUTRON_IRON_SCAVENGER"/>
+	<event load="OG_NEUTRON_SCIENTIST"/>
+
+	<event load="OG_IRON_DAWN_SETUP"/>
+	<event load="OG_DAWN_REBEL_DAWN_INFIGHT"/>
+	<event load="FILLER_EXPLORE"/>
+</eventList>
+
+<ship name="SHIP_OG_NEUTRON_PIRATE_MANTIS_LIFEBOAT" auto_blueprint="LIST_SHIPS_PIRATE_ALL">
+	<surrender  chance="0.4" min="2" max="3">
+		<text load="TEXT_SURRENDER_PIRATE"/>
+		<choice>
+			<text>Accept their surrender.</text>
+			<event>
+				<text>They transfer the payment.</text>
+				<ship hostile="false"/>
+				<autoReward level="RANDOM">stuff</autoReward>
+				<choice hidden="true">
+					<text>Continue...</text>
+					<event load="OG_NEUTRON_MANTIS_LIFEBOAT_INSPECT"/>
+				</choice>
+			</event>
+		</choice>
+		<choice>
+			<text load="GENERIC_SURRENDER_CHOICE_NOMERCY"/>
+			<event/>
+		</choice>
+	</surrender>
+	<escape  chance="0.3" min="3" max="4" load="ESCAPE_PIRATE"/>
+	<gotaway>
+		<text load="TEXT_GOTAWAY_PIRATE"/>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_MANTIS_LIFEBOAT_INSPECT"/>
+		</choice>
+	</gotaway>
+	<destroyed>
+		<text load="TEXT_DESTROYED_PIRATE"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_MANTIS_LIFEBOAT_INSPECT"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="TEXT_DEAD_CREW_PIRATE"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_MANTIS_LIFEBOAT_INSPECT"/>
+		</choice>
+	</deadCrew>
+</ship>
+<event name="OG_NEUTRON_MANTIS_LIFEBOAT" unique="true">
+	<ship load="SHIP_OG_NEUTRON_PIRATE_MANTIS_LIFEBOAT" hostile="false"/>
+	<text>You arrive at the beacon to discover a pirate vessel inspecting what appears to be a small lifeboat, so small it isn't even equipped with an FTL drive.
+
+The pirates are broadcasting on a public channel, "Look guys, 16 is just too much, no one wanted to buy you, you have the lifeboat now, you'll find something to do, I'm sure. Best of luck." With that the pirates disengage from the lifeboat.</text>
+	<choice hidden="true">
+		<text>Let the pirates leave.</text>
+		<event name="OG_NEUTRON_MANTIS_LIFEBOAT_INSPECT">
+			<text>You turn you attention to the lifeboat, scans indicate- that can't be right? 16 fucking mantis?</text>
+			<choice>
+				<text>Offer to take them onboard and deliver them somewhere safe.</text>
+				<event>
+					<text>The mantis promise to be good, they say they'll reward you greatly when you deliver them somewhere safe.</text>
+					<crewMember amount="16" class="mantis_og_civilian">Civilian</crewMember>
+				</event>
+			</choice>
+			<choice>
+				<text>Leave them be.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Attack the pirates.</text>
+		<event>
+			<text>You power on your weapons and move in to attack.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore the pirates and lifeboat.</text>
+		<event>
+			<text>You avoid the ship and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_IRON_SCAVENGER" unique="true">
+	<environment type="asteroid"/>
+	<ship load="SHIP_OG_IRON_FIGHT" hostile="false"/>
+	<text>You arrive at the beacon in the middle of an asteroid field, apparently this is a popular destination given the number of wrecks around.
+Nearby you detect an Iron Watch vessel, they appear to be scavenging the wrecks, searching for anything of value, they appear to be ignoring you.</text>
+	<choice>
+		<text>Scavenge the wrecks.</text>
+		<event>
+			<text>You begin salvaging the wrecks, but you aren't able to secure much of value before the Iron Watch scavenger interrupts you efforts with a well aimed laser.</text>
+			<autoReward level="LOW">stuff</autoReward>
+			<ship hostile="true"/>
+			<choice>
+				<text>Prepare to fight!</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Attack the ship.</text>
+		<event>
+			<text>You ready your weapons and move in to attack, they must have been watching you and ready their own weapons.</text>
+			<ship hostile="true"/>
+			<choice>
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You avoid the ship and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_SCIENTIST" unique="true">
+	<environment type="pulsar"/>
+	<ship load="SHIP_OG_IRON_GENERIC" hostile="false"/>
+	<text>You arrive at the beacon to discover an Iron Watch vessel tending to a small satellite in orbit of the pulsar here. They appear to be trying to fix something with the satellite, you can make out one of their crew outside of the ship.</text>
+	<choice>
+		<text>Hail the ship.</text>
+		<event>
+			<text>"Greetings Captain. I don't suppose you could help us here, our satellite appear to be malfunctioning, we've just been getting junk data for a few weeks now. Could you take a look?"</text>
+			<choice req="LIST_CREW_OG_IRON" hidden="true">
+				<text>(Iron Watch Crew) Have your Iron Watch crewmember take a look at it.</text>
+				<event load="OG_NEUTRON_SCIENTIST_GOOD"/>
+			</choice>
+			<choice req="LIST_CREW_ENGINEER" hidden="true">
+				<text>(Engineer Crew) Have your engineer take a look at it.</text>
+				<event load="OG_NEUTRON_SCIENTIST_OKAY"/>
+			</choice>
+			<choice req="LIST_CREW_ENGI" hidden="true">
+				<text>(Engi Crew) Have your engi take a look at it.</text>
+				<event load="OG_NEUTRON_SCIENTIST_GOOD"/>
+			</choice>
+			<choice req="DRONE_CONTROL_REPAIR_ALL">
+				<text>(Repair Drone) Deploy a repair drone.</text>
+				<event load="OG_NEUTRON_SCIENTIST_GOOD"/>
+			</choice>
+			<choice hidden="true" req="LIST_CREW_SABOTEUR">
+				<text>(Slug Saboteur) Have your Slug hack into the satellite to investigate the malfunction.</text>
+				<event load="OG_NEUTRON_SCIENTIST_OUTCOME_DETECTION"/>
+			</choice>
+			<choice hidden="true" req="hacking">
+				<text>(Hacking) Hack into the satellite to investigate the malfunction.</text>
+				<event load="OG_NEUTRON_SCIENTIST_GOOD"/>
+			</choice>
+			<choice hidden="true" req="LIST_CREW_LANIUS">
+				<text>(Lanius Crew) Have your lanius take a look at it.</text>
+				<event load="OG_NEUTRON_SCIENTIST_BAD"/>
+			</choice>
+			<choice hidden="true" req="weapons" lvl="5">
+				<text>(Adv. Weapons) Attempt percussive maintenance.</text>
+				<event load="OG_NEUTRON_SCIENTIST_OUTCOME_FAILURE"/>
+			</choice>
+			<choice hidden="true">
+				<text>Take a look yourself.</text>
+				<event load="OG_NEUTRON_SCIENTIST_BAD"/>
+			</choice>
+			<choice hidden="true">
+				<text>Say that you can't help.</text>
+				<event>
+					<text>"That's too bad, well thanks for hearing us out anyway."</text>
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Attack the ship.</text>
+		<event>
+			<text>You ready your weapons and move in to attack, they must have been watching you and ready their own weapons.</text>
+			<ship hostile="true"/>
+			<choice>
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You avoid the ship and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<eventList name="OG_NEUTRON_SCIENTIST_GOOD">
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_DETECTION"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR"/>
+</eventList>
+<eventList name="OG_NEUTRON_SCIENTIST_OKAY">
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_DETECTION"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR_PARTIAL"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR_PARTIAL"/>
+</eventList>
+<eventList name="OG_NEUTRON_SCIENTIST_BAD">
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR_PARTIAL"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_NOHELP"/>
+	<event load="OG_NEUTRON_SCIENTIST_OUTCOME_FAILURE"/>
+</eventList>
+
+<event name="OG_NEUTRON_SCIENTIST_OUTCOME_DETECTION">
+	<text>You identify the cause of the malfunction, the satellite had been bugged. It appears to be a very high tech operation, they left almost no trace, but you managed to recover some deleted data, a snapshot of a dark stealth ship flying away from the satellite, you can make out only a faint gold insignia on the side, but nothing more. "Wow! Thanks for the help, we'll be sure to bring this up the chain of command, you can have all the supplies we can spare, thanks."	</text>
+	<autoReward level="HIGH">stuff</autoReward>
+</event>
+<event name="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR">
+	<text>You manage to identify the cause of the malfunction, it appears the satellite had been bugged, someone had tried to covertly disable the satellite, unfortunately there isn't a trace of who did it. "Wow, great work, here I insist you take these supplies as a thank you for the help, we'll make sure to look out for more bugs like that in the future, or until the culprit is found."</text>
+	<autoReward level="MED">stuff</autoReward>
+</event>
+<event name="OG_NEUTRON_SCIENTIST_OUTCOME_REPAIR_PARTIAL">
+	<text>You identify a few faults, but nothing related to the malfunction. "I appreciate the help, even if we still don't appear to be any closer to a solution, take some supplies as a thank you for your time."</text>
+	<autoReward level="LOW">stuff</autoReward>
+</event>
+<event name="OG_NEUTRON_SCIENTIST_OUTCOME_NOHELP">
+	<text>"I appreciate the attempt, but this clearly isn't going anywhere." They politely but forcefully go back to repairing it themselves.</text>
+</event>
+<event name="OG_NEUTRON_SCIENTIST_OUTCOME_FAILURE">
+	<text>"What are you doing! You've destroyed the satellite, what were you thinking! That's it, you're paying for the replacement!" With that they activate their weapons, prepare for battle!</text>
+	<ship hostile="true"/>
+	<choice>
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+
+<!--Distress-->
+<eventList name="DISTRESS_OG_NEUTRON">
+	<event load="OG_NEUTRON_DISTRESS_CIVILIAN"/>
+	<event load="OG_NEUTRON_DISTRESS_PIRATE"/>
+
+	<event load="OG_IRON_DISTRESS_PULSAR"/>
+</eventList>
+
+
+<ship name="SHIP_OG_DAWN_DISTRESS_CIVILIAN" auto_blueprint="LIST_SHIPS_OG_DAWN_FIGHT">
+	<destroyed>
+		<text load="TEXT_DESTROYED_OG_DAWN"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DISTRESS_CIVILIAN_FOLLOWUP"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="TEXT_DEAD_CREW_OG_DAWN"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice hidden="true">
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DISTRESS_CIVILIAN_FOLLOWUP"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="OG_NEUTRON_DISTRESS_CIVILIAN" unique="true">
+	<distressBeacon/>
+	<ship load="SHIP_OG_DAWN_DISTRESS_CIVILIAN" hostile="false"/>
+	<text>You arrive at the beacon to discover the source of the distress beacon is a civilian shuttle, and the source of their distress, a New Dawn ship bearing down on them, weapons hot.</text>
+	<choice>
+		<text>Aid the civilian ship.</text>
+		<event>
+			<text>You power on your weapons and move in to attack.</text>
+			<ship hostile="true"/>
+			<choice hidden="true">
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice hidden="true">
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You avoid the ship and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="OG_NEUTRON_DISTRESS_CIVILIAN_FOLLOWUP">
+	<text>You turn your attention back to the civilian shuttle, it isn't hard to located them. The shuttle is heavily damaged, far beyond repair, especially out here in the middle of nowhere.
+
+The inhabitants of the shuttle, a pair of humans request that you deliver them to the nearest safe zone, they promise to reward you fairly upon arrival.</text>
+	<choice hidden="true">
+		<text>Accept them onboard.</text>
+		<event>
+			<text>They come aboard and fervently promise to try and stay out of the way and out of trouble.</text>
+			<crewMember amount="2" class="human_og_civilian">Civilian</crewMember>
+		</event>
+	</choice>
+	<choice>
+		<text>Leave them to their fate.</text>
+		<event/>
+	</choice>
+</event>
+
+<event name="OG_NEUTRON_DISTRESS_PIRATE" unique="true">
+	<distressBeacon/>
+	<ship load="SHIP_PIRATE_ALL" hostile="false"/>
+	<text>To your dismay, the distress call emanates from a clearly marked pirate vessel. Scans indicate they're damaged, not beyond repair, but significant enough to be a problem.
+
+They immediately contact you on the open channels, probably trying to get ahead of you activating your weapons. "Listen Captain, I won't play games with ya, I know what we look like, an easy target, right?"</text>
+	<choice>
+		<text>Hear them out.</text>
+		<event>
+			<text>"We got caught in that big star's beam, the newton star or whatever they call it, really screwed us up, but we have something worth your while a genuwine piece of New Dawn technology! We couldn't work out how to use it ourselves, but I'm sure its valuable, it's the reason we got stuck out here after all."</text>
+			<choice hidden="true">
+				<text>Buy the "technology" in exchange for the parts they need to repair their FTL drive. [35~, 3|]</text>
+				<event>
+					<item_modify>
+						<item type="scrap" min="-20" max="-20"/>
+						<item type="missiles" min="-2" max="-2"/>
+					</item_modify>
+					<augment name="OG_TURRET_PREIGNITE_WEAK"/>
+					<instantEscape/>
+					<text>You offload the parts to them, they send over the "technology" which your computer is able to identify as a turret pre-energiser.</text>
+				</event>
+			</choice>
+			<choice>
+				<text>Refuse the offer.</text>
+				<event>
+					<text>You leave the ship to fend for itself and prepare for your next jump.</text>
+					<choice>
+						<text>Do something onboard the ship.</text>
+						<event load="STORAGE_CHECK"/>
+					</choice>
+					<choice>
+						<text>Do nothing.</text>
+						<event/>
+					</choice>
+				</event>
+			</choice>
+			<choice>
+				<text>Attack them!</text>
+				<event load="OG_NEUTRON_DISTRESS_PIRATE_ATTACK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Attack them!</text>
+		<event load="OG_NEUTRON_DISTRESS_PIRATE_ATTACK"/>
+	</choice>
+	<choice>
+		<text>Ignore the ship.</text>
+		<event>
+			<text>You leave the ship to fend for itself and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="OG_NEUTRON_DISTRESS_PIRATE_ATTACK">
+	<text>You power on your weapons and move in to attack.</text>
+	<enemyDamage amount="1" system="weapons"/>
+	<enemyDamage amount="2" system="shields"/>
+	<enemyDamage amount="1" system="engines"/>
+	<ship hostile="true"/>
+	<choice hidden="true">
+		<text>Continue...</text>
+		<event load="COMBAT_CHECK"/>
+	</choice>
+</event>
+<!--QUESTS-->
+<eventList name="QUESTS_OG_NEUTRON">
+	<event load="OG_NEUTRON_DIPLOMAT_START"/>
+</eventList>
+
+<ship name="SHIP_OG_MIDNIGHT_DIPLOMAT" auto_blueprint="LIST_SHIPS_OG_MIDNIGHT_FIGHT">
+	<destroyed>
+		<text load="TEXT_DESTROYED_OG_MIDNIGHT"/>
+		<autoReward level="MED">standard</autoReward>
+		<choice>
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DIPLOMAT_START_WIN"/>
+		</choice>
+	</destroyed>
+	<deadCrew>
+		<text load="TEXT_DEAD_CREW_OG_MIDNIGHT"/>
+		<autoReward level="HIGH">standard</autoReward>
+		<choice>
+			<text>Continue...</text>
+			<event load="OG_NEUTRON_DIPLOMAT_START_WIN"/>
+		</choice>
+	</deadCrew>
+</ship>
+
+<event name="OG_NEUTRON_DIPLOMAT_START" unique="true">
+	<preventQuest/>
+	<distressBeacon/>
+	<ship load="SHIP_OG_MIDNIGHT_DIPLOMAT" hostile="false"/>
+	<text>The distress beacon originates from an Iron Watch transport, heavily damaged with a dark liquid leaking from it's engines. The transport's turrets are barely fending off the attacks from another vessel, painted almost entirely black it appears to be a stealth vessel in design.</text>
+	<choice>
+		<text>Aid the transport.</text>
+		<event>
+			<text>You power up your weapons and move to protect the transport.</text>
+			<ship hostile="true"/>
+			<choice>
+				<text>Continue...</text>
+				<event load="COMBAT_CHECK"/>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>Ignore the transport.</text>
+		<event>
+			<text>You leave the transport to fend for itself and prepare for your next jump.</text>
+			<choice>
+				<text>Do something onboard the ship.</text>
+				<event load="STORAGE_CHECK"/>
+			</choice>
+			<choice>
+				<text>Do nothing.</text>
+				<event/>
+			</choice>
+		</event>
+	</choice>
+</event>
+<event name="OG_NEUTRON_DIPLOMAT_START_WIN">
+	<text>With the stealth ship dealt with you turn you attention back to the Iron Watch transport, it's in bad shape, scans indicate that it needs some serious repairs and soon.
+
+The transport hails you, you're greeted by an Important looking woman wearing a suit of Iron Watch colours. "This is Diplomat Horus, I presume you are the Federation Renegade I've been hearing about? Thank you for the help, however I have another favour to ask. I understand you are headed in the direction of the Federation Capital, Node 17, is that correct?"</text>
+	<choice>
+		<text>"We are."</text>
+		<event name="OG_NEUTRON_DIPLOMAT_START_EXPLAIN">
+			<text>"Then I would ask that you take me onboard, I must get to the Federation Base. I have a meeting with Federation Command about the rebel threat here, it's of utmost importance that I make it to that meeting in time, my crew tell me that my vessel is no longer in any kind of shape to make that journey."</text>
+			<choice>
+				<text>Accept her onboard.</text>
+				<event>
+					<text>You dock with the transport and take onboard the diplomat, the rest of the crew stay behind to get the transport to safety where it can be repaired.</text>
+					<crewMember amount="1" class="unique_og_iron_diplomat">Horus Weber</crewMember>
+				</event>
+			</choice>
+			<choice>
+				<text>Refuse the request.</text>
+				<event>
+					<text>You politely decline, she is visibly disappointed but doesn't push the issue any further.</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+	<choice>
+		<text>"We are not, sorry."</text>
+		<event>
+			<text>"That's unfortunate to hear, I fear I may not be able to make it in time then, if you see any other ships heading that way could you ask them if they can pick me up on the way, I'll be at the Iron Watch research base."</text>
+			<choice>
+				<text>"Actually we are headed that way."</text>
+				<event load="OG_NEUTRON_DIPLOMAT_START_EXPLAIN"/>
+			</choice>
+			<choice>
+				<text>Wish her luck.</text>
+				<event>
+					<text>With that you turn you attention to preparing your FTL drive for the next jump.</text>
+				</event>
+			</choice>
+		</event>
+	</choice>
+</event>
+
+<!--HOSTILE-->
+<eventList name="HOSTILE_OG_NEUTRON">
+	<event load="ENCOUNTER_OG_IRON"/>
+	<event load="ENCOUNTER_OG_DAWN_SHIP"/>
+	<event load="ENCOUNTER_OG_IRON_PULSAR"/>
+	<event load="ENCOUNTER_OG_PIRATE_PULSAR"/>
+	<event load="ENCOUNTER_REBEL"/>
+	<event load="ENCOUNTER_REBEL"/>
+</eventList>
+</FTL>

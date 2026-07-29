@@ -12,9 +12,11 @@
 
 		"data/events_sector_og_dawn.xml",
 		"data/events_sector_og_iron.xml",
+		"data/events_sector_og_neutron.xml",
 		"data/events_special_og_battlecruisers.xml",
 		
 		"data/events_sector_unexplored.xml.append",
+		"data/events_sector_showdown.xml.append",
 		"data/events_special_multiverse.xml.append",
 		"data/events_special_guards.xml.append",
 		"data/events_special_main.xml.append",
@@ -110,10 +112,10 @@
     "packaging": {
         "fullOriginal": [
 		    //assets1
-            "https://github.com/ftl-mv-translation/old-guard/raw/old-guard-english/FTL-Old-Guard-v2.17.zip",
+            "https://github.com/ftl-mv-translation/old-guard/raw/old-guard-english/FTL-Old-Guard-v3.3.zip",
 
         ],
         "prefix": "Old-Guard",
-        "version": "2.17"
+        "version": "3.3"
     }
 }

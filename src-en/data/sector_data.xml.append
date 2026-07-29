@@ -36,6 +36,7 @@
 </mod:findName>
 
 <mod:findName type="sectorType" name="SECRET">
+	<mod-append:name>SECTOR_OG_NEUTRON</mod-append:name>
 </mod:findName>
 
 <!--SECTORS-->
@@ -92,6 +93,8 @@
 		<blueprint name="phantom_mare" rarity="5"/>
 		<blueprint name="phantom_wraith" rarity="3"/>
 		<blueprint name="phantom_wraith_alpha" rarity="5"/>
+		<blueprint name="LASER_OG_TRIPLET_1" rarity="3"/>
+		<blueprint name="LASER_OG_TRIPLET_2" rarity="4"/>
 	</rarityList>
 	<startEvent>ENTER_OG_IRON</startEvent>
 	<removeFirstBeaconNebula/>
@@ -171,6 +174,8 @@
 		<blueprint name="phantom_mare" rarity="5"/>
 		<blueprint name="phantom_wraith" rarity="3"/>
 		<blueprint name="phantom_wraith_alpha" rarity="5"/>
+		<blueprint name="LASER_OG_TRIPLET_1" rarity="3"/>
+		<blueprint name="LASER_OG_TRIPLET_2" rarity="4"/>
 	</rarityList>
 	<startEvent>ENTER_SALE_OG_IRON</startEvent>
 	<removeFirstBeaconNebula/>
@@ -241,6 +246,8 @@
 		<blueprint name="phantom_mare" rarity="0"/>
 		<blueprint name="phantom_wraith" rarity="0"/>
 		<blueprint name="OG_TURRET_PREIGNITE_WEAK" rarity="3"/>
+		<blueprint name="LASER_OG_TRIPLET_1" rarity="2"/>
+		<blueprint name="LASER_OG_TRIPLET_2" rarity="3"/>
 	</rarityList>
 	<startEvent>ENTER_OG_DAWN_UNIQUE</startEvent>
 	<removeFirstBeaconNebula/>
@@ -250,7 +257,7 @@
 	<event name="MV_TRAVELER" min="1" max="2"/>
 	<priorityEvent name="NEMESIS_ENCOUNTER" min="0" max="1" req="prof_finalsector" lvl="1"/>
 	
-	<!--event name="NEBULA_ANURAK" min="1" max="1"/> <!--REROUTE EVENT FOR IRON UNIQUE COMING SOON USES INITATE HIDDEN AUG-->
+	<event name="STOREEVENT_OG_DAWN_REROUTE_NEUTRON" min="1" max="1"/> <!--REROUTE EVENT FOR IRON UNIQUE COMING SOON USES INITATE HIDDEN AUG-->
 	<event name="OG_DAWN_HEIST_START" min="1" max="1"/> <!--SHIP UNLOCK QUEST-->
 	
 	<event name="TRANSPORT_OG_DAWN_LOOT" min="1" max="1"/>
@@ -268,6 +275,77 @@
 	
 	<event name="PIRACY_LIST" min="1" max="3"/>
 	<event name="FILLER_LIST" min="5" max="5"/>
+</sectorDescription>
+
+
+<sectorDescription name="SECTOR_OG_NEUTRON" unique="true">
+	<nameList>
+		<name>Neutron Star Exclusion Zone</name>
+	</nameList>
+	<trackList>
+		<track>og_iron_neutron</track>
+		<track>og_iron</track>
+		<track>lostship</track>
+		<track>deepspace</track>
+	</trackList>
+	<rarityList>
+		<blueprint name="human_og_raider" rarity="2"/>
+		<blueprint name="human" rarity="1"/>
+		<blueprint name="human_medic" rarity="5"/>
+		<blueprint name="human_engineer" rarity="5"/>
+		<blueprint name="engi" rarity="5"/>
+		<blueprint name="engi_separatist" rarity="1"/>
+		<blueprint name="zoltan" rarity="0"/>
+		<blueprint name="zoltan_monk" rarity="0"/>
+		<blueprint name="zoltan_devotee" rarity="0"/>
+		<blueprint name="rock" rarity="3"/>
+		<blueprint name="rock_outcast" rarity="1"/>
+		<blueprint name="rock_commando" rarity="0"/>
+		<blueprint name="mantis" rarity="1"/>
+		<blueprint name="mantis_free" rarity="2"/>
+		<blueprint name="slug" rarity="4"/>
+		<blueprint name="slug_clansman" rarity="5"/>
+		<blueprint name="shell" rarity="0"/>
+		<blueprint name="shell_scientist" rarity="0"/>
+		<blueprint name="shell_mechanic" rarity="0"/>
+		<blueprint name="shell_guardian" rarity="0"/>
+		<blueprint name="crystal" rarity="5"/>
+		<blueprint name="crystal_liberator" rarity="0"/>
+		<blueprint name="orchid" rarity="5"/>
+		<blueprint name="orchid_vampweed" rarity="1"/>
+		<blueprint name="leech" rarity="4"/>
+		<blueprint name="lanius" rarity="5"/>
+		<blueprint name="phantom" rarity="4"/>
+		<blueprint name="phantom_goul" rarity="5"/>
+		<blueprint name="phantom_mare" rarity="5"/>
+		<blueprint name="phantom_wraith" rarity="3"/>
+		<blueprint name="phantom_wraith_alpha" rarity="5"/>
+		<blueprint name="LASER_OG_TRIPLET_1" rarity="3"/>
+		<blueprint name="LASER_OG_TRIPLET_2" rarity="4"/>
+	</rarityList>
+	<startEvent>START_OG_NEUTRON</startEvent>
+	<removeFirstBeaconNebula/>
+	<exitBeacon event="FINISH_BEACON_OG_NEUTRON" nebulaEvent="FINISH_BEACON_NEBULA" rebelEvent="FINISH_BEACON_FLEET_ACE"/>
+	<rebelBeacon event="FLEET_THREAT_OG_IRON_FLEET" nebulaEvent="NEBULA_LIGHT_FLEET_THREAT_HIGH"/>
+	<priorityEvent name="ANOMALY_SPAWNER" min="1" max="1" priority="1" req="ANOMALY_SPAWN_CHECK" lvl="1"/>
+	<event name="MV_TRAVELER" min="1" max="1"/>
+	<!--event name="SYLVAN" min="1" max="1"/-->
+	<priorityEvent name="NEMESIS_ENCOUNTER" min="0" max="1" req="prof_finalsector" lvl="1"/>
+	
+	<event name="OG_NEUTRON_HAZARD_RESEARCH_STATION" min="1" max="1"/>
+	
+	<event name="TRANSPORT_OG_MIDNIGHT_LOOT" min="1" max="1"/>
+	<event name="STOREVENT_OG_NEUTRON_PLANET" min="1" max="1"/>
+	<event name="STOREVENT_OG_NEUTRON_MIDNIGHT_ATTACK" min="1" max="1"/>
+	
+	<event name="ITEMS_OG_NEUTRON" min="3" max="4"/>
+	<event name="NEUTRAL_OG_NEUTRON" min="3" max="4"/>
+	<event name="DISTRESS_OG_NEUTRON" min="2" max="3"/>
+	<event name="QUESTS_OG_NEUTRON" min="1" max="1"/>
+	
+	<event name="HOSTILE_OG_NEUTRON" min="7" max="9"/>
+	
+	<event name="PIRACY_LIST" min="3" max="4"/>
 </sectorDescription>
 </FTL>
 <!--MV SECTORS-->
@@ -346,7 +424,7 @@
 	<mod-append:priorityEvent name="OG_BATTLECRUISER_CRYSTAL" min="0" max="1"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SECTOR_IMPERIAL_UNIQUE">
-	<mod-append:priorityEvent name="OG_BATTLECRUISER_CRYSTAL" min="0" max="1"/>
+	<mod-append:priorityEvent name="OG_BATTLECRUISER_CRYSTAL" min="1" max="1"/>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SECTOR_DUSKBRINGER">
 </mod:findName>
@@ -419,8 +497,16 @@
 <mod:findName type="sectorDescription" name="SECRET_ORIGINS_RUWEN">
 </mod:findName>
 <mod:findName type="sectorDescription" name="SECRET_ANCIENT">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="LASER_OG_TRIPLET_1" rarity="0"/>
+		<mod-append:blueprint name="LASER_OG_TRIPLET_2" rarity="0"/>
+	</mod:findLike>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SECRET_ROYAL">
+	<mod:findLike type="rarityList">
+		<mod-append:blueprint name="LASER_OG_TRIPLET_1" rarity="0"/>
+		<mod-append:blueprint name="LASER_OG_TRIPLET_2" rarity="0"/>
+	</mod:findLike>
 </mod:findName>
 <mod:findName type="sectorDescription" name="SECRET_SYLVAN">
 </mod:findName>

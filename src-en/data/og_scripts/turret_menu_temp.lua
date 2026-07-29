@@ -75,6 +75,7 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 					script.on_game_event(removeEvent.eventName, false, function()
 						--Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] = index
 						system.table.blueprint = weapon.blueprint.name
+						system.table.custom_animations = nil
 						shipManager:RemoveItem(weapon.blueprint.name, true)
 						if toAddBlueprint then
 							Hyperspace.App.gui.equipScreen:AddWeapon(toAddBlueprint, true, false)
@@ -110,6 +111,7 @@ local function turret_install_event(installEvent, sysName, shipManager, eventMan
 				script.on_game_event(removeEvent.eventName, false, function()
 					--Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemBlueprintVarName] = index
 					system.table.blueprint = item
+					system.table.custom_animations = nil
 					shipManager:RemoveItem(item, true)
 					if toAddBlueprint then
 						Hyperspace.App.gui.equipScreen:AddWeapon(toAddBlueprint, true, false)
@@ -167,6 +169,7 @@ script.on_internal_event(Defines.InternalEvents.PRE_CREATE_CHOICEBOX, function(e
 							local sys = Hyperspace.ships.player:GetSystem(Hyperspace.ShipSystem.NameToSystemId(sysName))
 							if sys.table then
 								sys.table.blueprint = ""
+								sys.table.custom_animations = nil
 								sys.table.charges = 0
 								sys.table.time = 0
 								sys.table.firingTime = 0
@@ -259,6 +262,7 @@ hideName["COMBAT_PRIME"] = Hyperspace.Text:GetText("og_lua_turret_hidename_prime
 hideName["BEAM_HARDSCIFI"] = Hyperspace.Text:GetText("og_lua_turret_hidename_scifi")
 hideName["GATLING_SYLVAN"] = Hyperspace.Text:GetText("og_lua_turret_hidename_sylvan")
 hideName["GATLING_SYLVAN_HONOR"] = Hyperspace.Text:GetText("og_lua_turret_hidename_sylvan_honor")
+hideName["LASER_CHAINGUN_GOLD"] = Hyperspace.Text:GetText("og_lua_turret_hidename_chaingun_gold")
 
 hideName["DDSHOTGUN_SOULPLAGUE"] = Hyperspace.Text:GetText("og_lua_turret_hidename_dd_soulplague")
 hideName["DDFOCUS_SOULPLAGUE"] = ""
@@ -287,6 +291,11 @@ hideName["DDLASER_CHARGE_DARKGOD"] = ""
 hideName["DDDEEP_ONE_SHOTGUN"] = ""
 hideName["DDDEEP_ONE_SHOTGUN_CHAOS"] = ""
 hideName["LASER_DISPARITY_LOOT"] = ""
+
+hideName["OG_TURRET_BEAM_NEUTRON_0"] = "A powerful weapon inspired by a dangerous star."
+hideName["OG_TURRET_BEAM_NEUTRON_1"] = "A powerful weapon inspired by a dangerous star."
+hideName["OG_TURRET_BEAM_NEUTRON_2"] = "A powerful weapon inspired by a dangerous star."
+hideName["OG_TURRET_BEAM_NEUTRON_3"] = "A powerful weapon inspired by a dangerous star."
 
 --
 mods.og.craftedCategories = {}
@@ -341,23 +350,32 @@ table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_PIERCE", match_cost
 table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_CHAINGUN", match_cost = true, component_amounts = {1}, components = {{ "LASER_CHAINGUN", "LASER_CHAINGUN_2", "LASER_CHAINGUN_DAMAGE", "LASER_CHARGE_CHAIN", "LASER_HULL_CHAINGUN"}}} )
 table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_BIO", match_cost = true, component_amounts = {1}, components = {{"LASER_BIO", "LOOT_CLAN_1", "BOMB_BIO", "ION_BIO", "LASER_FIRE", "LASER_FIRE_PLAYER"}}} )
 table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_HULL", match_cost = true, component_amounts = {1}, components = {{"LASER_HULL_1", "LASER_HULL_2", "LASER_HULL_3", "LASER_HULL_3_PLAYER", "LASER_HULL_CHAINGUN"}}} )
-table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_PARTICLE", match_cost = true, component_amounts = {1}, components = {{"LASER_PARTICLE", "LASER_PARTICLE_2", "BEAM_PARTICLE", "MISSILES_PARTICLE", "MISSILES_PARTICLE_PLAYER"}}} )
+table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_PARTICLE", match_cost = true, component_amounts = {1}, components = {{"LASER_PARTICLE", "LASER_PARTICLE_2", "BEAM_PARTICLE", "MISSILES_PARTICLE", "MISSILES_PARTICLE_PLAYER", "LASER_FIRE", "LASER_FIRE_PLAYER"}}} )
 table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_FROST", match_cost = true, component_amounts = {1}, components = {{"LASER_FROST_1", "LASER_FROST_2", "LASER_FROST_2_PLAYER", "SENTRY_FROST", "FROST_CHARGEGUN"}}} )
+table.insert(craftedLasers.items, {weapon = "OG_TURRET_LASER_TRIPLET", match_cost = true, component_amounts = {1}, components = {{ "LASER_OG_TRIPLET_1", "LASER_OG_TRIPLET_2", "LASER_HEAVY_CHAINGUN", "LASER_CHAINGUN_DAMAGE", "LASER_CHARGE_CHAIN", "LASER_HULL_CHAINGUN"}}} )
 
 table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_1", match_cost = true, component_amounts = {1}, components = {{"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2"}}} )
-table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_2", match_cost = true, component_amounts = {1}, components = {{"ION_FIRE", "ION_FIRE_PLAYER", "ION_BIO", "ION_TRI", "ION_STUN", "ION_STUN_2", "ION_STUN_HEAVY", "ION_STUN_CHARGEGUN", "ION_STUN_CHARGEGUN_PLAYER"}}} )
+table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_FIRE", match_cost = true, component_amounts = {1}, components = {{"ION_FIRE", "ION_FIRE_PLAYER", "ION_TRI"}}} )
+table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_PIERCE", match_cost = true, component_amounts = {1}, components = {{"ION_PIERCE_1", "ION_PIERCE_2", "ION_TRI"}}} )
+table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_STUN", match_cost = true, component_amounts = {1}, components = {{"ION_STUN", "ION_STUN_2", "ION_STUN_HEAVY", "ION_STUN_CHARGEGUN", "ION_STUN_CHARGEGUN_PLAYER"}}} )
+table.insert(craftedIons.items, {weapon = "OG_TURRET_ION_BIO", match_cost = true, component_amounts = {1}, components = {{"ION_BIO", "ION_TRI", "LASER_BIO"}}} )
 table.insert(craftedIons.items, {weapon = "OG_TURRET_ENERGY_1", match_cost = true, component_amounts = {1}, components = {{"ENERGY_1", "ENERGY_2", "ENERGY_2_PLAYER", "ENERGY_3", "ENERGY_HULL", "ENERGY_STUN", "ENERGY_STUN_PLAYER", "ENERGY_CHAINGUN", "ENERGY_CHARGEGUN", "ENERGY_CHARGEGUN_PLAYER"}}} )
 
-table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_1", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1", "CRYSTAL_BURST_2", "CRYSTAL_HEAVY_1", "CRYSTAL_HEAVY_2", "CRYSTAL_STUN", "CRYSTAL_SHOTGUN", "CRYSTAL_CHARGEGUN"}}} )
-table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_1_ELITE", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1_RED", "CRYSTAL_BURST_2_RED", "CRYSTAL_HEAVY_1_RED", "CRYSTAL_HEAVY_2_RED", "CRYSTAL_STUN_RED", "CRYSTAL_SHOTGUN_RED", "CRYSTAL_CHARGEGUN_RED"}}} )
+table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_1", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1", "CRYSTAL_BURST_2", "CRYSTAL_HEAVY_1", "CRYSTAL_HEAVY_2", "CRYSTAL_CHARGEGUN"}}} )
+table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_1_ELITE", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1_RED", "CRYSTAL_BURST_2_RED", "CRYSTAL_HEAVY_1_RED", "CRYSTAL_HEAVY_2_RED", "CRYSTAL_CHARGEGUN_RED"}}} )
+table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_SHOTGUN", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_STUN", "CRYSTAL_SHOTGUN", "CRYSTAL_CHARGEGUN"}}} )
+table.insert(craftedCrystals.items, {weapon = "OG_TURRET_CRYSTAL_SHOTGUN_ELITE", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_STUN_RED", "CRYSTAL_SHOTGUN_RED", "CRYSTAL_CHARGEGUN_RED"}}} )
 
 table.insert(craftedMissiles.items, {weapon = "OG_TURRET_MISSILE_1", match_cost = true, component_amounts = {1}, components = {{"MISSILES_1", "MISSILES_2", "MISSILES_BURST", "MISSILES_BURST_2", "MISSILES_BURST_2_PLAYER", "MISSILES_FREE"}}} )
 table.insert(craftedMissiles.items, {weapon = "OG_TURRET_MISSILE_2", match_cost = true, component_amounts = {1}, components = {{"MISSILES_3", "MISSILES_4", "MISSILES_ENERGY", "MISSILES_FIRE", "MISSILES_FIRE_PLAYER", "MISSILES_CLOAK", "MISSILES_CLOAK_PLAYER"}}} )
-table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_HEAVY", match_cost = true, component_amounts = {1}, components = {{"KERNEL_1", "KERNEL_1_ELITE", "KERNEL_2", "KERNEL_2_ELITE", "KERNEL_HEAVY", "KERNEL_HEAVY_ELITE"}}} )
-table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_FIRE", match_cost = true, component_amounts = {1}, components = {{"KERNEL_FIRE", "KERNEL_FIRE_ELITE", "KERNEL_CHAIN", "KERNEL_CHAIN_ELITE", "KERNEL_CHARGE", "KERNEL_CHARGE_ELITE"}}} )
+table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_HEAVY", match_cost = true, component_amounts = {1}, components = {{"KERNEL_1", "KERNEL_2", "KERNEL_HEAVY"}}} )
+table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_FIRE", match_cost = true, component_amounts = {1}, components = {{"KERNEL_FIRE", "KERNEL_CHAIN", "KERNEL_CHARGE"}}} )
+table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_HEAVY_ELITE", match_cost = true, component_amounts = {1}, components = {{"KERNEL_1_ELITE", "KERNEL_2_ELITE", "KERNEL_HEAVY_ELITE"}}} )
+table.insert(craftedMissiles.items, {weapon = "OG_TURRET_KERNEL_FIRE_ELITE", match_cost = true, component_amounts = {1}, components = {{ "KERNEL_FIRE_ELITE", "KERNEL_CHAIN_ELITE", "KERNEL_CHARGE_ELITE"}}} )
 
 table.insert(craftedFlak.items, {weapon = "OG_TURRET_FLAK_1", match_cost = true, component_amounts = {1}, components = {{"SHOTGUN_1", "SHOTGUN_2", "SHOTGUN_2_PLAYER", "SHOTGUN_3", "SHOTGUN_4", "SHOTGUN_CHARGE", "SHOTGUN_CHAIN", "SHOTGUN_INSTANT"}}} )
 table.insert(craftedFlak.items, {weapon = "OG_TURRET_FLAK_BIO", match_cost = true, component_amounts = {1}, components = {{"SHOTGUN_TOXIC", "SHOTGUN_TOXIC_PLAYER", "MISSILES_BIO", "BOMB_BIO", "SHOTGUN_INSTANT"}}} )
+table.insert(craftedFlak.items, {weapon = "OG_TURRET_FLAK_FIRE", match_cost = true, component_amounts = {1}, components = {{"SHOTGUN_FIRE", "SHOTGUN_ION", "SHOTGUN_1", "SHOTGUN_2", "SHOTGUN_2_PLAYER", "SHOTGUN_3", "SHOTGUN_4"}}} )
 
 table.insert(craftedPinpoints.items, {weapon = "OG_TURRET_FOCUS_1", match_cost = true, component_amounts = {1}, components = {{"FOCUS_1", "FOCUS_2", "FOCUS_3", "BEAM_1", "BEAM_2", "BEAM_2_PLAYER", "BEAM_3"}}} )
 table.insert(craftedPinpoints.items, {weapon = "OG_TURRET_FOCUS_BIO", match_cost = true, component_amounts = {1}, components = {{"FOCUS_BIO", "BEAM_BIO", "BEAM_BIO_CHAIN", "BEAM_BIO_CONSERVATIVE", "BEAM_GUILLOTINE", "BEAM_GUILLOTINE_PLAYER"}}} )
@@ -365,7 +383,13 @@ table.insert(craftedPinpoints.items, {weapon = "OG_TURRET_FOCUS_CHAIN", match_co
 
 table.insert(craftedMicro.items, {weapon = "OG_TURRET_LASER_MINI_1", match_cost = true, component_amounts = {1}, components = {{"LASER_BURST_2", "LASER_BURST_3", "LASER_BURST_3", "LASER_CONSERVATIVE"}}} )
 table.insert(craftedMicro.items, {weapon = "OG_TURRET_LASER_MINI_2", match_cost = true, component_amounts = {1}, components = {{"LASER_LIGHT", "LASER_LIGHT_2", --[["LASER_LIGHT_BURST",]] "LASER_LIGHT_CHARGEGUN", "LASER_LIGHT_CHARGEGUN_CHAOS"}}} )
-table.insert(craftedMicro.items, {weapon = "OG_TURRET_ION_MINI_1", match_cost = true, component_amounts = {1}, components = {{"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2", "ION_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_LASER_MINI_BIO", match_cost = true, component_amounts = {1}, components = {{"LASER_BIO", "LOOT_CLAN_1", "BOMB_BIO", "ION_BIO", "LASER_FIRE", "LASER_FIRE_PLAYER", "BEAM_BIO_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_LASER_MINI_CHAIN", match_cost = true, component_amounts = {1}, components = {{"LASER_BURST_2", "LASER_BURST_3", "LASER_CHAINGUN", "LASER_CHAINGUN_2", "LASER_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_LASER_MINI_PARTICLE", match_cost = true, component_amounts = {1}, components = {{"LASER_PARTICLE", "LASER_PARTICLE_2", "BEAM_PARTICLE", "LASER_FIRE", "LASER_FIRE_PLAYER", "LASER_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_ION_MINI_1", match_cost = true, component_amounts = {1}, components = {{"ION_FIRE", "ION_FIRE_PLAYER", "ION_TRI", "ION_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_ION_MINI_FIRE", match_cost = true, component_amounts = {1}, components = {{"ION_1", "ION_2", "ION_3", "ION_4", "ION_CHAINGUN", "ION_CHARGEGUN", "ION_CHARGEGUN_2", "ION_CONSERVATIVE"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_CRYSTAL_MINI", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1", "CRYSTAL_BURST_2", "CRYSTAL_CHARGEGUN"}}} )
+table.insert(craftedMicro.items, {weapon = "OG_TURRET_CRYSTAL_MINI_ELITE", match_cost = true, component_amounts = {1}, components = {{"CRYSTAL_BURST_1_RED", "CRYSTAL_BURST_2_RED", "CRYSTAL_CHARGEGUN_RED"}}} )
 table.insert(craftedMicro.items, {weapon = "OG_TURRET_FOCUS_MINI_1", match_cost = true, component_amounts = {1}, components = {{"FOCUS_1", "FOCUS_2", "FOCUS_3", "FOCUS_CHAIN", "FOCUS_BIO", "BEAM_CONSERVATIVE"}}} )
 table.insert(craftedMicro.items, {weapon = "OG_TURRET_FLAK_MINI_1", match_cost = true, component_amounts = {1}, components = {{"SHOTGUN_1", "SHOTGUN_2", "SHOTGUN_3", "SHOTGUN_4", "SHOTGUN_CHARGE", "SHOTGUN_CHAIN", "SHOTGUN_INSTANT"}}} )
 table.insert(craftedMicro.items, {weapon = "OG_TURRET_MISSILE_MINI_1", match_cost = true, component_amounts = {1}, components = {{"MISSILES_1", "MISSILES_2", "MISSILES_BURST", "MISSILES_BURST_2", "MISSILES_BURST_2_PLAYER", "MISSILES_FREE", "MISSILES_CONSERVATIVE"}}} )
@@ -373,8 +397,14 @@ table.insert(craftedMicro.items, {weapon = "OG_TURRET_MISSILE_MINI_1", match_cos
 table.insert(craftedSpecial.items, {weapon = "OG_TURRET_MISSILE_CLONE_CANNON", match_cost = true, component_amounts = {1}, components = {clone_cannon_list}} )
 table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_ANCIENT", match_cost = true, component_amounts = {1}, components = {{"ANCIENT_LASER", "ANCIENT_LASER_2", "ANCIENT_LASER_3", "ANCIENT_BEAM", "ANCIENT_BEAM_2", "ANCIENT_BEAM_3", "ANCIENT_DEFENSE_1"}}} )
 table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_CEL_1", match_cost = true, component_amounts = {1}, components = {{"PRIME_LASER", "COMBAT_PRIME", "BEAM_HARDSCIFI", "DEFENSE_PRIME"}}} )
-table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_GATLING", match_cost = true, component_amounts = {1}, components = {{"GATLING"}}} )
+table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_GATLING", match_cost = true, component_amounts = {1}, components = {{"GATLING", "GATLING_VERSION1", "GATLING_VERSION2", "GATLING_VERSION3", "GATLING_VERSION4", "GATLING_VERSION5", "GATLING_VERSION6", "GATLING_VERSION7", "GATLING_VERSION8"}}} )
+table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_CHAINGUN_GOLD", match_cost = true, component_amounts = {1}, components = {{"LASER_CHAINGUN_GOLD"}}} )
 table.insert(craftedSpecial.items, {weapon = "OG_TURRET_LASER_RIFTWAKER", match_cost = true, component_amounts = {1}, components = {{"GATLING_SYLVAN", "GATLING_SYLVAN_HONOR"}}} )
+
+table.insert(craftedSpecial.items, {weapon = "OG_TURRET_BEAM_NEUTRON_1", match_cost = true, component_amounts = {1, 1}, hidden_tooltip = true, components = {{"OG_TURRET_BEAM_NEUTRON_0"}, {"LASER_BURST_5", "LASER_BURST_8", "LASER_HEAVY_3", "LASER_PIERCE_2", "LASER_CHAINGUN_2", "LASER_HULL_3", "LASER_OG_TRIPLET_2", "ION_4", "MISSILES_3", "MISSILES_4", "ENERGY_3", "SHOTGUN_3", "SHOTGUN_4", "MINELAUNCHER_3", "FOCUS_3", "BEAM_LONG_2", "BEAM_HULL_2", "BEAM_3", "BEAM_4"}}} )
+table.insert(craftedSpecial.items, {weapon = "OG_TURRET_BEAM_NEUTRON_2", match_cost = true, component_amounts = {1}, hidden_tooltip = true, components = {{"OG_TURRET_BEAM_NEUTRON_1"}}} )
+table.insert(craftedSpecial.items, {weapon = "OG_TURRET_BEAM_NEUTRON_3", match_cost = true, component_amounts = {1}, hidden_tooltip = true, components = {{"OG_TURRET_BEAM_NEUTRON_2"}}} )
+
 
 -- DARKEST DESIRE
 
@@ -511,6 +541,9 @@ local function generate_crafts(event, player, eventManager, craftingTable)
 
 					hiddenSeen = true
 					--print("has Hidden Seen"..needed)
+					hasHidden = true
+				elseif hideName[needed] and player:HasEquipment(needed, true) > 0 then
+					hiddenSeen = true
 					hasHidden = true
 				elseif hideName[needed] then
 					hasHidden = true
@@ -733,9 +766,10 @@ script.on_init(function()
 		for _, craftingData in ipairs(craftingTable.items) do
 			local weaponBlueprint = Hyperspace.Blueprints:GetWeaponBlueprint(craftingData.weapon)
 			local name = weaponBlueprint.desc.title:GetText()
+			local hidden_tooltip = craftingData.hidden_tooltip
 			for _, components in ipairs(craftingData.components) do
 				for _, needed in ipairs(components) do
-					if hideName[needed] then
+					if hideName[needed] or hidden_tooltip then
 						if craftingMats[needed] then
 							table.insert(craftingMats[needed], {name = name, var = "og_turret_craft_"..craftingData.weapon})
 						else

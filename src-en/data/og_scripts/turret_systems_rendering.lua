@@ -64,23 +64,29 @@ local turret_states = mods.og.turret_states
 
 --HELPER FUNCTIONS
 local get_charge_time = mods.og.get_charge_time
+local add_stat_text = mods.og.add_stat_text
 
 --COLOURS
-local COLOR_WHITE   = Graphics.GL_Color(1, 1, 1, 1)
-local COLOR_OFF     = Graphics.GL_Color(150/255, 150/255, 150/255, 1)
-local COLOR_ON      = Graphics.GL_Color(243/255, 255/255, 230/255, 1)
-local COLOR_CHARGED = Graphics.GL_Color(120/255, 255/255, 120/255, 1)
-local COLOR_SINGLE  = Graphics.GL_Color(255/255, 255/255, 50/255, 1)
-local COLOR_AUTO    = Graphics.GL_Color(255/255, 120/255, 120/255, 1)
-local COLOR_HALF    = Graphics.GL_Color(1, 1, 1, 0.5)
-local COLOR_RED_25  = Graphics.GL_Color(1, 0, 0, 0.25)
-local COLOR_INDEX   = Graphics.GL_Color(40/255, 78/255, 82/255, 1)
+local COLOUR_WHITE   = Graphics.GL_Color(1, 1, 1, 1)
+local COLOUR_OFF     = Graphics.GL_Color(150/255, 150/255, 150/255, 1)
+local COLOUR_ON      = Graphics.GL_Color(243/255, 255/255, 230/255, 1)
+local COLOUR_CHARGED = Graphics.GL_Color(120/255, 255/255, 120/255, 1)
+local COLOUR_SINGLE  = Graphics.GL_Color(255/255, 255/255, 50/255, 1)
+local COLOUR_AUTO    = Graphics.GL_Color(255/255, 120/255, 120/255, 1)
+local COLOUR_HALF    = Graphics.GL_Color(1, 1, 1, 0.5)
+local COLOUR_RED  = Graphics.GL_Color(1, 0, 0, 1)
+local COLOUR_RED_25  = Graphics.GL_Color(1, 0, 0, 0.25)
+local COLOUR_INDEX   = Graphics.GL_Color(40/255, 78/255, 82/255, 1)
+
+local COLOUR_BLACK_TRANS = Graphics.GL_Color(0, 0, 0, 0.9)
+
+local inspectionImage = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_inspection.png", -31, -31, 0, COLOUR_WHITE, 1.0, false)
 
 --RENDER TARGETING ICON
 local targetingImage = {
-	hover = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed_hover.png", -20, -20, 0, COLOR_WHITE, 1.0, false),
-	temp = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed_temp.png", -20, -20, 0, COLOR_WHITE, 1.0, false),
-	full = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed.png", -20, -20, 0, COLOR_WHITE, 1.0, false),
+	hover = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed_hover.png", -20, -20, 0, COLOUR_WHITE, 1.0, false),
+	temp = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed_temp.png", -20, -20, 0, COLOUR_WHITE, 1.0, false),
+	full = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/crosshairs_placed.png", -20, -20, 0, COLOUR_WHITE, 1.0, false),
 }
 
 local autoFireOffButton= mods.og.autoFireOffButton
@@ -100,7 +106,7 @@ local function render_active_targeting(shipManager, otherManager, combatControl,
 				local targetPos = shipManager:GetRoomCenter(combatControl.selectedRoom)
 				Graphics.CSurface.GL_PushMatrix()
 				Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-				Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOR_RED_25)
+				Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOUR_RED_25)
 				Graphics.CSurface.GL_PopMatrix()
 			end
 		elseif currentTurret.shot_radius then
@@ -111,13 +117,14 @@ local function render_active_targeting(shipManager, otherManager, combatControl,
 			local targetPos = targetShipGraph:GetSlotWorldPosition(slotId, combatControl.selectedRoom)
 			Graphics.CSurface.GL_PushMatrix()
 			Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
-			Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOR_RED_25)
+			Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOUR_RED_25)
 			Graphics.CSurface.GL_PopMatrix()
 		end
 	end
 end
 
 local function render_targeting(shipManager, otherManager, system, currentTurret, currentTarget, temp)
+	if (not currentTarget) or (not currentTarget.roomId) then return end
 	local targetPos = shipManager:GetRoomCenter(currentTarget.roomId)
 	if currentTurret.blueprint_type == 3 then
 		local targetShipGraph = Hyperspace.ShipGraph.GetShipInfo(shipManager.iShipId)
@@ -126,7 +133,7 @@ local function render_targeting(shipManager, otherManager, system, currentTurret
 	Graphics.CSurface.GL_PushMatrix()
 	Graphics.CSurface.GL_Translate(targetPos.x, targetPos.y, 0)
 	if currentTurret.shot_radius then
-		Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOR_RED_25)
+		Graphics.CSurface.GL_DrawCircle(0, 0, currentTurret.shot_radius, COLOUR_RED_25)
 	end
 	if temp then
 		Graphics.CSurface.GL_RenderPrimitive(targetingImage.temp)
@@ -135,7 +142,7 @@ local function render_targeting(shipManager, otherManager, system, currentTurret
 	end
 	Graphics.CSurface.GL_PopMatrix()
 end
-
+ 
 script.on_render_event(Defines.RenderEvents.SHIP_SPARKS, function(ship) return Defines.Chain.CONTINUE end, function(ship) 
 	--local benchmark_start = os.clock()
 	local shipManager = Hyperspace.ships(ship.iShipId)
@@ -146,7 +153,13 @@ script.on_render_event(Defines.RenderEvents.SHIP_SPARKS, function(ship) return D
 			local system = otherManager:GetSystem(systemIdMap[sysName])
 			if system then
 				local currentTurret = turrets[ system.table.blueprint ]
-				if system.table.currentlyTargetting then
+				if system.table.currentTargetPoint then
+					local targetPoint = system.table.currentTargetPoint
+					local angle = system.table.currentTargetAngle or get_angle_between_points(targetPoint, worldToEnemyLocation(Hyperspace.Mouse.position))
+					local origin = offset_point_in_direction(targetPoint, angle, 0, 2000)
+					local dest = offset_point_in_direction(targetPoint, angle, 0, -2000)
+					Graphics.CSurface.GL_DrawLine(origin.x, origin.y, dest.x, dest.y, currentTurret.neutron_width, COLOUR_RED_25)
+				elseif system.table.currentlyTargetting then
 					render_active_targeting(shipManager, otherManager, combatControl, system, currentTurret, ship)
 				elseif system.table.currentTarget and system.table.state == turret_states.offence and not system.table.currentlyTargetted then
 					render_targeting(shipManager, otherManager, system, currentTurret, system.table.currentTarget, false)
@@ -169,7 +182,7 @@ local function render_target_icon(targetPos, otherManager, currentTurret, type)
 		local rad = (currentTurret.shot_radius or 0)
 		rad = rad/2
 		if otherManager and otherManager:HasAugmentation("DEFENSE_SCRAMBLER") > 0 then rad = rad + scrambler_radius end
-		Graphics.CSurface.GL_DrawCircle(0, 0, rad, COLOR_RED_25)
+		Graphics.CSurface.GL_DrawCircle(0, 0, rad, COLOUR_RED_25)
 	end
 	if type == 1 then
 		Graphics.CSurface.GL_RenderPrimitive(targetingImage.hover)
@@ -338,7 +351,7 @@ local function render_tutorial_systemBox(systemBox)
 		boxArrow:OnRender()
 	elseif tutorialType == 4 then
 		toggleModeArrow:OnRender()
-		Graphics.CSurface.GL_RenderPrimitiveWithColor(turretBoxToggleHover, COLOR_WHITE)
+		Graphics.CSurface.GL_RenderPrimitiveWithColor(turretBoxToggleHover, COLOUR_WHITE)
 	elseif tutorialType == 5 then
 		toggleModeArrow:OnRender()
 		Graphics.CSurface.GL_RenderPrimitive(back_tut)
@@ -379,24 +392,24 @@ local function system_render(systemBox, ignoreStatus)
 		local time = math.floor(0.5 + system.table.time * chargeTimeDisplay * 2)
 
 		Graphics.CSurface.GL_RenderPrimitive(turretBox)
-		Graphics.CSurface.GL_SetColor(COLOR_INDEX)
+		Graphics.CSurface.GL_SetColor(COLOUR_INDEX)
 		Graphics.freetype.easy_print(62, UIOffset_x + 19, UIOffset_y + 61, math.floor(system.table.index))
-		Graphics.CSurface.GL_SetColor(COLOR_WHITE)
+		Graphics.CSurface.GL_SetColor(COLOUR_WHITE)
 		Graphics.CSurface.GL_RenderPrimitive(turretBoxInnerBack)
 
 		local cApp = Hyperspace.App
 		local combatControl = cApp.gui.combatControl
 		local weapControl = combatControl.weapControl
 
-		local renderColour = COLOR_ON
+		local renderColour = COLOUR_ON
 		if not system_ready(system) then
-			renderColour = COLOR_OFF
+			renderColour = COLOUR_OFF
 		elseif system.table.currentlyTargetting and xor(mods.og.turret_autofire_setting == 0, system.table.autoFireInvert) then
-			renderColour = COLOR_AUTO
+			renderColour = COLOUR_AUTO
 		elseif system.table.currentlyTargetting then
-			renderColour = COLOR_SINGLE
+			renderColour = COLOUR_SINGLE
 		elseif charges == maxCharges then
-			renderColour = COLOR_CHARGED
+			renderColour = COLOUR_CHARGED
 		end
 
 		if targetButton.bHover and not (systemBox.table.offenceButton.bHover or systemBox.table.defenceButton.bHover) then
@@ -420,7 +433,7 @@ local function system_render(systemBox, ignoreStatus)
 		if currentTurret.chain and chainAmount > 0 then
 			Graphics.CSurface.GL_RenderPrimitiveWithColor(turretBoxChain, renderColour)
 		elseif currentTurret.chain then
-			Graphics.CSurface.GL_RenderPrimitiveWithColor(turretBoxChain, COLOR_OFF)
+			Graphics.CSurface.GL_RenderPrimitiveWithColor(turretBoxChain, COLOUR_OFF)
 		end
 
 		Graphics.CSurface.GL_PushMatrix()
@@ -447,15 +460,15 @@ local function system_render(systemBox, ignoreStatus)
 
 		if system_ready(system) and not system.table.currentlyTargetting and (system.table.currentTarget or system.table.currentTargetTemp) then
 			if xor(mods.og.turret_autofire_setting == 0, system.table.autoFireInvert) then
-				barColour = COLOR_AUTO
-				--Graphics.CSurface.GL_SetColorTint(COLOR_AUTO)
+				barColour = COLOUR_AUTO
+				--Graphics.CSurface.GL_SetColorTint(COLOUR_AUTO)
 			else
-				barColour = COLOR_SINGLE
-				--Graphics.CSurface.GL_SetColorTint(COLOR_SINGLE)
+				barColour = COLOUR_SINGLE
+				--Graphics.CSurface.GL_SetColorTint(COLOUR_SINGLE)
 			end
 		end
 
-		Graphics.CSurface.GL_SetColor(COLOR_WHITE)
+		Graphics.CSurface.GL_SetColor(COLOUR_WHITE)
 		if maxCharges == charges then
 			Graphics.freetype.easy_printNewlinesCentered(51, 53, -2, 80, tostring(math.floor(0.5 + chargeTime * 10)/10).."/"..tostring(math.floor(0.5 + chargeTime * 10)/10))
 		else
@@ -503,7 +516,7 @@ local function system_render(systemBox, ignoreStatus)
 		end
 
 		Graphics.CSurface.GL_PopMatrix()
-		Graphics.CSurface.GL_SetColor(COLOR_WHITE)
+		Graphics.CSurface.GL_SetColor(COLOUR_WHITE)
 
 		if lastTint then 
 			--Graphics.CSurface.GL_SetColorTint(lastTint)
@@ -522,7 +535,7 @@ local function system_render(systemBox, ignoreStatus)
 	elseif is_system(systemBox) then
 		Graphics.CSurface.GL_RenderPrimitive(turretBox)
 	end
-	Graphics.CSurface.GL_SetColor(COLOR_WHITE)
+	Graphics.CSurface.GL_SetColor(COLOUR_WHITE)
 	--local benchmark_end = os.clock()
 	--print(string.format("turret_systems_rendering.lua SYSTEM_BOX 1: time: %.6f seconds", benchmark_end - benchmark_start))
 	return Defines.Chain.CONTINUE
@@ -530,12 +543,12 @@ end
 script.on_render_event(Defines.RenderEvents.SYSTEM_BOX, function(systemBox, ignoreStatus) return Defines.Chain.CONTINUE end, system_render)
 
 --TURRET IMAGE RENDERING
-local turret_mount = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount.png", -31, -31, 0, COLOR_WHITE, 1, false)
-local turret_mount_mini = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini.png", -14, -14, 0, COLOR_WHITE, 1, false)
-local turret_mount_back = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_back.png", -50, -50, 0, COLOR_WHITE, 1, false)
-local turret_mount_mini_back = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini_back.png", -23, -23, 0, COLOR_WHITE, 1, false)
-local turret_mount_back_above = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_back_above.png", -50, -50, 0, COLOR_WHITE, 1, false)
-local turret_mount_mini_back_above = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini_back_above.png", -23, -23, 0, COLOR_WHITE, 1, false)
+local turret_mount = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount.png", -31, -31, 0, COLOUR_WHITE, 1, false)
+local turret_mount_mini = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini.png", -14, -14, 0, COLOUR_WHITE, 1, false)
+local turret_mount_back = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_back.png", -50, -50, 0, COLOUR_WHITE, 1, false)
+local turret_mount_mini_back = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini_back.png", -23, -23, 0, COLOUR_WHITE, 1, false)
+local turret_mount_back_above = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_back_above.png", -50, -50, 0, COLOUR_WHITE, 1, false)
+local turret_mount_mini_back_above = Hyperspace.Resources:CreateImagePrimitiveString("og_turrets/ship_turret_mount_mini_back_above.png", -23, -23, 0, COLOUR_WHITE, 1, false)
 
 local _shipCorner = {x = 0, y = 0}
 
@@ -592,7 +605,7 @@ local function renderAdaptiveBack(shipManager, ship, spaceManager, shipGraph, sy
 		-720, 
 		1280*3, 
 		720*3, 
-		COLOR_WHITE
+		COLOUR_WHITE
 	)
 
 	--Cut out ship unshrunk
@@ -617,7 +630,7 @@ local function renderAdaptiveBack(shipManager, ship, spaceManager, shipGraph, sy
 		-720, 
 		1280*3, 
 		720*3, 
-		COLOR_WHITE
+		COLOUR_WHITE
 	)
 
 	--/////////////// PHASE B \\\\\\\\\\\\\\\\\\\
@@ -648,7 +661,7 @@ local function renderAdaptiveBack(shipManager, ship, spaceManager, shipGraph, sy
 		-720, 
 		1280*3, 
 		720*3, 
-		COLOR_WHITE
+		COLOUR_WHITE
 	)
 
 	Graphics.CSurface.GL_SetStencilMode(stencil_mode.ignore, 1, 1)
@@ -663,6 +676,8 @@ local function renderAdaptiveBack(shipManager, ship, spaceManager, shipGraph, sy
 	end
 	Graphics.CSurface.GL_PopMatrix()
 end
+
+local priceText = Hyperspace.Text:GetText("og_lua_turret_stats_price")
 
 local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 	--print("ship:"..shipManager.iShipId.." jump first:"..shipManager.jump_timer.first.." second:"..shipManager.jump_timer.second.." bJumping"..tostring(shipManager.bJumping))
@@ -680,7 +695,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 
 		local turretLoc = turret_location[ship.shipName] and turret_location[ship.shipName][sysName] or {x = 0, y = 0, direction = 0}
 		local angleSet = 90 * turretLoc.direction
-		local colour = COLOR_WHITE
+		local colour = COLOUR_WHITE
 
 		Graphics.CSurface.GL_PushMatrix()
 		Graphics.CSurface.GL_Translate(_shipCorner.x + turretLoc.x, _shipCorner.y + turretLoc.y, 0)
@@ -698,7 +713,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 		end
 		if currentTurret.chain and currentTurret.chain.image then
 			currentTurret.chain.image:SetCurrentFrame(currentTurret.chain.count - 1)
-			currentTurret.chain.image:OnRender(1, COLOR_WHITE, false)
+			currentTurret.chain.image:OnRender(1, COLOUR_WHITE, false)
 		end
 		if currentTurret.glow then
 
@@ -719,9 +734,9 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 
 		local turretLoc = turret_location[ship.shipName] and turret_location[ship.shipName][sysName] or {x = 0, y = 0}
 		local angleSet = system.table.currentAimingAngle or 0
-		local colour = COLOR_WHITE
+		local colour = COLOUR_WHITE
 		if shipManager.ship.bCloaked then
-			colour = COLOR_HALF
+			colour = COLOUR_HALF
 		end
 
 		local charges = system.table.charges
@@ -747,18 +762,18 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 				system.table.charging_anim.tracker.loop = false
 			end
 		end
-		if currentTurret.charge_image then
+		if currentTurret.charge_image and (not currentTurret.hide_charge_firing or system.table.image.currentFrame <= 0) then
 			Graphics.CSurface.GL_RenderPrimitiveWithAlpha(currentTurret.charge_image, system.table.time or 1)
 		end
 		local chains = Hyperspace.playerVariables[math.floor(shipManager.iShipId)..sysName..systemChainVarName]
 		if currentTurret.chain and currentTurret.chain.image and chains > 0 then
 			currentTurret.chain.image:SetCurrentFrame(chains - 1)
-			currentTurret.chain.image:OnRender(1, COLOR_WHITE, false)
+			currentTurret.chain.image:OnRender(1, COLOUR_WHITE, false)
 		end
 		if currentTurret.glow and charges > 0 and (not currentTurret.hide_glow_firing or system.table.image.currentFrame <= 0) then
 			if system.table.glow and system.table.glow.animName == currentTurret.glow then
 				system.table.glow:SetCurrentFrame(charges - 1)
-				system.table.glow:OnRender(1, COLOR_WHITE, false)
+				system.table.glow:OnRender(1, COLOUR_WHITE, false)
 			else
 				system.table.glow = Hyperspace.Animations:GetAnimation(currentTurret.glow)
 				system.table.glow.position.x = -1 * system.table.glow.info.frameWidth/2
@@ -771,7 +786,7 @@ local function renderTurret(shipManager, ship, spaceManager, shipGraph, sysName)
 			if system.table.custom_animations then
 				for _, anim_table in ipairs(system.table.custom_animations) do
 					if anim_table.anim.tracker.running then
-						anim_table.anim:OnRender(1, COLOR_WHITE, false)
+						anim_table.anim:OnRender(1, COLOUR_WHITE, false)
 					end
 				end
 			end

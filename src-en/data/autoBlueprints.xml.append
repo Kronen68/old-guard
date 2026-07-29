@@ -10,57 +10,167 @@
 	<name>og_turret_mini_3</name>
 	<name>og_turret_mini_4</name>
 	<name>og_turret_adaptive</name>
+	<name>og_equaliser</name>
 </blueprintList>
 <blueprintList name="LIST_CREW_OG_IRON">
 	<name>human_og_raider</name>
+	<name>unique_og_silas</name>
+	<name>unique_og_iron_diplomat</name>
 </blueprintList>
-<blueprintList name="BLUELIST_CREW_OG_DAWN">
+<blueprintList name="LIST_CREW_OG_DAWN">
 	<name>human_og_dawn</name>
+	<name>human_og_midnight</name>
 </blueprintList>
+<blueprintList name="LIST_CREW_OG_CIVILIAN_RANDOM">
+	<name>human_og_civilian</name>
+	<name>mantis_og_civilian</name>
+</blueprintList>
+
 <blueprintList name="SHOP_TURRETS_ALL">
 	<name>OG_TURRET_LASER_1</name>
+	<name>OG_TURRET_LASER_RUSTY_1</name>
 	<name>OG_TURRET_LASER_2</name>
-	<name>OG_TURRET_LASER_PIERCE</name>
-	<name>OG_TURRET_LASER_CHAINGUN</name>
+	<name>OG_TURRET_LASER_BOSS_LIGHT</name>
+	<name>OG_TURRET_LASER_BOSS_LIGHT_CHAOS</name>
+	<name>OG_TURRET_LASER_ANCIENT</name>
+	<name>OG_TURRET_LASER_CEL_1</name>
+	<name>OG_TURRET_LASER_ZENITH</name>
 	<name>OG_TURRET_LASER_BIO</name>
+	<name>OG_TURRET_LASER_PIERCE</name>
 	<name>OG_TURRET_LASER_HULL</name>
+	<name>OG_TURRET_LASER_CHAINGUN</name>
 	<name>OG_TURRET_LASER_PARTICLE</name>
+	<name>OG_TURRET_LASER_FROST</name>
+	<name>OG_TURRET_LASER_TRIPLET</name>
+	<name>OG_TURRET_LASER_GATLING</name>
+	<name>OG_TURRET_LASER_RIFTWAKER</name>
 	<name>OG_TURRET_ION_1</name>
-	<name>OG_TURRET_ION_2</name>
+	<name>OG_TURRET_ION_FIRE</name>
+	<name>OG_TURRET_ION_PIERCE</name>
+	<name>OG_TURRET_ION_STUN</name>
+	<name>OG_TURRET_ION_BIO</name>
 	<name>OG_TURRET_ENERGY_1</name>
 	<name>OG_TURRET_CRYSTAL_1</name>
 	<name>OG_TURRET_CRYSTAL_1_ELITE</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</name>
 	<name>OG_TURRET_MISSILE_1</name>
 	<name>OG_TURRET_MISSILE_2</name>
 	<name>OG_TURRET_KERNEL_HEAVY</name>
 	<name>OG_TURRET_KERNEL_FIRE</name>
+	<name>OG_TURRET_KERNEL_HEAVY_ELITE</name>
+	<name>OG_TURRET_KERNEL_FIRE_ELITE</name>
+	<name>OG_TURRET_MISSILE_CLONE_CANNON</name>
 	<name>OG_TURRET_FLAK_1</name>
 	<name>OG_TURRET_FLAK_BIO</name>
+	<name>OG_TURRET_FLAK_FIRE</name>
 	<name>OG_TURRET_FOCUS_1</name>
 	<name>OG_TURRET_FOCUS_BIO</name>
 	<name>OG_TURRET_FOCUS_CHAIN</name>
 	<name>OG_TURRET_LASER_MINI_1</name>
 	<name>OG_TURRET_LASER_MINI_2</name>
+	<name>OG_TURRET_LASER_MINI_BIO</name>
+	<name>OG_TURRET_LASER_MINI_CHAIN</name>
+	<name>OG_TURRET_LASER_MINI_PARTICLE</name>
 	<name>OG_TURRET_ION_MINI_1</name>
+	<name>OG_TURRET_ION_MINI_FIRE</name>
+	<name>OG_TURRET_CRYSTAL_MINI</name>
+	<name>OG_TURRET_CRYSTAL_MINI_ELITE</name>
 	<name>OG_TURRET_FOCUS_MINI_1</name>
-	<name>OG_TURRET_MISSILE_MINI_1</name>
 	<name>OG_TURRET_FLAK_MINI_1</name>
+	<name>OG_TURRET_MISSILE_MINI_1</name>
+
+	<name>OG_TURRET_LASER_DAWN</name>
+	<name>OG_TURRET_ION_DAWN</name>
+	<name>OG_TURRET_MISSILE_DAWN</name>
+	<name>OG_TURRET_FLAK_DAWN</name>
+	<name>OG_TURRET_FOCUS_DAWN</name>
+	<name>OG_TURRET_LASER_MINI_DAWN_1</name>
+	<name>OG_TURRET_LASER_MINI_DAWN_2</name>
+	<name>OG_TURRET_FOCUS_MINI_DAWN</name>
+	<name>OG_TURRET_BEAM_NEUTRON_1</name>
+	<name>OG_TURRET_BEAM_NEUTRON_2</name>
+	<name>OG_TURRET_BEAM_NEUTRON_3</name>
+
+	<name>OG_TURRET_LOOT_SLUG_1</name>
+	<name>OG_TURRET_LOOT_CLAN_1</name>
+	<name>OG_TURRET_LOOT_CRYSTAL_1</name>
+	<name>OG_TURRET_LOOT_FEDERATION_1</name>
+</blueprintList>
+<blueprintList name="SHOP_TURRETS_ALL_BALANCED">
+	<name>OG_TURRET_LASER_1</name>
+	<name>OG_TURRET_LASER_2</name>
+	<name>OG_TURRET_LASER_BIO</name>
+	<name>OG_TURRET_LASER_PIERCE</name>
+	<name>OG_TURRET_LASER_HULL</name>
+	<name>OG_TURRET_LASER_CHAINGUN</name>
+	<name>OG_TURRET_LASER_PARTICLE</name>
+	<name>OG_TURRET_LASER_FROST</name>
+	<name>OG_TURRET_LASER_TRIPLET</name>
+	<name>OG_TURRET_ION_1</name>
+	<name>OG_TURRET_ION_FIRE</name>
+	<name>OG_TURRET_ION_PIERCE</name>
+	<name>OG_TURRET_ION_STUN</name>
+	<name>OG_TURRET_ION_BIO</name>
+	<name>OG_TURRET_ENERGY_1</name>
+	<name>OG_TURRET_CRYSTAL_1</name>
+	<name>OG_TURRET_CRYSTAL_1_ELITE</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</name>
+	<name>OG_TURRET_MISSILE_1</name>
+	<name>OG_TURRET_MISSILE_2</name>
+	<name>OG_TURRET_KERNEL_HEAVY</name>
+	<name>OG_TURRET_KERNEL_FIRE</name>
+	<name>OG_TURRET_KERNEL_HEAVY_ELITE</name>
+	<name>OG_TURRET_KERNEL_FIRE_ELITE</name>
+	<name>OG_TURRET_FLAK_1</name>
+	<name>OG_TURRET_FLAK_BIO</name>
+	<name>OG_TURRET_FLAK_FIRE</name>
+	<name>OG_TURRET_FOCUS_1</name>
+	<name>OG_TURRET_FOCUS_BIO</name>
+	<name>OG_TURRET_FOCUS_CHAIN</name>
+	<name>OG_TURRET_LASER_MINI_1</name>
+	<name>OG_TURRET_LASER_MINI_2</name>
+	<name>OG_TURRET_LASER_MINI_BIO</name>
+	<name>OG_TURRET_LASER_MINI_CHAIN</name>
+	<name>OG_TURRET_LASER_MINI_PARTICLE</name>
+	<name>OG_TURRET_ION_MINI_1</name>
+	<name>OG_TURRET_ION_MINI_FIRE</name>
+	<name>OG_TURRET_CRYSTAL_MINI</name>
+	<name>OG_TURRET_CRYSTAL_MINI_ELITE</name>
+	<name>OG_TURRET_FOCUS_MINI_1</name>
+	<name>OG_TURRET_FLAK_MINI_1</name>
+	<name>OG_TURRET_MISSILE_MINI_1</name>
 </blueprintList>
 <blueprintList name="SHOP_TURRETS_LARGE">
 	<name>OG_TURRET_LASER_1</name>
 	<name>OG_TURRET_LASER_2</name>
-	<name>OG_TURRET_LASER_PIERCE</name>
-	<name>OG_TURRET_LASER_CHAINGUN</name>
 	<name>OG_TURRET_LASER_BIO</name>
+	<name>OG_TURRET_LASER_PIERCE</name>
 	<name>OG_TURRET_LASER_HULL</name>
+	<name>OG_TURRET_LASER_CHAINGUN</name>
 	<name>OG_TURRET_LASER_PARTICLE</name>
+	<name>OG_TURRET_LASER_FROST</name>
+	<name>OG_TURRET_LASER_TRIPLET</name>
 	<name>OG_TURRET_ION_1</name>
-	<name>OG_TURRET_ION_2</name>
+	<name>OG_TURRET_ION_FIRE</name>
+	<name>OG_TURRET_ION_PIERCE</name>
+	<name>OG_TURRET_ION_STUN</name>
+	<name>OG_TURRET_ION_BIO</name>
 	<name>OG_TURRET_ENERGY_1</name>
+	<name>OG_TURRET_CRYSTAL_1</name>
+	<name>OG_TURRET_CRYSTAL_1_ELITE</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN</name>
+	<name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</name>
 	<name>OG_TURRET_MISSILE_1</name>
 	<name>OG_TURRET_MISSILE_2</name>
+	<name>OG_TURRET_KERNEL_HEAVY</name>
+	<name>OG_TURRET_KERNEL_FIRE</name>
+	<name>OG_TURRET_KERNEL_HEAVY_ELITE</name>
+	<name>OG_TURRET_KERNEL_FIRE_ELITE</name>
 	<name>OG_TURRET_FLAK_1</name>
 	<name>OG_TURRET_FLAK_BIO</name>
+	<name>OG_TURRET_FLAK_FIRE</name>
 	<name>OG_TURRET_FOCUS_1</name>
 	<name>OG_TURRET_FOCUS_BIO</name>
 	<name>OG_TURRET_FOCUS_CHAIN</name>
@@ -68,18 +178,32 @@
 <blueprintList name="SHOP_TURRETS_MINI">
 	<name>OG_TURRET_LASER_MINI_1</name>
 	<name>OG_TURRET_LASER_MINI_2</name>
+	<name>OG_TURRET_LASER_MINI_BIO</name>
+	<name>OG_TURRET_LASER_MINI_CHAIN</name>
+	<name>OG_TURRET_LASER_MINI_PARTICLE</name>
+	<name>OG_TURRET_ION_MINI_1</name>
+	<name>OG_TURRET_ION_MINI_FIRE</name>
+	<name>OG_TURRET_CRYSTAL_MINI</name>
+	<name>OG_TURRET_CRYSTAL_MINI_ELITE</name>
+	<name>OG_TURRET_FOCUS_MINI_1</name>
+	<name>OG_TURRET_FLAK_MINI_1</name>
+	<name>OG_TURRET_MISSILE_MINI_1</name>
+</blueprintList>
+<blueprintList name="GIFTLIST_OG_IRON">
+	<name>OG_TURRET_LASER_MINI_1</name>
+	<name>OG_TURRET_LASER_MINI_2</name>
+	<name>OG_TURRET_LASER_MINI_BIO</name>
+	<name>OG_TURRET_LASER_MINI_CHAIN</name>
 	<name>OG_TURRET_ION_MINI_1</name>
 	<name>OG_TURRET_FOCUS_MINI_1</name>
 	<name>OG_TURRET_MISSILE_MINI_1</name>
 	<name>OG_TURRET_FLAK_MINI_1</name>
 </blueprintList>
-<blueprintList name="GIFTLIST_OG_IRON">
-	<name>OG_TURRET_LASER_MINI_1</name>
-	<name>OG_TURRET_LASER_MINI_2</name>
-	<name>OG_TURRET_ION_MINI_1</name>
-	<name>OG_TURRET_FOCUS_MINI_1</name>
-	<name>OG_TURRET_MISSILE_MINI_1</name>
-	<name>OG_TURRET_FLAK_MINI_1</name>
+<blueprintList name="GIFTLIST_OG_DAWN">
+	<name>OG_TURRET_LASER_TRIPLET</name>
+	<name>OG_TURRET_LASER_MINI_DAWN_1</name>
+	<name>OG_TURRET_LASER_MINI_DAWN_2</name>
+	<name>OG_TURRET_FOCUS_MINI_DAWN</name>
 </blueprintList>
 </FTL>
 <!--Iron Watch Ships-->
@@ -154,6 +278,9 @@
 	<name>OG_IRON_RAIDER</name>
 	<name>OG_IRON_TRANSPORT</name>
 	<name>OG_IRON_GUARD</name>
+	<name>OG_IRON_EXECUTOR</name>
+	<name>OG_IRON_STATION</name>
+	<name>OG_IRON_STATION_DAMAGED</name>
 </blueprintList>
 <blueprintList name="LIST_SHIPS_OG_IRON_GENERIC">
 	<name>OG_IRON_SCOUT</name>
@@ -415,16 +542,95 @@
 	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
 	<aug name="OG_REFLECTIVE_PLATING" />
 </shipBlueprint>
+
+<shipBlueprint name="OG_IRON_EXECUTOR" layout="og_iron_executor" img="og_iron_executor">
+	<class>Iron Watch Executor</class>
+	<systemList>
+		<og_turret power="2" max="4" room="2" start="true" turret="LIST_TURRETS_BIG_ATTACK" />
+		<og_turret_2 power="2" max="4" room="3" start="true" turret="OG_TURRET_MISSILE_1" />
+		<og_turret_mini power="1" max="2" room="4" start="true" turret="OG_TURRET_FOCUS_MINI_1" />
+		<og_turret_mini_2 power="1" max="2" room="7" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="3" room="16" start="true" />
+		<doors power="3" max="3" room="19" start="true" />
+		<drones power="2" max="6" room="9" start="true" />
+		<engines power="2" max="4" room="0" start="true" />
+		<medbay power="2" max="3" room="14" start="true" />
+		<oxygen power="2" max="3" room="22" start="true" />
+		<pilot power="1" max="1" room="1" start="true" />
+		<teleporter power="1" max="2" room="15" start="false" />
+		<weapons power="2" max="6" room="10" start="true" />
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="20" count="2" load="LIST_WEAPONS_OG_IRON" />
+	<droneList drones="15" count="3" load="LIST_DRONES_ENEMY_STANDARD" />
+	<health amount="20" />
+	<maxPower amount="18" />
+	<crewCount amount="6" max="10" class="LIST_CREW_OG_IRON_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_NEUTRON_SHIELD" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_IRON_STATION" layout="og_iron_station" img="og_iron_station">
+	<class>Iron Watch Station</class>
+	<systemList>
+		<og_turret power="3" max="5" room="7" start="true" turret="LIST_TURRETS_BIG_ATTACK" />
+		<og_turret_mini power="3" max="3" room="0" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<battery power="1" max="2" room="13" start="false" />
+		<doors power="1" max="3" room="18" start="false" />
+		<drones power="1" max="5" room="9" start="true" />
+		<engines power="2" max="4" room="6" start="true" />
+		<hacking power="1" max="1" room="1" start="false" />
+		<medbay power="1" max="3" room="5" start="true" />
+		<oxygen power="2" max="3" room="12" start="true" />
+		<teleporter power="1" max="2" room="4" start="false" />
+		<weapons power="2" max="5" room="8" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="3" load="LIST_WEAPONS_OG_IRON" />
+	<droneList drones="10" count="2" load="LIST_DRONES_ENEMY_STANDARD" />
+	<health amount="20" />
+	<maxPower amount="11" />
+	<crewCount amount="6" max="10" class="LIST_CREW_OG_IRON_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_IRON_STATION_DAMAGED" layout="og_iron_station_damaged" img="og_iron_station_damaged">
+	<class>Iron Watch Station</class>
+	<systemList>
+		<og_turret power="2" max="3" room="7" start="true" turret="LIST_TURRETS_BIG_ATTACK" />
+		<og_turret_mini power="1" max="2" room="0" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<battery power="1" max="2" room="13" start="false" />
+		<doors power="1" max="3" room="18" start="false" />
+		<drones power="1" max="5" room="9" start="true" />
+		<engines power="2" max="4" room="6" start="true" />
+		<hacking power="1" max="1" room="1" start="false" />
+		<medbay power="1" max="3" room="5" start="true" />
+		<oxygen power="2" max="3" room="12" start="true" />
+		<teleporter power="1" max="2" room="4" start="false" />
+		<weapons power="2" max="5" room="8" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="10" count="3" load="LIST_WEAPONS_OG_IRON" />
+	<droneList drones="10" count="2" load="LIST_DRONES_ENEMY_STANDARD" />
+	<health amount="20" />
+	<maxPower amount="11" />
+	<crewCount amount="6" max="10" class="LIST_CREW_OG_IRON_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
 </FTL>
 
 <!--New Dawn Ships-->
 <FTL>
-<blueprintList name="GIFTLIST_OG_DAWN">
-	<name>OG_TURRET_LASER_MINI_DAWN_1</name>
-	<name>OG_TURRET_LASER_MINI_DAWN_2</name>
-	<name>OG_TURRET_FOCUS_MINI_DAWN</name>
-</blueprintList>
 <blueprintList name="LIST_WEAPONS_OG_DAWN">
+	<name>LASER_OG_TRIPLET_1</name>
+	<name>LASER_OG_TRIPLET_2</name>
 	<name>LASER_BURST_2</name>
 	<name>LASER_BURST_3</name>
 	<name>LASER_BURST_5</name>
@@ -764,6 +970,34 @@
 	<aug name="OG_REFLECTIVE_PLATING" />
 	<aug name="OG_TURRET_PREIGNITE_WEAK" />
 </shipBlueprint>
+<shipBlueprint name="OG_DAWN_SYNCHROTRON" layout="og_iron_corvette" img="og_dawn_corvette">
+	<class>New Dawn Corvette</class>
+	<minSector>3</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret power="2" max="5" room="10" start="true" turret="LIST_TURRETS_DAWN" />
+		<og_turret_mini power="2" max="4" room="3" start="false" turret="LIST_TURRETS_DAWN_SMALL" />
+		<og_turret_mini_2 power="2" max="4" room="2" start="false" turret="LIST_TURRETS_DAWN_SMALL" />
+		<cloaking power="1" max="2" room="0" start="true" />
+		<doors power="1" max="2" room="7" start="true" />
+		<engines power="1" max="2" room="4" start="true" />
+		<medbay power="1" max="1" room="11" start="true" />
+		<oxygen power="1" max="1" room="8" start="true" />
+		<pilot power="1" max="2" room="9" start="true" />
+		<weapons power="2" max="8" room="1" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="14" count="3" load="LIST_WEAPONS_OG_DAWN" />
+	<droneList drones="0" count="0" />
+	<health amount="15" />
+	<maxPower amount="12" />
+	<crewCount amount="3" max="7" class="LIST_CREW_OG_DAWN" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+	<aug name="OG_TURRET_PREIGNITE_WEAK" />
+</shipBlueprint>
 
 <shipBlueprint name="OG_LEGION_ASSAULT_TURRET" layout="og_legion_assault_turret" img="og_legion_assault_turret">
 	<class>Legionnaire Assault</class>
@@ -795,7 +1029,7 @@
 <shipBlueprint name="OGT_BOSS_IRON_NORMAL" layout="ogt_boss_iron" img="ogt_boss_iron">
 	<class>Renegade Cruiser</class>
 	<systemList>
-		<og_turret power="3" max="3" room="7" start="true" turret="OG_TURRET_ION_2" />
+		<og_turret power="3" max="3" room="7" start="true" turret="OG_TURRET_ION_FIRE" />
 		<clonebay power="2" max="2" room="9" start="true" />
 		<doors power="2" max="2" room="13" start="true" />
 		<engines power="1" max="2" room="1" start="true" />
@@ -823,7 +1057,7 @@
 <shipBlueprint name="OGT_BOSS_IRON_CHALLENGE" layout="ogt_boss_iron" img="ogt_boss_iron">
 	<class>Renegade Cruiser</class>
 	<systemList>
-		<og_turret power="4" max="4" room="7" start="true" turret="OG_TURRET_ION_2" />
+		<og_turret power="4" max="4" room="7" start="true" turret="OG_TURRET_ION_FIRE" />
 		<clonebay power="2" max="3" room="9" start="true" />
 		<doors power="2" max="2" room="13" start="true" />
 		<engines power="1" max="2" room="1" start="true" />
@@ -851,7 +1085,7 @@
 <shipBlueprint name="OGT_BOSS_IRON_EXTREME" layout="ogt_boss_iron" img="ogt_boss_iron">
 	<class>Renegade Cruiser</class>
 	<systemList>
-		<og_turret power="5" max="5" room="7" start="true" turret="OG_TURRET_ION_2" />
+		<og_turret power="5" max="5" room="7" start="true" turret="OG_TURRET_ION_FIRE" />
 		<clonebay power="2" max="3" room="9" start="true" />
 		<doors power="2" max="2" room="13" start="true" />
 		<engines power="1" max="2" room="1" start="true" />
@@ -904,11 +1138,351 @@
 	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
 </shipBlueprint>
 </FTL>
+
+<!--Midnight Sun Ships-->
+<FTL>
+<blueprintList name="LIST_WEAPONS_OG_MIDNIGHT">
+	<name>LASER_OG_TRIPLET_1</name>
+	<name>LASER_OG_TRIPLET_1</name>
+	<name>LASER_OG_TRIPLET_1</name>
+	<name>LASER_OG_TRIPLET_2</name>
+	<name>LASER_OG_TRIPLET_2</name>
+	<name>LASER_OG_TRIPLET_2</name>
+	<name>LASER_BURST_2</name>
+	<name>LASER_BURST_3</name>
+	<name>LASER_BURST_5</name>
+	<name>LASER_HEAVY_2</name>
+	<name>LASER_HULL_2</name>
+	<name>LASER_HULL_3</name>
+	<name>LASER_PIERCE</name>
+	<name>BEAM_2</name>
+	<name>BEAM_3</name>
+	<name>BEAM_ADAPT</name>
+	<name>BEAM_ADAPT_2</name>
+	<name>BEAM_LONG</name>
+	<name>BEAM_FIRE</name>
+	
+	<name>LASER_CHAINGUN_2</name>
+	<name>LASER_CHARGEGUN_2</name>
+	<name>LASER_CHARGEGUN_3</name>
+	<name>SHOTGUN_3</name>
+	<name>SHOTGUN_4</name>
+	<name>SHOTGUN_CHAIN</name>
+	<name>SHOTGUN_CHARGE</name>
+	<name>MISSILES_FIRE_ENEMY</name>
+	
+	<name>ION_CHAINGUN</name>
+	
+	<name>LASER_HEAVY_3</name>
+	<name>LASER_CHARGE_CHAIN</name>
+	<name>LASER_CHAINGUN_DAMAGE</name>
+	<name>BEAM_CHAIN</name>
+	<name>BEAM_LONG_2</name>
+</blueprintList>
+<blueprintList name="LIST_CREW_OG_MIDNIGHT_RANDOM">
+	<name>human_og_dawn</name>
+	<name>human_og_dawn</name>
+	<name>human_og_dawn</name>
+	<name>human_soldier</name>
+	<name>human_engineer</name>
+	<name>human_engineer</name>
+	<name>human_technician</name>
+	<name>human_technician</name>
+</blueprintList>
+<blueprintList name="LIST_SHIPS_OG_MIDNIGHT_ALL">
+	<name>OG_MIDNIGHT_SCOUT</name>
+	<name>OG_MIDNIGHT_INFILTRATOR</name>
+	<name>OG_MIDNIGHT_OUTRIDER</name>
+	<name>OG_MIDNIGHT_BOMBER</name>
+	<name>OG_MIDNIGHT_CORVETTE</name>
+	<name>OG_MIDNIGHT_FIGHTER</name>
+	<name>OG_MIDNIGHT_TRANSPORT</name>
+	<name>OG_MIDNIGHT_GUARD</name>
+	<name>OG_MIDNIGHT_HUNTER</name>
+</blueprintList>
+<blueprintList name="LIST_SHIPS_OG_MIDNIGHT_GENERIC">
+	<name>OG_MIDNIGHT_SCOUT</name>
+	<name>OG_MIDNIGHT_INFILTRATOR</name>
+	<name>OG_MIDNIGHT_OUTRIDER</name>
+	<name>OG_MIDNIGHT_BOMBER</name>
+	<name>OG_MIDNIGHT_CORVETTE</name>
+	<name>OG_MIDNIGHT_FIGHTER</name>
+	<name>OG_MIDNIGHT_GUARD</name>
+	<name>OG_MIDNIGHT_TRANSPORT</name>
+</blueprintList>
+<blueprintList name="LIST_SHIPS_OG_MIDNIGHT_FIGHT">
+	<name>OG_MIDNIGHT_SCOUT</name>
+	<name>OG_MIDNIGHT_INFILTRATOR</name>
+	<name>OG_MIDNIGHT_OUTRIDER</name>
+	<name>OG_MIDNIGHT_BOMBER</name>
+	<name>OG_MIDNIGHT_CORVETTE</name>
+	<name>OG_MIDNIGHT_FIGHTER</name>
+	<name>OG_MIDNIGHT_GUARD</name>
+</blueprintList>
+<shipBlueprint name="OG_MIDNIGHT_SCOUT" layout="og_midnight_scout" img="og_midnight_scout">
+	<class>Midnight Sun Scout</class>
+	<minSector>1</minSector>
+	<maxSector>4</maxSector>
+	<systemList>
+		<og_turret_mini power="3" max="5" room="3" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="2" room="1" start="true" />
+		<engines power="2" max="3" room="5" start="true" />
+		<oxygen power="1" max="1" room="4" start="true" />
+		<pilot power="1" max="2" room="0" start="true" />
+		<teleporter power="1" max="1" room="2" start="true" />
+		<og_equaliser power="2" max="2" room="2" start="true" />
+		<weapons power="2" max="6" room="6" start="true" />
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="8" count="2" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="20" count="0" />
+	<health amount="11" />
+	<maxPower amount="15" />
+	<crewCount amount="3" max="4" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_INFILTRATOR" layout="og_midnight_infiltrator" img="og_midnight_infiltrator">
+	<class>Midnight Sun Infiltrator</class>
+	<minSector>1</minSector>
+	<maxSector>5</maxSector>
+	<systemList>
+		<og_turret_mini power="2" max="4" room="0" start="true" turret="OG_TURRET_ION_MINI_1" />
+		<og_turret_mini_2 power="2" max="4" room="2" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<og_turret_mini_3 power="2" max="4" room="1" start="true" turret="OG_TURRET_FOCUS_MINI_1" />
+		<cloaking power="2" max="2" room="3" start="true" />
+		<engines power="2" max="3" room="6" start="true" />
+		<oxygen power="1" max="1" room="7" start="true" />
+		<pilot power="2" max="2" room="4" start="true" />
+		<teleporter power="1" max="1" room="5" start="true" />
+		<og_equaliser power="2" max="2" room="5" start="true" />
+	</systemList>
+	<weaponSlots>0</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="2" count="0" />
+	<droneList drones="9" count="0" />
+	<health amount="12" />
+	<maxPower amount="17" />
+	<crewCount amount="3" max="4" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_OUTRIDER" layout="og_midnight_outrider" img="og_midnight_outrider">
+	<class>Midnight Sun Outrider</class>
+	<minSector>1</minSector>
+	<maxSector>6</maxSector>
+	<systemList>
+		<og_turret_mini power="3" max="5" room="2" start="true" turret="OG_TURRET_LASER_MINI_1" />
+		<og_turret_mini_2 power="2" max="5" room="1" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="2" room="6" start="true" />
+		<engines power="2" max="2" room="4" start="true" />
+		<oxygen power="1" max="1" room="3" start="true" />
+		<pilot power="1" max="2" room="0" start="true" />
+		<teleporter power="1" max="1" room="7" start="true" />
+		<og_equaliser power="2" max="2" room="7" start="true" />
+		<weapons power="1" max="7" room="5" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="16" count="3" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="0" count="0" />
+	<health amount="12" />
+	<maxPower amount="16" />
+	<crewCount amount="3" max="5" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_BOMBER" layout="og_midnight_bomber" img="og_midnight_bomber">
+	<class>Midnight Sun Bomber</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret power="3" max="6" room="0" start="true" turret="OG_TURRET_MISSILE_1" />
+		<cloaking power="2" max="2" room="9" start="true" />
+		<doors power="1" max="2" room="10" start="true" />
+		<drones power="2" max="6" room="8" start="false" />
+		<engines power="1" max="2" room="1" start="true" />
+		<medbay power="1" max="1" room="5" start="true" />
+		<oxygen power="1" max="1" room="6" start="true" />
+		<pilot power="1" max="2" room="2" start="true" />
+		<teleporter power="1" max="1" room="3" start="true" />
+		<og_equaliser power="2" max="2" room="3" start="true" />
+		<weapons power="2" max="6" room="7" start="true" />
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="25" count="2" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="6" count="3" load="LIST_DRONES_ENEMY_COMBAT" />
+	<health amount="15" />
+	<maxPower amount="16" />
+	<crewCount amount="3" max="6" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_CORVETTE" layout="og_midnight_corvette" img="og_midnight_corvette">
+	<class>Midnight Sun Corvette</class>
+	<minSector>3</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret power="3" max="6" room="10" start="true" turret="OG_TURRET_LASER_TRIPLET" />
+		<og_turret_mini power="2" max="5" room="3" start="true" turret="OG_TURRET_FOCUS_MINI_1" />
+		<og_turret_mini_2 power="2" max="5" room="2" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="2" room="0" start="true" />
+		<doors power="1" max="2" room="7" start="true" />
+		<engines power="1" max="2" room="4" start="true" />
+		<medbay power="1" max="1" room="11" start="true" />
+		<oxygen power="1" max="1" room="8" start="true" />
+		<pilot power="1" max="2" room="9" start="true" />
+		<teleporter power="1" max="1" room="5" start="true" />
+		<og_equaliser power="2" max="2" room="5" start="true" />
+		<weapons power="2" max="8" room="1" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>0</droneSlots>
+	<weaponList missiles="14" count="3" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="0" count="0" />
+	<health amount="17" />
+	<maxPower amount="18" />
+	<crewCount amount="3" max="7" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_FIGHTER" layout="og_midnight_fighter" img="og_midnight_fighter">
+	<class>Midnight Sun Fighter</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret power="3" max="6" room="2" start="true" turret="OG_TURRET_LASER_TRIPLET" />
+		<og_turret_mini power="2" max="5" room="4" start="true" turret="OG_TURRET_LASER_MINI_1" />
+		<og_turret_mini_2 power="2" max="5" room="0" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="2" room="5" start="true" />
+		<doors power="1" max="2" room="12" start="true" />
+		<drones power="2" max="6" room="6" start="false" />
+		<engines power="2" max="2" room="8" start="true" />
+		<medbay power="1" max="1" room="7" start="false" />
+		<oxygen power="1" max="1" room="9" start="true" />
+		<pilot power="1" max="1" room="1" start="true" />
+		<teleporter power="1" max="1" room="10" start="true" />
+		<og_equaliser power="2" max="2" room="10" start="true" />
+		<weapons power="2" max="8" room="3" start="true" />
+	</systemList>
+	<weaponSlots>2</weaponSlots>
+	<droneSlots>3</droneSlots>
+	<weaponList missiles="12" count="2" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="12" count="3" load="LIST_DRONES_ENEMY_COMBAT" />
+	<health amount="15" />
+	<maxPower amount="17" />
+	<crewCount amount="3" max="7" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_TRANSPORT" layout="og_midnight_transport" img="og_midnight_transport">
+	<class>Midnight Sun Transport</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret_mini power="2" max="5" room="1" start="true" turret="OG_TURRET_LASER_MINI_1" />
+		<og_turret_mini_2 power="2" max="5" room="2" start="true" turret="OG_TURRET_LASER_MINI_1" />
+		<og_turret_mini_3 power="2" max="5" room="3" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<og_turret_mini_4 power="2" max="5" room="4" start="true" turret="OG_TURRET_LASER_MINI_2" />
+		<cloaking power="2" max="2" room="7" start="true" />
+		<doors power="2" max="2" room="14" start="true" />
+		<engines power="2" max="2" room="5" start="true" />
+		<medbay power="2" max="2" room="6" start="true" />
+		<oxygen power="1" max="1" room="12" start="true" />
+		<pilot power="1" max="2" room="0" start="true" />
+		<teleporter power="1" max="1" room="13" start="true" />
+		<og_equaliser power="2" max="2" room="13" start="true" />
+		<weapons power="2" max="7" room="8" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="12" count="3" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="9" count="2" load="LIST_DRONES_ENEMY_COMBAT" />
+	<health amount="17" />
+	<maxPower amount="21" />
+	<crewCount amount="6" max="9" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_GUARD" layout="og_midnight_guard" img="og_midnight_guard">
+	<class>Midnight Sun Battleship</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<og_turret power="3" max="6" room="2" start="true" turret="OG_TURRET_LASER_TRIPLET" />
+		<og_turret_2 power="2" max="6" room="1" start="true" turret="OG_TURRET_MISSILE_1" />
+		<og_turret_mini power="2" max="5" room="0" start="true" turret="OG_TURRET_ION_MINI_1" />
+		<cloaking power="2" max="2" room="13" start="true" />
+		<doors power="1" max="2" room="16" start="true" />
+		<drones power="1" max="6" room="7" start="false" />
+		<engines power="2" max="2" room="9" start="true" />
+		<medbay power="1" max="1" room="5" start="true" />
+		<oxygen power="1" max="1" room="4" start="true" />
+		<pilot power="1" max="2" room="8" start="true" />
+		<teleporter power="1" max="1" room="6" start="true" />
+		<og_equaliser power="2" max="2" room="6" start="true" />
+		<weapons power="1" max="8" room="10" start="true" />
+	</systemList>
+	<weaponSlots>3</weaponSlots>
+	<droneSlots>2</droneSlots>
+	<weaponList missiles="22" count="3" load="LIST_WEAPONS_OG_MIDNIGHT" />
+	<droneList drones="8" count="2" load="LIST_DRONES_ENEMY_COMBAT" />
+	<health amount="19" />
+	<maxPower amount="18" />
+	<crewCount amount="4" max="8" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+<shipBlueprint name="OG_MIDNIGHT_HUNTER" layout="og_midnight_hunter" img="og_midnight_hunter">
+	<class>Midnight Sun Hunter</class>
+	<minSector>1</minSector>
+	<maxSector>8</maxSector>
+	<systemList>
+		<artillery power="3" max="3" room="1" start="true" weapon="ARTILLERY_OG_NEUTRON_BEAM_1" />
+		<og_turret power="3" max="6" room="7" start="true" turret="OG_TURRET_FOCUS_CHAIN" />
+		<og_turret_2 power="3" max="6" room="6" start="true" turret="OG_TURRET_LASER_TRIPLET" />
+		<cloaking power="2" max="2" room="14" start="true" />
+		<doors power="2" max="2" room="13" start="true" />
+		<drones power="3" max="6" room="19" start="true" />
+		<engines power="2" max="4" room="9" start="true" />
+		<medbay power="3" max="3" room="15" start="true" />
+		<oxygen power="2" max="2" room="12" start="true" />
+		<pilot power="3" max="3" room="0" start="true" />
+		<teleporter power="2" max="2" room="21" start="true" />
+		<og_equaliser power="2" max="2" room="20" start="true" />
+	</systemList>
+	<weaponSlots>0</weaponSlots>
+	<droneSlots>4</droneSlots>
+	<weaponList missiles="9" count="0" />
+	<droneList drones="20" count="4" load="LIST_DRONES_ENEMY_STANDARD" />
+	<health amount="35" />
+	<maxPower amount="23" />
+	<crewCount amount="5" max="8" class="LIST_CREW_OG_MIDNIGHT_RANDOM" />
+	<boardingAI>sabotage</boardingAI>
+	<aug name="UPG_OG_TURRET_ROTATION_ENEMY" />
+	<aug name="OG_REFLECTIVE_PLATING" />
+</shipBlueprint>
+</FTL>
+
 <!--MV Crew Blueprint Lists-->
 <FTL>
 <mod:findName type="blueprintList" name="LIST_CREW_UNIQUE">
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_PARAGON_UNIQUE">
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_GAS"> <!-- Shell Gas whitelist-->
@@ -934,12 +1508,15 @@
 
 <mod:findName type="blueprintList" name="LIST_CREW_ELITE"> <!-- used for blue options-->
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_ELITE_FIRE"> <!-- because mantises, orchids and royal definitely suck at dealing with fires -->
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_ELITE_RHYME"> <!--crew The One Who Rhymes can give as a gift-->
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_MADNESS_IMMUNE"> <!--madness whitelist-->
@@ -966,17 +1543,23 @@
 <mod:findName type="blueprintList" name="LIST_CREW_HUMAN">
 	<mod-append:name>human_og_raider</mod-append:name>
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_ENGINEER">
 	<mod-append:name>human_og_raider</mod-append:name>
+	<mod-append:name>unique_og_silas</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_REBEL">
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_REBEL_ALL"> <!--two lists depending on if jerry should have his own option(s) or not-->
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_MEDIC">
@@ -984,6 +1567,7 @@
 
 <mod:findName type="blueprintList" name="LIST_CREW_SOLDIER">
 	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 
 <!--engi-->
@@ -1537,16 +2121,113 @@
 <!--BLUE OPTION LISTS-->
 <FTL>
 <mod:findName type="blueprintList" name="LIST_WEAPONS_ALL">
+	<mod-append:name>LASER_OG_TRIPLET_1</mod-append:name>
+	<mod-append:name>LASER_OG_TRIPLET_2</mod-append:name>
+	<mod-append:name>LOOT_OG_DAWN_1</mod-append:name>
+	<mod-append:name>LOOT_OG_MIDNIGHT_1</mod-append:name>
+
+	<mod-append:name>OG_TURRET_LASER_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_RUSTY_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_2</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_BOSS_LIGHT</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_BOSS_LIGHT_CHAOS</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_ANCIENT</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_CEL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_ZENITH</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_PIERCE</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_HULL</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_CHAINGUN</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_FROST</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_TRIPLET</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_GATLING</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_RIFTWAKER</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_1</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_PIERCE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_STUN</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_ENERGY_1</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_1_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_1</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_CLONE_CANNON</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_CHAIN</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_2</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_CHAIN</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_MINI_1</mod-append:name>
+
+	<mod-append:name>OG_TURRET_LASER_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_DAWN_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_DAWN_2</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_1</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_2</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_3</mod-append:name>
+
+	<mod-append:name>OG_TURRET_LOOT_SLUG_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CLAN_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CRYSTAL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_FEDERATION_1</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_WEAPONS_ALL_CRAPBUCKET"> <!--doesnt include enemy weapons, god killer, or alternative variants of weapons with multiple kinds-->
+	<mod-append:name>LASER_OG_TRIPLET_1</mod-append:name>
+	<mod-append:name>LASER_OG_TRIPLET_2</mod-append:name>
+	<mod-append:name>LOOT_OG_DAWN_1</mod-append:name>
+	<mod-append:name>LOOT_OG_MIDNIGHT_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_WEAPONS_MISSILES"> <!-- blast proof augment -->
+	<mod-append:name>OG_TURRET_MISSILE_1</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_KERNEL">
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_HEAVY_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_CRYSTAL">
+	<mod-append:name>OG_TURRET_CRYSTAL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_1_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CRYSTAL_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_DRONES_ALL">
@@ -1556,8 +2237,15 @@
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_ALL_CRAPBUCKET">
+	<mod-append:name>human_og_raider</mod-append:name>
+	<mod-append:name>human_og_dawn</mod-append:name>
+	<mod-append:name>human_og_midnight</mod-append:name>
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="LIST_CREW_UNIQUE_CRAPBUCKET">
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="LIST_CREW_HOLODRONE_CHAOS">
@@ -1581,6 +2269,8 @@ JUDGE LISTS
 //////////////////////////////////
 -->
 <mod:findName type="blueprintList" name="JUDGELIST_ZOLTAN_UNIQUE">
+	<mod-append:name>unique_og_silas</mod-append:name>
+	<mod-append:name>unique_og_iron_diplomat</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="JUDGELIST_ZOLTAN_UNIQUEMECH">
@@ -1590,12 +2280,14 @@ JUDGE LISTS
 </mod:findName>
 
 <mod:findName type="blueprintList" name="JUDGELIST_ZOLTAN_EASYELITE">
+	<mod-append:name>human_og_dawn</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="JUDGELIST_ZOLTAN_RAREELITE">
 </mod:findName>
 
 <mod:findName type="blueprintList" name="JUDGELIST_ZOLTAN_SELITE">
+	<mod-append:name>human_og_midnight</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="JUDGELIST_ROCK_START">
@@ -1643,28 +2335,49 @@ WEAPONS
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_GATLINGS">
+	<mod-append:name>OG_TURRET_LASER_GATLING</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_RIFT">
+	<mod-append:name>OG_TURRET_LASER_RIFTWAKER</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ION">
+	<mod-append:name>OG_TURRET_ION_1</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_PIERCE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_STUN</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_ENERGY">
+	<mod-append:name>OG_TURRET_ENERGY_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_ALL">
+	<mod-append:name>OG_TURRET_MISSILE_1</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_MINI_1</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_DAMAGE">
+	<mod-append:name>OG_TURRET_MISSILE_1</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_MINI_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MISSILES_POWERFUL">
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_DAWN</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ACCURATE_BALLISTIC">
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_MINELAUNCHERS_ALL">
+	<mod-append:name>OG_TURRET_LOOT_CRYSTAL_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BOMBS"> <!-- only used by miners event, commented out bombs make no sense for it-->
@@ -1681,50 +2394,129 @@ WEAPONS
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_ALL"> <!--does not include pinpoints-->
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_1</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_2</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_3</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_BEAMS_DAMAGE">
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_1</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_2</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_3</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FOCUS_ALL">
+	<mod-append:name>OG_TURRET_FOCUS_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_SLUG_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_CHAIN</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_DAWN</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_FOCUS_DAMAGE">
+	<mod-append:name>OG_TURRET_FOCUS_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_CHAIN</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_1</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_MINI_DAWN</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_BEAM_POWERFUL">
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_1</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_2</mod-append:name>
+	<mod-append:name>OG_TURRET_BEAM_NEUTRON_3</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_HEAVY">
+	<mod-append:name>OG_TURRET_LASER_2</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_FEDERATION_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_DAWN</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_ANCIENT</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_CEL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_ZENITH</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_2</mod-append:name>
+	<mod-append:name>OG_TURRET_MISSILE_DAWN</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_ALL">
+	<mod-append:name>OG_TURRET_LASER_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_FIRE_NODAMAGE">
+	<mod-append:name>OG_TURRET_LASER_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_PARTICLE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO">
+	<mod-append:name>OG_TURRET_LASER_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_SLUG_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CLAN_1</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO_NOMISSILE">
+	<mod-append:name>OG_TURRET_LASER_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_SLUG_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CLAN_1</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_ANTIBIO_NODAMAGE">
+	<mod-append:name>OG_TURRET_LASER_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_FOCUS_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LASER_MINI_BIO</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_SLUG_1</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CLAN_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_BOMB_REPAIR">
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_PARTICLE">
+	<mod-append:name>OG_TURRET_LASER_PARTICLE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_ALL">
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_NONBALLISTIC">
+	<mod-append:name>OG_TURRET_ION_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_ION_MINI_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_FLAK_FIRE</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="BLUELIST_FIRE_BALLISTIC">
+	<mod-append:name>OG_TURRET_KERNEL_FIRE</mod-append:name>
+	<mod-append:name>OG_TURRET_KERNEL_FIRE_ELITE</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_CRYSTAL">
+	<mod-append:name>OG_TURRET_CRYSTAL_1</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_1_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_SHOTGUN_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI</mod-append:name>
+	<mod-append:name>OG_TURRET_CRYSTAL_MINI_ELITE</mod-append:name>
+	<mod-append:name>OG_TURRET_LOOT_CRYSTAL_1</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="BLUELIST_WEAPONS_HACK">
+	<mod-append:name>LOOT_OG_MIDNIGHT_1</mod-append:name>
 </mod:findName>
 
 
@@ -1810,6 +2602,8 @@ AUGMENTS
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_ITEM_WEAPONS_LASERS">
+	<mod-append:name>LASER_OG_TRIPLET_1</mod-append:name>
+	<mod-append:name>LASER_OG_TRIPLET_2</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="SHOP_WEAPONS_BALLISTICS">
 </mod:findName>
@@ -1860,8 +2654,11 @@ AUGMENTS
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_REBEL_ITEM_WEAPONS_LASERS">
+	<mod-append:name>LASER_OG_TRIPLET_1</mod-append:name>
+	<mod-append:name>LASER_OG_TRIPLET_2</mod-append:name>
 </mod:findName>
 <mod:findName type="blueprintList" name="SHOP_REBEL_ITEM_CREW">
+	<mod-append:name>human_og_dawn</mod-append:name>
 </mod:findName>
 
 <mod:findName type="blueprintList" name="SHOP_COALITION_ITEM_CREW">

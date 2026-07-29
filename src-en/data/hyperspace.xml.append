@@ -7,6 +7,8 @@
 	<mod-append:script>data/og_scripts/turret_systems_rendering.lua</mod-append:script>
 	<mod-append:script>data/og_scripts/turret_systems_stats.lua</mod-append:script>
 	<mod-append:script>data/og_scripts/turret_menu_temp.lua</mod-append:script>
+	<mod-append:script>data/og_scripts/equaliser_func.lua</mod-append:script>
+	<mod-append:script>data/og_scripts/neutron_beam.lua</mod-append:script>
 	<mod-append:script>data/og_scripts/og_extra_slots.lua</mod-append:script>
 	<mod-append:script>data/og_scripts/ship_ach.lua</mod-append:script>
 </mod:findLike>
@@ -23,6 +25,7 @@
 	<mod-append:customSystem id="og_turret_adaptive"/>
 	<mod-append:customSystem id="og_turret_adaptive_2"/>
 	<mod-append:customSystem id="og_turret_adaptive_single"/>
+	<mod-append:customSystem id="og_equaliser" subSystem="true"/>
 
 	<mod-append:exclusivityGroup>
 		<og_turret/>
@@ -55,6 +58,9 @@
 		<mod-append:og_turret_adaptive_2/>
 		<mod-append:og_turret_adaptive_single/>
 	</mod:findWithChildLike>
+	<mod:findWithChildLike type="exclusivityGroup" child-type="battery">
+		<mod-append:og_equaliser/>
+	</mod:findWithChildLike>
 
 	<mod:findLike type="systemPositions" reverse="false">
 		<mod-append:og_turret position="7"/>
@@ -68,6 +74,7 @@
 		<mod-append:og_turret_adaptive position="7"/>
 		<mod-append:og_turret_adaptive_2 position="7"/>
 		<mod-append:og_turret_adaptive_single position="7"/>
+		<mod-append:og_equaliser staticOffset="123"/>
 	</mod:findLike>
 
 	<mod-append:systemPositions subSystemOffset="1015"> 
@@ -100,6 +107,7 @@
 		<sensors staticOffset="36"/>
 		<doors staticOffset="72"/>
 		<battery staticOffset="123"/>
+		<og_equaliser staticOffset="123"/>
 	</mod-append:systemPositions>
 
 	<mod:findLike type="systemPositions" start="1" reverse="false">
@@ -117,12 +125,22 @@
 				<mod-append:og_turret_adaptive_2/>
 				<mod-append:og_turret_adaptive_single/>
 			</mod:findWithChildLike>
+			<mod:findWithChildLike type="exclusivityGroup" child-type="battery">
+				<mod-append:og_equaliser/>
+			</mod:findWithChildLike>
 			<mod-append:exclusivityGroup>
 				<drones/>
 				<og_turret_adaptive_2/>
 				<og_turret_adaptive_single/>
 			</mod-append:exclusivityGroup>
+			<mod-append:exclusivityGroup>
+				<battery/>
+				<og_equaliser/>
+			</mod-append:exclusivityGroup>
 			<mod:findWithChildLike type="exclusivityGroup" child-type="drones" start="1">
+				<mod:removeTag />
+			</mod:findWithChildLike>
+			<mod:findWithChildLike type="exclusivityGroup" child-type="battery" start="1">
 				<mod:removeTag />
 			</mod:findWithChildLike>
 		</mod:findLike>
@@ -132,6 +150,11 @@
 			<name>icon_og_rotation</name>
 			<tooltip>OVERCLOCKED MOTORS:
 Enemy Turrets rotate 100% faster.</tooltip>
+		</mod-append:shipIcon>
+		<mod-append:shipIcon>
+			<name>icon_og_neutron_shield</name>
+			<tooltip>Synchrotron Barrier:
+This enemy is protected from Ion Damage and radiation. Instead this damage is absorbed by the engines system as system damage, this enemy has a higher maximum engine level but loses 10% evasion.</tooltip>
 		</mod-append:shipIcon>
 		<mod-append:shipIcon>
 			<name>icon_og_reflective_plating</name>
@@ -170,20 +193,20 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<mod-append:ship>PLAYER_SHIP_OG_PEACEKEEPER</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_OG_KNIGHT</mod-append:ship>
 
-		<mod-append:ship>PLAYER_SHIP_OG_RAIDER</mod-append:ship>
-		<mod-append:ship>PLAYER_SHIP_OG_EXECUTOR</mod-append:ship>
+		<mod-append:empty/>
+		<mod-append:empty/>
 
+		<mod-append:ship>PLAYER_SHIP_OG_RAIDER</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_OG_DAWN_SPEAR</mod-append:ship>
+		<mod-append:ship>PLAYER_SHIP_OG_HUNTER</mod-append:ship>
 		<mod-append:empty/>
+
 		<mod-append:empty/>
-		<mod-append:empty/>
-		
-		<mod-append:empty/>
-		<mod-append:empty/>
-		<mod-append:empty/>
+		<mod-append:ship>PLAYER_SHIP_OG_DRIFTER</mod-append:ship>
 		<mod-append:ship>PLAYER_SHIP_OG_DAWN_BIG</mod-append:ship>
+		<mod-append:ship>PLAYER_SHIP_OG_EXECUTOR</mod-append:ship>
 		
-		<mod-append:empty/>
+		<mod-append:ship>CREW_SHIP_OG_CREW1</mod-append:ship>
 		<mod-append:empty/>
 	</mod:findLike>
 
@@ -199,7 +222,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		</unlock>
 		<unlock variant="c" silent="false">
 			<type>3</type>
-            <otherUnlocks>
+			<otherUnlocks>
 				<ship>PLAYER_SHIP_OG_RAIDER_3</ship>
 			</otherUnlocks>
 		</unlock>
@@ -244,18 +267,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 	<mod-append:ship name="PLAYER_SHIP_OG_EXECUTOR" b="true" c="true" >
 		<unlock variant="a">
 			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_RAIDER_2</shipReq>
-			<shipReq>PLAYER_SHIP_OG_RAIDER_3</shipReq>
-		</unlock>
-		<unlock variant="a">
-			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_RAIDER</shipReq>
-			<shipReq>PLAYER_SHIP_OG_RAIDER_3</shipReq>
-		</unlock>
-		<unlock variant="a">
-			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_RAIDER</shipReq>
-			<shipReq>PLAYER_SHIP_OG_RAIDER_2</shipReq>
+			<shipReq>PLAYER_SHIP_OG_EXECUTOR</shipReq>
 		</unlock>
 		<unlock variant="b" silent="false">
 			<type>1</type>
@@ -264,7 +276,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		</unlock>
 		<unlock variant="c" silent="false">
 			<type>3</type>
-            <otherUnlocks>
+			<otherUnlocks>
 				<ship>PLAYER_SHIP_OG_EXECUTOR_3</ship>
 			</otherUnlocks>
 		</unlock>
@@ -467,7 +479,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		</unlock>
 		<unlock variant="c" silent="false">
 			<type>3</type>
-            <otherUnlocks>
+			<otherUnlocks>
 				<ship>PLAYER_SHIP_OG_DAWN_SPEAR_3</ship>
 			</otherUnlocks>
 		</unlock>
@@ -496,35 +508,27 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>6</crewLimit>
 		<systemLimit>9</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_OG_DAWN_SPEAR_2">
 		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>6</crewLimit>
 		<systemLimit>9</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 	<mod-append:customShip name="PLAYER_SHIP_OG_DAWN_SPEAR_3">
 		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>9</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_OG_DAWN_BIG" b="true" c="true" >
 		<unlock variant="a">
 			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR_2</shipReq>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR_3</shipReq>
-		</unlock>
-		<unlock variant="a">
-			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR</shipReq>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR_3</shipReq>
-		</unlock>
-		<unlock variant="a">
-			<type>2</type>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR</shipReq>
-			<shipReq>PLAYER_SHIP_OG_DAWN_SPEAR_2</shipReq>
+			<shipReq>PLAYER_SHIP_OG_DAWN_BIG</shipReq>
 		</unlock>
 		<unlock variant="b" silent="false">
 			<type>1</type>
@@ -533,7 +537,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		</unlock>
 		<unlock variant="c" silent="false">
 			<type>3</type>
-            <otherUnlocks>
+			<otherUnlocks>
 				<ship>PLAYER_SHIP_OG_DAWN_BIG_3</ship>
 			</otherUnlocks>
 		</unlock>
@@ -578,6 +582,123 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<customReactor maxLevel="40"/>
 	</mod-append:customShip>
 
+	<mod-append:ship name="PLAYER_SHIP_OG_HUNTER" b="true" c="true" >
+		<arrow variant="a" direction="down" tooltip="ship_unlock_og_two_wins" image="arrow_v_down.png" unlockedImage="arrow_v_down_on.png">PLAYER_SHIP_OG_DRIFTER</arrow>
+		<unlock variant="a" silent="false">
+			<type>4</type>
+		</unlock>
+		<unlock variant="b" silent="false">
+			<type>1</type>
+			<shipReq>PLAYER_SHIP_OG_HUNTER</shipReq>
+			<value>8</value>
+		</unlock>
+		<unlock variant="c" silent="false">
+			<type>3</type>
+			<otherUnlocks>
+				<ship>PLAYER_SHIP_OG_HUNTER_3</ship>
+			</otherUnlocks>
+		</unlock>
+		<achievement name="SHIP_ACH_OG_HUNTER_1" layout="all">
+			<name>Silent Fangs</name>
+			<description>Win a battle without firing a weapon, turret, or drone at the enemy ship as a Hunter-Class Vessel.</description>
+			<icon>ogp_hunter_1_icon</icon>
+			<lockImage>ogp_hunter_1_icon_locked</lockImage>
+		</achievement>
+		<achievement name="SHIP_ACH_OG_HUNTER_2" layout="all">
+			<name>Insulated</name>
+			<description>As a Hunter-Class vessel: Avoid taking any ion damage to your shields, engines, turrets, weapons, or drones for an entire sector.</description>
+			<icon>ogp_hunter_2_icon</icon>
+			<lockImage>ogp_hunter_2_icon_locked</lockImage>
+		</achievement>
+		<achievement name="SHIP_ACH_OG_HUNTER_3" layout="all">
+			<name>Exterminator</name>
+			<description>As a Hunter-Class vessel: Destroy the Iron Watch Research Station before the raid is completed in the Neutron Star Exclusion Zone.</description>
+			<icon>ogp_hunter_3_icon</icon>
+			<lockImage>ogp_hunter_3_icon_locked</lockImage>
+		</achievement>
+	</mod-append:ship>
+	<mod-append:customShip name="PLAYER_SHIP_OG_HUNTER">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="35"/>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_OG_HUNTER_2">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="35"/>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_OG_HUNTER_3">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="35"/>
+	</mod-append:customShip>
+	
+	<mod-append:ship name="PLAYER_SHIP_OG_DRIFTER" b="true" c="true" >
+		<unlock variant="a">
+			<type>2</type>
+			<shipReq>PLAYER_SHIP_OG_DRIFTER</shipReq>
+		</unlock>
+		<unlock variant="b" silent="false">
+			<type>1</type>
+			<shipReq>PLAYER_SHIP_OG_DRIFTER</shipReq>
+			<value>8</value>
+		</unlock>
+		<unlock variant="c" silent="false">
+			<type>3</type>
+			<otherUnlocks>
+				<ship>PLAYER_SHIP_OG_DRIFTER_3</ship>
+			</otherUnlocks>
+		</unlock>
+		<achievement name="SHIP_ACH_OG_DRIFTER_1" layout="all">
+			<name>All Hands on Deck</name>
+			<description>As a Drifter-Class vessel, have both of your Micro Turret Control systems manned at max level.</description>
+			<icon>ogp_drifter_1_icon</icon>
+			<lockImage>ogp_drifter_1_icon_locked</lockImage>
+		</achievement>
+		<achievement name="SHIP_ACH_OG_DRIFTER_2" layout="all">
+			<name>Ghost Ship</name>
+			<description>As a Drifter-Class vessel: Win a battle while all of your crew are alive and are on the enemy ship.</description>
+			<icon>ogp_drifter_2_icon</icon>
+			<lockImage>ogp_drifter_2_icon_locked</lockImage>
+		</achievement>
+		<achievement name="SHIP_ACH_OG_DRIFTER_3" layout="all">
+			<name>Armed to the Teeth</name>
+			<description>Have all offensive systems (Weapons, Drones, and Turrets) upgraded to max power as a Drifter-Class vessel.</description>
+			<icon>ogp_drifter_3_icon</icon>
+			<lockImage>ogp_drifter_3_icon_locked</lockImage>
+		</achievement>
+	</mod-append:ship>
+	<mod-append:customShip name="PLAYER_SHIP_OG_DRIFTER">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>OG_TURRET_MANNABLE_MICRO</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_OG_DRIFTER_2">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>OG_TURRET_MANNABLE_MICRO</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
+	</mod-append:customShip>
+	<mod-append:customShip name="PLAYER_SHIP_OG_DRIFTER_3">
+		<hiddenAug>SHIP_OG_DAWN</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>OG_TURRET_MANNABLE_MICRO</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
+	</mod-append:customShip>
+
 	<mod-append:ship name="PLAYER_SHIP_OG_KESTREL" b="false" c="false" >
 		<arrow variant="a" direction="right" tooltip="ship_unlock_sector5" image="arrow_5_right.png" unlockedImage="arrow_5_right_on.png">PLAYER_SHIP_OG_REBEL</arrow>
 	</mod-append:ship>
@@ -601,6 +722,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_OG_CURA" b="false" c="false" >
@@ -645,7 +767,8 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<hiddenAug>SHIP_PIRATE</hiddenAug>
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>6</crewLimit>
-		<systemLimit>9</systemLimit>
+		<systemLimit>11</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_OG_ROCK" b="false" c="false" >
@@ -676,6 +799,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
 	</mod-append:customShip>
 
 	<mod-append:ship name="PLAYER_SHIP_OG_KNIGHT" b="false" c="false" >
@@ -690,6 +814,42 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
 		<crewLimit>8</crewLimit>
 		<systemLimit>9</systemLimit>
+	</mod-append:customShip>
+
+	<mod-append:ship name="CREW_SHIP_OG_CREW1" b="true" c="false" >
+		<unlock variant="a" silent="false">
+			<type>4</type>
+		</unlock>
+		<unlock variant="b" silent="false">
+			<type>4</type>
+		</unlock>
+	</mod-append:ship>
+	<mod-append:customShip name="CREW_SHIP_OG_CREW1">
+		<hiddenAug>SHIP_OG_GUARD</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<hiddenAug>OG_TURRET_MANNABLE_MICRO</hiddenAug>
+		<crewLimit>8</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="30"/>
+		<crew>
+			<unique_og_silas room="0" name="Dr. Silas"/>
+			<human_og_raider room="2"/>
+			<human_og_raider room="10"/>
+		</crew>
+	</mod-append:customShip>
+	<mod-append:customShip name="CREW_SHIP_OG_CREW1_2">
+		<hiddenAug>SHIP_OG_GUARD</hiddenAug>
+		<hiddenAug>FOR_MULTIVERSE</hiddenAug>
+		<crewLimit>11</crewLimit>
+		<systemLimit>10</systemLimit>
+		<customReactor maxLevel="40"/>
+		<crew>
+			<unique_og_iron_diplomat room="0" name="Horus Weber"/>
+			<human_og_raider room="5"/>
+			<human_og_raider room="8"/>
+			<human_og_raider room="1"/>
+			<human_og_raider room="0"/>
+		</crew>
 	</mod-append:customShip>
 </mod:findLike>
 
@@ -751,6 +911,18 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		</rooms>
 	</mod-append:customShip>
 
+	<mod-append:customShip name="OG_IRON_STATION">
+		<shipIcons>
+			<shipIcon>icon_station</shipIcon>
+		</shipIcons>
+		<noFuelStalemate/>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_IRON_STATION_DAMAGED">
+		<shipIcons>
+			<shipIcon>icon_station</shipIcon>
+		</shipIcons>
+		<noFuelStalemate/>
+	</mod-append:customShip>
 	<mod-append:customShip name="OG_DAWN_SCOUT">
 		<shipIcons>
 			<shipIcon>icon_og_turret_dawn</shipIcon>
@@ -776,6 +948,12 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 			<shipIcon>icon_og_turret_dawn</shipIcon>
 		</shipIcons>
 	</mod-append:customShip>
+	<mod-append:customShip name="OG_DAWN_SYNCHROTRON">
+		<shipIcons>
+			<shipIcon>icon_og_turret_dawn</shipIcon>
+		</shipIcons>
+		<hiddenAug>OG_NEUTRON_SHIELD</hiddenAug>
+	</mod-append:customShip>
 	<mod-append:customShip name="OG_DAWN_FIGHTER">
 		<shipIcons>
 			<shipIcon>icon_og_turret_dawn</shipIcon>
@@ -795,6 +973,142 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<shipIcons>
 			<shipIcon>icon_og_turret_dawn</shipIcon>
 		</shipIcons>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_SCOUT">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="2"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="1"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_1x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_INFILTRATOR">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="5"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="3"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_1x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_OUTRIDER">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="7"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="6"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_1x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_BOMBER">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="3"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="9"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_2x1</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_CORVETTE">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="5"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="0"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_FIGHTER">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="10"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="5"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_1x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_TRANSPORT">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="13"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="7"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_GUARD">
+		<shipIcons>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="6"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="13"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
+	</mod-append:customShip>
+	<mod-append:customShip name="OG_MIDNIGHT_HUNTER">
+		<shipIcons>
+			<shipIcon>icon_threat</shipIcon>
+			<shipIcon>icon_resist</shipIcon>
+		</shipIcons>
+		<crew>
+			<human_og_midnight room="21"/> <!--teleporter-->
+		</crew>
+		<rooms>
+			<room id="14"> <!--cloaking-->
+				<roomAnim renderLayer="0">resist_2x2</roomAnim>
+				<roomAnim renderLayer="3">resist_icon</roomAnim>
+				<sysDamageResistChance>100</sysDamageResistChance>
+			</room>
+		</rooms>
 	</mod-append:customShip>
 	<mod-append:customShip name="OG_LEGION_ASSAULT_TURRET">
 		<shipIcons>
@@ -820,6 +1134,13 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 </mod:findLike>
 
 <mod:findLike type="augments" limit="1" reverse="false">
+	<mod-append:aug name="OG_NEUTRON_SHIELD">
+		<icon>icon_og_neutron_shield</icon>
+	</mod-append:aug>
+	<mod-append:aug name="OG_NEUTRON_SHIELD_LOCKED">
+		<locked/>
+		<function name="OG_NEUTRON_SHIELD" value="1" useForReqs="true" warning="false"/>
+	</mod-append:aug>
 	<mod-append:aug name="OG_REFLECTIVE_PLATING">
 		<icon>icon_og_reflective_plating</icon>
 	</mod-append:aug>
@@ -851,18 +1172,23 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 	<mod-append:aug name="EX_OG_TURRET_ADAPTIVE_SECONDARY">
 		<function name="UPG_OG_TURRET_ADAPTIVE_SECONDARY" value="1" useForReqs="false" warning="true"/>
 	</mod-append:aug>
+	<mod-append:aug name="EX_OG_EQUALISER_PERFORMANCE">
+		<function name="UPG_OG_EQUALISER_PERFORMANCE" value="0.5" useForReqs="false" warning="false"/>
+	</mod-append:aug>
 </mod:findLike>
 <events>
 	<eventFile>special_og_battlecruisers</eventFile>
 
 	<eventFile>sector_og_iron</eventFile>
 	<eventFile>sector_og_dawn</eventFile>
+	<eventFile>sector_og_neutron</eventFile>
 	<variable name="og_test_variable" op="set" val="0"/>
 
 	<variable name="rep_og_iron" op="set" val="0"/>
 	<variable name="rep_og_dawn" op="set" val="0"/>
 	<variable name="rep_comb_og_iron" op="set" val="0"/>
 	<variable name="ach_trans_og_dawn" op="set" val="0"/>
+	<variable name="ach_trans_og_midnight" op="set" val="0"/>
 	
 	<variable name="ach_og_battlecruiser_slug" op="set" val="0"/>
 	<variable name="ach_og_battlecruiser_clan" op="set" val="0"/>
@@ -882,10 +1208,76 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 	<variable name="og_turret_adaptive_single_saved_x" op="set" val="0"/>
 	<variable name="og_turret_adaptive_single_saved_y" op="set" val="0"/>
 
+	<variable name="coords_og_neutron" val="0"/>
+	<variable name="loc_environment_og_neutron_star_rotation" val="0"/>
+	<variable name="loc_environment_og_neutron_beam" val="0"/>
+
 	<metaVariable name="juke_og_iron" op="set" val="0"/>
 	<metaVariable name="juke_og_dawn" op="set" val="0"/>
+	<metaVariable name="juke_og_iron_neutron" op="set" val="0"/>
+	<metaVariable name="juke_og_iron_neutron_irradiated" op="set" val="0"/>
+
 	<metaVariable name="og_turret_tutorial" op="set" val="0"/>
 	<metaVariable name="og_turret_fab_tips" op="set" val="0"/>
+
+	<variable name="og_iron_neutron_coords_given" op="set" val="0"/>
+	<variable name="og_neutron_dawn_aligned" op="set" val="0"/>
+	<variable name="og_neutron_hunter_deadcrew" op="set" val="0"/>
+	<variable name="og_diplomat_fire_support_ready" op="set" val="0"/>
+
+	<req name="OG_IRON_FINISH_POSITIVE" type="all">
+		<req lvl="2" max_lvl="999">
+			<name>rep_comb_og_iron</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>og_iron_neutron_coords_given</name>
+		</req>
+	</req>
+
+	<req name="OG_IRON_FINISH_NEGATIVE" type="all">
+		<req lvl="-999" max_lvl="1">
+			<name>rep_comb_og_iron</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>og_iron_neutron_coords_given</name>
+		</req>
+	</req>
+
+	<req name="OG_DAWN_NEUTRON_REROUTE_INITIATE" type="all">
+		<req lvl="1">
+			<name>OG_DAWN_INITIATE</name>
+		</req>
+		<req lvl="1" max_lvl="999">
+			<name>rep_og_dawn</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>og_iron_neutron_coords_given</name>
+		</req>
+	</req>
+
+	<req name="OG_DAWN_NEUTRON_REROUTE_FRIENDLY" type="all">
+		<req lvl="0" max_lvl="0">
+			<name>OG_DAWN_INITIATE</name>
+		</req>
+		<req lvl="1" max_lvl="999">
+			<name>rep_og_dawn</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>og_iron_neutron_coords_given</name>
+		</req>
+	</req>
+
+	<req name="OG_DAWN_NEUTRON_REROUTE_NEGATIVE" type="all">
+		<req lvl="0" max_lvl="0">
+			<name>OG_DAWN_INITIATE</name>
+		</req>
+		<req lvl="-999" max_lvl="1">
+			<name>rep_og_dawn</name>
+		</req>
+		<req lvl="0" max_lvl="0">
+			<name>og_iron_neutron_coords_given</name>
+		</req>
+	</req>
 
 	<req name="OG_TURRET_TUTORIAL_SHOW" type="all">
 		<req type="any">
@@ -994,10 +1386,30 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 	<metaVariable name="prof_hotkey_og_turret_7" op="set" val="-1"/>
 	<metaVariable name="prof_hotkey_og_turret_8" op="set" val="-1"/>
 
+	<fleetDef name="CUSTOM_FLEET_OG_IRON">
+		<ship layer="0">fleet_og_iron_1_small</ship>
+		<ship layer="0">fleet_og_iron_2_small</ship>
+		<ship layer="1">fleet_og_iron_1_med</ship>
+		<ship layer="1">fleet_og_iron_2_med</ship>
+		<ship layer="2">fleet_og_iron_1_big</ship>
+		<ship layer="2">fleet_og_iron_2_big</ship>
+		<bigShip>fleet_og_iron_1_big</bigShip>
+		<numShips layer="2">1</numShips>
+		<numShips layer="1">4</numShips>
+		<numShips layer="0">6</numShips>
+	</fleetDef>
+
 	<bossShip>OGT_BOSS_IRON_NORMAL</bossShip>
 	<bossShip>OGT_BOSS_IRON_CHALLENGE</bossShip>
 	<bossShip>OGT_BOSS_IRON_EXTREME</bossShip>
 	<bossShip>OGT_BOSS_IRON_CHAOS</bossShip>
+
+	<bossShip yOffset="100">OG_IRON_STATION</bossShip>
+	<bossShip yOffset="100">OG_IRON_STATION_DAMAGED</bossShip>
+	<bossShip>OG_IRON_RAIDER</bossShip>
+	<bossShip>OG_DAWN_RAIDER</bossShip>
+	<bossShip>OG_IRON_EXECUTOR</bossShip>
+	<bossShip>OG_MIDNIGHT_HUNTER</bossShip>
 
 	<bossShip yOffset="210">OG_LEGION_ASSAULT_TURRET</bossShip>
 </events>
@@ -1072,6 +1484,306 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 			<combat req="7"/>
 		</skills>
 	</race>
+	<race name="human_og_midnight">
+		<damageMultiplier>1.5</damageMultiplier>
+		<sabotageSpeedMultiplier>1.5</sabotageSpeedMultiplier>
+		<damageTakenMultiplier>0.7</damageTakenMultiplier>
+		<fireDamageMultiplier>0.6</fireDamageMultiplier>
+		<suffocationModifier>0.83</suffocationModifier>
+		<animBase>human</animBase>
+		<defaultSkillLevel>2</defaultSkillLevel>
+		<cloneLoseSkills>false</cloneLoseSkills>
+		<deathSounds>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+			<deathSound>humanDeathSpecial</deathSound>
+		</deathSounds>
+		<powerEffect name="og_midnight_main_power">
+			<cooldown>1</cooldown>
+			<jumpCooldown>full</jumpCooldown>
+			<powerSounds>
+				<powerSound>droneLaunch</powerSound>
+			</powerSounds>
+			<req>
+				<enemyShip/>
+				<systemInRoom/>
+			</req>
+			<buttonText>HACK</buttonText>
+			<tooltip>[COOLDOWN:N/A]
+				Deploys an almost indestructible hacking device in the current room, which will repeatedly hack the current room for the rest of the fight.
+				On use teleports Operative back to their home ship if possible.
+				Cannot target weapons, drones, or shields.
+				Hack lasts 10 seconds.
+				Drone Hack cooldown takes 20 seconds.</tooltip>
+			<cooldownColor r="207" g="175" b="0"/>
+			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
+			<powerCharges>1</powerCharges>
+			<initialCharges>1</initialCharges>
+			<chargesPerJump>1</chargesPerJump>
+		</powerEffect>
+	</race>
+	<race name="human_og_midnight_hacking">
+		<lowHealthThreshold>-1</lowHealthThreshold>
+		<controllable>false</controllable>
+		<noWarning>true</noWarning>
+		<crewSlots>0</crewSlots>
+		<noClone>true</noClone>
+		<canRepair>false</canRepair>
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<canMan>false</canMan>
+		<canMove>false</canMove>
+		<canBurn>false</canBurn>
+		<canSuffocate>false</canSuffocate>
+		<resistsMindControl>true</resistsMindControl>
+		<canPhaseThroughDoors>true</canPhaseThroughDoors>
+		<stunMultiplier>0.25</stunMultiplier>
+		<healSpeed>0</healSpeed>
+		<allDamageTakenMultiplier>0</allDamageTakenMultiplier>
+		<validTarget>false</validTarget>
+		<deathSounds>
+			<deathSound>sysExplosion</deathSound>
+		</deathSounds>
+	</race>
+	<race name="unique_og_silas">
+		<essential>1</essential>
+		<repairSpeed>1.5</repairSpeed>
+		<rangedDamageMultiplier>2</rangedDamageMultiplier>
+		<suffocationModifier>0.83</suffocationModifier>
+		<fireDamageMultiplier>0.60</fireDamageMultiplier>
+		<deathSounds>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>detectiveShoot1</shootingSound>
+			<shootingSound>detectiveShoot2</shootingSound>
+			<shootingSound>detectiveShoot3</shootingSound>
+		</shootingSounds>
+		<skills>
+			<piloting req="13"/>
+			<engines req="13"/>
+			<shields req="50"/>
+			<weapons req="58"/>
+			<repair req="16"/>
+			<combat req="7"/>
+		</skills>
+		<powerEffect name="OG_SILAS_DRONE">
+			<cooldown>10</cooldown>
+			<jumpCooldown>full</jumpCooldown>
+			<powerSounds>
+				<powerSound>droneLaunch</powerSound>
+			</powerSounds>
+			<buttonText>DRONE</buttonText>
+			<tooltip>[COOLDOWN:10s  DURATION:10s]
+				Deploys a defence drone capable of targeting all types of projectiles and drones, will destroy projectiles but only stun drones.</tooltip>
+			<cooldownColor r="246" g="75" b="45"/>
+			<activateWhenReady enemiesOnly="true">true</activateWhenReady>
+			<temporaryEffect>
+				<duration>10</duration>
+				<cooldownColor r="91" g="33" b="28"/>
+			</temporaryEffect>
+		</powerEffect>
+	</race>
+	<race name="unique_og_iron_diplomat">
+		<essential>1</essential>
+		<canMan>false</canMan>
+		<controllable>false</controllable>
+		<canRepair>true</canRepair>
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<resistsMindControl>true</resistsMindControl>
+		<repairSpeed>0.5</repairSpeed>
+		<fireRepairMultiplier>2</fireRepairMultiplier>
+		<suffocationModifier>0.83</suffocationModifier>
+		<fireDamageMultiplier>0.83</fireDamageMultiplier>
+		<animBase>human</animBase>
+		<deathSounds>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+		</deathSounds>
+		<passiveStatBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="controllable">
+					<boostType>SET</boostType>
+					<value>true</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>false</affectsSelf>
+					<priority>1000</priority>
+					<whiteList>
+						<unique_og_iron_diplomat/>
+						<human_og_civilian/>
+						<mantis_og_civilian/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<blackList>
+					<unique_og_iron_diplomat/>
+					<human_og_civilian/>
+					<mantis_og_civilian/>
+				</blackList>
+			</statBoost>
+		</passiveStatBoosts>
+		<powerEffect>
+			<req>
+				<maxHealth>25</maxHealth>
+			</req>
+			<cooldown>5</cooldown>
+			<jumpCooldown>full</jumpCooldown>
+			<buttonText>PANIC</buttonText>
+			<tooltip>[COOLDOWN:5s  DURATION:20s]
+				Becomes controllable, able to fight, repair and man at normal rates.
+				Activates when below 25 health.</tooltip>
+			<cooldownColor r="246" g="75" b="45"/>
+			<activateWhenReady>true</activateWhenReady>
+			<temporaryEffect>
+				<duration>20</duration>
+				<cooldownColor r="91" g="33" b="28"/>
+				<controllable>true</controllable>
+				<canMan>true</canMan>
+				<canFight>true</canFight>
+				<repairSpeed>1</repairSpeed>
+				<fireRepairMultiplier>1</fireRepairMultiplier>
+			</temporaryEffect>
+		</powerEffect>
+	</race>
+	<race name="human_og_civilian">
+		<essential>1</essential>
+		<crewSlots>0</crewSlots>
+		<canMan>false</canMan>
+		<controllable>false</controllable>
+		<canRepair>true</canRepair>
+		<canFight>false</canFight>
+		<canSabotage>false</canSabotage>
+		<resistsMindControl>true</resistsMindControl>
+		<repairSpeed>0.25</repairSpeed>
+		<fireRepairMultiplier>4</fireRepairMultiplier>
+		<suffocationModifier>0.83</suffocationModifier>
+		<fireDamageMultiplier>0.83</fireDamageMultiplier>
+		<animBase>human</animBase>
+		<deathSounds>
+			<deathSound>death1</deathSound>
+			<deathSound>death2</deathSound>
+		</deathSounds>
+		<passiveStatBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="controllable">
+					<boostType>SET</boostType>
+					<value>true</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>false</affectsSelf>
+					<priority>1000</priority>
+					<whiteList>
+						<unique_og_iron_diplomat/>
+						<human_og_civilian/>
+						<mantis_og_civilian/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<blackList>
+					<unique_og_iron_diplomat/>
+					<human_og_civilian/>
+					<mantis_og_civilian/>
+				</blackList>
+			</statBoost>
+		</passiveStatBoosts>
+	</race>
+	<race name="mantis_og_civilian">
+		<essential>1</essential>
+		<crewSlots>0</crewSlots>
+		<canMan>false</canMan>
+		<controllable>false</controllable>
+		<canRepair>false</canRepair>
+		<canFight>true</canFight>
+		<canSabotage>true</canSabotage>
+		<resistsMindControl>false</resistsMindControl>
+		<moveSpeedMultiplier>1.2</moveSpeedMultiplier>
+		<damageMultiplier>1.25</damageMultiplier>
+		<animBase>mantis</animBase>
+		<deathSounds>
+			<deathSound>mantisDeath</deathSound>
+		</deathSounds>
+		<shootingSounds>
+			<shootingSound>mantisSpit1</shootingSound>
+			<shootingSound>mantisSpit2</shootingSound>
+			<shootingSound>mantisSpit3</shootingSound>
+		</shootingSounds>
+		<passiveStatBoosts>
+			<statBoost name="statBoost">
+				<statBoost name="controllable">
+					<boostType>SET</boostType>
+					<value>true</value>
+					<shipTarget>CURRENT_ROOM</shipTarget>
+					<crewTarget>ALLIES</crewTarget>
+					<affectsSelf>false</affectsSelf>
+					<priority>1000</priority>
+					<whiteList>
+						<unique_og_iron_diplomat/>
+						<human_og_civilian/>
+						<mantis_og_civilian/>
+					</whiteList>
+				</statBoost>
+				<shipTarget>CURRENT_ROOM</shipTarget>
+				<crewTarget>ALLIES</crewTarget>
+				<droneTarget>CREW</droneTarget>
+				<blackList>
+					<unique_og_iron_diplomat/>
+					<human_og_civilian/>
+					<mantis_og_civilian/>
+				</blackList>
+			</statBoost>
+		</passiveStatBoosts>
+	</race>
 </crew>
 
 <mod:findLike type="achievements" limit="1">
@@ -1095,11 +1807,39 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 				<variable name="juke_og_dawn" amount="1" />
 				<multiDifficulty>false</multiDifficulty>
 			</achievement>
+			<achievement name="MUSIC_OG_IRON_NEUTRON">
+				<name>Exclusion Zone</name>
+				<description id="jukebox_unlocked" />
+				<secretDescription id="jukebox_locked" />
+				<header id="jukebox_header" />
+				<icon>music_unlocked_og</icon>
+				<variable name="juke_og_iron_neutron" amount="1" />
+				<multiDifficulty>false</multiDifficulty>
+			</achievement>
+			<achievement name="MUSIC_OG_IRON_NEUTRON_IRRADIATED">
+				<name>Irradiated</name>
+				<description id="jukebox_unlocked" />
+				<secretDescription id="jukebox_locked" />
+				<header id="jukebox_header" />
+				<icon>music_unlocked_og</icon>
+				<variable name="juke_og_iron_neutron_irradiated" amount="1" />
+				<multiDifficulty>false</multiDifficulty>
+			</achievement>
+		</section>
+		<section text="The Old Guard" hidden="false">
 			<achievement name="ACH_TRANS_OG_DAWN">
 				<name>New Dawn Transport</name>
 				<secretDescription>Obtain the loot from the New Dawn loot transport.</secretDescription>
 				<description>Obtain the Pierce Laser I from the New Dawn loot transport.</description>
 				<icon>ach_trans_og_dawn</icon>
+				<header>Loot Acquired</header>
+				<sound>achievement</sound>
+			</achievement>
+			<achievement name="ACH_TRANS_OG_MIDNIGHT">
+				<name>Midnight Sun Transport</name>
+				<secretDescription>Obtain the loot from the Midnight Sun loot transport.</secretDescription>
+				<description>Obtain the Triplet Laser II from the Midnight Sun loot transport.</description>
+				<icon>ach_trans_og_midnight</icon>
 				<header>Loot Acquired</header>
 				<sound>achievement</sound>
 			</achievement>
@@ -1159,6 +1899,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 				<og_turret_2/>
 				<og_turret_adaptive/>
 				<og_turret_adaptive_single/>
+				<og_equaliser/>
 			</guaranteedSystems>
 			<item>
 				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
@@ -1171,7 +1912,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 			</item>
 			<chance>65</chance>
 		</mod-append:category>
-		<mod:removeAttributes aea="" />
+		<mod:removeAttributes og="" />
 	</mod:findLike>
 </mod:findLike>
 <mod:findLike type="store" reverse="false" limit="1">
@@ -1256,7 +1997,7 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 		<category type="WEAPONS">
 			<customTitle>TURRETS</customTitle>
 			<item>
-				<blueprint>SHOP_TURRETS_ALL</blueprint>
+				<blueprint>SHOP_TURRETS_ALL_BALANCED</blueprint>
 			</item>
 			<item>
 				<blueprint>SHOP_TURRETS_LARGE</blueprint>
@@ -1325,6 +2066,265 @@ This enemy is equiped with specialized turret tech, defeat them to take the spec
 			</item>
 			<chance>65</chance>
 		</category>
+		<category type="SYSTEMS">
+			<customTitle>TURRET SYSTEMS</customTitle>
+			<guaranteedSystems>
+				<og_turret/>
+				<og_turret_2/>
+				<og_turret_adaptive/>
+				<og_turret_adaptive_single/>
+				<og_equaliser/>
+			</guaranteedSystems>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<chance>100</chance>
+		</category>
 	</mod-append:customStore>
+	<mod-append:customStore id="STORE_WEAK_OG_TURRETS">
+		<hullRepair>
+			<price min="3" max="5"/>
+			<sectorScaled/>
+		</hullRepair>
+		<resource>
+			<type>fuel</type>
+			<count min="4" max="8"/>
+		</resource>
+		<resource>
+			<type>missiles</type>
+			<count min="2" max="5"/>
+		</resource>
+		<resource>
+			<type>drones</type>
+			<count min="2" max="5"/>
+		</resource>
+		<category type="WEAPONS">
+			<customTitle>TURRETS</customTitle>
+			<item>
+				<blueprint>SHOP_TURRETS_LARGE</blueprint>
+			</item>
+			<item>
+				<blueprint>SHOP_TURRETS_MINI</blueprint>
+			</item>
+			<item>
+				<blueprint>SHOP_TURRETS_MINI</blueprint>
+			</item>
+			<chance>100</chance>
+		</category>
+		<category type="WEAPONS">
+			<item/>
+			<item/>
+			<item/>
+			<chance>50</chance>
+		</category>
+		<category type="DRONES" group="0">
+			<item/>
+			<item/>
+			<item/>
+			<chance>50</chance>
+			<groupChance>50</groupChance>
+		</category>
+		<category type="AUGMENTS" group="0">
+			<item/>
+			<item/>
+			<item/>
+			<chance>50</chance>
+			<groupChance>50</groupChance>
+		</category>
+		<category type="CREW">
+			<customTitle>DECKHANDS</customTitle>
+			<allowDuplicates/>
+			<item/>
+			<item/>
+			<item/>
+			<chance>50</chance>
+		</category>
+		<category type="SYSTEMS">
+			<customTitle>TURRET SYSTEMS</customTitle>
+			<guaranteedSystems>
+				<og_turret/>
+				<og_turret_2/>
+				<og_turret_adaptive/>
+				<og_turret_adaptive_single/>
+				<og_equaliser/>
+			</guaranteedSystems>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+			</item>
+			<chance>100</chance>
+		</category>
+	</mod-append:customStore>
+	<mod-append:customStore id="STORE_SYLVAN_OG_TURRETS">
+		<itemPurchaseLimit>2</itemPurchaseLimit>
+		<category type="SYSTEMS">
+			<customTitle>TURRET SYSTEMS</customTitle>
+			<guaranteedSystems>
+				<og_turret/>
+				<og_turret_2/>
+				<og_turret_adaptive/>
+				<og_turret_adaptive_single/>
+				<og_equaliser/>
+			</guaranteedSystems>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+				<modifier min="0.8" max="1" flat="false"/>
+				<price>-1</price>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+				<modifier min="0.8" max="1" flat="false"/>
+				<price>-1</price>
+			</item>
+			<item>
+				<blueprint>OG_SHOP_ITEM_TURRET_SYSTEMS</blueprint>
+				<modifier min="0.8" max="1" flat="false"/>
+				<price>-1</price>
+			</item>
+		</category>
+		<category type="WEAPONS">
+			<item>
+				<blueprint>SHOP_TURRETS_ALL_BALANCED</blueprint>
+			   	<modifier min="0.8" max="1.1" flat="false"/>
+				<price>-1</price>
+			</item>
+			<item>
+				<blueprint>SHOP_TURRETS_ALL_BALANCED</blueprint>
+			   	<modifier min="0.8" max="1.1" flat="false"/>
+				<price>-1</price>
+			</item>	
+			<item>
+				<blueprint>SHOP_TURRETS_ALL_BALANCED</blueprint>
+			   	<modifier min="0.8" max="1.1" flat="false"/>
+				<price>-1</price>
+			</item>	
+		</category>
+		<category type="WEAPONS">
+			<item>
+				<blueprint>SHOP_TURRETS_LARGE</blueprint>
+				<modifier min="0.8" max="0.9" flat="false"/>
+				<price>-1</price>
+			</item>
+			<item>
+				<blueprint>SHOP_TURRETS_LARGE</blueprint>
+				<modifier min="0.8" max="0.9" flat="false"/>
+				<price>-1</price>
+			</item>	
+			<item>
+				<blueprint>SHOP_TURRETS_MINI</blueprint>
+				<modifier min="0.8" max="0.9" flat="false"/>
+				<price>-1</price>
+			</item>	
+		</category>
+	</mod-append:customStore>
+</mod:findLike>
+
+<mod:findLike type="boss" limit="1" reverse="false">
+	<mod-append:surgeBarrage name="OG_DIPLOMAT_FIRE_SUPPORT">
+		<weapon name="LASER_HEAVY_PIERCE" count="3"/>
+	</mod-append:surgeBarrage>
+</mod:findLike>
+<mod:findLike type="events" limit="1" reverse="false">
+	<mod:findName type="req" name="LIST_START_CRATE_CHECK">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_START_AUG_CHECK">
+	</mod:findName>
+	<mod:findName type="req" name="COORDS">
+		<mod-append:name>coords_og_neutron</mod-append:name>
+	</mod:findName>
+	<mod:findName type="req" name="COORDS_BOSS">
+		<mod:findLike type="req" start="0" limit="1">
+			<mod-append:name>coords_og_neutron</mod-append:name>
+		</mod:findLike>
+	</mod:findName>
+	<mod:findName type="req" name="COORDS_BOSS_TOOLATE">
+		<mod:findLike type="req" start="0" limit="1">
+			<mod-append:name>coords_og_neutron</mod-append:name>
+		</mod:findLike>
+	</mod:findName>
+	<mod:findName type="req" name="OUTLIER_SECTOR">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_UPG_ARMS">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_UPG_ALL">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_LAB_ALL">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_UPG_SEALANT">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_UPG_EXTINGUISHERS">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_UPG_ION">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_HUMANS">
+		<mod-append:name>human_og_raider</mod-append:name>
+		<mod-append:name>human_og_dawn</mod-append:name>
+		<mod-append:name>human_og_midnight</mod-append:name>
+		<mod-append:name>unique_og_silas</mod-append:name>
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_ENGI">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_ZOLTAN">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_ORCHID">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_ROCK">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_CRYSTAL">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_MANTIS">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_FREEMANTIS">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_SLUG">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_SHELL">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_LEECH">
+	</mod:findName>
+	<mod:findName type="req" name="HS_LIST_LANIUS">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_CREW_INTERACTIBLE">
+	</mod:findName>
+	<mod:findName type="req" name="BLUELIST_CREW_NO2">
+	</mod:findName>
+	<mod:findName type="req" name="BLUELIST_CREW_NO2_CONSTANT">
+	</mod:findName>
+	<mod:findName type="req" name="BLUELIST_CREW_NOFIRE">
+	</mod:findName>
+	<mod:findName type="req" name="BLUELIST_CREW_STRONG">
+	</mod:findName>
+	<mod:findName type="req" name="BLUELIST_CREW_NODOORS">
+	</mod:findName>
+	<mod:findName type="req" name="REBEL_SHIP">
+		<mod-append:name>SHIP_OG_DAWN</mod-append:name>
+	</mod:findName>
+	<mod:findName type="req" name="LIST_CHECK_ANY_CREW">
+		<mod-append:req type="any" load="LIST_CREW_OG_IRON"/>
+		<mod-append:req type="any" load="LIST_CREW_OG_DAWN"/>
+	</mod:findName>
+	<mod:findName type="req" name="COUNT_ALL_CREW">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_CHECK_AUGMENTS">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_CHECK_TOGGLES_AND_AMPS">
+	</mod:findName>
+	<mod:findName type="req" name="LIST_CHECK_ENERGY_SHIELD">
+	</mod:findName>
+	<mod:findName type="req" name="ANY_BOON">
+	</mod:findName>
+	<mod:findName type="req" name="ALL_BOON">
+	</mod:findName>
 </mod:findLike>
 </FTL>
