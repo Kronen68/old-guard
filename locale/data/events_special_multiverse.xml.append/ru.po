@@ -5,7 +5,18 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: src-en/data/events_special_multiverse.xml.append:40
+#: src-en/data/events_special_multiverse.xml.append:4
+msgid ""
+"data/events_special_multiverse.xml.append$//event[@name=\"SYLVAN_OG_TURRETS\"]/text"
+msgstr ""
+
+#: src-en/data/events_special_multiverse.xml.append:19
+msgid ""
+"data/events_special_multiverse.xml.append$//mod:findName[@name=\"SYLVAN_TRADES_CHOICE_1\"]/mod-"
+"append:choice/text"
+msgstr ""
+
+#: src-en/data/events_special_multiverse.xml.append:61
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/text"
 msgstr ""
@@ -13,37 +24,37 @@ msgstr ""
 "какое-то редкое исследовательское судно, которое решило путешествовать по "
 "Мультивселенной!"
 
-#: src-en/data/events_special_multiverse.xml.append:43
+#: src-en/data/events_special_multiverse.xml.append:64
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/text"
 msgstr "Приготовиться к бою!"
 
-#: src-en/data/events_special_multiverse.xml.append:45
+#: src-en/data/events_special_multiverse.xml.append:66
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/event/text"
 msgstr "Корабль поворачивается, чтобы вступить с вами в бой."
 
-#: src-en/data/events_special_multiverse.xml.append:48
+#: src-en/data/events_special_multiverse.xml.append:69
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:63
+#: src-en/data/events_special_multiverse.xml.append:84
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_NORMAL\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "Использовать благословение, чтобы избежать битвы."
 
-#: src-en/data/events_special_multiverse.xml.append:70
+#: src-en/data/events_special_multiverse.xml.append:91
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/beaconType/unvisitedTooltip"
 msgstr "Здесь находятся аномальные энергетические сигнатуры. [Рейдер В]"
 
-#: src-en/data/events_special_multiverse.xml.append:71
+#: src-en/data/events_special_multiverse.xml.append:92
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/beaconType/visitedTooltip"
 msgstr "Посещенное место. Ничего интересного."
 
-#: src-en/data/events_special_multiverse.xml.append:73
+#: src-en/data/events_special_multiverse.xml.append:94
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/text"
 msgstr ""
@@ -51,27 +62,27 @@ msgstr ""
 "какое-то редкое исследовательское судно, которое решило путешествовать по "
 "Мультивселенной!"
 
-#: src-en/data/events_special_multiverse.xml.append:76
+#: src-en/data/events_special_multiverse.xml.append:97
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/text"
 msgstr "Приготовиться к бою!"
 
-#: src-en/data/events_special_multiverse.xml.append:78
+#: src-en/data/events_special_multiverse.xml.append:99
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/event/text"
 msgstr "Корабль поворачивается, чтобы вступить с вами в бой."
 
-#: src-en/data/events_special_multiverse.xml.append:81
+#: src-en/data/events_special_multiverse.xml.append:102
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:96
+#: src-en/data/events_special_multiverse.xml.append:117
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHALLENGE\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "Использовать благословение, чтобы избежать битвы."
 
-#: src-en/data/events_special_multiverse.xml.append:101
+#: src-en/data/events_special_multiverse.xml.append:122
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/text"
 msgstr ""
@@ -79,27 +90,27 @@ msgstr ""
 "какое-то редкое исследовательское судно, которое решило путешествовать по "
 "Мультивселенной!"
 
-#: src-en/data/events_special_multiverse.xml.append:104
+#: src-en/data/events_special_multiverse.xml.append:125
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/text"
 msgstr "Приготовиться к бою!"
 
-#: src-en/data/events_special_multiverse.xml.append:106
+#: src-en/data/events_special_multiverse.xml.append:127
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/event/text"
 msgstr "Корабль поворачивается, чтобы вступить с вами в бой."
 
-#: src-en/data/events_special_multiverse.xml.append:109
+#: src-en/data/events_special_multiverse.xml.append:130
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:128
+#: src-en/data/events_special_multiverse.xml.append:149
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_EXTREME\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "Использовать благословение, чтобы избежать битвы."
 
-#: src-en/data/events_special_multiverse.xml.append:133
+#: src-en/data/events_special_multiverse.xml.append:154
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/text"
 msgstr ""
@@ -107,38 +118,38 @@ msgstr ""
 "какое-то редкое исследовательское судно, которое решило путешествовать по "
 "Мультивселенной!"
 
-#: src-en/data/events_special_multiverse.xml.append:137
+#: src-en/data/events_special_multiverse.xml.append:158
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:139
+#: src-en/data/events_special_multiverse.xml.append:160
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/event/text"
 msgstr "Корабль поворачивается, чтобы вступить с вами в бой."
 
-#: src-en/data/events_special_multiverse.xml.append:142
+#: src-en/data/events_special_multiverse.xml.append:163
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[1]/event/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:159
+#: src-en/data/events_special_multiverse.xml.append:180
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[@req=\"BRIBE_CHAOS\""
 " and @lvl=\"0\"]/text"
 msgstr "*%$##@*%!"
 
-#: src-en/data/events_special_multiverse.xml.append:163
+#: src-en/data/events_special_multiverse.xml.append:184
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"MV_TRAVELER_OGT_BOSS_IRON_CHAOS\"]/choice[@req=\"JUDGE_BOON_RENEGADE\"]/text"
 msgstr "Использовать благословение, чтобы избежать битвы."
 
-#: src-en/data/events_special_multiverse.xml.append:174
+#: src-en/data/events_special_multiverse.xml.append:195
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"OGT_BOSS_IRON_DESTROYED\"]/choice/text"
 msgstr "Продолжить..."
 
-#: src-en/data/events_special_multiverse.xml.append:192
+#: src-en/data/events_special_multiverse.xml.append:213
 msgid ""
 "data/events_special_multiverse.xml.append$//event[@name=\"OGT_BOSS_IRON_DEADCREW\"]/choice/text"
 msgstr "Продолжить..."

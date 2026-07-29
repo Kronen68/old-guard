@@ -1,0 +1,562 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/hyperspace.xml.append:151
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[1]/tooltip"
+msgstr ""
+"OVERCLOCKED MOTORS:\n"
+"Enemy Turrets rotate 100% faster."
+
+#: src-en/data/hyperspace.xml.append:156
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[2]/tooltip"
+msgstr ""
+"Synchrotron Barrier:\n"
+"This enemy is protected from Ion Damage and radiation. Instead this damage is absorbed by the engines system as system damage, this enemy has a higher maximum engine level but loses 10% evasion."
+
+#: src-en/data/hyperspace.xml.append:161
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[3]/tooltip"
+msgstr ""
+"REFLECTIVE PLATING:\n"
+"Halves the damage of beams hitting this ship, rounding down, but not below 1."
+
+#: src-en/data/hyperspace.xml.append:166
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[4]/tooltip"
+msgstr ""
+"TURRET PRE-IGNITER:\n"
+"This enemy's turrets will be fully charged at the start of combat."
+
+#: src-en/data/hyperspace.xml.append:171
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[5]/tooltip"
+msgstr ""
+"TURRET PRE-ENERGISER:\n"
+"This enemy's turrets will be half charged at the start of combat."
+
+#: src-en/data/hyperspace.xml.append:176
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[6]/tooltip"
+msgstr ""
+"NEW DAWN TURRETS:\n"
+"This enemy possesses New Dawn turrets, when hit by these, rooms will be temporarily made vunerable and recieve +1 system damage when hit, however these turrets also render their corresponding systems vunerable aswell."
+
+#: src-en/data/hyperspace.xml.append:181
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[3]/mod:findLike[2]/mod-"
+"append:shipIcon[7]/tooltip"
+msgstr ""
+"BATTLECRUISER:\n"
+"This enemy is equiped with specialized turret tech, defeat them to take the specialized loot turret for yourself."
+
+#: src-en/data/hyperspace.xml.append:230
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_1\"]/name"
+msgstr "War Economy"
+
+#: src-en/data/hyperspace.xml.append:231
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_1\"]/description"
+msgstr "As a Raider-Class vessel, create a new turret of your own."
+
+#: src-en/data/hyperspace.xml.append:236
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_2\"]/name"
+msgstr "Treading on the Rattlesnake"
+
+#: src-en/data/hyperspace.xml.append:237
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_2\"]/description"
+msgstr "Defeat a New Dawn ship using a Raider-Class vessel."
+
+#: src-en/data/hyperspace.xml.append:242
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_3\"]/name"
+msgstr "Heavy Lifting"
+
+#: src-en/data/hyperspace.xml.append:243
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_RAIDER_3\"]/description"
+msgstr ""
+"As a Raider-Class vessel: Reach Sector 8 without buying weapons or drones' "
+"systems (or upgrading them as ship starting systems)."
+
+#: src-en/data/hyperspace.xml.append:284
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_1\"]/name"
+msgstr "Death by a Thousand Cuts"
+
+#: src-en/data/hyperspace.xml.append:285
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_1\"]/description"
+msgstr ""
+"Upgrade all of your micro turrets to 3 power as an Executor-Class vessel."
+
+#: src-en/data/hyperspace.xml.append:290
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_2\"]/name"
+msgstr "Flawless Execution"
+
+#: src-en/data/hyperspace.xml.append:291
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_2\"]/description"
+msgstr ""
+"As an Executor-Class vessel: Win a battle while taking no hull damage, and "
+"without shields or cloaking."
+
+#: src-en/data/hyperspace.xml.append:296
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_3\"]/name"
+msgstr "Executive Order"
+
+#: src-en/data/hyperspace.xml.append:297
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_EXECUTOR_3\"]/description"
+msgstr ""
+"Reach Sector 8 with an Executor-class vessel using no systems other than "
+"turrets, shields, engines, oxygen, cloaking, medical systems, and "
+"subsystems."
+
+#: src-en/data/hyperspace.xml.append:487
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_1\"]/name"
+msgstr "Point Defence"
+
+#: src-en/data/hyperspace.xml.append:488
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_1\"]/description"
+msgstr ""
+"Shoot down 5 projectiles or drones in a single fight as a Spearhead-Class "
+"vessel."
+
+#: src-en/data/hyperspace.xml.append:493
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/name"
+msgstr "Rebel Allegiance"
+
+#: src-en/data/hyperspace.xml.append:494
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_2\"]/description"
+msgstr ""
+"Reach Sector 8 without jumping to a new beacon with a single non-human crew "
+"onboard a Spearhead-Class vessel."
+
+#: src-en/data/hyperspace.xml.append:499
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_3\"]/name"
+msgstr "Combo Breaker"
+
+#: src-en/data/hyperspace.xml.append:500
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_SPEAR_3\"]/description"
+msgstr ""
+"As a Spearhead-Class vessel: Trigger the bonus system damage from a New Dawn"
+" turret 6 times from a single application of the effect."
+
+#: src-en/data/hyperspace.xml.append:545
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_1\"]/name"
+msgstr "Trojan Horse"
+
+#: src-en/data/hyperspace.xml.append:546
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_1\"]/description"
+msgstr "As a Colossus-Class vessel, fill all of your crew slots."
+
+#: src-en/data/hyperspace.xml.append:551
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_2\"]/name"
+msgstr "Synchronized Assault"
+
+#: src-en/data/hyperspace.xml.append:552
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_2\"]/description"
+msgstr ""
+"As a Colossus-Class vessel: Equip the same turret in all of your turret "
+"slots."
+
+#: src-en/data/hyperspace.xml.append:557
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_3\"]/name"
+msgstr "This is my rifle, these are my Guns!"
+
+#: src-en/data/hyperspace.xml.append:558
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DAWN_BIG_3\"]/description"
+msgstr ""
+"Upgrade all of your large turrets to 5 power as a Colossus-Class vessel."
+
+#: src-en/data/hyperspace.xml.append:602
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_1\"]/name"
+msgstr "Silent Fangs"
+
+#: src-en/data/hyperspace.xml.append:603
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_1\"]/description"
+msgstr ""
+"Win a battle without firing a weapon, turret, or drone at the enemy ship as "
+"a Hunter-Class Vessel."
+
+#: src-en/data/hyperspace.xml.append:608
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_2\"]/name"
+msgstr "Insulated"
+
+#: src-en/data/hyperspace.xml.append:609
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_2\"]/description"
+msgstr ""
+"As a Hunter-Class vessel: Avoid taking any ion damage to your shields, "
+"engines, turrets, weapons, or drones for an entire sector."
+
+#: src-en/data/hyperspace.xml.append:614
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_3\"]/name"
+msgstr "Exterminator"
+
+#: src-en/data/hyperspace.xml.append:615
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_HUNTER_3\"]/description"
+msgstr ""
+"As a Hunter-Class vessel: Destroy the Iron Watch Research Station before the"
+" raid is completed in the Neutron Star Exclusion Zone."
+
+#: src-en/data/hyperspace.xml.append:659
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_1\"]/name"
+msgstr "All Hands on Deck"
+
+#: src-en/data/hyperspace.xml.append:660
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_1\"]/description"
+msgstr ""
+"As a Drifter-Class vessel, have both of your Micro Turret Control systems "
+"manned at max level."
+
+#: src-en/data/hyperspace.xml.append:665
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_2\"]/name"
+msgstr "Ghost Ship"
+
+#: src-en/data/hyperspace.xml.append:666
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_2\"]/description"
+msgstr ""
+"As a Drifter-Class vessel: Win a battle while all of your crew are alive and"
+" are on the enemy ship."
+
+#: src-en/data/hyperspace.xml.append:671
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_3\"]/name"
+msgstr "Armed to the Teeth"
+
+#: src-en/data/hyperspace.xml.append:672
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"SHIP_ACH_OG_DRIFTER_3\"]/description"
+msgstr ""
+"Have all offensive systems (Weapons, Drones, and Turrets) upgraded to max "
+"power as a Drifter-Class vessel."
+
+#: src-en/data/hyperspace.xml.append:835
+msgid "data/hyperspace.xml.append$//unique_og_silas[@name=\"Dr. Silas\"]/@name"
+msgstr "Dr. Silas"
+
+#: src-en/data/hyperspace.xml.append:847
+msgid ""
+"data/hyperspace.xml.append$//unique_og_iron_diplomat[@name=\"Horus "
+"Weber\"]/@name"
+msgstr "Horus Weber"
+
+#: src-en/data/hyperspace.xml.append:1452
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"human_og_dawn\"]/powerEffect/buttonText"
+msgstr "CLOAK"
+
+#: src-en/data/hyperspace.xml.append:1453
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"human_og_dawn\"]/powerEffect/tooltip"
+msgstr ""
+"[COOLDOWN:30s  DURATION: 15s]\n"
+"\t\t\t\tGrants the following effects:\n"
+"\t\t\t\t-Avoids being targetted by crew.\n"
+"\t\t\t\t-Damage increased by 50%\n"
+"\t\t\t\t-Sabotage Speed increased by 25%\n"
+"\t\t\t\t-Cloak duration passively regenerates\n"
+"\t\t\t\t-Cloak duration reduces from the following actions:\n"
+"\t\t\t\t\t-Attacking, 1x\n"
+"\t\t\t\t\t-Repairing, 0.75x\n"
+"\t\t\t\t\t-Moving, 0.25x"
+
+#: src-en/data/hyperspace.xml.append:1555
+msgid ""
+"data/hyperspace.xml.append$//powerEffect[@name=\"og_midnight_main_power\"]/buttonText"
+msgstr "HACK"
+
+#: src-en/data/hyperspace.xml.append:1556
+msgid ""
+"data/hyperspace.xml.append$//powerEffect[@name=\"og_midnight_main_power\"]/tooltip"
+msgstr ""
+"[COOLDOWN:N/A]\n"
+"\t\t\t\tDeploys an almost indestructible hacking device in the current room, which will repeatedly hack the current room for the rest of the fight.\n"
+"\t\t\t\tOn use teleports Operative back to their home ship if possible.\n"
+"\t\t\t\tCannot target weapons, drones, or shields.\n"
+"\t\t\t\tHack lasts 10 seconds.\n"
+"\t\t\t\tDrone Hack cooldown takes 20 seconds."
+
+#: src-en/data/hyperspace.xml.append:1621
+msgid ""
+"data/hyperspace.xml.append$//powerEffect[@name=\"OG_SILAS_DRONE\"]/buttonText"
+msgstr "DRONE"
+
+#: src-en/data/hyperspace.xml.append:1622
+msgid "data/hyperspace.xml.append$//powerEffect[@name=\"OG_SILAS_DRONE\"]/tooltip"
+msgstr ""
+"[COOLDOWN:10s  DURATION:10s]\n"
+"\t\t\t\tDeploys a defence drone capable of targeting all types of projectiles and drones, will destroy projectiles but only stun drones."
+
+#: src-en/data/hyperspace.xml.append:1680
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"unique_og_iron_diplomat\"]/powerEffect/buttonText"
+msgstr "PANIC"
+
+#: src-en/data/hyperspace.xml.append:1681
+msgid ""
+"data/hyperspace.xml.append$//race[@name=\"unique_og_iron_diplomat\"]/powerEffect/tooltip"
+msgstr ""
+"[COOLDOWN:5s  DURATION:20s]\n"
+"\t\t\t\tBecomes controllable, able to fight, repair and man at normal rates.\n"
+"\t\t\t\tActivates when below 25 health."
+
+#: src-en/data/hyperspace.xml.append:1791
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[6]/mod-"
+"append:page/section[1]/@text"
+msgstr "The Old Guard"
+
+#: src-en/data/hyperspace.xml.append:1793
+msgid "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON\"]/name"
+msgstr "Iron Watch"
+
+#: src-en/data/hyperspace.xml.append:1802
+msgid "data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_DAWN\"]/name"
+msgstr "New Dawn"
+
+#: src-en/data/hyperspace.xml.append:1811
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON_NEUTRON\"]/name"
+msgstr "Exclusion Zone"
+
+#: src-en/data/hyperspace.xml.append:1820
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"MUSIC_OG_IRON_NEUTRON_IRRADIATED\"]/name"
+msgstr "Irradiated"
+
+#: src-en/data/hyperspace.xml.append:1829
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[6]/mod-"
+"append:page/section[2]/@text"
+msgstr "The Old Guard"
+
+#: src-en/data/hyperspace.xml.append:1831
+msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/name"
+msgstr "New Dawn Transport"
+
+#: src-en/data/hyperspace.xml.append:1832
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/secretDescription"
+msgstr "Obtain the loot from the New Dawn loot transport."
+
+#: src-en/data/hyperspace.xml.append:1833
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/description"
+msgstr "Obtain the Pierce Laser I from the New Dawn loot transport."
+
+#: src-en/data/hyperspace.xml.append:1835
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_DAWN\"]/header"
+msgstr "Loot Acquired"
+
+#: src-en/data/hyperspace.xml.append:1839
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/name"
+msgstr "Midnight Sun Transport"
+
+#: src-en/data/hyperspace.xml.append:1840
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/secretDescription"
+msgstr "Obtain the loot from the Midnight Sun loot transport."
+
+#: src-en/data/hyperspace.xml.append:1841
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/description"
+msgstr "Obtain the Triplet Laser II from the Midnight Sun loot transport."
+
+#: src-en/data/hyperspace.xml.append:1843
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_TRANS_OG_MIDNIGHT\"]/header"
+msgstr "Loot Acquired"
+
+#: src-en/data/hyperspace.xml.append:1847
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/name"
+msgstr "Kleptocracy Battlecruiser"
+
+#: src-en/data/hyperspace.xml.append:1848
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/secretDescription"
+msgstr "Obtain the loot turret from the Kleptocracy Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1849
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/description"
+msgstr ""
+"Obtain the Irradiation Pinpoint Turret from the Kleptocracy Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1851
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_SLUG\"]/header"
+msgstr "Turret Acquired"
+
+#: src-en/data/hyperspace.xml.append:1855
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/name"
+msgstr "Guild Battlecruiser"
+
+#: src-en/data/hyperspace.xml.append:1856
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/secretDescription"
+msgstr "Obtain the loot turret from the Guild Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1857
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/description"
+msgstr "Obtain the Irradiation Laser Turret from the Guild Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1859
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CLAN\"]/header"
+msgstr "Turret Acquired"
+
+#: src-en/data/hyperspace.xml.append:1863
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/name"
+msgstr "Imperial Battlecruiser"
+
+#: src-en/data/hyperspace.xml.append:1864
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/secretDescription"
+msgstr "Obtain the loot turret from the Imperial Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1865
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/description"
+msgstr "Obtain the Shard Launcher Turret from the Imperial Battlecruiser."
+
+#: src-en/data/hyperspace.xml.append:1867
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_BATTLECRUISER_CRYSTAL\"]/header"
+msgstr "Turret Acquired"
+
+#: src-en/data/hyperspace.xml.append:1879
+msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/name"
+msgstr "Turret Support"
+
+#: src-en/data/hyperspace.xml.append:1880
+msgid ""
+"data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/description"
+msgstr "Defeat the Raider Class C Renegade and get the Light Charger Turret."
+
+#: src-en/data/hyperspace.xml.append:1882
+msgid "data/hyperspace.xml.append$//achievement[@name=\"ACH_OG_REN_IRON\"]/header"
+msgstr "Renegade Defeated"
+
+#: src-en/data/hyperspace.xml.append:1896
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[7]/mod:findLike/mod-"
+"append:category/customTitle"
+msgstr "TURRET SYSTEMS"
+
+#: src-en/data/hyperspace.xml.append:1938
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[1]/customTitle"
+msgstr "WEAPONS OF THE DAY [33% OFF]"
+
+#: src-en/data/hyperspace.xml.append:1958
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[2]/customTitle"
+msgstr "DRONES OF THE DAY [33% OFF]"
+
+#: src-en/data/hyperspace.xml.append:1978
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[3]/customTitle"
+msgstr "AUGMENTS OF THE DAY [33% OFF]"
+
+#: src-en/data/hyperspace.xml.append:1998
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[4]/customTitle"
+msgstr "TURRETS"
+
+#: src-en/data/hyperspace.xml.append:2031
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[8]/customTitle"
+msgstr "DECKHANDS"
+
+#: src-en/data/hyperspace.xml.append:2039
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[9]/customTitle"
+msgstr "ESSENTIAL SYSTEMS"
+
+#: src-en/data/hyperspace.xml.append:2057
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[10]/customTitle"
+msgstr "AUXILIARY SYSTEMS"
+
+#: src-en/data/hyperspace.xml.append:2070
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[1]/category[11]/customTitle"
+msgstr "TURRET SYSTEMS"
+
+#: src-en/data/hyperspace.xml.append:2108
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[1]/customTitle"
+msgstr "TURRETS"
+
+#: src-en/data/hyperspace.xml.append:2141
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[5]/customTitle"
+msgstr "DECKHANDS"
+
+#: src-en/data/hyperspace.xml.append:2149
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[2]/category[6]/customTitle"
+msgstr "TURRET SYSTEMS"
+
+#: src-en/data/hyperspace.xml.append:2172
+msgid ""
+"data/hyperspace.xml.append$/dummyroot/FTL/mod:findLike[8]/mod-"
+"append:customStore[3]/category[1]/customTitle"
+msgstr "TURRET SYSTEMS"

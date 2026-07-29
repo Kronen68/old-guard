@@ -1321,24 +1321,24 @@ msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_REBEL_OG_DAWN_INFIGHT\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:983
+#: src-en/data/events_sector_og_dawn.xml:984
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_REBEL_OG_DAWN_INFIGHT\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:990
+#: src-en/data/events_sector_og_dawn.xml:991
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/text"
 msgstr ""
 "You arrive at the beacon face to face with both a New Dawn vessel and Rebel ship, you immediately prepare yourself for the coming battle before realizing that the ships aren't interested in you, instead they've actually got their weapons trained on each other.\n"
 "From what you can hear over public communications you get the sense that the New Dawn Captain is sick of having to listen to the commands of these \"stupid rebel captains who couldn't tell the arse end of a slug from their own mother.\" And the Rebel Captain is quite displeased with insubordination of the New Dawn ship."
 
-#: src-en/data/events_sector_og_dawn.xml:993
+#: src-en/data/events_sector_og_dawn.xml:994
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/text"
 msgstr "Engage the New Dawn vessel."
 
-#: src-en/data/events_sector_og_dawn.xml:995
+#: src-en/data/events_sector_og_dawn.xml:996
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/text"
 msgstr ""
@@ -1346,39 +1346,39 @@ msgstr ""
 "moment to consider your decision again, you could escape now and avoid the "
 "fight if you pulled off now."
 
-#: src-en/data/events_sector_og_dawn.xml:998
+#: src-en/data/events_sector_og_dawn.xml:999
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/choice[1]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1002
+#: src-en/data/events_sector_og_dawn.xml:1003
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/choice[2]/text"
 msgstr "Avoid the fight."
 
-#: src-en/data/events_sector_og_dawn.xml:1005
+#: src-en/data/events_sector_og_dawn.xml:1006
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "You turn tail and run away, the two ships turn their attention back to each "
 "other while you prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1007
+#: src-en/data/events_sector_og_dawn.xml:1008
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1011
+#: src-en/data/events_sector_og_dawn.xml:1012
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1019
+#: src-en/data/events_sector_og_dawn.xml:1020
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/text"
 msgstr "Engage the Rebel vessel."
 
-#: src-en/data/events_sector_og_dawn.xml:1021
+#: src-en/data/events_sector_og_dawn.xml:1022
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/text"
 msgstr ""
@@ -1386,67 +1386,67 @@ msgstr ""
 "to consider your decision again, you could escape now and avoid the fight if"
 " you pulled off now."
 
-#: src-en/data/events_sector_og_dawn.xml:1024
+#: src-en/data/events_sector_og_dawn.xml:1025
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/choice[1]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1028
+#: src-en/data/events_sector_og_dawn.xml:1029
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/choice[2]/text"
 msgstr "Avoid the fight."
 
-#: src-en/data/events_sector_og_dawn.xml:1031
+#: src-en/data/events_sector_og_dawn.xml:1032
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/choice[2]/event/text"
 msgstr ""
 "You turn tail and run away, the two ships turn their attention back to each "
 "other while you prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1033
+#: src-en/data/events_sector_og_dawn.xml:1034
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1037
+#: src-en/data/events_sector_og_dawn.xml:1038
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[2]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1045
+#: src-en/data/events_sector_og_dawn.xml:1046
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[3]/text"
 msgstr "Use the confusion to escape and avoid any conflict."
 
-#: src-en/data/events_sector_og_dawn.xml:1047
+#: src-en/data/events_sector_og_dawn.xml:1048
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1049
+#: src-en/data/events_sector_og_dawn.xml:1050
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1053
+#: src-en/data/events_sector_og_dawn.xml:1054
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1061
+#: src-en/data/events_sector_og_dawn.xml:1062
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/text"
 msgstr ""
 "With the Rebel vessel dealt with, the New Dawn ship doesn't make any moves "
 "to engage you, you're unsure of their next move."
 
-#: src-en/data/events_sector_og_dawn.xml:1064
+#: src-en/data/events_sector_og_dawn.xml:1065
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
 msgstr "Contact the New Dawn ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1066
+#: src-en/data/events_sector_og_dawn.xml:1067
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/text"
@@ -1455,13 +1455,13 @@ msgstr ""
 "The Captain pauses for a moment thinking.\n"
 "\"Here take these supplies, we were originally meant to deliver them to the Rebel outpost nearby but I doubt they'll ever notice it never arrived.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1073
+#: src-en/data/events_sector_og_dawn.xml:1074
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/text"
 msgstr "Contact the New Dawn ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1075
+#: src-en/data/events_sector_og_dawn.xml:1076
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"0\"]/event/text"
@@ -1472,7 +1472,7 @@ msgstr ""
 "clean, I'll be sure to spread the good word about you.\" With that the ship "
 "jumps away, clearly keen to be away of the whole thing."
 
-#: src-en/data/events_sector_og_dawn.xml:1080
+#: src-en/data/events_sector_og_dawn.xml:1081
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -1480,51 +1480,51 @@ msgstr ""
 "The ship refuses any attempts to make contact due to your negative "
 "reputation."
 
-#: src-en/data/events_sector_og_dawn.xml:1084
+#: src-en/data/events_sector_og_dawn.xml:1085
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[4]/text"
 msgstr "Engage the New Dawn ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1086
+#: src-en/data/events_sector_og_dawn.xml:1087
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[4]/event/text"
 msgstr ""
 "The New Dawn ship is clearly surprised by you moving to engage them, they "
 "turn on their weapons in response."
 
-#: src-en/data/events_sector_og_dawn.xml:1089
+#: src-en/data/events_sector_og_dawn.xml:1090
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[4]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1095
+#: src-en/data/events_sector_og_dawn.xml:1096
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_DAWN_FOLLOWUP\"]/choice[5]/text"
 msgstr "Ignore the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1101
+#: src-en/data/events_sector_og_dawn.xml:1102
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_REBEL_FOLLOWUP\"]/text"
 msgstr ""
 "With the New Dawn vessel dealt with, the Rebel ship doesn't make any moves "
 "to engage you, but it doesn't seem like you should expect any thanks either."
 
-#: src-en/data/events_sector_og_dawn.xml:1104
+#: src-en/data/events_sector_og_dawn.xml:1105
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_REBEL_FOLLOWUP\"]/choice[1]/text"
 msgstr "Engage the Rebel ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1108
+#: src-en/data/events_sector_og_dawn.xml:1109
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_REBEL_FOLLOWUP\"]/choice[2]/text"
 msgstr "Use the uneasy peace and back away to avoid any conflict."
 
-#: src-en/data/events_sector_og_dawn.xml:1111
+#: src-en/data/events_sector_og_dawn.xml:1112
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT_REBEL_FOLLOWUP\"]/choice[2]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1119
+#: src-en/data/events_sector_og_dawn.xml:1120
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/text"
 msgstr ""
@@ -1532,13 +1532,13 @@ msgstr ""
 "uninhabited due to the pulsar, only a single New Dawn vessel shows up on "
 "sensors, and it appears they aren't aware of you yet."
 
-#: src-en/data/events_sector_og_dawn.xml:1121
+#: src-en/data/events_sector_og_dawn.xml:1122
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1123
+#: src-en/data/events_sector_og_dawn.xml:1124
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/text"
@@ -1548,13 +1548,13 @@ msgstr ""
 " hunt down a rogue Iron Watch vessel, but I cannot find it. I would "
 "appreciate your help in the search.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1125
+#: src-en/data/events_sector_og_dawn.xml:1126
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "Agree to help."
 
-#: src-en/data/events_sector_og_dawn.xml:1128
+#: src-en/data/events_sector_og_dawn.xml:1129
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
@@ -1566,19 +1566,19 @@ msgstr ""
 "deduce you're a part of the hunting team and don't give you a chance, "
 "prepare to fight."
 
-#: src-en/data/events_sector_og_dawn.xml:1130
+#: src-en/data/events_sector_og_dawn.xml:1131
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1136
+#: src-en/data/events_sector_og_dawn.xml:1137
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1138
+#: src-en/data/events_sector_og_dawn.xml:1139
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
@@ -1586,43 +1586,43 @@ msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1141
+#: src-en/data/events_sector_og_dawn.xml:1142
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1147
+#: src-en/data/events_sector_og_dawn.xml:1148
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/text"
 msgstr "Politely decline."
 
-#: src-en/data/events_sector_og_dawn.xml:1149
+#: src-en/data/events_sector_og_dawn.xml:1150
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1151
+#: src-en/data/events_sector_og_dawn.xml:1152
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1155
+#: src-en/data/events_sector_og_dawn.xml:1156
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1163
+#: src-en/data/events_sector_og_dawn.xml:1164
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1165
+#: src-en/data/events_sector_og_dawn.xml:1166
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/text"
@@ -1630,13 +1630,13 @@ msgstr ""
 "\"You're not who I'm looking for, stay out of my way and we'll have no "
 "problems.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1167
+#: src-en/data/events_sector_og_dawn.xml:1168
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1169
+#: src-en/data/events_sector_og_dawn.xml:1170
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/text"
@@ -1644,37 +1644,37 @@ msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1172
+#: src-en/data/events_sector_og_dawn.xml:1173
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1178
+#: src-en/data/events_sector_og_dawn.xml:1179
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/text"
 msgstr "Ignore them."
 
-#: src-en/data/events_sector_og_dawn.xml:1180
+#: src-en/data/events_sector_og_dawn.xml:1181
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1182
+#: src-en/data/events_sector_og_dawn.xml:1183
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1186
+#: src-en/data/events_sector_og_dawn.xml:1187
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1194
+#: src-en/data/events_sector_og_dawn.xml:1195
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -1682,57 +1682,57 @@ msgstr ""
 "Making contact would just result in them attacking you due to your negative "
 "reputation."
 
-#: src-en/data/events_sector_og_dawn.xml:1198
+#: src-en/data/events_sector_og_dawn.xml:1199
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[4]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1200
+#: src-en/data/events_sector_og_dawn.xml:1201
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[4]/event/text"
 msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1203
+#: src-en/data/events_sector_og_dawn.xml:1204
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[4]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1209
+#: src-en/data/events_sector_og_dawn.xml:1210
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[5]/text"
 msgstr "Ignore the outpost."
 
-#: src-en/data/events_sector_og_dawn.xml:1211
+#: src-en/data/events_sector_og_dawn.xml:1212
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[5]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1213
+#: src-en/data/events_sector_og_dawn.xml:1214
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[5]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1217
+#: src-en/data/events_sector_og_dawn.xml:1218
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[5]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1226
+#: src-en/data/events_sector_og_dawn.xml:1227
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/text"
 msgstr ""
 "You've arrived at the beacon unnoticed, The only New Dawn vessel nearby "
 "hasn't noticed you yet..."
 
-#: src-en/data/events_sector_og_dawn.xml:1228
+#: src-en/data/events_sector_og_dawn.xml:1229
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1230
+#: src-en/data/events_sector_og_dawn.xml:1231
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/text"
@@ -1741,13 +1741,13 @@ msgstr ""
 "hand, we're running low on fuel and drone parts, we have the scrap to "
 "compensate you.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1232
+#: src-en/data/events_sector_og_dawn.xml:1233
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/text"
 msgstr "Agree to the exchange."
 
-#: src-en/data/events_sector_og_dawn.xml:1234
+#: src-en/data/events_sector_og_dawn.xml:1235
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
@@ -1755,19 +1755,19 @@ msgstr ""
 "You transfer them the supplies and recieve their scrap, a good old fashion "
 "exchange of resources."
 
-#: src-en/data/events_sector_og_dawn.xml:1241
+#: src-en/data/events_sector_og_dawn.xml:1242
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1247
+#: src-en/data/events_sector_og_dawn.xml:1248
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1249
+#: src-en/data/events_sector_og_dawn.xml:1250
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/text"
@@ -1775,43 +1775,43 @@ msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1252
+#: src-en/data/events_sector_og_dawn.xml:1253
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1258
+#: src-en/data/events_sector_og_dawn.xml:1259
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/text"
 msgstr "Politely decline."
 
-#: src-en/data/events_sector_og_dawn.xml:1260
+#: src-en/data/events_sector_og_dawn.xml:1261
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1262
+#: src-en/data/events_sector_og_dawn.xml:1263
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1266
+#: src-en/data/events_sector_og_dawn.xml:1267
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1274
+#: src-en/data/events_sector_og_dawn.xml:1275
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1276
+#: src-en/data/events_sector_og_dawn.xml:1277
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/text"
@@ -1819,13 +1819,13 @@ msgstr ""
 "\"I'm not looking for a fight, stay out of my way and we'll have no "
 "problems.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1278
+#: src-en/data/events_sector_og_dawn.xml:1279
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1280
+#: src-en/data/events_sector_og_dawn.xml:1281
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/text"
@@ -1833,37 +1833,37 @@ msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1283
+#: src-en/data/events_sector_og_dawn.xml:1284
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1289
+#: src-en/data/events_sector_og_dawn.xml:1290
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/text"
 msgstr "Ignore them."
 
-#: src-en/data/events_sector_og_dawn.xml:1291
+#: src-en/data/events_sector_og_dawn.xml:1292
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1293
+#: src-en/data/events_sector_og_dawn.xml:1294
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1297
+#: src-en/data/events_sector_og_dawn.xml:1298
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1305
+#: src-en/data/events_sector_og_dawn.xml:1306
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -1871,68 +1871,68 @@ msgstr ""
 "Making contact would just result in them attacking you due to your negative "
 "reputation."
 
-#: src-en/data/events_sector_og_dawn.xml:1309
+#: src-en/data/events_sector_og_dawn.xml:1310
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[4]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1311
+#: src-en/data/events_sector_og_dawn.xml:1312
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[4]/event/text"
 msgstr ""
 "You rush in to get the upper hand, unfortunately the ship notices you and is"
 " able to prepare for the battle."
 
-#: src-en/data/events_sector_og_dawn.xml:1314
+#: src-en/data/events_sector_og_dawn.xml:1315
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[4]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1320
+#: src-en/data/events_sector_og_dawn.xml:1321
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[5]/text"
 msgstr "Ignore the outpost."
 
-#: src-en/data/events_sector_og_dawn.xml:1322
+#: src-en/data/events_sector_og_dawn.xml:1323
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[5]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1324
+#: src-en/data/events_sector_og_dawn.xml:1325
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[5]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1328
+#: src-en/data/events_sector_og_dawn.xml:1329
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[5]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1354
+#: src-en/data/events_sector_og_dawn.xml:1355
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/text"
 msgstr ""
 "You've arrived in an asteroid field, the distress beacon is coming from a "
 "wrecked New Dawn transport just off to the side of the beacon."
 
-#: src-en/data/events_sector_og_dawn.xml:1356
+#: src-en/data/events_sector_og_dawn.xml:1357
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/text"
 msgstr "Investigate the wreckage."
 
-#: src-en/data/events_sector_og_dawn.xml:1360
+#: src-en/data/events_sector_og_dawn.xml:1361
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/text"
 msgstr ""
 "You pull up close to the wreckage, there are several cargo containers in amongst the debris but they all appear openned, someone's been here already.\n"
 "A moment later you find out who that is, a New Dawn scout reveals themselves from behind some asteroids, it's apparent they've taken some damage to their engines by the thin line of oil and other fluids leaking behind them."
 
-#: src-en/data/events_sector_og_dawn.xml:1363
+#: src-en/data/events_sector_og_dawn.xml:1364
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1365
+#: src-en/data/events_sector_og_dawn.xml:1366
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -1941,29 +1941,29 @@ msgstr ""
 " much longer, I beg you to take us and our cargo onboard and out of the "
 "asteroid field, theres an outpost nearby.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1367
+#: src-en/data/events_sector_og_dawn.xml:1368
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[1]/text"
 msgstr "Agree to help."
 
-#: src-en/data/events_sector_og_dawn.xml:1369
+#: src-en/data/events_sector_og_dawn.xml:1370
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[1]/event/text"
 msgstr ""
 "It's going to take time to load everyone onboard and get to the outpost, "
 "you'll need to survive the asteroid for about 30 seconds."
 
-#: src-en/data/events_sector_og_dawn.xml:1373
+#: src-en/data/events_sector_og_dawn.xml:1374
 msgid ""
 "data/events_sector_og_dawn.xml$//triggeredEvent[@name=\"OG_DAWN_DISTRESS_ASTEROID_TRIGGEREDEVENT\"]/triggeredEventBox/tooltip"
 msgstr "Time to load everything onboard."
 
-#: src-en/data/events_sector_og_dawn.xml:1380
+#: src-en/data/events_sector_og_dawn.xml:1381
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "Attack them!"
 
-#: src-en/data/events_sector_og_dawn.xml:1382
+#: src-en/data/events_sector_og_dawn.xml:1383
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -1971,37 +1971,37 @@ msgstr ""
 "them survive this they're not going to be so trusting of random federation "
 "ships in the future."
 
-#: src-en/data/events_sector_og_dawn.xml:1385
+#: src-en/data/events_sector_og_dawn.xml:1386
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1391
+#: src-en/data/events_sector_og_dawn.xml:1392
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/text"
 msgstr "Politely Decline."
 
-#: src-en/data/events_sector_og_dawn.xml:1393
+#: src-en/data/events_sector_og_dawn.xml:1394
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1395
+#: src-en/data/events_sector_og_dawn.xml:1396
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1399
+#: src-en/data/events_sector_og_dawn.xml:1400
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1407
+#: src-en/data/events_sector_og_dawn.xml:1408
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[2]/text"
 msgstr "Attack them!"
 
-#: src-en/data/events_sector_og_dawn.xml:1409
+#: src-en/data/events_sector_og_dawn.xml:1410
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
@@ -2009,32 +2009,32 @@ msgstr ""
 "them survive this they're not going to be so trusting of random federation "
 "ships in the future."
 
-#: src-en/data/events_sector_og_dawn.xml:1412
+#: src-en/data/events_sector_og_dawn.xml:1413
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1420
+#: src-en/data/events_sector_og_dawn.xml:1421
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[2]/text"
 msgstr "Ignore the wreck."
 
-#: src-en/data/events_sector_og_dawn.xml:1422
+#: src-en/data/events_sector_og_dawn.xml:1423
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[2]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1424
+#: src-en/data/events_sector_og_dawn.xml:1425
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1428
+#: src-en/data/events_sector_og_dawn.xml:1429
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1436
+#: src-en/data/events_sector_og_dawn.xml:1437
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_LOADED\"]/text"
 msgstr ""
@@ -2042,12 +2042,12 @@ msgstr ""
 "asteroid hits the enemy ship, causing a rapid depressurisation event. It "
 "will only take a little bit longer to make it to the outpost."
 
-#: src-en/data/events_sector_og_dawn.xml:1441
+#: src-en/data/events_sector_og_dawn.xml:1442
 msgid ""
 "data/events_sector_og_dawn.xml$//triggeredEvent[@name=\"OG_DAWN_DISTRESS_ASTEROID_TRIGGEREDEVENT2\"]/triggeredEventBox/tooltip"
 msgstr "Time to make it to the outpost."
 
-#: src-en/data/events_sector_og_dawn.xml:1448
+#: src-en/data/events_sector_og_dawn.xml:1449
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/text"
 msgstr ""
@@ -2057,32 +2057,32 @@ msgstr ""
 "your crew, it was pretty boring working on the transport escort, atleast up "
 "until I thought we were going to die.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1451
+#: src-en/data/events_sector_og_dawn.xml:1452
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/choice[1]/text"
 msgstr "Accept them onboard."
 
-#: src-en/data/events_sector_og_dawn.xml:1453
+#: src-en/data/events_sector_og_dawn.xml:1454
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/choice[1]/event/text"
 msgstr "You're joined by your new crewmember onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1456
+#: src-en/data/events_sector_og_dawn.xml:1457
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1462
+#: src-en/data/events_sector_og_dawn.xml:1463
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/choice[2]/text"
 msgstr "Politely decline."
 
-#: src-en/data/events_sector_og_dawn.xml:1477
+#: src-en/data/events_sector_og_dawn.xml:1478
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1479
+#: src-en/data/events_sector_og_dawn.xml:1480
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/destroyed/choice/event/text"
 msgstr ""
@@ -2090,12 +2090,12 @@ msgstr ""
 "container, it even has it's destination recorded on the side, you take it "
 "onboard."
 
-#: src-en/data/events_sector_og_dawn.xml:1489
+#: src-en/data/events_sector_og_dawn.xml:1490
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1491
+#: src-en/data/events_sector_og_dawn.xml:1492
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_PREIGN_QUEST\"]/deadCrew/choice/event/text"
 msgstr ""
@@ -2103,7 +2103,7 @@ msgstr ""
 "container, it even has it's destination recorded on the side, you take it "
 "onboard."
 
-#: src-en/data/events_sector_og_dawn.xml:1501
+#: src-en/data/events_sector_og_dawn.xml:1502
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/text"
 msgstr ""
@@ -2111,13 +2111,13 @@ msgstr ""
 " your scans indicate that their engines are heavily damaged, they're not "
 "going to be going anywhere soon."
 
-#: src-en/data/events_sector_og_dawn.xml:1503
+#: src-en/data/events_sector_og_dawn.xml:1504
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/text"
 msgstr "Contact the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1505
+#: src-en/data/events_sector_og_dawn.xml:1506
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/text"
@@ -2126,13 +2126,13 @@ msgstr ""
 "got an important piece of cargo onboard that needs to make it to a nearby "
 "base, we'll make sure you're compensated well if you deliver it there.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1507
+#: src-en/data/events_sector_og_dawn.xml:1508
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[1]/text"
 msgstr "Agree to deliver the item."
 
-#: src-en/data/events_sector_og_dawn.xml:1509
+#: src-en/data/events_sector_og_dawn.xml:1510
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[1]/event/text"
@@ -2140,49 +2140,49 @@ msgstr ""
 "They transfer the cooridinates and the cargo crate over to you, they give a "
 "quick warning to not open it before sending you on your way."
 
-#: src-en/data/events_sector_og_dawn.xml:1515
+#: src-en/data/events_sector_og_dawn.xml:1516
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[2]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1517
+#: src-en/data/events_sector_og_dawn.xml:1518
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[2]/event/text"
 msgstr "Weapon's armed you plan on taking the cargo, and their ship by force."
 
-#: src-en/data/events_sector_og_dawn.xml:1520
+#: src-en/data/events_sector_og_dawn.xml:1521
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1526
+#: src-en/data/events_sector_og_dawn.xml:1527
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[3]/text"
 msgstr "Ignore them."
 
-#: src-en/data/events_sector_og_dawn.xml:1528
+#: src-en/data/events_sector_og_dawn.xml:1529
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1530
+#: src-en/data/events_sector_og_dawn.xml:1531
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1534
+#: src-en/data/events_sector_og_dawn.xml:1535
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1542
+#: src-en/data/events_sector_og_dawn.xml:1543
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -2191,59 +2191,59 @@ msgstr ""
 "you are, it appears they were hoping for one of their own to come to the "
 "rescue."
 
-#: src-en/data/events_sector_og_dawn.xml:1546
+#: src-en/data/events_sector_og_dawn.xml:1547
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[3]/text"
 msgstr "Attack!"
 
-#: src-en/data/events_sector_og_dawn.xml:1548
+#: src-en/data/events_sector_og_dawn.xml:1549
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[3]/event/text"
 msgstr "Weapon's armed you plan on taking their ship by force."
 
-#: src-en/data/events_sector_og_dawn.xml:1551
+#: src-en/data/events_sector_og_dawn.xml:1552
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[3]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1557
+#: src-en/data/events_sector_og_dawn.xml:1558
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[4]/text"
 msgstr "Ignore them."
 
-#: src-en/data/events_sector_og_dawn.xml:1559
+#: src-en/data/events_sector_og_dawn.xml:1560
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[4]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1561
+#: src-en/data/events_sector_og_dawn.xml:1562
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[4]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1565
+#: src-en/data/events_sector_og_dawn.xml:1566
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[4]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1583
+#: src-en/data/events_sector_og_dawn.xml:1584
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/beaconType/unvisitedTooltip"
 msgstr "The intended destination of the cargo container."
 
-#: src-en/data/events_sector_og_dawn.xml:1586
+#: src-en/data/events_sector_og_dawn.xml:1587
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/text"
 msgstr ""
 "You arrive at the beacon to discover a large military installation, the "
 "destination on the cargo crate specifies a specific docking port to head to."
 
-#: src-en/data/events_sector_og_dawn.xml:1588
+#: src-en/data/events_sector_og_dawn.xml:1589
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/text"
 msgstr "Dock at specified docking port."
 
-#: src-en/data/events_sector_og_dawn.xml:1590
+#: src-en/data/events_sector_og_dawn.xml:1591
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/text"
 msgstr ""
@@ -2252,22 +2252,22 @@ msgstr ""
 "designated for special delivery, please move your ship to a different "
 "port.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1592
+#: src-en/data/events_sector_og_dawn.xml:1593
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/text"
 msgstr "\"Oh, Actually we are the delivery crew.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1594
+#: src-en/data/events_sector_og_dawn.xml:1595
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/text"
 msgstr "\"Oh, well where's the Cargo Crate then?\""
 
-#: src-en/data/events_sector_og_dawn.xml:1596
+#: src-en/data/events_sector_og_dawn.xml:1597
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/text"
 msgstr "(Cargo Crate) Show her the Cargo Crate."
 
-#: src-en/data/events_sector_og_dawn.xml:1598
+#: src-en/data/events_sector_og_dawn.xml:1599
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/text"
 msgstr ""
@@ -2275,24 +2275,24 @@ msgstr ""
 "\n"
 "A moment later you find yourself in an odd looking labratory, there are several unattended tables around the room, but you're directed to a slightly larger one in the middle."
 
-#: src-en/data/events_sector_og_dawn.xml:1602
+#: src-en/data/events_sector_og_dawn.xml:1603
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1604
+#: src-en/data/events_sector_og_dawn.xml:1605
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/text"
 msgstr ""
 "A scientist or perhaps an engineer walks over, \"The delivery is here, perfect.\" He pops the crate open and begin rummaging through it, looking for something.\n"
 "\"Ah excellent, it was in here.\" He pulls out a strange looking device, you recognise it as one of the New Dawn's Turret Pre-energisers, although it appears modified. The engineer takes it to the table and begins connecting it up to several other components from the table."
 
-#: src-en/data/events_sector_og_dawn.xml:1608
+#: src-en/data/events_sector_og_dawn.xml:1609
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1610
+#: src-en/data/events_sector_og_dawn.xml:1611
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/text"
 msgstr ""
@@ -2301,99 +2301,99 @@ msgstr ""
 "successful Pre-energiser. I suppose putting this together wasn't neccessary,"
 " but I like to have a final prototype, it makes it feel complete."
 
-#: src-en/data/events_sector_og_dawn.xml:1612
+#: src-en/data/events_sector_og_dawn.xml:1613
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1615
+#: src-en/data/events_sector_og_dawn.xml:1616
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
 "Not a moment later the entire station is rocked by a large explosion, sirens and alarms start blaring and people start rushing through, the engineer turns to a nearby console, quickly bringing up the station's exterior camera's.\n"
 "On the vid screen you can makeout a strange looking ship silhouetted against the nearby star. \"It's just as I suspected.\" The engineer turns towards you. \"Captain, what kind of ship do you have?\" \"A cruiser, excellent! Take the Turret Pre-igniter, I've saved the designs to a secure datacenter. The physical prototype I cannot, however, risk falling into their hands, please take it with you and get out of here. Whatever you do, do not let it fall into the Rebellion's hands.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1619
+#: src-en/data/events_sector_og_dawn.xml:1620
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1622
+#: src-en/data/events_sector_og_dawn.xml:1623
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/choice/event/text"
 msgstr ""
 "You rush back to your ship, desperate to get it away from the installation before it gets damaged in the confusion.\n"
 "You undock for the station and begin to drift away when the hostile ship turns it's attention to you, warnings light up across the cockpit warning you of the danger, prepare for combat."
 
-#: src-en/data/events_sector_og_dawn.xml:1625
+#: src-en/data/events_sector_og_dawn.xml:1626
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1639
+#: src-en/data/events_sector_og_dawn.xml:1640
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[2]/text"
 msgstr "\"Ohh, uh we don't have it anymore.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1641
+#: src-en/data/events_sector_og_dawn.xml:1642
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "\"Right, well I'd recommend you move off before I have to throw you out of the airlock.\"\n"
 "You quickly return to your ship and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1644
+#: src-en/data/events_sector_og_dawn.xml:1645
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1648
+#: src-en/data/events_sector_og_dawn.xml:1649
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1656
+#: src-en/data/events_sector_og_dawn.xml:1657
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[2]/text"
 msgstr "\"Oh sorry, we'll move off then.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1658
+#: src-en/data/events_sector_og_dawn.xml:1659
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[2]/event/text"
 msgstr ""
 "You move your ship off of the docking port and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1660
+#: src-en/data/events_sector_og_dawn.xml:1661
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1664
+#: src-en/data/events_sector_og_dawn.xml:1665
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1672
+#: src-en/data/events_sector_og_dawn.xml:1673
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[2]/text"
 msgstr "Ignore the installation."
 
-#: src-en/data/events_sector_og_dawn.xml:1674
+#: src-en/data/events_sector_og_dawn.xml:1675
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[2]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1676
+#: src-en/data/events_sector_og_dawn.xml:1677
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1680
+#: src-en/data/events_sector_og_dawn.xml:1681
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1688
+#: src-en/data/events_sector_og_dawn.xml:1689
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/text"
 msgstr ""
@@ -2402,12 +2402,12 @@ msgstr ""
 "and scratches. Surprisingly, you still detect faint life signs aboard the "
 "wreck as you scrap it..."
 
-#: src-en/data/events_sector_og_dawn.xml:1692
+#: src-en/data/events_sector_og_dawn.xml:1693
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1694
+#: src-en/data/events_sector_og_dawn.xml:1695
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/choice/event/text"
 msgstr ""
@@ -2416,12 +2416,12 @@ msgstr ""
 " plunges it deep into his chest. An act of suicide, likely trying to stop "
 "you from getting information... but on what?"
 
-#: src-en/data/events_sector_og_dawn.xml:1696
+#: src-en/data/events_sector_og_dawn.xml:1697
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/choice/event/choice/text"
 msgstr "Investigate the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1698
+#: src-en/data/events_sector_og_dawn.xml:1699
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_LEGION_DEFEAT\"]/choice/event/choice/event/text"
 msgstr ""
@@ -2431,14 +2431,14 @@ msgstr ""
 "leak. Maybe this won't be the last time you see a ship like this, though "
 "that's very uncertain."
 
-#: src-en/data/events_sector_og_dawn.xml:1719
+#: src-en/data/events_sector_og_dawn.xml:1720
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_DAWN\"]/text[1]"
 msgstr ""
 "As you jump into the system a New Dawn ship advances on your position. They "
 "are refusing all hails. Prepare for a fight."
 
-#: src-en/data/events_sector_og_dawn.xml:1720
+#: src-en/data/events_sector_og_dawn.xml:1721
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_DAWN\"]/text[2]"
 msgstr ""
@@ -2446,91 +2446,91 @@ msgstr ""
 "good fortune that we happen to run into each other. Nothing personal, but "
 "you have some information we need!\""
 
-#: src-en/data/events_sector_og_dawn.xml:1721
+#: src-en/data/events_sector_og_dawn.xml:1722
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_DAWN\"]/text[3]"
 msgstr ""
 "The only other ship at this beacon messages you: \"Finally, after months of "
 "waiting, someone has fallen into our trap!\""
 
-#: src-en/data/events_sector_og_dawn.xml:1722
+#: src-en/data/events_sector_og_dawn.xml:1723
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_ENCOUNTER_OG_DAWN\"]/text[4]"
 msgstr ""
 "You barely have time to register jump completion before your ship warns you "
 "of an incoming ship with weapons hot."
 
-#: src-en/data/events_sector_og_dawn.xml:1728
+#: src-en/data/events_sector_og_dawn.xml:1729
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"ENCOUNTER_OG_DAWN_SHIP\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1740
+#: src-en/data/events_sector_og_dawn.xml:1741
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1748
+#: src-en/data/events_sector_og_dawn.xml:1749
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1759
+#: src-en/data/events_sector_og_dawn.xml:1760
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_RUN\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1767
+#: src-en/data/events_sector_og_dawn.xml:1768
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_RUN\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1777
+#: src-en/data/events_sector_og_dawn.xml:1778
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_ESCORT\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1786
+#: src-en/data/events_sector_og_dawn.xml:1787
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_DAWN_ESCORT\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1797
+#: src-en/data/events_sector_og_dawn.xml:1798
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1805
+#: src-en/data/events_sector_og_dawn.xml:1806
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1817
+#: src-en/data/events_sector_og_dawn.xml:1818
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_RUN\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1825
+#: src-en/data/events_sector_og_dawn.xml:1826
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_RUN\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1835
+#: src-en/data/events_sector_og_dawn.xml:1836
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_ESCORT\"]/destroyed/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1844
+#: src-en/data/events_sector_og_dawn.xml:1845
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_HEIST_IRON_ESCORT\"]/deadCrew/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1855
+#: src-en/data/events_sector_og_dawn.xml:1856
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/beaconType/unvisitedTooltip"
 msgstr "You've heard reports of Iron Watch ships nearby."
 
-#: src-en/data/events_sector_og_dawn.xml:1857
+#: src-en/data/events_sector_og_dawn.xml:1858
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/text"
 msgstr ""
 "You've arrived at the beacon face to face with a pair of Iron Watch ships, "
@@ -2539,13 +2539,13 @@ msgstr ""
 " Watch were either forced out, or joined their leaders in turning to the New"
 " Dawn."
 
-#: src-en/data/events_sector_og_dawn.xml:1860
+#: src-en/data/events_sector_og_dawn.xml:1861
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/text"
 msgstr "Contact the ships."
 
-#: src-en/data/events_sector_og_dawn.xml:1862
+#: src-en/data/events_sector_og_dawn.xml:1863
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/text"
@@ -2557,19 +2557,19 @@ msgstr ""
 "previously neutral immediately move to defend, and assuming you're on the "
 "side of the New Dawn vessel the fighter splits off to engage you."
 
-#: src-en/data/events_sector_og_dawn.xml:1865
+#: src-en/data/events_sector_og_dawn.xml:1866
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1871
+#: src-en/data/events_sector_og_dawn.xml:1872
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/text"
 msgstr "Contact the ships."
 
-#: src-en/data/events_sector_og_dawn.xml:1873
+#: src-en/data/events_sector_og_dawn.xml:1874
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/text"
@@ -2580,13 +2580,13 @@ msgstr ""
 "opens fire on the larger of the two Iron Watch ships. The Iron watch ships "
 "which were previously neutral immediately move to defend from the attack."
 
-#: src-en/data/events_sector_og_dawn.xml:1876
+#: src-en/data/events_sector_og_dawn.xml:1877
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/text"
 msgstr "Aid the New Dawn."
 
-#: src-en/data/events_sector_og_dawn.xml:1878
+#: src-en/data/events_sector_og_dawn.xml:1879
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/text"
@@ -2595,19 +2595,19 @@ msgstr ""
 " verge of defeat. You slip in between them and their opponent, the Iron "
 "Watch escort, weapons armed."
 
-#: src-en/data/events_sector_og_dawn.xml:1881
+#: src-en/data/events_sector_og_dawn.xml:1882
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1887
+#: src-en/data/events_sector_og_dawn.xml:1888
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/text"
 msgstr "Aid the Iron Watch."
 
-#: src-en/data/events_sector_og_dawn.xml:1889
+#: src-en/data/events_sector_og_dawn.xml:1890
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/text"
@@ -2616,43 +2616,43 @@ msgstr ""
 "on the verge of defeat. You slip in between them and their opponent, the New"
 " Dawn fighter, weapons armed."
 
-#: src-en/data/events_sector_og_dawn.xml:1892
+#: src-en/data/events_sector_og_dawn.xml:1893
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1898
+#: src-en/data/events_sector_og_dawn.xml:1899
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[3]/text"
 msgstr "Use the confusion to escape."
 
-#: src-en/data/events_sector_og_dawn.xml:1900
+#: src-en/data/events_sector_og_dawn.xml:1901
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1902
+#: src-en/data/events_sector_og_dawn.xml:1903
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1906
+#: src-en/data/events_sector_og_dawn.xml:1907
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-1\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1914
+#: src-en/data/events_sector_og_dawn.xml:1915
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/text"
 msgstr "Contact the ships."
 
-#: src-en/data/events_sector_og_dawn.xml:1916
+#: src-en/data/events_sector_og_dawn.xml:1917
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/event/text"
@@ -2663,89 +2663,95 @@ msgstr ""
 "opens fire on the larger of the two Iron Watch ships. The Iron watch ships "
 "which were previously neutral immediately move to defend from the attack."
 
-#: src-en/data/events_sector_og_dawn.xml:1919
+#: src-en/data/events_sector_og_dawn.xml:1920
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/event/choice[1]/text"
 msgstr "Aid the Iron Watch."
 
-#: src-en/data/events_sector_og_dawn.xml:1921
+#: src-en/data/events_sector_og_dawn.xml:1924
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[1]/event/text"
+" and @lvl=\"-99\"]/event/choice[2]/text"
+msgstr "Aid the Iron Watch."
+
+#: src-en/data/events_sector_og_dawn.xml:1926
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
+" and @lvl=\"-99\"]/event/choice[2]/event/text"
 msgstr ""
 "You move in to defend the Iron Watch escort ship, who's already damaged and "
 "on the verge of defeat. You slip in between them and their opponent, the New"
 " Dawn fighter, weapons armed."
 
-#: src-en/data/events_sector_og_dawn.xml:1924
+#: src-en/data/events_sector_og_dawn.xml:1929
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[1]/event/choice/text"
+" and @lvl=\"-99\"]/event/choice[2]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1930
+#: src-en/data/events_sector_og_dawn.xml:1935
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[2]/text"
+" and @lvl=\"-99\"]/event/choice[3]/text"
 msgstr "Use the confusion to escape."
 
-#: src-en/data/events_sector_og_dawn.xml:1932
+#: src-en/data/events_sector_og_dawn.xml:1937
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[2]/event/text"
+" and @lvl=\"-99\"]/event/choice[3]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1934
+#: src-en/data/events_sector_og_dawn.xml:1939
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[2]/event/choice[1]/text"
+" and @lvl=\"-99\"]/event/choice[3]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1938
+#: src-en/data/events_sector_og_dawn.xml:1943
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
-" and @lvl=\"-99\"]/event/choice[2]/event/choice[2]/text"
+" and @lvl=\"-99\"]/event/choice[3]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1946
+#: src-en/data/events_sector_og_dawn.xml:1951
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/text"
 msgstr "Ignore the ships."
 
-#: src-en/data/events_sector_og_dawn.xml:1948
+#: src-en/data/events_sector_og_dawn.xml:1953
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/event/text"
 msgstr "You keep your distance and prepare for your next jump."
 
-#: src-en/data/events_sector_og_dawn.xml:1950
+#: src-en/data/events_sector_og_dawn.xml:1955
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1954
+#: src-en/data/events_sector_og_dawn.xml:1959
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[4]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:1962
+#: src-en/data/events_sector_og_dawn.xml:1967
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_IRON\"]/text"
 msgstr ""
 "The debris clears around you, it appears the New Dawn escort ship you were protecting has left, running or jumping away. The two main cruisers however are still locked in battle, both damaged and leaking.\n"
 "The New Dawn cruiser contacts you, \"Please Captain, we can't last much longer, step in and finish the job.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1973
+#: src-en/data/events_sector_og_dawn.xml:1978
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_IRON\"]/choice[1]/text"
 msgstr "Aid the New Dawn cruiser."
 
-#: src-en/data/events_sector_og_dawn.xml:1977
+#: src-en/data/events_sector_og_dawn.xml:1982
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_IRON\"]/choice[2]/text"
 msgstr "Abandon the New Dawn ship."
 
-#: src-en/data/events_sector_og_dawn.xml:1981
+#: src-en/data/events_sector_og_dawn.xml:1986
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_IRON\"]/choice[2]/event/text"
 msgstr ""
@@ -2753,7 +2759,7 @@ msgstr ""
 "the Iron Watch ship still clearly afraid of you in their damaged state "
 "chooses to jump away."
 
-#: src-en/data/events_sector_og_dawn.xml:1986
+#: src-en/data/events_sector_og_dawn.xml:1991
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN\"]/text"
 msgstr ""
@@ -2761,26 +2767,26 @@ msgstr ""
 "emergency jump, slipping into the void just as their systems were beginning "
 "to fail."
 
-#: src-en/data/events_sector_og_dawn.xml:1990
+#: src-en/data/events_sector_og_dawn.xml:1995
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:1992
+#: src-en/data/events_sector_og_dawn.xml:1997
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/text"
 msgstr ""
 "The good news however is the the New Dawn cruiser managed to survive. \"Captain, it's a good thing you were here, it's clear we would have been doomed without your help, Thank you. Now, what I'm about to ask you is against protocol but clearly we're up against some tough opponents here, we could really use your help.\"\n"
 "\"Recently we recovered some intel from an Iron Watch transport we captured, it held plans for a heist on one of our data-vaults, We know they've setup a secret base somewhere nearby in preparation for the heist, but we haven't found it yet, we were hoping one of these ships had that information on them.\""
 
-#: src-en/data/events_sector_og_dawn.xml:1995
+#: src-en/data/events_sector_og_dawn.xml:2000
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/choice[1]/text"
 msgstr ""
 "Agree to help, and direct them to the Iron Watch escort you defeated "
 "earlier."
 
-#: src-en/data/events_sector_og_dawn.xml:1997
+#: src-en/data/events_sector_og_dawn.xml:2002
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/choice[1]/event/text"
 msgstr ""
@@ -2792,29 +2798,29 @@ msgstr ""
 "it appears they're quite close to being ready, we need to get there as quick"
 " as possible, we'll send you the location now.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2002
+#: src-en/data/events_sector_og_dawn.xml:2007
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/choice[2]/text"
 msgstr "Politely decline, you've got a more important mission ahead."
 
-#: src-en/data/events_sector_og_dawn.xml:2010
+#: src-en/data/events_sector_og_dawn.xml:2015
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_DAWN\"]/text"
 msgstr ""
 "The debris clears around you, it appears the Iron Watch escort ship you were protecting has left, running or jumping away. The two main cruisers however are still locked in battle, both damaged and leaking.\n"
 "The Iron Watch cruiser contacts you, \"Please Captain, we can't last much longer, step in and finish the job.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2021
+#: src-en/data/events_sector_og_dawn.xml:2026
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_DAWN\"]/choice[1]/text"
 msgstr "Aid the Iron Watch cruiser."
 
-#: src-en/data/events_sector_og_dawn.xml:2025
+#: src-en/data/events_sector_og_dawn.xml:2030
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_DAWN\"]/choice[2]/text"
 msgstr "Abandon the Iron Watch ship."
 
-#: src-en/data/events_sector_og_dawn.xml:2029
+#: src-en/data/events_sector_og_dawn.xml:2034
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_ESCORT_FOLLOWUP_DAWN\"]/choice[2]/event/text"
 msgstr ""
@@ -2822,7 +2828,7 @@ msgstr ""
 " the New Dawn ship still clearly afraid of you in their damaged state "
 "chooses to jump away."
 
-#: src-en/data/events_sector_og_dawn.xml:2034
+#: src-en/data/events_sector_og_dawn.xml:2039
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN\"]/text"
 msgstr ""
@@ -2830,41 +2836,41 @@ msgstr ""
 "emergency jump, slipping into the void just as their systems were beginning "
 "to fail."
 
-#: src-en/data/events_sector_og_dawn.xml:2038
+#: src-en/data/events_sector_og_dawn.xml:2043
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN\"]/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:2040
+#: src-en/data/events_sector_og_dawn.xml:2045
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN_CONT\"]/text"
 msgstr ""
 "The good news however is the the Iron Watch cruiser managed to survive. \"Captain, it's a good thing you were here, it's clear we would have been doomed without your help, Thank you. Now I shouldn't be telling you this, but clearly we need the help.\"\n"
 "\"We're in the process of preparing for a raid on the a New Dawn data-vault, capturing the information held there will be a great boon in the war, but its heavily defended. We've been preparing with supplies and equipment nearby the data-vault, hidden from their sensors. We're almost ready to go, so we'd appreciate your help during the raid.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2043
+#: src-en/data/events_sector_og_dawn.xml:2048
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN_CONT\"]/choice[1]/text"
 msgstr "Agree to help."
 
-#: src-en/data/events_sector_og_dawn.xml:2045
+#: src-en/data/events_sector_og_dawn.xml:2050
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN_CONT\"]/choice[1]/event/text"
 msgstr ""
 "\"Excellent! I look forward to having the extra fire support during the "
 "raid, we'll send you the location now, good luck and see you soon.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2050
+#: src-en/data/events_sector_og_dawn.xml:2055
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN_CONT\"]/choice[2]/text"
 msgstr "Politely decline, you've got a more important mission ahead."
 
-#: src-en/data/events_sector_og_dawn.xml:2063
+#: src-en/data/events_sector_og_dawn.xml:2068
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/beaconType/unvisitedTooltip"
 msgstr "The location of the Iron Watch's secret base."
 
-#: src-en/data/events_sector_og_dawn.xml:2066
+#: src-en/data/events_sector_og_dawn.xml:2071
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/text"
 msgstr ""
@@ -2872,24 +2878,24 @@ msgstr ""
 "already. \"You're here Captain, we can set-off then, follow me and prepare "
 "for combat.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2068
+#: src-en/data/events_sector_og_dawn.xml:2073
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/text"
 msgstr "Follow the cruiser."
 
-#: src-en/data/events_sector_og_dawn.xml:2070
+#: src-en/data/events_sector_og_dawn.xml:2075
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/text"
 msgstr ""
 "You follow the cruiser, passing by several large asteroids floating in the void. You don't even realize when you get to the Iron Watch base until you're right up against it, you pickup the faintest blip on your sensors in the center of a large asteroid, protected from detection by the thick layer of rock.\n"
 "Now that you know where their base is it doesn't take you long to locate the entrance, a natural cave in the asteroid that leads inwards."
 
-#: src-en/data/events_sector_og_dawn.xml:2073
+#: src-en/data/events_sector_og_dawn.xml:2078
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/text"
 msgstr "Follow the cruiser inside."
 
-#: src-en/data/events_sector_og_dawn.xml:2075
+#: src-en/data/events_sector_og_dawn.xml:2080
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2900,12 +2906,12 @@ msgstr ""
 "to their engines. \"Captain, we've made a mistake, they've already moved on "
 "the data-vault, I need to get back there now!\""
 
-#: src-en/data/events_sector_og_dawn.xml:2077
+#: src-en/data/events_sector_og_dawn.xml:2082
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:2079
+#: src-en/data/events_sector_og_dawn.xml:2084
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/text"
 msgstr ""
@@ -2915,60 +2921,60 @@ msgstr ""
 "up we can't risk them escaping with the data, do not let them escape.\" With"
 " that they leave, heading off towards the data-vault."
 
-#: src-en/data/events_sector_og_dawn.xml:2081
+#: src-en/data/events_sector_og_dawn.xml:2086
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/text"
 msgstr "Continue.."
 
-#: src-en/data/events_sector_og_dawn.xml:2083
+#: src-en/data/events_sector_og_dawn.xml:2088
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
 "Just when you were getting bored, a ship appears on your sensors, at first you think it's the New Dawn ship returning, but it quickly resolves to be an Iron Watch ship, the same ship that escaped from you earlier.\n"
 "Upon seeing you they also activate their weapons, preparing to attack. You notice however that it appears their engines are damaged, and they're attempting an emergency jump to escape. It will take a few minutes due to the damage, now is your chance."
 
-#: src-en/data/events_sector_og_dawn.xml:2090
+#: src-en/data/events_sector_og_dawn.xml:2095
 msgid ""
 "data/events_sector_og_dawn.xml$//triggeredEvent[@name=\"OG_DAWN_HEIST_DAWN_TIMER\"]/triggeredEventBox/tooltip"
 msgstr ""
 "Time until the Iron Watch cruiser will be able to execute an emergency jump."
 
-#: src-en/data/events_sector_og_dawn.xml:2095
+#: src-en/data/events_sector_og_dawn.xml:2100
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/choice/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:2107
+#: src-en/data/events_sector_og_dawn.xml:2112
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/text"
 msgstr ""
 "\"Actually, we've had second thought's, we'd rather avoid this conflict.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2109
+#: src-en/data/events_sector_og_dawn.xml:2114
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/event/text"
 msgstr ""
 "The New Dawn Captain is disapointed and goes off on his own, hopefully their"
 " ship will be powerful enough on their own."
 
-#: src-en/data/events_sector_og_dawn.xml:2111
+#: src-en/data/events_sector_og_dawn.xml:2116
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:2115
+#: src-en/data/events_sector_og_dawn.xml:2120
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:2124
+#: src-en/data/events_sector_og_dawn.xml:2129
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_FAIL\"]/text"
 msgstr ""
 "The ship jumps away, if they had the data it's gone now, you've failed. You "
 "wait but don't hear back from the New Dawn, you're on your own again."
 
-#: src-en/data/events_sector_og_dawn.xml:2128
+#: src-en/data/events_sector_og_dawn.xml:2133
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/text"
 msgstr ""
@@ -2976,72 +2982,72 @@ msgstr ""
 "\n"
 "\"One of the things they attempted to steal were the plans for a new cruiser we have designed, I've taken the liberty to download the design myself for you, try not to let it fall into the wrong hands. Additionally, and possibly more immediately helpful to you, I have a selection of New Dawn equipment, take whatever you like the look of, I can just write it off as destroyed in the battle.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2133
+#: src-en/data/events_sector_og_dawn.xml:2138
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[1]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2135
+#: src-en/data/events_sector_og_dawn.xml:2140
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[1]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before heading back to the data-vault"
 
-#: src-en/data/events_sector_og_dawn.xml:2140
+#: src-en/data/events_sector_og_dawn.xml:2145
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[2]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2142
+#: src-en/data/events_sector_og_dawn.xml:2147
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[2]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before heading back to the data-vault"
 
-#: src-en/data/events_sector_og_dawn.xml:2147
+#: src-en/data/events_sector_og_dawn.xml:2152
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[3]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2149
+#: src-en/data/events_sector_og_dawn.xml:2154
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[3]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before heading back to the data-vault"
 
-#: src-en/data/events_sector_og_dawn.xml:2154
+#: src-en/data/events_sector_og_dawn.xml:2159
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[4]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2156
+#: src-en/data/events_sector_og_dawn.xml:2161
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[4]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before heading back to the data-vault"
 
-#: src-en/data/events_sector_og_dawn.xml:2161
+#: src-en/data/events_sector_og_dawn.xml:2166
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[5]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2163
+#: src-en/data/events_sector_og_dawn.xml:2168
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_WIN_FOLLOWUP\"]/choice[5]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before heading back to the data-vault"
 
-#: src-en/data/events_sector_og_dawn.xml:2175
+#: src-en/data/events_sector_og_dawn.xml:2180
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/beaconType/unvisitedTooltip"
 msgstr "The location of the New Dawn data-vault to be raided."
 
-#: src-en/data/events_sector_og_dawn.xml:2178
+#: src-en/data/events_sector_og_dawn.xml:2183
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/text"
 msgstr ""
@@ -3049,24 +3055,24 @@ msgstr ""
 "there, alongside a small fleet of smaller military vessels. \"You're here "
 "Captain, we can set-off then, follow me and prepare for combat.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2180
+#: src-en/data/events_sector_og_dawn.xml:2185
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/text"
 msgstr "Follow the cruiser."
 
-#: src-en/data/events_sector_og_dawn.xml:2182
+#: src-en/data/events_sector_og_dawn.xml:2187
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/text"
 msgstr ""
 "You follow the cruiser, the data-vault quickly appears on your sensors, a large station heavily defended, it has a massive solar array nearby providing power to it.\n"
 "The Iron Watch cruiser contacts you, \"Stick with me, I have the main raid force onboard, the other ships will be providing cover for the raid, I want you there in case anything unexpected happens.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2185
+#: src-en/data/events_sector_og_dawn.xml:2190
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/text"
 msgstr "\"Aye, we'll be there.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2187
+#: src-en/data/events_sector_og_dawn.xml:2192
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -3078,42 +3084,42 @@ msgstr ""
 "and equipment, we're not actually outfitted for ship to ship combat. You "
 "need to prevent them from making it to us.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2192
+#: src-en/data/events_sector_og_dawn.xml:2197
 msgid ""
 "data/events_sector_og_dawn.xml$//triggeredEvent[@name=\"OG_DAWN_HEIST_IRON_TIMER\"]/triggeredEventBox/tooltip"
 msgstr ""
 "Time until the New Dawn vessel is within firing range of the Iron Watch "
 "cruiser."
 
-#: src-en/data/events_sector_og_dawn.xml:2197
+#: src-en/data/events_sector_og_dawn.xml:2202
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:2205
+#: src-en/data/events_sector_og_dawn.xml:2210
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/text"
 msgstr ""
 "\"Actually, we've had second thought's, we'd rather avoid this conflict.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2207
+#: src-en/data/events_sector_og_dawn.xml:2212
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/event/text"
 msgstr ""
 "The New Dawn Captain is disapointed and goes off on his own, hopefully their"
 " ship will be powerful enough on their own."
 
-#: src-en/data/events_sector_og_dawn.xml:2209
+#: src-en/data/events_sector_og_dawn.xml:2214
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:2213
+#: src-en/data/events_sector_og_dawn.xml:2218
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:2222
+#: src-en/data/events_sector_og_dawn.xml:2227
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_FAIL\"]/text"
 msgstr ""
@@ -3124,7 +3130,7 @@ msgstr ""
 "you, forcing you back, eventually you're forced to run, or else be "
 "destroyed."
 
-#: src-en/data/events_sector_og_dawn.xml:2226
+#: src-en/data/events_sector_og_dawn.xml:2231
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/text"
 msgstr ""
@@ -3136,87 +3142,87 @@ msgstr ""
 "additionally we've captured a selection of New Dawn equipment, take whatever"
 " you need.\""
 
-#: src-en/data/events_sector_og_dawn.xml:2230
+#: src-en/data/events_sector_og_dawn.xml:2235
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[1]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2232
+#: src-en/data/events_sector_og_dawn.xml:2237
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[1]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before continuing back to their base."
 
-#: src-en/data/events_sector_og_dawn.xml:2237
+#: src-en/data/events_sector_og_dawn.xml:2242
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[2]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2239
+#: src-en/data/events_sector_og_dawn.xml:2244
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[2]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before continuing back to their base."
 
-#: src-en/data/events_sector_og_dawn.xml:2244
+#: src-en/data/events_sector_og_dawn.xml:2249
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[3]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2246
+#: src-en/data/events_sector_og_dawn.xml:2251
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[3]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before continuing back to their base."
 
-#: src-en/data/events_sector_og_dawn.xml:2251
+#: src-en/data/events_sector_og_dawn.xml:2256
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[4]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2253
+#: src-en/data/events_sector_og_dawn.xml:2258
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[4]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before continuing back to their base."
 
-#: src-en/data/events_sector_og_dawn.xml:2258
+#: src-en/data/events_sector_og_dawn.xml:2263
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[5]/text"
 msgstr "Take:"
 
-#: src-en/data/events_sector_og_dawn.xml:2260
+#: src-en/data/events_sector_og_dawn.xml:2265
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_WIN_FOLLOWUP\"]/choice[5]/event/text"
 msgstr ""
 "You choose one of the New Dawn turrets, after which the Captain thanks you "
 "again before continuing back to their base."
 
-#: src-en/data/events_sector_og_dawn.xml:2270
+#: src-en/data/events_sector_og_dawn.xml:2275
 msgid ""
 "data/events_sector_og_dawn.xml$//ship[@name=\"SHIP_OG_DAWN_TRANSPORT_LOOT\"]/escape/text"
 msgstr "They look like they don't want to fight. They are trying to escape."
 
-#: src-en/data/events_sector_og_dawn.xml:2281
+#: src-en/data/events_sector_og_dawn.xml:2286
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/beaconType/unvisitedTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_sector_og_dawn.xml:2282
+#: src-en/data/events_sector_og_dawn.xml:2287
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/beaconType/visitedTooltip"
 msgstr "Explored location. Nothing left of interest."
 
-#: src-en/data/events_sector_og_dawn.xml:2283
+#: src-en/data/events_sector_og_dawn.xml:2288
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/beaconType/undiscoveredTooltip"
 msgstr "An unvisited location."
 
-#: src-en/data/events_sector_og_dawn.xml:2285
+#: src-en/data/events_sector_og_dawn.xml:2290
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/text"
 msgstr ""
@@ -3224,45 +3230,155 @@ msgstr ""
 "likely carrying some special tech. If you can kill its crew, their cargo "
 "will be yours."
 
-#: src-en/data/events_sector_og_dawn.xml:2288
+#: src-en/data/events_sector_og_dawn.xml:2293
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/text"
 msgstr "Demand the surrender of their goods."
 
-#: src-en/data/events_sector_og_dawn.xml:2290
+#: src-en/data/events_sector_og_dawn.xml:2295
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/event/text"
 msgstr "You prepare to secure their cargo by force."
 
-#: src-en/data/events_sector_og_dawn.xml:2293
+#: src-en/data/events_sector_og_dawn.xml:2298
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[1]/event/choice/text"
 msgstr "Continue..."
 
-#: src-en/data/events_sector_og_dawn.xml:2299
+#: src-en/data/events_sector_og_dawn.xml:2304
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/text"
 msgstr "Avoid the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:2301
+#: src-en/data/events_sector_og_dawn.xml:2306
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/event/text"
 msgstr "They stay outside your weapons range, and eventually jump away."
 
-#: src-en/data/events_sector_og_dawn.xml:2303
+#: src-en/data/events_sector_og_dawn.xml:2308
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/event/choice[1]/text"
 msgstr "Do something onboard the ship."
 
-#: src-en/data/events_sector_og_dawn.xml:2307
+#: src-en/data/events_sector_og_dawn.xml:2312
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_OG_DAWN_LOOT\"]/choice[2]/event/choice[2]/text"
 msgstr "Do nothing."
 
-#: src-en/data/events_sector_og_dawn.xml:2314
+#: src-en/data/events_sector_og_dawn.xml:2319
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"TRANSPORT_CAPTURE_OG_DAWN\"]/text"
 msgstr ""
 "The crew is dead, leaving you with the ship. Its cargo is yours for the "
 "taking. Aboard is the special tech you expected, which you bring back to "
 "your ship."
+
+#: src-en/data/events_sector_og_dawn.xml:2331
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_NEUTRON\"]/text"
+msgstr ""
+"You find a large New Dawn settlement here, a number of stations sit in orbit"
+" around the planet. The store catches your eye and sensors first due to the "
+"beacon it's emitting, but alongside that sits a large New Dawn military "
+"outpost, several armed ships are docked to the outpost."
+
+#: src-en/data/events_sector_og_dawn.xml:2333
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_NEUTRON\"]/choice[@req=\"OG_DAWN_NEUTRON_REROUTE_INITIATE\"]/text"
+msgstr "You recognise the New Dawn ship you met in the Iron Watch sector."
+
+#: src-en/data/events_sector_og_dawn.xml:2337
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_NEUTRON\"]/choice[@req=\"OG_DAWN_NEUTRON_REROUTE_FRIENDLY\"]/text"
+msgstr "(Positive Reputation) Pay to enter the outpost."
+
+#: src-en/data/events_sector_og_dawn.xml:2341
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_NEUTRON\"]/choice[@req=\"OG_DAWN_NEUTRON_REROUTE_NEGATIVE\"]/text"
+msgstr "(Negative/Neutral Reputation) The outpost bars your entry."
+
+#: src-en/data/events_sector_og_dawn.xml:2345
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_NEUTRON\"]/choice[4]/text"
+msgstr "Just explore the store."
+
+#: src-en/data/events_sector_og_dawn.xml:2347
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_STORE_REAL\"]/text"
+msgstr ""
+"You have some time to do something onboard your ship while you're here."
+
+#: src-en/data/events_sector_og_dawn.xml:2350
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_STORE_REAL\"]/choice[1]/text"
+msgstr "Do something onboard the ship."
+
+#: src-en/data/events_sector_og_dawn.xml:2354
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_REROUTE_STORE_REAL\"]/choice[2]/text"
+msgstr "Do nothing."
+
+#: src-en/data/events_sector_og_dawn.xml:2362
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_INITIATE\"]/text"
+msgstr ""
+"You enter into a lounge area, several New Dawn officers are present. One of "
+"the officers recognises you, \"Ah, Captain, I see you've made it here "
+"safely. I was hoping to speak with you, if you have a moment.\""
+
+#: src-en/data/events_sector_og_dawn.xml:2364
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_INITIATE\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_og_dawn.xml:2369
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_FRIENDLY\"]/text"
+msgstr ""
+"You enter into a lounge area, several New Dawn officers are present. One of "
+"the officers recognises you, \"Ah, Captain, I've heard of your exploits. I "
+"was actually hoping to speak with you, if you have a moment.\""
+
+#: src-en/data/events_sector_og_dawn.xml:2374
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_FRIENDLY\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_og_dawn.xml:2380
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/text"
+msgstr ""
+"\"Captain. Word of your actions in New Dawn space has travelled fast, the higher-ups are impressed.\n"
+"We're aware of your standing agreement with the Federation, and we have no intention of pulling you from your mission.\n"
+"However as the Iron Watch isn't a part of the federation, it shouldn't be a problem for you to help us against them, in exchange for a large sum of money of course.\""
+
+#: src-en/data/events_sector_og_dawn.xml:2385
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_og_dawn.xml:2387
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/choice/event/text"
+msgstr ""
+"\"Our Intelligence forces have operating a mission in a secret Iron Watch "
+"stronghold, deep in unexplored space. As a result the Iron Watch have been "
+"contacting their allies in the region for support.\""
+
+#: src-en/data/events_sector_og_dawn.xml:2389
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/choice/event/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_og_dawn.xml:2391
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/choice/event/choice/event/text"
+msgstr ""
+"\"With an attack imminent, and allies flooding to the sector, you should be able to blend in seamlessly. Once you're in place our members in the sector will seek you out.\n"
+"\t\t\t\t\t\t\n"
+"\t\t\t\t\t\tYou've been cleared for access to the sector coordinates. If you choose to make your way there, there will be a member of the New Dawn ready to inform you of the mission. Good Luck, Captain.\""
+
+#: src-en/data/events_sector_og_dawn.xml:2397
+msgid ""
+"data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REROUTE_STORE_QUEST\"]/choice/event/choice/event/choice/text"
+msgstr "Continue..."

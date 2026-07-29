@@ -1,0 +1,45 @@
+#
+msgid ""
+msgstr ""
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src-en/data/events_sector_showdown.xml.append:4
+msgid ""
+"data/events_sector_showdown.xml.append$//mod:findName[@name=\"TRUE_VICTORY_CREW\"]/mod-"
+"append:choice[1]/text"
+msgstr "Ask Dr. Silas about this."
+
+#: src-en/data/events_sector_showdown.xml.append:8
+msgid ""
+"data/events_sector_showdown.xml.append$//mod:findName[@name=\"TRUE_VICTORY_CREW\"]/mod-"
+"append:choice[2]/text"
+msgstr "Ask Diplomat Horus about this."
+
+#: src-en/data/events_sector_showdown.xml.append:14
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"TRUE_VICTORY_CREW_OG_SILAS\"]/text"
+msgstr ""
+"\"Multiverse Drive technology is too valuable to destroy like this, we've "
+"already struck an incredible blow to the rebellion, blowing up the bomb "
+"would be dooming an uncountable number of universes to forever be under "
+"rebel control.\""
+
+#: src-en/data/events_sector_showdown.xml.append:18
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"TRUE_VICTORY_CREW_OG_SILAS\"]/choice/text"
+msgstr "Continue..."
+
+#: src-en/data/events_sector_showdown.xml.append:23
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"TRUE_VICTORY_CREW_OG_HORUS\"]/text"
+msgstr ""
+"\"When I asked to be delivered to the FEDERATION BASE, and you AGREED, why "
+"did you then think it was a good idea to take me here? I didn't want to be "
+"apart of all this, and I certainly don't want to be blown up!\""
+
+#: src-en/data/events_sector_showdown.xml.append:27
+msgid ""
+"data/events_sector_showdown.xml.append$//event[@name=\"TRUE_VICTORY_CREW_OG_HORUS\"]/choice/text"
+msgstr "Continue..."
