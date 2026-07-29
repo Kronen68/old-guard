@@ -1,9 +1,17 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: Ukn <bbg100bbg@gmail.com>\n"
+"Language-Team: Russian <https://weblate.hyperq.be/projects/the-old-guard/"
+"dataevents_sector_og_dawnxml/ru/>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_og_dawn.xml:10
 msgid ""
@@ -445,6 +453,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:348
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[1]"
 msgstr ""
@@ -452,6 +461,7 @@ msgstr ""
 "разрушается."
 
 #: src-en/data/events_sector_og_dawn.xml:349
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[2]"
 msgstr ""
@@ -459,6 +469,7 @@ msgstr ""
 "обломки."
 
 #: src-en/data/events_sector_og_dawn.xml:350
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[3]"
 msgstr ""
@@ -480,6 +491,7 @@ msgstr ""
 "доказательство того, что Федерация ничем не лучше Восстания...\""
 
 #: src-en/data/events_sector_og_dawn.xml:360
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[2]"
 msgstr ""
@@ -487,6 +499,7 @@ msgstr ""
 "жизнь угасает в его глазах. Вы разбираете корпус его корабля."
 
 #: src-en/data/events_sector_og_dawn.xml:361
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[3]"
 msgstr ""
@@ -494,12 +507,14 @@ msgstr ""
 "Ренегаты... Железному дозору было бы лучше с повстанцами...\""
 
 #: src-en/data/events_sector_og_dawn.xml:365
+#, fuzzy
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"ESCAPE_OG_DAWN\"]/text"
 msgstr ""
 "Сканирование показывает, что корабль Железного дозора пытается сбежать. "
 "Уничтожьте его, пока он не успел уйти!"
 
 #: src-en/data/events_sector_og_dawn.xml:378
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[1]"
 msgstr ""
@@ -507,6 +522,7 @@ msgstr ""
 "маяка."
 
 #: src-en/data/events_sector_og_dawn.xml:379
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[2]"
 msgstr ""
@@ -514,6 +530,7 @@ msgstr ""
 "корабль сбежал."
 
 #: src-en/data/events_sector_og_dawn.xml:382
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GOTAWAY_OG_DAWN_REMAINS\"]/text"
 msgstr ""
@@ -636,6 +653,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:506
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP\"]/text"
 msgstr ""
@@ -722,13 +740,14 @@ msgid ""
 msgstr "Угрожать, что вы сообщите о нем, если он снова не снизит цену."
 
 #: src-en/data/events_sector_og_dawn.xml:552
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP_THREATEN\"]/choice[2]/event/text"
 msgstr ""
 "Вы снова принимаете жесткий тон и угрожаете торговцу, но на этот раз он еще "
-"меньше обеспокоен. В конце концов, вы смотрите на турель и понимаете, что ее"
-" нет. Торговец сумел спрятать ее, пока вы были отвлечены, и, не имея ничего,"
-" о чем можно было бы сообщить, ваши угрозы остаются бесплодными."
+"меньше обеспокоен. В конце концов, вы смотрите на турель и понимаете, что ее "
+"нет. Торговец сумел спрятать ее, пока вы были отвлечены, и, не имея ничего, "
+"о чем можно было бы сообщить, ваши угрозы остаются бесплодными."
 
 #: src-en/data/events_sector_og_dawn.xml:556
 msgid ""
@@ -807,13 +826,14 @@ msgid ""
 msgstr "Не обращать внимания и просто заняться покупками."
 
 #: src-en/data/events_sector_og_dawn.xml:624
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DEBRIS_FIELD\"]/text"
 msgstr ""
 "Вы прибыли к маяку и обнаружили обломки корабля Нового рассвета. Ничто в "
 "этом районе не указывает на то, что здесь произошло сражение. Скорее всего, "
-"обломки появились из-за астероидного поля. Если вы хотите осмотреть обломки,"
-" вам нужно войти в астероидное поле."
+"обломки появились из-за астероидного поля. Если вы хотите осмотреть обломки, "
+"вам нужно войти в астероидное поле."
 
 #: src-en/data/events_sector_og_dawn.xml:626
 msgid ""
@@ -1287,6 +1307,7 @@ msgid ""
 msgstr "Разобрать его на лом и припасы."
 
 #: src-en/data/events_sector_og_dawn.xml:914
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_OUTPOST_FLEET\"]/choice[4]/event/text"
 msgstr ""
@@ -1341,11 +1362,18 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_dawn.xml:991
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/text"
 msgstr ""
-"Вы прибываете к маяку и сталкиваетесь лицом к лицу с кораблем Нового рассвета и кораблем повстанцев. Вы сразу же готовитесь к предстоящей битве, но вскоре понимаете, что корабли не заинтересованы в вас, а нацелены друг на друга.\n"
-"Из того, что вы слышите по общему каналу связи, вы понимаете, что капитан Нового рассвета устал слушать приказы этих \"глупых капитанов повстанцев, которые не могут отличить задницу слизня от собственной матери\". А капитан повстанцев весьма недоволен неподчинением корабля Нового рассвета."
+"Вы прибываете к маяку и сталкиваетесь лицом к лицу с кораблем Нового "
+"рассвета и кораблем повстанцев. Вы сразу же готовитесь к предстоящей битве, "
+"но вскоре понимаете, что корабли не заинтересованы в вас, а нацелены друг на "
+"друга.\n"
+"Из того, что вы слышите по общему каналу связи, вы понимаете, что капитан "
+"Нового рассвета устал слушать приказы этих \"глупых капитанов повстанцев, "
+"которые не могут отличить задницу слизня от собственной матери\". А капитан "
+"повстанцев весьма недоволен неподчинением корабля Нового рассвета."
 
 #: src-en/data/events_sector_og_dawn.xml:994
 msgid ""
@@ -1571,16 +1599,17 @@ msgid ""
 msgstr "Согласиться помочь."
 
 #: src-en/data/events_sector_og_dawn.xml:1129
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP_PULSAR\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
 msgstr ""
 "Вы соглашаетесь помочь и отделяетесь от корабля Нового рассвета. Через "
 "несколько минут поиска корабль Нового рассвета исчезает вдали, за пределами "
-"досягаемости ваших сенсоров. Спустя всего несколько минут появляется корабль"
-" Железного дозора, выходящий из-за большого, но медленно движущегося "
-"астероида. Они верно догадываются, что вы являетесь частью поисковой группы,"
-" и не дают вам шанса, готовясь к бою."
+"досягаемости ваших сенсоров. Спустя всего несколько минут появляется корабль "
+"Железного дозора, выходящий из-за большого, но медленно движущегося "
+"астероида. Они верно догадываются, что вы являетесь частью поисковой группы, "
+"и не дают вам шанса, готовясь к бою."
 
 #: src-en/data/events_sector_og_dawn.xml:1131
 msgid ""
@@ -1762,6 +1791,7 @@ msgid ""
 msgstr "Согласиться на обмен."
 
 #: src-en/data/events_sector_og_dawn.xml:1235
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
@@ -1934,11 +1964,15 @@ msgid ""
 msgstr "Исследовать место крушения."
 
 #: src-en/data/events_sector_og_dawn.xml:1361
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/text"
 msgstr ""
-"Вы подлетаете поближе к обломкам. Среди них лежат несколько грузовых контейнеров, но все они, похоже, вскрыты - кто-то уже побывал здесь.\n"
-"Через мгновение вы узнаете, кто это был: из-за астероидов выходит разведчик Нового рассвета. Судя по тонкой струйке масла и других жидкостей, вытекающих за ним, его двигатели, очевидно, повреждены."
+"Вы подлетаете поближе к обломкам. Среди них лежат несколько грузовых "
+"контейнеров, но все они, похоже, вскрыты - кто-то уже побывал здесь.\n"
+"Через мгновение вы узнаете, кто это был: из-за астероидов выходит разведчик "
+"Нового рассвета. Судя по тонкой струйке масла и других жидкостей, вытекающих "
+"за ним, его двигатели, очевидно, повреждены."
 
 #: src-en/data/events_sector_og_dawn.xml:1364
 msgid ""
@@ -1946,6 +1980,7 @@ msgid ""
 msgstr "Связаться с кораблем."
 
 #: src-en/data/events_sector_og_dawn.xml:1366
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
@@ -2061,6 +2096,7 @@ msgid ""
 msgstr "Пора отправляться к аванпосту."
 
 #: src-en/data/events_sector_og_dawn.xml:1449
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/text"
 msgstr ""
@@ -2144,6 +2180,7 @@ msgid ""
 msgstr "Согласиться доставить груз."
 
 #: src-en/data/events_sector_og_dawn.xml:1510
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[1]/event/text"
@@ -2195,6 +2232,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:1543
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
@@ -2279,12 +2317,15 @@ msgid ""
 msgstr "(Грузовой контейнер) Показать его."
 
 #: src-en/data/events_sector_og_dawn.xml:1599
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/text"
 msgstr ""
-"\"О, вы не лгали, вот он. Пожалуйста, возьмите его и следуйте за мной, это недалеко отсюда\".\n"
+"\"О, вы не лгали, вот он. Пожалуйста, возьмите его и следуйте за мной, это "
+"недалеко отсюда\".\n"
 "\n"
-"Через мгновение вы оказываетесь в странной лаборатории, в комнате стоит несколько пустых столов, но вас направляют к более крупному столу посередине."
+"Через мгновение вы оказываетесь в странной лаборатории, в комнате стоит "
+"несколько пустых столов, но вас направляют к более крупному столу посередине."
 
 #: src-en/data/events_sector_og_dawn.xml:1603
 msgid ""
@@ -2304,6 +2345,7 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_dawn.xml:1611
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/text"
 msgstr ""
@@ -2319,11 +2361,20 @@ msgid ""
 msgstr "Продолжить..."
 
 #: src-en/data/events_sector_og_dawn.xml:1616
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/choice/event/text"
 msgstr ""
-"Через мгновение всю станцию сотрясает сильный взрыв, раздаются сирены и тревожные сигналы, люди начинают бежать, инженер поворачивается к ближайшей консоли и быстро включает камеры наружного наблюдения станции.\n"
-"На экране можно разглядеть странный корабль, силуэт которого вырисовывается на фоне ближайшей звезды. \"Все так, как я и подозревал\", - инженер поворачивается к вам. \"Капитан, что это за корабль? Крейсер - отлично! Возьмите предзажигатель для турели - я сохранил чертежи в защищенном центре обработки данных. А вот с тем, чтобы физический прототип попал в их руки я не могу рисковать - пожалуйста, заберите его с собой и уходите отсюда. Что бы ни случилось, не позволяйте ему попасть в руки повстанцев\"."
+"Через мгновение всю станцию сотрясает сильный взрыв, раздаются сирены и "
+"тревожные сигналы, люди начинают бежать, инженер поворачивается к ближайшей "
+"консоли и быстро включает камеры наружного наблюдения станции.\n"
+"На экране можно разглядеть странный корабль, силуэт которого вырисовывается "
+"на фоне ближайшей звезды. \"Все так, как я и подозревал\", - инженер "
+"поворачивается к вам. \"Капитан, что это за корабль? Крейсер - отлично! "
+"Возьмите предзажигатель для турели - я сохранил чертежи в защищенном центре "
+"обработки данных. А вот с тем, чтобы физический прототип попал в их руки я "
+"не могу рисковать - пожалуйста, заберите его с собой и уходите отсюда. Что "
+"бы ни случилось, не позволяйте ему попасть в руки повстанцев\"."
 
 #: src-en/data/events_sector_og_dawn.xml:1620
 msgid ""
@@ -2544,6 +2595,7 @@ msgid ""
 msgstr "Вы получали отчеты о кораблях Железного дозора поблизости."
 
 #: src-en/data/events_sector_og_dawn.xml:1858
+#, fuzzy
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/text"
 msgstr ""
 "Вы прибыли к маяку и столкнулись с парой кораблей Железного дозора. Один из "
@@ -2681,6 +2733,7 @@ msgstr ""
 "немедленно приступают к защите."
 
 #: src-en/data/events_sector_og_dawn.xml:1920
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/event/choice[1]/text"
@@ -2805,6 +2858,7 @@ msgstr ""
 "победили ранее."
 
 #: src-en/data/events_sector_og_dawn.xml:2002
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/choice[1]/event/text"
 msgstr ""
@@ -2847,6 +2901,7 @@ msgstr ""
 "состоянии, решает уйти в прыжок."
 
 #: src-en/data/events_sector_og_dawn.xml:2039
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN\"]/text"
 msgstr ""
@@ -2889,6 +2944,7 @@ msgid ""
 msgstr "Местонахождение секретной базы Железного дозора."
 
 #: src-en/data/events_sector_og_dawn.xml:2071
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/text"
 msgstr ""
@@ -2902,11 +2958,17 @@ msgid ""
 msgstr "Следовать за крейсером."
 
 #: src-en/data/events_sector_og_dawn.xml:2075
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/text"
 msgstr ""
-"Вы следуете за крейсером, пролетая мимо нескольких крупных астероидов, парящих в пустоте. Вы даже не замечаете, когда добираетесь до базы Железного дозора, пока не оказываетесь прямо перед ней. Ваши сенсоры улавливают слабый сигнал в центре большого астероида, защищенного от обнаружения толстым слоем породы.\n"
-"Теперь, когда вы знаете, где находится их база, вам не потребовалось много времени, чтобы найти вход - естественную пещеру в астероиде, ведущую внутрь."
+"Вы следуете за крейсером, пролетая мимо нескольких крупных астероидов, "
+"парящих в пустоте. Вы даже не замечаете, когда добираетесь до базы Железного "
+"дозора, пока не оказываетесь прямо перед ней. Ваши сенсоры улавливают слабый "
+"сигнал в центре большого астероида, защищенного от обнаружения толстым слоем "
+"породы.\n"
+"Теперь, когда вы знаете, где находится их база, вам не потребовалось много "
+"времени, чтобы найти вход - естественную пещеру в астероиде, ведущую внутрь."
 
 #: src-en/data/events_sector_og_dawn.xml:2078
 msgid ""
@@ -2914,6 +2976,7 @@ msgid ""
 msgstr "Следовать за крейсером внутрь."
 
 #: src-en/data/events_sector_og_dawn.xml:2080
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -2971,6 +3034,7 @@ msgstr ""
 "\"На самом деле, мы подумали и решили, что лучше избежать этого конфликта\"."
 
 #: src-en/data/events_sector_og_dawn.xml:2114
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/event/text"
 msgstr ""
@@ -3072,6 +3136,7 @@ msgstr ""
 "рейда."
 
 #: src-en/data/events_sector_og_dawn.xml:2183
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/text"
 msgstr ""
@@ -3097,6 +3162,7 @@ msgid ""
 msgstr "\"Да, мы будем там\"."
 
 #: src-en/data/events_sector_og_dawn.xml:2192
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[1]/event/choice/event/text"
 msgstr ""
@@ -3126,6 +3192,7 @@ msgstr ""
 "\"На самом деле, мы подумали и решили, что лучше избежать этого конфликта\"."
 
 #: src-en/data/events_sector_og_dawn.xml:2212
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/event/text"
 msgstr ""
@@ -3144,6 +3211,7 @@ msgid ""
 msgstr "Ничего не делать."
 
 #: src-en/data/events_sector_og_dawn.xml:2227
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_FAIL\"]/text"
 msgstr ""
