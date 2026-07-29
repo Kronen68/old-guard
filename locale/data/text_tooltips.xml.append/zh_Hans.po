@@ -1,15 +1,24 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/datatext_tooltipsxmlappend/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/text_tooltips.xml.append:2
+#, fuzzy
 msgid "data/text_tooltips.xml.append$//text[@name=\"tip_og_turret\"]"
 msgstr "提示：炮塔必须装配到炮塔操控系统上。"
 
 #: src-en/data/text_tooltips.xml.append:3
+#, fuzzy
 msgid "data/text_tooltips.xml.append$//text[@name=\"tip_og_turret_mini\"]"
 msgstr "提示：炮塔必须装配到炮塔操控系统上。微型炮塔可装配在小型或大型炮塔插槽上。"
 
