@@ -1,9 +1,16 @@
 #
 msgid ""
 msgstr ""
+"PO-Revision-Date: 2026-07-29 09:37+0000\n"
+"Last-Translator: 土豆老年人 <2685455659@qq.com>\n"
+"Language-Team: Chinese (Simplified Han script) <https://weblate.hyperq.be/"
+"projects/the-old-guard/dataevents_sector_og_dawnxml/zh_Hans/>\n"
+"Language: zh_Hans\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.17.1\n"
 
 #: src-en/data/events_sector_og_dawn.xml:10
 msgid ""
@@ -399,19 +406,24 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:348
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[1]"
 msgstr "在舰船被彻底摧毁之际，铁幕守望的船长发出了最后一声咒骂。"
 
 #: src-en/data/events_sector_og_dawn.xml:349
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[2]"
 msgstr "铁幕守望舰船的船体在太空中解体四散。你随即飞近，打捞剩余的残骸。"
 
 #: src-en/data/events_sector_og_dawn.xml:350
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DESTROYED_OG_DAWN\"]/text[3]"
-msgstr "铁幕守望的舰船发生爆炸，舱内所有生命随之消逝。你的船员在打捞舰船碎片时，避开了他们的遗骸。"
+msgstr ""
+"铁幕守望的舰船发生爆炸，舱内所有生命随之消逝。你的船员在打捞舰船碎片时，避开"
+"了他们的遗骸。"
 
 #: src-en/data/events_sector_og_dawn.xml:351
 msgid ""
@@ -424,33 +436,45 @@ msgid ""
 msgstr "\"你的杀戮欲…总有一天会成为你的致命弱点，变元者。你只证明了…联邦相比叛军…好不到哪去…\""
 
 #: src-en/data/events_sector_og_dawn.xml:360
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[2]"
-msgstr "铁幕守望的船长一言不发地倒在地上，双眼逐渐失去神采，最终窒息而亡。你打捞了他们舰船的船体。"
+msgstr ""
+"铁幕守望的船长一言不发地倒在地上，双眼逐渐失去神采，最终窒息而亡。你打捞了他"
+"们舰船的船体。"
 
 #: src-en/data/events_sector_og_dawn.xml:361
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_DEAD_CREW_OG_DAWN\"]/text[3]"
-msgstr "“你会后悔的！因果报应总会找上你这样的人。该死的变元者……铁幕守望当初要是和叛军联手，境况或许会更好……”"
+msgstr ""
+"“你会后悔的！因果报应总会找上你这样的人。该死的变元者……铁幕守望当初要是和叛军"
+"联手，境况或许会更好……”"
 
 #: src-en/data/events_sector_og_dawn.xml:365
+#, fuzzy
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"ESCAPE_OG_DAWN\"]/text"
 msgstr "扫描显示，铁幕守望的舰船正试图逃跑。在它逃脱之前，摧毁它！"
 
 #: src-en/data/events_sector_og_dawn.xml:378
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[1]"
 msgstr "铁幕守望的舰船已从你手中溜走，将你遗弃在了信标处。"
 
 #: src-en/data/events_sector_og_dawn.xml:379
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//textList[@name=\"TEXT_GOTAWAY_OG_DAWN\"]/text[2]"
 msgstr "你摧毁铁幕守望舰船的尝试失败了，该舰船已逃脱。"
 
 #: src-en/data/events_sector_og_dawn.xml:382
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"GOTAWAY_OG_DAWN_REMAINS\"]/text"
-msgstr "铁幕守望的舰船或许已经逃脱，但情况并非一无是处。残骸留下了一条废料轨迹，你将其收集了起来。"
+msgstr ""
+"铁幕守望的舰船或许已经逃脱，但情况并非一无是处。残骸留下了一条废料轨迹，你将"
+"其收集了起来。"
 
 #: src-en/data/events_sector_og_dawn.xml:433
 msgid ""
@@ -555,10 +579,13 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:506
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP\"]/text"
 msgstr ""
-"商人此刻紧张得冒汗，继续说道：“就像我刚才说的，那不是正宗的新黎明炮塔，而是，呃，一个，复制品，对，一个复制品，它完全不能用的。这纯粹是个收藏品，你不会感兴趣的。”"
+"商人此刻紧张得冒汗，继续说道：“就像我刚才说的，那不是正宗的新黎明炮塔，而是，"
+"呃，一个，复制品，对，一个复制品，它完全不能用的。这纯粹是个收藏品，你不会感"
+"兴趣的。”"
 
 #: src-en/data/events_sector_og_dawn.xml:508
 msgid ""
@@ -626,10 +653,13 @@ msgid ""
 msgstr "再次威胁他，如果不进一步降价就举报他。"
 
 #: src-en/data/events_sector_og_dawn.xml:552
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"STOREEVENT_OG_DAWN_TURRET_COVERUP_THREATEN\"]/choice[2]/event/text"
 msgstr ""
-"你语气严厉，再次威胁商人，但这次商人却更加不以为然。最终，你看向那门炮塔时，才发现它已经不见了——商人趁你不备把它藏了起来。失去了举报的凭据，你的威胁彻底失效了。"
+"你语气严厉，再次威胁商人，但这次商人却更加不以为然。最终，你看向那门炮塔时，"
+"才发现它已经不见了——商人趁你不备把它藏了起来。失去了举报的凭据，你的威胁彻底"
+"失效了。"
 
 #: src-en/data/events_sector_og_dawn.xml:556
 msgid ""
@@ -702,10 +732,12 @@ msgid ""
 msgstr "不予理会，只购物。"
 
 #: src-en/data/events_sector_og_dawn.xml:624
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DEBRIS_FIELD\"]/text"
 msgstr ""
-"你抵达信标，发现了一艘新黎明舰船的残骸。该区域没有任何发生过战斗的迹象，相反，残骸似乎是由此地的小行星带造成的。如果你想搜索残骸，就需要进入小行星带。"
+"你抵达信标，发现了一艘新黎明舰船的残骸。该区域没有任何发生过战斗的迹象，相反"
+"，残骸似乎是由此地的小行星带造成的。如果你想搜索残骸，就需要进入小行星带。"
 
 #: src-en/data/events_sector_og_dawn.xml:626
 msgid ""
@@ -1115,9 +1147,12 @@ msgid ""
 msgstr "摧毁它，获取废料与补给。"
 
 #: src-en/data/events_sector_og_dawn.xml:914
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_OUTPOST_FLEET\"]/choice[4]/event/text"
-msgstr "你向前哨站开火，它很快在你的武器下解体，其火力不足的炮塔只对你造成了零星伤害。不幸的是，它在被摧毁前成功向叛军舰队发出了你的位置警报。"
+msgstr ""
+"你向前哨站开火，它很快在你的武器下解体，其火力不足的炮塔只对你造成了零星伤害"
+"。不幸的是，它在被摧毁前成功向叛军舰队发出了你的位置警报。"
 
 #: src-en/data/events_sector_og_dawn.xml:918
 msgid ""
@@ -1165,11 +1200,16 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:991
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_REBEL_DAWN_INFIGHT\"]/text"
 msgstr ""
-"你抵达信标，同时与一艘新黎明舰船和一艘叛军舰船正面遭遇。你立即为即将到来的战斗做好准备，随后才意识到这两艘船对你并无兴趣——实际上，它们的武器正互相瞄准着对方。\n"
-"从公共通讯频道中你能听到，新黎明的船长似乎受够了听从这些“连蛞蝓的屁股和自己老娘都分不清的蠢货叛军船长”的命令。而叛军的船长则对新黎明舰船的违抗命令行为极为不满。"
+"你抵达信标，同时与一艘新黎明舰船和一艘叛军舰船正面遭遇。你立即为即将到来的战"
+"斗做好准备，随后才意识到这两艘船对你并无兴趣——实际上，它们的武器正互相瞄准着"
+"对方。\n"
+"从公共通讯频道中你能听到，新黎明的船长似乎受够了听从这些“连蛞蝓的屁股和自己老"
+"娘都分不清的蠢货叛军船长”的命令。而叛军的船长则对新黎明舰船的违抗命令行为极为"
+"不满。"
 
 #: src-en/data/events_sector_og_dawn.xml:994
 msgid ""
@@ -1538,6 +1578,7 @@ msgid ""
 msgstr "同意交换。"
 
 #: src-en/data/events_sector_og_dawn.xml:1235
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_NEUTRAL_SHIP\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"2\"]/event/choice[1]/event/text"
@@ -1697,11 +1738,14 @@ msgid ""
 msgstr "调查残骸。"
 
 #: src-en/data/events_sector_og_dawn.xml:1361
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/text"
 msgstr ""
-"你靠近残骸，在碎片中有数个货柜，但它们都已被打开——显然有人先你一步抵达了这里。\n"
-"片刻之后，你便发现了那是谁：一艘新黎明侦察舰从几颗小行星后现身。从它身后泄漏出的油料与其他流体的细线来看，它的引擎显然已受损。"
+"你靠近残骸，在碎片中有数个货柜，但它们都已被打开——显然有人先你一步抵达了这里"
+"。\n"
+"片刻之后，你便发现了那是谁：一艘新黎明侦察舰从几颗小行星后现身。从它身后泄漏"
+"出的油料与其他流体的细线来看，它的引擎显然已受损。"
 
 #: src-en/data/events_sector_og_dawn.xml:1364
 msgid ""
@@ -1709,10 +1753,13 @@ msgid ""
 msgstr "联系战舰。"
 
 #: src-en/data/events_sector_og_dawn.xml:1366
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID\"]/choice[1]/event/choice[1]/event/text"
 msgstr ""
-"那艘船的船长声音慌乱：“求你了，舰长，你一定要帮帮我们。我已经救起了所有能找到的人，但我们的船撑不了多久了。我恳求你收容我们和我们的货物，带我们离开这小行星带。附近有一个前哨站。”"
+"那艘船的船长声音慌乱：“求你了，舰长，你一定要帮帮我们。我已经救起了所有能找到"
+"的人，但我们的船撑不了多久了。我恳求你收容我们和我们的货物，带我们离开这小行"
+"星带。附近有一个前哨站。”"
 
 #: src-en/data/events_sector_og_dawn.xml:1368
 msgid ""
@@ -1810,10 +1857,13 @@ msgid ""
 msgstr "前往前哨站。"
 
 #: src-en/data/events_sector_og_dawn.xml:1449
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_DISTRESS_ASTEROID_OUTPOST\"]/text"
 msgstr ""
-"你成功了。你与前哨站对接，所有人都安全撤离。舰船的船员们感激不尽。一名新黎明士兵走到你面前：“你觉得我能加入你的舰船，成为你的船员吗？在运输护卫舰上工作太无聊了，至少在被吓死之前是这么觉得的。”"
+"你成功了。你与前哨站对接，所有人都安全撤离。舰船的船员们感激不尽。一名新黎明"
+"士兵走到你面前：“你觉得我能加入你的舰船，成为你的船员吗？在运输护卫舰上工作太"
+"无聊了，至少在被吓死之前是这么觉得的。”"
 
 #: src-en/data/events_sector_og_dawn.xml:1452
 msgid ""
@@ -1879,6 +1929,7 @@ msgid ""
 msgstr "同意运送这件货物。"
 
 #: src-en/data/events_sector_og_dawn.xml:1510
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"3\"]/event/choice[1]/event/text"
@@ -1927,10 +1978,13 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:1543
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-999\"]/text"
-msgstr "当你试图联系时，对方一认出你的身份便立即切断了通讯。看来他们原本是希望自己人来救援的。"
+msgstr ""
+"当你试图联系时，对方一认出你的身份便立即切断了通讯。看来他们原本是希望自己人"
+"来救援的。"
 
 #: src-en/data/events_sector_og_dawn.xml:1547
 msgid ""
@@ -2004,12 +2058,14 @@ msgid ""
 msgstr "(货物箱) 向她出示货物箱。"
 
 #: src-en/data/events_sector_og_dawn.xml:1599
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/text"
 msgstr ""
 "“哦，你之前没骗我，东西真的在这儿。请带上它跟我来，离这儿不远。”\n"
 "\n"
-"片刻之后，你发现自己置身于一个看起来颇为古怪的实验室。房间里散落着几张无人看管的桌子，但对方将你引到了中间一张稍大的桌前。"
+"片刻之后，你发现自己置身于一个看起来颇为古怪的实验室。房间里散落着几张无人看"
+"管的桌子，但对方将你引到了中间一张稍大的桌前。"
 
 #: src-en/data/events_sector_og_dawn.xml:1603
 msgid ""
@@ -2030,10 +2086,13 @@ msgid ""
 msgstr "继续。"
 
 #: src-en/data/events_sector_og_dawn.xml:1611
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_PREIGN_QUEST_DESTINATION\"]/choice[1]/event/choice[1]/event/choice[@req=\"OG_CARGO_CRATE_PREIGN_WEAK\"]/event/choice/event/choice/event/text"
 msgstr ""
-"他将注意力转向你，但似乎并不在意自己在和谁说话。“容我向您介绍这款‘炮塔预热器’，这是我们成功的预热充能器的强化版本。虽说把它组装起来可能并非必要，但我喜欢做出一个最终原型，这样才感觉完整。"
+"他将注意力转向你，但似乎并不在意自己在和谁说话。“容我向您介绍这款‘炮塔预热器’"
+"，这是我们成功的预热充能器的强化版本。虽说把它组装起来可能并非必要，但我喜欢"
+"做出一个最终原型，这样才感觉完整。"
 
 #: src-en/data/events_sector_og_dawn.xml:1613
 msgid ""
@@ -2246,9 +2305,12 @@ msgid ""
 msgstr ""
 
 #: src-en/data/events_sector_og_dawn.xml:1858
+#, fuzzy
 msgid "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/text"
 msgstr ""
-"你抵达信标所在位置，与两艘铁幕守望的舰船正面相对。其中一艘是普通的战斗舰，另一艘则设计奇特——那是艘体型达到巡洋舰级别的异形舰。在此星区，这景象实属罕见；多数铁幕守望的势力要么已被驱逐，要么已随其首领投靠了新黎明。"
+"你抵达信标所在位置，与两艘铁幕守望的舰船正面相对。其中一艘是普通的战斗舰，另"
+"一艘则设计奇特——那是艘体型达到巡洋舰级别的异形舰。在此星区，这景象实属罕见；"
+"多数铁幕守望的势力要么已被驱逐，要么已随其首领投靠了新黎明。"
 
 #: src-en/data/events_sector_og_dawn.xml:1861
 msgid ""
@@ -2356,6 +2418,7 @@ msgstr ""
 "就在你试图与铁幕守望舰船建立联络时，控制台的警报骤然响起——又有两艘舰船抵达了该空域，而这次来的并非铁幕守望成员。新出现的两艘新黎明舰船毫不犹豫，立即向铁幕守望两艘舰船中体型较大的那艘开火。此前保持中立的铁幕守望舰队瞬间转为防御姿态，准备应对这突如其来的袭击。"
 
 #: src-en/data/events_sector_og_dawn.xml:1920
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_START\"]/choice[@req=\"rep_og_dawn\""
 " and @lvl=\"-99\"]/event/choice[1]/text"
@@ -2468,10 +2531,15 @@ msgid ""
 msgstr "同意协助，并指引他们前往你早前击败的那艘铁幕守望护卫舰所在处。"
 
 #: src-en/data/events_sector_og_dawn.xml:2002
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_RUN_CONT\"]/choice[1]/event/text"
 msgstr ""
-"你指引星舰前往调查那艘被摧毁的舰船残骸，他们开始在残骸中搜寻任何完好的控制台或系统。仅仅几分钟后，你便收到了他们的通讯：“啊哈！舰长，我们找到了。他们居然把基地设在了和数据金库同一星系的一颗大型小行星内部。不过，从我们发现的货运记录来看，他们的计划似乎已接近完成阶段。我们必须尽快赶到那里——坐标现在就发送给你。”"
+"你指引星舰前往调查那艘被摧毁的舰船残骸，他们开始在残骸中搜寻任何完好的控制台"
+"或系统。仅仅几分钟后，你便收到了他们的通讯：“啊哈！舰长，我们找到了。他们居然"
+"把基地设在了和数据金库同一星系的一颗大型小行星内部。不过，从我们发现的货运记"
+"录来看，他们的计划似乎已接近完成阶段。我们必须尽快赶到那里——坐标现在就发送给"
+"你。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2007
 msgid ""
@@ -2501,9 +2569,12 @@ msgid ""
 msgstr "你保持着安全距离，不久后，那艘铁幕守望舰船便在剧烈的爆炸中化作一团火球。残存的新黎明舰船虽已受损，却显然对你心存忌惮，最终选择了跃迁撤离。"
 
 #: src-en/data/events_sector_og_dawn.xml:2039
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_DAWN_RUN\"]/text"
-msgstr "尽管遭受了猛烈火力打击，那艘铁幕守望舰船依然成功启动了紧急跃迁，在其系统即将全面失效的瞬间，消失在了虚空之中。"
+msgstr ""
+"尽管遭受了猛烈火力打击，那艘铁幕守望舰船依然成功启动了紧急跃迁，在其系统即将"
+"全面失效的瞬间，消失在了虚空之中。"
 
 #: src-en/data/events_sector_og_dawn.xml:2043
 msgid ""
@@ -2538,9 +2609,12 @@ msgid ""
 msgstr "铁幕守望秘密基地的位置。"
 
 #: src-en/data/events_sector_og_dawn.xml:2071
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/text"
-msgstr "你已抵达汇合点，那艘新黎明星舰已先行到达。“舰长，你到了。那我们可以出发了，跟着我，准备进入战斗状态。”"
+msgstr ""
+"你已抵达汇合点，那艘新黎明星舰已先行到达。“舰长，你到了。那我们可以出发了，跟"
+"着我，准备进入战斗状态。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2073
 msgid ""
@@ -2548,11 +2622,15 @@ msgid ""
 msgstr "跟随星舰。"
 
 #: src-en/data/events_sector_og_dawn.xml:2075
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/text"
 msgstr ""
-"你紧随那艘新黎明星舰，航迹掠过数块悬浮于虚空中的巨大岩体。直到星舰几乎贴上一颗小行星的表面，你才猛然察觉目的地已至——传感器仅在厚重岩层保护下的星体核心处，捕捉到一个微不可察的信号光点。\n"
-"既然已锁定其基地方位，你很快便找到了入口：那是小行星表面一处天然形成的洞穴，幽深的通道径直通向内部。"
+"你紧随那艘新黎明星舰，航迹掠过数块悬浮于虚空中的巨大岩体。直到星舰几乎贴上一"
+"颗小行星的表面，你才猛然察觉目的地已至——传感器仅在厚重岩层保护下的星体核心处"
+"，捕捉到一个微不可察的信号光点。\n"
+"既然已锁定其基地方位，你很快便找到了入口：那是小行星表面一处天然形成的洞穴，"
+"幽深的通道径直通向内部。"
 
 #: src-en/data/events_sector_og_dawn.xml:2078
 msgid ""
@@ -2560,10 +2638,14 @@ msgid ""
 msgstr "跟随星舰进入内部。"
 
 #: src-en/data/events_sector_og_dawn.xml:2080
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[1]/event/choice/event/text"
 msgstr ""
-"最终，你们驶入一个洞穴状的空间，内部比预期更为狭小，但堆满了货柜与一些临时建筑。然而，一次快速扫描显示，基地已空无一人，遭到废弃。新黎明舰船同样察觉了此况，立即调转航向，引擎全功率启动，沿原路疾速折返。“舰长，我们判断失误了。他们已经对数据金库采取了行动，我必须立刻赶回去！”"
+"最终，你们驶入一个洞穴状的空间，内部比预期更为狭小，但堆满了货柜与一些临时建"
+"筑。然而，一次快速扫描显示，基地已空无一人，遭到废弃。新黎明舰船同样察觉了此"
+"况，立即调转航向，引擎全功率启动，沿原路疾速折返。“舰长，我们判断失误了。他们"
+"已经对数据金库采取了行动，我必须立刻赶回去！”"
 
 #: src-en/data/events_sector_og_dawn.xml:2082
 msgid ""
@@ -2605,6 +2687,7 @@ msgid ""
 msgstr "“事实上，我们重新考虑过了。我们更希望避免这场冲突。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2114
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_DAWN\"]/choice[2]/event/text"
 msgstr "新黎明舰长难掩失望，独自驾舰离去。但愿他们的星舰单凭自身火力足以应对。"
@@ -2690,10 +2773,13 @@ msgid ""
 msgstr "计划突袭的新黎明数据金库位置。"
 
 #: src-en/data/events_sector_og_dawn.xml:2183
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/text"
 msgstr ""
-"你已抵达汇合点，那艘铁幕守望星舰早已在此等候，其周围还集结着一支由小型军用舰艇组成的小型舰队。“舰长，你到了。那么我们可以出发了，跟着我，准备进入战斗状态。”"
+"你已抵达汇合点，那艘铁幕守望星舰早已在此等候，其周围还集结着一支由小型军用舰"
+"艇组成的小型舰队。“舰长，你到了。那么我们可以出发了，跟着我，准备进入战斗状态"
+"。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2185
 msgid ""
@@ -2734,6 +2820,7 @@ msgid ""
 msgstr "“事实上，我们重新考虑过了。我们更希望避免这场冲突。”"
 
 #: src-en/data/events_sector_og_dawn.xml:2212
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_QUEST_IRON\"]/choice[2]/event/text"
 msgstr "新黎明舰长难掩失望，独自驾舰离去。但愿他们的星舰单凭自身火力足以应对。"
@@ -2749,10 +2836,14 @@ msgid ""
 msgstr "跳过。"
 
 #: src-en/data/events_sector_og_dawn.xml:2227
+#, fuzzy
 msgid ""
 "data/events_sector_og_dawn.xml$//event[@name=\"OG_DAWN_HEIST_IRON_FAIL\"]/text"
 msgstr ""
-"新黎明舰船调转方向，开始向铁幕守望星舰开火。你眼睁睁看着它在持续不断的炮火下逐渐解体，最终爆裂成碎片，任何突袭成功的希望也随之破灭。余下的铁幕守望部队在你周围逐一溃败，新黎明的防御系统转而将矛头对准了你，迫使你节节后退，最终除了逃离，别无选择——否则便是毁灭。"
+"新黎明舰船调转方向，开始向铁幕守望星舰开火。你眼睁睁看着它在持续不断的炮火下"
+"逐渐解体，最终爆裂成碎片，任何突袭成功的希望也随之破灭。余下的铁幕守望部队在"
+"你周围逐一溃败，新黎明的防御系统转而将矛头对准了你，迫使你节节后退，最终除了"
+"逃离，别无选择——否则便是毁灭。"
 
 #: src-en/data/events_sector_og_dawn.xml:2231
 #, fuzzy
